@@ -1,5 +1,5 @@
-D4J Instant Search extension for Joomla! 1.0 series
-===================================================
+D4J Content Embedding extension for Joomla! 1.0 series
+======================================================
 
 Install Git client by following the guide at the URL below:
 
@@ -9,7 +9,7 @@ Then, clone the repository at following URL:
 
 https://github.com/goesjoomla/DesignForJoomla.com.git
 
-Finally, checkout extensions/Instant_Search branch to get D4J Instant Search.
+Finally, checkout extensions/Content_Embedding branch to get D4J Content Embedding.
 
 --
 Manh-Cuong Nguyen
