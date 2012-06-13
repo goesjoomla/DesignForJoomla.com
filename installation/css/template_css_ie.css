@@ -1,0 +1,13 @@
+#logo h1{background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='templates/andreas07/images/logo.png',sizingMethod='scale')}
+#logo{margin:10px 20px 0 30px;width:170px}
+
+#left,#right{width:188px;margin-left:10px}
+
+#center{margin-left:19px;width:520px}
+
+ul#mainmenu{list-style:none;margin-left:-23px}
+ul#mainmenu li a#active_menu1{padding-right:30px;width:230px}
+
+#inner_footer{margin-right:15px}
+
+#bottom ul,#top ul{margin-left:50px}
