@@ -1,15 +1,15 @@
-All DesignForJoomla.com's extensions for Joomla! 1.0 series
-===========================================================
+D4J Instant Search extension for Joomla! 1.0 series
+===================================================
 
-Hello everybody,
+Install Git client by following the guide at the URL below:
 
-My name is Manh-Cuong Nguyen, co-founder of DesignForJoomla.com
+https://help.github.com/articles/set-up-git
 
-At the time of writting, we, The DesignForJoomla.com Team, have finally decided to stop our business at http://designforjoomla.com/
+Then, clone the repository at following URL:
 
-All templates and extensions, we developed for Joomla 1.0 series, are now licensed under the GNU General Public License v3.0 and publicly available here.
+https://github.com/goesjoomla/DesignForJoomla.com.git
 
-Please feel free to reuse our works for any purpose you like. If that purpose is prohibited by the GNU General Public License v3.0, simply contact me via goesjoomla@gmail.com for a solution.
+Finally, checkout extensions/Instant_Search branch to get D4J Instant Search.
 
 --
 Manh-Cuong Nguyen
