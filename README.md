@@ -1,5 +1,5 @@
-D4J Content Listing extension for Joomla! 1.0 series
-====================================================
+D4J List Menu extension for Joomla! 1.0 series
+==============================================
 
 Install Git client by following the guide at the URL below:
 
@@ -9,7 +9,7 @@ Then, clone the repository at following URL:
 
 https://github.com/goesjoomla/DesignForJoomla.com.git
 
-Finally, checkout extensions/Content_Listing branch to get D4J Content Listing.
+Finally, checkout extensions/List_Menu branch to get D4J List Menu.
 
 --
 Manh-Cuong Nguyen
