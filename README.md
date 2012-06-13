@@ -1,4 +1,4 @@
-D4J Content Embedding extension for Joomla! 1.0 series
+D4J MOSImage Extended extension for Joomla! 1.0 series
 ======================================================
 
 Install Git client by following the guide at the URL below:
@@ -9,7 +9,7 @@ Then, clone the repository at following URL:
 
 https://github.com/goesjoomla/DesignForJoomla.com.git
 
-Finally, checkout extensions/Content_Embedding branch to get D4J Content Embedding.
+Finally, checkout extensions/MOSImage_Extended branch to get D4J MOSImage Extended.
 
 --
 Manh-Cuong Nguyen

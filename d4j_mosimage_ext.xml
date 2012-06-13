@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall version="4.5.2" type="mambot" group="content">
+	<name>D4J MOSImage Extended v1.5</name>
+	<author>DesignForJoomla.com</author>
+	<creationDate>February 2006</creationDate>
+	<copyright>DesignForJoomla.com</copyright>
+	<license>GNU/GPL</license>
+	<authorEmail>development@designforjoomla.com</authorEmail>
+	<authorUrl>designforjoomla.com</authorUrl>
+	<version>v1.5</version>
+	<description>
+	<![CDATA[
+	<div style="overflow:scroll; height:300px; width:400px; border: 1px solid #808080; background: #fff">
+  	<div style="width:360px; margin: 10px;">
+<p>As followed from the title D4J Mos Image Extended Mambot (MIE) was created to provide you with new capabilities lacked in the default Joomla Mos Image mambot. In short,  MIE allows you to control the size of images presented in the Joomla content. You can set the image size threshold and every big image will be sized down and can be viewed in full size in the popup window. You can define the size for popup windows as well. Moreover, MIE utilize default {mosimage} syntax, so no changes has to be made in your current content.</p>
+<p>D4J Mos Image Extended Mambot greatly expands your image presentation capabilities. Now, you are even able to have a little image gallery embed in the content item.</p>
+	<table border="0" cellspacing="1" cellpadding="1"><tr><td valign="top"><strong>Usage:</strong></td><td>Unpublish the default MOS Image mambot then publish this mambot and move it upper the default one</td></tr><tr><td valign="top"><strong>Syntax:</strong></td><td>{mosimage}<br/>{mosimage width=xxx&amp;height=yyy}<br/>{mosimage width=xxx}<br/>{mosimage height=xxx}</td></tr><tr><td><strong>Author:</strong></td><td>DesignForJoomla.com</td></tr><tr><td><strong>Homepage:</strong></td><td><a href="http://designforjoomla.com" target="_blank">http://designforjoomla.com</td></tr></table>
+  	</div>
+	</div>]]>
+	</description>
+	<files>
+		<filename mambot="d4j_mosimage_ext">d4j_mosimage_ext.php</filename>
+	</files>
+	<params>
+		<param name="margin" type="text" default="5" size="5" label="Margin" description="Margin in px, of Div surrounding Image & Caption - only applies if using a Caption" />
+		<param name="padding" type="text" default="5" size="5" label="Padding" description="Padding in px, of Div surrounding Image & Caption - only applies if using a Caption" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="process_menthod" type="list" default="0" label="Process Method" description="Only resize if the original image is larger than the width and/or height specified below or expand also?">
+			<option value="0">Reduce Only</option>
+			<option value="1">Enlarge Only</option>
+			<option value="2">Both Reduce/Enlarge</option>
+		</param>
+		<param name="img_width" type="text" size="20" default="128" label="Image Width" description="Specify new width (in pixel) to resize image to. If new height not specified, it will be automatically calculated based on the image`s aspec ratio (width/height)." />
+		<param name="img_height" type="text" size="20" default="96" label="Image Height" description="Specify new height (in pixel) to resize image to. If new width not specified, it will be automatically calculated based on the image`s aspec ratio (width/height)." />
+		<param name="keep_ratio" type="list" default="3" label="Keep Image Aspect Ratio" description="* No: do not keep the image aspect ratio, just reduce/enlarge it to the new width and height defined above. * Fit Width: keep image aspect ratio and resize it to fit the new width defined above. * Fit Height: keep image aspect ratio and resize it to fit the new height defined above. * Fit Both: keep image aspect ratio and resize it to fit the new width and height defined above">
+			<option value="0">No</option>
+			<option value="1">Fit Width</option>
+			<option value="2">Fit Height</option>
+			<option value="3">Fit Both</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="enable_enlarge" type="radio" default="1" label="Show Real Size on Click" description="Visitor can click resized image to see its original size in a popup windows or not?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="enable_enlarge_text" type="radio" default="1" label="Show &quot;Click to Enlarge&quot; text" description="Show the &quot;Click to Enlarge&quot; text or not?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="enlarge_text" type="text" size="20" default="Click to see real size" label="&quot;Click to Enlarge&quot; text" description="The text to display below image tells visitor that the image can be click to show its real size on a popup window" />
+		<param name="enlarge_text_position" type="list" default="below" label="&quot;Click to Enlarge&quot; text position" description="Where to display the &quot;Click to Enlarge&quot; text?">
+			<option value="above">Above Thumbnail</option>
+			<option value="below">Below Thumbnail</option>
+		</param>
+		<param name="enlarge_text_css" type="text" size="20" default="readon" label="&quot;Click to Enlarge&quot; text css class" description="The css class to apply to &quot;Click to Enlarge&quot; text" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="max_width" type="text" size="20" default="640" label="Popup Window Width" description="Specify the max popup window width (in pixel) to use in case image real width is too large." />
+		<param name="max_height" type="text" size="20" default="480" label="Popup Window Height" description="Specify the max popup window height (in pixel) to use in case image real height is too large." />
+		<param name="show_print_link" type="radio" default="1" label="Show &quot;Print&quot; link" description="Show the &quot;Print&quot; link in popup window or not?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="print_text" type="text" size="20" default="Print" label="&quot;Print&quot; link text" description="" />
+		<param name="show_close_link" type="radio" default="1" label="Show &quot;Close&quot; link" description="Show the &quot;Close&quot; link in popup window or not?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="close_text" type="text" size="20" default="Close" label="&quot;Close&quot; link text" description="" />
+		<param name="print_close_css" type="text" size="20" default="readon" label="&quot;Print&quot;, &quot;Close&quot; links css class" description="The css class to apply to &quot;Print&quot;, &quot;Close&quot; links" />
+	</params>
+</mosinstall>
