@@ -1,6 +1,4 @@
-#right{width:198px}
-#inner_right,#inner_left{margin:19px 0px 58px 12px}
-
-.blog td{padding-right:0;padding-left:3px}
-
-select#mod_templatechooser_jos_change_template{margin-top:0px}
+#col1 {float:left;width: 470px}
+#col2 {float:right;width: 200px}
+.blog td{padding:0;padding-left:3px}
+#col2content{width:199px;float:right}

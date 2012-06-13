@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <mosinstall type="template">
 
-<name>beauty</name>
-<creationDate>September 2006</creationDate>
+<name>bermuda</name>
+<creationDate>01st Novembre 2006</creationDate>
 <author>DesignForJoomla.com</author>
 <copyright>DesignForJoomla.com</copyright>
 <authorEmail>support@designforjoomla.com</authorEmail>
 <authorUrl>designforjoomla.com</authorUrl>
 <version>1.0</version>
-<description>Beauty - Joomla template by DesignForJoomla.com</description>
+<description>Bermuda - Joomla template by DesignForJoomla.com</description>
 
 <files>
     <filename>index.php</filename>
@@ -16,8 +16,13 @@
 </files>
 
 <images>
-	<filename>images/bodybg.gif</filename>
-	<filename>images/header.jpg</filename>
+	<filename>images/column2.jpg</filename>
+	<filename>images/column.jpg</filename>
+	<filename>images/footer.jpg</filename>
+	<filename>images/slogan.jpg</filename>
+	<filename>images/main_photo.jpg</filename>
+	<filename>images/shadow.jpg</filename>
+	<filename>images/shadow2.jpg</filename>
 </images>
 
 <css>

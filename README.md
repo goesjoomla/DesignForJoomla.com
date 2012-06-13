@@ -1,4 +1,4 @@
-D4J Beauty template for Joomla! 1.0 series
+D4J Bermuda template for Joomla! 1.0 series
 ==========================================
 
 Install Git client by following the guide at the URL below:
@@ -9,7 +9,7 @@ Then, clone the repository at following URL:
 
 https://github.com/goesjoomla/DesignForJoomla.com.git
 
-Finally, checkout templates/beauty branch to get D4J Beauty.
+Finally, checkout templates/bermuda branch to get D4J Bermuda.
 
 --
 Manh-Cuong Nguyen
