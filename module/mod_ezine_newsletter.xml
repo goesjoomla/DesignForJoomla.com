@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="module" version="4.5.2">
+	<name>D4J eZine Newsletter v1.1</name>
+	<author>DesignForJoomla.com</author>
+	<creationDate>September 2006</creationDate>
+	<copyright>DesignForJoomla.com</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>development@designforjoomla.com</authorEmail>
+	<authorUrl>designforjoomla.com</authorUrl>
+	<version>1.1</version>
+	<description>Newsletter subscribe/unsubscribe module for eZine Joomla extension v2.1 and above</description>
+	<files>
+		<filename module="mod_ezine_newsletter">mod_ezine_newsletter.ajax.php</filename>
+		<filename module="mod_ezine_newsletter">mod_ezine_newsletter.compact.js</filename>
+		<filename module="mod_ezine_newsletter">mod_ezine_newsletter.php</filename>
+	</files>
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+ 		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="list_page" type="radio" default="1" label="Show Page List" description="Display list of published eZine page so user can choose which page to subscribe to or unsubscribe from">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="newsletter_page" type="textarea" rows="5" cols="20" default="" label="Newsletter Page" description="If you choose not to display the list of published eZine page, please enter the name of those eZine pages you want user to subscribe to or unsubscribe from here (separate by comma)" />
+		<param name="input_width" type="text" default="20" label="Input Field Width" description="Width in character of the name and email input fields" />
+ 		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="pre_text" type="textarea" rows="5" cols="20" default="" label="Pre-text" description="Text to display above list of eZine page to subscribe to or unsubscribe from" />
+		<param name="post_text" type="textarea" rows="5" cols="20" default="" label="Post-text" description="Text to display below list of eZine page to subscribe to or unsubscribe from" />
+ 		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="subscribe_button" type="text" default="Subscribe" label="Subscribe Button Text" description="Text of button to subscribe to newsletter" />
+		<param name="unsubscribe_button" type="text" default="Unsubscribe" label="Unsubscribe Button Text" description="Text of button to unsubscribe from newsletter" />
+		<param name="submit_button" type="text" default="Go" label="Submit Button Text" description="Text of button to submit the form" />
+		<param name="submit_button_alignment" type="list" default="center" label="Submit Button Alignment" description="How to align submit button">
+			<option value="left">Left</option>
+			<option value="center">Center</option>
+			<option value="right">Right</option>
+		</param>
+	</params>
+</mosinstall>

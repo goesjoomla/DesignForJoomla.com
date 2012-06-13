@@ -1,10 +1,11 @@
 <?php
 /* ==========================================================
-     Design for Joomla php common ajax engine v1.0
+     DesignForJoomla.com php common ajax engine v1.0
 
-     Author  : Nguyen Manh Cuong
-     Email   : cuongnm@designforjoomla.com
-     Homepage: http://designforjoomla.com
+     Author		: Nguyen Manh Cuong
+     Email		: cuongnm@designforjoomla.com
+     Homepage	: http://designforjoomla.com
+     Copyright	: DesignForJoomla.com
 ========================================================== */
 
 /** ensure this file is being included by a parent file */
@@ -119,7 +120,7 @@ if (!defined('_D4J_AJAX_ENGINE_INCLUDED')) {
 		}
 	}
 
-	if (file_exists(dirname(__FILE__).'/d4j_ajax_pagenav.php'))
-		require_once(dirname(__FILE__).'/d4j_ajax_pagenav.php');
+	if (file_exists(str_replace('\\', '/', dirname(__FILE__)).'/d4jAjaxPagenav.php'))
+		require_once(str_replace('\\', '/', dirname(__FILE__)).'/d4jAjaxPagenav.php');
 }
 ?>

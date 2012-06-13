@@ -10,28 +10,48 @@ $real_path = str_replace('\\', '/', dirname(__FILE__));
 if (!defined('_LIVE_SITE_URL')) {
 	define('_LIVE_SITE_URL', 1);
 	$live_site_parts = parse_url($mosConfig_live_site);
-	echo '
+	$lib_header = '
 <script type="text/javascript">
-	var mosConfig_live_site = "'.((substr($_SERVER['HTTP_HOST'],0,4) == 'www.' AND substr($_SERVER['HTTP_HOST'],4,strlen($_SERVER['HTTP_HOST'])) == $live_site_parts['host']) ? str_replace('http://','http://www.',$mosConfig_live_site) : $mosConfig_live_site).'";
+	var mosConfig_live_site = "'.$live_site_parts['path'].'";
 </script>
 ';
+	if (isset($mainframe) AND !defined('_IN_EZINE_ADMIN') AND !defined('_IN_EZINE_MODULE')) {
+		$mainframe->addCustomHeadTag($lib_header);
+	} else {
+		echo $lib_header;
+	}
 }
-if (!defined('_D4J_COMMON_JS') AND file_exists($real_path.'/js/d4j_common_include.compact.js')) {
+if (!defined('_D4J_COMMON_JS') AND file_exists($real_path.'/js/d4jCommonInclude.compact.js')) {
 	define('_D4J_COMMON_JS', 1);
-	echo '
-<script type="text/javascript" src="'.str_replace($mosConfig_absolute_path, $mosConfig_live_site, $real_path).'/js/d4j_common_include.compact.js"></script>
+	$lib_header = '
+<script type="text/javascript" src="'.str_replace($mosConfig_absolute_path, $mosConfig_live_site, $real_path).'/js/d4jCommonInclude.compact.js"></script>
 ';
+	if (isset($mainframe) AND !defined('_IN_EZINE_ADMIN') AND !defined('_IN_EZINE_MODULE')) {
+		$mainframe->addCustomHeadTag($lib_header);
+	} else {
+		echo $lib_header;
+	}
 }
-if (!defined('_D4J_DISP_JS') AND file_exists($real_path.'/js/d4j_display_engine.compact.js')) {
+if (!defined('_D4J_DISP_JS') AND file_exists($real_path.'/js/d4jDisplayEngine.compact.js')) {
 	define('_D4J_DISP_JS', 1);
-	echo '
-<script type="text/javascript" src="'.str_replace($mosConfig_absolute_path, $mosConfig_live_site, $real_path).'/js/d4j_display_engine.compact.js"></script>
+	$lib_header = '
+<script type="text/javascript" src="'.str_replace($mosConfig_absolute_path, $mosConfig_live_site, $real_path).'/js/d4jDisplayEngine.compact.js"></script>
 ';
+	if (isset($mainframe) AND !defined('_IN_EZINE_ADMIN') AND !defined('_IN_EZINE_MODULE')) {
+		$mainframe->addCustomHeadTag($lib_header);
+	} else {
+		echo $lib_header;
+	}
 }
-if (!defined('_D4J_AJAX_JS') AND file_exists($real_path.'/js/d4j_ajax_engine.compact.js')) {
+if (!defined('_D4J_AJAX_JS') AND file_exists($real_path.'/js/d4jAjaxEngine.compact.js')) {
 	define('_D4J_AJAX_JS', 1);
-	echo '
-<script type="text/javascript" src="'.str_replace($mosConfig_absolute_path, $mosConfig_live_site, $real_path).'/js/d4j_ajax_engine.compact.js"></script>
+	$lib_header = '
+<script type="text/javascript" src="'.str_replace($mosConfig_absolute_path, $mosConfig_live_site, $real_path).'/js/d4jAjaxEngine.compact.js"></script>
 ';
+	if (isset($mainframe) AND !defined('_IN_EZINE_ADMIN') AND !defined('_IN_EZINE_MODULE')) {
+		$mainframe->addCustomHeadTag($lib_header);
+	} else {
+		echo $lib_header;
+	}
 }
 ?>

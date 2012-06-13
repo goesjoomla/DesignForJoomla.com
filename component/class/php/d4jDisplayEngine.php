@@ -1,10 +1,11 @@
 <?php
 /* ==========================================================
-     Design for Joomla php common display engine v1.0
+     DesignForJoomla.com php common display engine v1.0
 
-     Author  : Nguyen Manh Cuong
-     Email   : cuongnm@designforjoomla.com
-     Homepage: http://designforjoomla.com
+     Author		: Nguyen Manh Cuong
+     Email		: cuongnm@designforjoomla.com
+     Homepage	: http://designforjoomla.com
+     Copyright	: DesignForJoomla.com
 ========================================================== */
 
 /** ensure this file is being included by a parent file */
