@@ -1,10 +1,106 @@
-/* JOOMLA 1.0.X TEMPLATE CSS FILE */
+/*document settings*/
+body{background:#fff url(../images/background.gif);color:#707070;font-size:11px;font-family:'Tahoma';text-align:left}
+th,td,form,div,p{margin:0;padding:0;color:#707070;font-size:11px}
+a{text-decoration:none;color:#016001}
+a:hover{text-decoration:none}
 
-/* Main css file with standard css selectors */
-@import url("base.css");
+/* position setting (tableless)*/
+.clr{clear:both}
 
-/* Css file with css selectors for layout */
-@import url("layout.css");
+#container{width:700px;margin:38px auto 30px auto;overflow:hidden;text-align:left}
 
-/* Css file with css selectors for custom modules and menus */
-@import url("custom.css");
+#lbox{margin:0;width:160px;float:left;overflow:hidden}
+
+#menu{margin:0;width:122px;float:left;background:url(../images/lmenu.gif) no-repeat;height:173px;overflow:hidden}
+#menu ul{height:20px;width:122px;margin:0;padding:20px 0 0 0}
+#menu ul li a{width:122px;margin:0;text-align:left;padding-left:18px;color:#fff;display:block;list-style:none;overflow:hidden;text-transform:uppercase;font-size:9px;font-weight:bold;line-height:20px;height:20px}
+#menu ul li a:hover,#menu ul li a#active_menu1{background:url(../images/hover.gif) no-repeat;display:block;height:20px;width:122px}
+
+#login_box{margin:0;width:122px;height:151px;background:url(../images/login_box.gif) no-repeat;float:left}
+#login_box #sform,#login_box #pass,#login_box #user{float:left;margin:0}
+#login_box #user_text,#login_box h1{margin:21px 0 0 25px;text-transform:uppercase;font-size:9px;font-weight:bold;line-height:20px;color:#fff;text-align:left}
+#login_box h2{font-size:11px;color:#fff;font-weight:normal}
+#login_box #user input.inputbox,#login_box #pass input.inputbox{border-top:1pt solid #cccccc;border-bottom:1pt solid #cccccc;border-right:1pt solid #cccccc;border-left:1pt solid #cccccc;font:normal 10px tahoma;width:70px;color:#707070;float:left}
+#login_box #user{padding:5px 0 0 25px}
+#login_box #pass{padding:10px 0 0 25px}
+#login_box #go input.button{padding:10px 0 0 21px;height:17px;border:none}
+
+#rbox{margin:0;width:540px;float:left;overflow:hidden;background:url(../images/bg.gif) repeat-y}
+
+#header{margin:0;width:540px;height:240px;overflow:hidden;float:left;background:url(../images/content_header.gif) no-repeat}
+
+#head,#head h1{margin:20px 0 0 30px;width:540px;height:25px;overflow:hidden;text-align:left;font-weight:bold;font-size:15px;color:#fff}
+#head .moduletable{padding:20px 30px 10px 30px;color:#fff;text-align:left}
+#head h1{margin:0}
+
+#newsflash{margin:15px 0 0 30px;width:400px;height:132px;overflow:hidden}
+#newsflash .moduletable{color:#fff;text-align:left;padding-bottom:20px}
+#newsflash .moduletable td{color:#fff}
+#newsflash .moduletable h3{color:#DFBD02;font-weight:bold;margin:0 0 10px 0;font-size:12px}
+#newsflash .moduletable a{color:#DFBD02;font-weight:bold}
+#newsflash .moduletable li{list-style-image:url(../images/li.gif);padding-left:7px}
+
+#top,#bottom,#lb{margin:0;width:350px;float:left;overflow:hidden}
+#top .moduletable,#bottom .moduletable{padding:20px 30px 0px 29px;text-align:justify}
+#top .moduletable h3,#bottom .moduletable h3,#mainbody .contentheading,#mainbody .componentheading,#left .moduletable h3,#right .moduletable h3{font-weight:bold;color:#016001;margin:0 0 15px 0;font-size:11px;text-align:left}
+#mainbody .contentheading{color:#85B285}
+#top .moduletable li,#bottom .moduletable li,#left .moduletable li,#right .moduletable li{color:#85B285}
+#top .moduletable thead,#bottom .moduletable thead,#left .moduletable thead,#right .moduletable thead{text-align:center}
+
+#mainbody{width:311px;float:left;padding:20px 0px 15px 29px;overflow:hidden;text-align:left}
+#mainbody img{padding:4px;border:1px solid #a0a0a0;margin:10px}
+#mainbody .buttonheading img{border:0px;margin:0px;padding:0}
+
+#left,#right,#rb{margin:0;width:170px;float:left;overflow:hidden}
+#left .moduletable,#right .moduletable{padding:20px 0px 0px 20px;text-align:justify}
+
+#footer_container{margin:0;float:left;height:85px;width:540px;overflow:hidden;background:url(../images/content_footer.gif) no-repeat}
+#footer{margin:0;height:85px;font-size:10px;width:540px;overflow:hidden;float:left;text-align:left;padding:30px 0 5px 30px}
+
+#bottom_left{float:left;margin:-25px 0 0 -27px;padding:23px 0 0 10px;text-align:left}
+#bottom_left div{font-size:10px;text-align:left}
+#bottom_right{float:right;margin:-25px 33px 0 0;padding:11px 8px 0 0;text-align:right}
+#bottom_right div{font-size:10px;text-align:right}
+
+/*joomla settings*/
+.contentpane,.contentpaneopen{text-align:justify}
+
+.small,span.small,#mainbody .createdate,#mainbody .modifydate,.pagenavcounter{font-size:10px;color:#016001}
+.back_button,.pagenav_prev,.pagenav_next{font-size:11px}
+.readon{float:right;font-weight:bold}
+
+.contenttoc{margin:7px;padding:0 10px;border:1px dotted #fff}
+.contenttoc th{border-bottom:1px dotted #fff;font-size:13px;color:#fff}
+.contenttoc td{margin:5px 0 5px 14px;padding:2px 7px}
+.contenttoc a.toclink{text-decoration:none;font-weight:bold}
+
+.blog td{padding:2px}
+
+.syndicate div{text-align:center}
+select#mod_templatechooser_jos_change_template{width:142px}
+input.button{border-top:1pt solid #cccccc;border-bottom:1pt solid #cccccc;border-right:1pt solid #cccccc;border-left:1pt solid #cccccc;font:normal 10px tahoma;height:20px;color:#707070}
+.poll .button{margin-top:5px}
+
+.contenttoc{margin:5px 4px;padding:0 10px;border:1px dotted #000}
+.contenttoc th{border-bottom:1px dotted #000;font-size:13px;color:#016001}
+.contenttoc td{margin:5px 0 5px 14px}
+.contenttoc a.toclink{text-decoration:none;color:#C3593C}
+.contenttoc a:hover.toclink{color:#016001}
+
+.sectiontableheader{background:#222;color:#fff;font-weight:bold;padding:0 5px;height:20px}
+.sectiontablefooter{text-align:center}
+.sectiontableentry1 label,.sectiontableentry2 label{color:#000}
+
+.pollstableborder{margin:0}
+.pollstableborder td{vertical-align:middle}
+.pollstableborder input{margin:0}
+
+.sectiontableentry1,.sectiontableentry1 td{padding-left:5px;text-align:left;background:#D4D6D5;color:#000;line-height:20px}
+.sectiontableentry1 td a,.sectiontableentry2 td a{color:#000;text-decoration:none;line-height:20px}
+.sectiontableentry1 td a:hover,.sectiontableentry2 td a:hover{color:#000;text-decoration:underline;line-height:20px}
+.sectiontableentry2,.sectiontableentry2 td{padding-left:5px;text-align:left;background:#ECECEC;color:#000;line-height:20px}
+
+.tips{display:none}
+
+
+
