@@ -1,0 +1,4 @@
+<?
+function com_uninstall() {
+}
+?>

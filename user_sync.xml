@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="component" version="4.5.2">
+	<name>user_sync</name>
+	<author>DesignForJoomla.com</author>
+	<creationDate>2nd December 2006</creationDate>
+	<copyright>DesignForJoomla.com</copyright>
+	<license>Commercial Product - Single Site License  or  Free to Use with Limitation</license>
+	<authorEmail>support@designforjoomla.com</authorEmail>
+	<authorUrl>designforjoomla.com</authorUrl>
+	<version>v1.0</version>
+	<description>
+	<![CDATA[
+	<div style="overflow:scroll; height:300px; width:400px; border: 1px solid #808080; background: #fff">
+  	<div style="width:360px; margin: 10px;">
+<p>D4J User Sync Component allows you to import users from CSV file to Joomla user database and, visa versa, export users from the database to CSV file. User Sync is extremely flexible and absolutely independent of the CSV file format.</p>
+<p>You can process any CSV file format by definition corresponding pairs of "CSV field" - "Joomla user database field". Additionally, you can define series of other parameters such as fields termination symbol, fields enclosing symbol, etc. This can really expand the amount of CSV file types you are able to process.</p>
+<p>The most distinctive feature is the possibility of definition corresponding pairs for any available user types including those which were installed by third-party component. You just need to define corresponding pair "CSV User Group" - "Joomla User Group". Even more, you can filter users to be imported and exported by his/her user type, name, username and email. That allows you, for example, to generate a CSV file of all users from some  system, but to import only users of Administrator group to Joomla.</p>
+<p>All these features made D4J User Sync Component exceptional solution for user synchronization between Joomla CMS and others.</p>
+    <p>For more information please take a visit to our website <a target="_blank" href="http://designforjoomla.com">http://designforjoomla.com</a></p>
+  	</div>
+	</div>]]>
+	</description>
+	<installfile>install.user_sync.php</installfile>
+	<uninstallfile>uninstall.user_sync.php</uninstallfile>
+	<administration>
+		<menu>D4J User Sync v1.0</menu>
+		<submenu>
+			<menu act="config">Global Settings</menu>
+			<menu act="upload">Import from CSV file</menu>
+			<menu act="export">Export to CSV file</menu>
+			<menu act="register_step0">Reissue/Upgrade License</menu>
+			<menu act="requestSupport">Request Support</menu>
+			<menu act="aboutUs">About</menu>
+		</submenu>
+		<files>
+			<filename>admin.user_sync.php</filename>
+			<filename>admin.user_sync.func.php</filename>
+			<filename>admin.user_sync.html.php</filename>
+			<filename>install.user_sync.php</filename>
+			<filename>toolbar.user_sync.php</filename>
+			<filename>toolbar.user_sync.html.php</filename>
+			<filename>uninstall.user_sync.php</filename>
+			<filename>js/selectbox.js</filename>
+			<filename>rpc/XMLRPC.class.php</filename>
+		</files>
+	</administration>
+</mosinstall>
