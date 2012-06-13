@@ -1,0 +1,35 @@
+/* this is the clipping region for the menu. it's width and height get set by script, depending on the size of the items table */
+.transMenu {
+	position:absolute;
+	overflow:hidden;
+	left:-1000px;
+	top:-1000px;
+}
+
+/* this is the main container for the menu itself. it's width and height get set by script, depending on the size of the items table */
+.transMenu .content {
+	position:absolute;
+}
+
+/* this table comprises all menu items. each TR is one item. It is relatively positioned so that the shadow and background transparent divs can be positioned underneath it */
+.transMenu .items {
+	position:relative;
+	left:0px; top:0px;
+	z-index:2;
+}
+
+.transMenu.top .items {
+	border-top:none;
+}
+
+/* each TR.item is one menu item */
+.transMenu .item {
+    color:#336;
+    font-size:10px;
+    font-family:sans-serif;
+    text-decoration:none;
+	/* this is a hack for mac/ie5, whom incorrectly cascades the border properties of the parent table to each row */
+	border:none;
+	cursor:pointer;
+	cursor:hand;
+}

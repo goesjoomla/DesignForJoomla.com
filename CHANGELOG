@@ -1,0 +1,59 @@
+Changelog for D4J TransMenu module
+==================================
+
+Legend:
+
+* -> Security Fix
+# -> Bug Fix
++ -> Addition
+^ -> Change
+- -> Removed
+! -> Note
+
+
+---------------- 1.3 Released -- [06-Apr-2006 15:29 GMT+7] ------------------
+
+ ^ Query database for menu items only one time per page load then store the
+results found in global object $mainframe of Joomla. This reduces the number
+of SQL query executions and speeds up the page load when there are more than
+one instance of D4J TransMenu module configured to show in the same page.
+=> special thanks to Mr. Rey Gigataras [stingrey] from the Joomla! Core Team
+for this solution.
+
+ + Added support for displaying separator (either string of characters or
+image) between root-level menu items.
+
+ + Added ability to turn on/off Separator/Placeholder menu item.
+
+ # Bug fixed: Separator/Placeholder menu item becomes hyper-linked which
+cause error when visitor click on.
+
+ # Bug fixed: Wrong address for Link - URL menu item when SEF is turned on.
+
+
+---------------- 1.2 Released -- [24-Feb-2006 09:56 GMT+7] ------------------
+
+ ^ JavaScript file is compressed to speed up the page load.
+
+ + Added support for running multiple instances of the module in the same
+page.
+
+ # Bug fixed: Ignore menu item access level when drawing menu system.
+
+
+---------------- 1.1 Released -- [19-Feb-2006 18:01 GMT+7] ------------------
+
+ # Some small bugs fixed.
+
+
+---------------- 1.0 Released -- [03-Jan-2006 03:57 GMT+7] ------------------
+
+ ! First release of D4J TransMenu module.
+
+
+-----------------------------------------------------------------------------
+Please report any bug found at http://designforjoomla.com/forum
+
+Thank you for being with us.
+
+The DesignForJoomla.com team
