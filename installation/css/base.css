@@ -1,0 +1,179 @@
+/* STANDARD CSS SELECTORS OF JOOMLA 1.0.X TEMPLATE SYSTEM */
+
+/* ======================== COMMON ======================== */
+
+/* standard */
+*{padding:0;margin:0}
+body,form,div,p,table{width:auto}
+body{padding:0px; margin:0px; background:url(../images/mainbg.gif) 0 0 repeat-x #fff; color:#705D20; font:14px/18px Arial, Helvetica, sans-serif;}
+div, p, ul, h2, h3, img{padding:0px; margin:0px;}
+a{color:#555;text-decoration:none}
+a:hover{text-decoration:underline}
+ul{margin:12px 0 12px 15px}
+ul li{}
+blockquote{color:#007EC1; font-size:1.07em; font-style:italic; padding:10px 0}
+a img{border:none}
+/* ======================== PATHWAY ======================== */
+span.pathway,a.pathway{}
+a.pathway:hover{}
+span.pathway img{}
+
+/* ======================== CONTENT ======================== */
+
+/* page title */
+.componentheading{height:30px; font:2.14em Georgia, "Times New Roman", Times, serif; color:#006EA6; padding:43px 0 15px 0;}
+
+/*module title*/
+div.moduletable h3{}
+
+/* blog page main wrapper */
+table.blog{}
+table.blog td{}
+
+/* component & content container */
+table.contentpane,table.contentpaneopen{width:auto}
+
+/* separator after each content item */
+span.article_seperator{}
+
+/* content title */
+td.contentheading{height:30px; font:2.14em Georgia, "Times New Roman", Times, serif; color:#006EA6; padding:43px 0 15px 0;}
+a.contentpagetitle{}
+
+/* 3 buttons */
+td.buttonheading{}
+
+/* date & author */
+span.small,td.createdate,td.modifydate{}
+span.small{background:#fff; color:#5E9908; font-size:1.14em; font-weight:bold; padding:14px 0 0; line-height:16px}
+td.createdate{background:#fff; color:#705D20; font-size:1.71em; padding:10px 0 17px 0; line-height:24px}
+.smalldark{}
+
+/* page counter */
+div.pagenavcounter{}
+
+/* table of content */
+table.contenttoc{padding:4px;margin:4px}
+table.contenttoc th{}
+table.contenttoc td{}
+a.toclink{}
+
+/* content image */
+div.mosimage{}
+div.mosimage_caption{font-size:0.9em;margin:2px;font-weight:bold;color:#B38800}
+
+/* read more */
+a.readon{width:81px; height:24px; display:block; background:url(../images/reedmore-bg.gif) 0 0 no-repeat #FEFEFE; color:#fff; font-size:0.92em; font-weight:bold; line-height:20px; padding:0 9px 0 28px; margin:10px 0 0 0; overflow:hidden}
+a.readon:hover{background:url(../images/reedmore-hover.gif) 0 0 no-repeat; text-decoration:none;}
+
+/* ======================== MORE ======================== */
+
+/* panel */
+div.blog_more{}
+
+/* panel heading */
+div.blog_more div{}
+
+/* block list */
+div.blog_more ul{}
+div.blog_more ul li{}
+
+/* list link */
+a.blogsection{}
+
+/* ======================== TABLE ======================== */
+
+/* description */
+td.contentdescription{font-weight:bold}
+
+/* category link */
+a.category{}
+
+/* listing */
+td.sectiontableheader{padding:0.5em;background:#B38800;color:white;text-transform:uppercase;font-weight:bold}
+tr.sectiontableentry1 td{padding:0.4em 0.5em;background:#d9d9d9;color:black}
+tr.sectiontableentry2 td{padding:0.4em 0.5em;background:#f5f5f5;color:black}
+
+/* ======================== NAVIGATION ======================== */
+
+/* multi-page content nav */
+div.pagenavbar{}
+div.pagenavbar div{}
+div.pagenavbar div a{}
+
+/* content item nav */
+th.pagenav_prev,th.pagenav_next{}
+th.pagenav_prev a,th.pagenav_next a{}
+
+/* blog page nav */
+.pagenav{}
+a.pagenav{}
+
+/* back button */
+div.back_button{}
+div.back_button a{}
+div.back_button a:hover{}
+
+/* ======================== FORM ======================== */
+form{}
+form label{}
+input,textarea{}
+input.button{}
+.contentpane .inputbox{width:50%}
+.contentpane select.inputbox{width:50%}
+
+select#mod_templatechooser_jos_change_template{width:142px;margin-top:3px}
+textarea#contact_text.inputbox{width:90%}
+#search_searchword{width:130px}
+/* ======================== POPUP ======================== */
+body.contentpane{}
+
+/* ======================== MENU ======================== */
+
+
+/* ======================== SEARCH ======================== */
+
+/* search wrapper */
+div.search{}
+
+/* keyword input field */
+input#mod_search_searchword{}
+
+/* keyword high-light */
+span.highlight{}
+
+/* ======================== LOGIN ======================== */
+input#mod_login_username{}
+input#mod_login_password{}
+input#mod_login_remember{}
+
+/* ======================== LATEST ARTICLE ======================== */
+ul.latestnews{}
+li.latestnews{}
+a.latestnews{}
+
+/* ======================== POPULAR ARTICLE ======================== */
+ul.mostread{}
+li.mostread{}
+a.mostread{}
+
+/* ======================== POLL ======================== */
+
+/* wrapper table */
+table.poll{margin-bottom:0.25em}
+
+/* question cell */
+table.poll thead td{font-size:0.9em}
+
+/* answers cell */
+table.poll td{text-align:left}
+
+/* answers table */
+table.pollstableborder{margin:0.25em 0}
+table.pollstableborder td{font-size:0.9em;vertical-align:middle}
+td.sectiontableentry1,td.sectiontableentry2{padding:0.5em}
+td.sectiontableentry1{background:#DDD}
+
+/* ======================== SYNDICATE ======================== */
+div.syndicate{}
+div.syndicate div{}

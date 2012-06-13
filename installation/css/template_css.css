@@ -1,75 +1,10 @@
-/*document settings*/
-body{background:#000 url(../images/bg.png) repeat-x fixed left bottom;color:#555;margin:0 0 20px 0;padding:0;font:normal 11px sans-serif,Arial}
-th,td,form,div,p{margin:0;padding:0;color:#555;font-size:11px}
-a{color:#999;text-decoration:none}
-ul{margin:12px 0;padding:0}
-li{list-style:url(../images/li.gif);margin-left:18px}
+/* JOOMLA 1.0.X TEMPLATE CSS FILE */
 
-/* position setting (tableless)*/
-.clr{clear:both}
+/* Main css file with standard css selectors */
+@import url("base.css");
 
-#container{background:#000;border:3px double #EEE;border-color:#141414 #202020 #222 #202020;margin:20px auto;text-align:left;width:600px;text-align:left;overflow:hidden}
+/* Css file with css selectors for layout */
+@import url("layout.css");
 
-#header{margin:0;float:left;height:240px;width:600px;overflow:hidden;background:url(../images/dark_pixel.jpg) top left no-repeat}
-
-#title,#title h1{color:#ffa92f;font:normal 29px Tahoma,sans-serif;padding:16px 20px;margin:0;padding:16px 0 0 20px}
-#title h1{padding:0}
-
-#menu_box,#menu{margin:0;float:left;width:600px;height:41px;overflow:hidden}
-
-#menu ul{margin:0;padding:0;list-style:none}
-#menu ul li{width:149px;float:left;margin:0;list-style:none;display:inline;border-right:1px solid #222;overflow:hidden}
-#menu ul li a{color:#444;font-size:13px;background:url(../images/link.gif)  top left repeat-x;display:block;height:40px;padding:5px 0  0 6px}
-#menu ul li a:hover{height:40px;background:url(../images/hover.gif);color:#666}
-
-#spacer{margin-left:-1px;float:left;width:1px;height:40px;background:url(../images/link.gif);overflow:hidden}
-
-#content{margin:0;float:left;width:600px;overflow:hidden;border-top:1px solid #1A1A1A}
-#top,#mainbody,#bottom,#topbox{margin:0;float:left;width:600px;overflow:hidden}
-#user3,#user4{margin:0;float:left;width:50%;overflow:hidden}
-
-#top .moduletable,#bottom .moduletable,#user3 .moduletable,#user4 .moduletable{padding:0 10px 15px 10px}
-#top .moduletable h3,#bottom .moduletable h3,#user3 .moduletable h3,#user4 .moduletable h3{padding:8px 0 4px 10px;margin:0 -10px;font:bold 12px sans-serif;color:#666;background:#030303 url(../images/bgitem.gif) repeat-x}
-#top .moduletable thead,#bottom .moduletable thead,#user3 .moduletable thead,#user4 .moduletable thead{text-align:center}
-
-#mainbody{padding:0 10px 15px 10px;width:580px;background:#030303 url(../images/bgitem.gif) repeat-x}
-#mainbody .contentheading,#mainbody .componentheading{padding:8px 0 4px 0px;font:bold 12px sans-serif;color:#666}
-#mainbody .contentheading,#mainbody .componentheading,#mainbody .contentpaneopen,#mainbody .contentpane{width:100%}
-#mainbody .buttonheading img{border:0px;margin:0px;padding:0}
-blockquote{margin-bottom:12px;font:normal 1.1em "Lucida Sans Unicode";background:url(../images/quote.gif) no-repeat;padding-left:28px;color:#666}
-
-#footer{padding:5px;width:595px;float:left;overflow:hidden;background:#0A0A0A;color:#666}
-#bottom_left{float:left;margin:0;padding:0 0 0 5px;text-align:left}
-#bottom_left div{font-size:9px;text-align:left}
-#bottom_right{float:right;margin:0;padding:0 5px 0 0;text-align:right}
-#bottom_right div{font-size:9px;text-align:right}
-
-/*joomla settings*/
-.contentpane,.contentpaneopen{text-align:justify}
-
-.small,span.small,#mainbody .createdate,#mainbody .modifydate,.pagenavcounter{font-size:10px;color:#444;font-style:italic}
-.back_button,.pagenav_prev,.pagenav_next{font-size:10px}
-.readon{float:right;font-weight:bold}
-
-.contenttoc{margin:7px;padding:0 10px;border:1px dotted #444}
-.contenttoc th{border-bottom:1px dotted #444;font-size:13px;color:#444}
-.contenttoc td{margin:5px 0 5px 14px;padding:2px 7px}
-.contenttoc a.toclink{text-decoration:none;font-weight:bold}
-
-.blog td{padding:2px}
-.blog_more{margin:0 3px 15px 13px;padding:3px 6px;border:1px dotted #444}
-.blog_more div{border-bottom:1px dotted #444}
-.blog_more ul{margin:2px 0 2px 34px}
-.blog_more ul li a.blogsection{text-decoration:none}
-
-.syndicate div{text-align:center}
-select#mod_templatechooser_jos_change_template{width:142px}
-input.button{padding:2px;border:1px solid #555;background:#000;color:#555;font-size:11px}
-.poll .button{margin-top:8px}
-
-.sectiontableheader{height:20px;font-weight:bold;padding:0 5px;border-bottom:2px solid #555}
-.sectiontablefooter{text-align:center}
-.sectiontableentry1{padding:2px;text-align:left;background:url(../images/bgcode.gif);line-height:20px}
-.sectiontableentry2{padding:2px;text-align:left;line-height:20px}
-
-.tips{display:none}
+/* Css file with css selectors for custom modules and menus */
+@import url("custom.css");

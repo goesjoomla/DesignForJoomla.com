@@ -1,0 +1,55 @@
+/* CSS SELECTORS FOR LAYOUT */
+
+.clearer{clear:both;height:0}
+.tips{display:none}
+/* ======================== CONTAINER ======================== */
+#D4J_Wrapper1{width:100%;background:url(../images/mainbg.gif) top repeat-x}
+#D4J_Container{width:748px;text-align:left}
+
+/* ======================== LEFT SIDE ========================= */
+#D4J_LeftSide{float:left;width:331px;}
+
+/* ======================== MAIN MENU ========================= */
+#D4J_MainMenu{height:60px}
+
+/* ======================== HEADER ============================ */
+#D4J_Header{height:111px;padding:29px 0 0 0;background:url(../images/header.jpg) no-repeat}
+
+/* ======================== TOP =============================== */
+#D4J_Top{width:306px;overflow:hidden}
+
+/* ======================== MAIN ============================== */
+#D4J_Main{width:306px;overflow:hidden}
+
+/* ======================== BOTTOM ============================ */
+#D4J_Bottom{width:306px;overflow:hidden}
+
+/* ======================== RIGHT SIDE ======================== */
+#D4J_RightSide{float:left;width:417px;margin-top:13px;background:url(../images/rightsidebg.jpg) top no-repeat;overflow:hidden}
+
+/* ======================== USER 1 ============================ */
+#D4J_Buttons{height:49px;overflow:hidden;margin:16px 0 0 16px}
+
+/* ======================== FORM ============================= */
+#D4J_Form{margin-top:153px;width:359px;background:#FFF url(../images/formbg.gif) repeat-y}
+#D4J_Box_Bottom{display:block;width:359px;height:25px;background:url(../images/form-bottombg.gif) no-repeat}
+
+/* ======================== USER 3 ============================ */
+#D4J_User3{margin:33px 0 0 18px}
+
+/* ======================== RIGHT ============================= */
+#D4J_Right{margin:33px 0 0 0;width:359px;background:url(../images/servicesbody-bg.gif) repeat-y;overflow:hidden}
+#D4J_Right_Top{display:block;height:21px;background:url(../images/servicestop-bg.gif) no-repeat;margin-bottom:-10px}
+#D4J_Right_Bottom{display:block;height:25px;background:url(../images/form-bottombg.gif) no-repeat}
+
+/* ======================== FOOT PAGE ========================= */
+#D4J_FootPage{height:126px; background:url(../images/footerbg.gif) 0 0 repeat-x #705D20; color:#fff; font:12px/22px "Trebuchet MS",Arial, Helvetica, sans-serif; clear:both; padding:82px 0 0;}
+
+/* ======================== FOOTER ============================ */
+#D4J_FootPage_In{background:url(../images/footerlogo.gif) right no-repeat;width:700px}
+#D4J_Footer,#D4J_FootNav{width:748px;text-align:left;overflow:hidden;color:#444}
+#D4J_Footer_Left div{text-align:left}
+
+/* ======================== SITE TOOLS ======================== */
+#D4J_Sitetools{position:fixed;bottom:0px;right:10px;height:25px}
+#D4J_Tools{display:none;position:fixed;bottom:20px;right:10px;width:21px}
