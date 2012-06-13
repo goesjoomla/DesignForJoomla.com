@@ -1,0 +1,6 @@
+#D4J_TopPage{background:url(../images/dark/top.jpg) top repeat-x}
+#D4J_MainMenu{;background:url(../images/dark/nav.jpg) repeat-x}
+#D4J_Center{background:url(../images/dark/content.jpg) top left no-repeat}
+#D4J_RightSide{background:url(../images/dark/sidebarright.jpg) top left no-repeat}
+#D4J_LeftSide h3{background:url(../images/dark/sidebarh2.jpg) right no-repeat}
+#D4J_LeftSide ul#mainlevel li .mainlevel:hover{background:url(../images/dark/sidemenu_bg.gif) right no-repeat}

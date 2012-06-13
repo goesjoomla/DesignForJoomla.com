@@ -1,0 +1,45 @@
+/* CSS Document */
+#D4J_MainMenu a.mainlevel{
+	display:block;
+	height:28px;
+	padding:16px 16px 0 16px;
+	margin:0 10px 0 0;
+	color:#fff;
+	font-size:1.4em;
+	text-decoration:none
+}
+#D4J_MainMenu a.mainlevel:hover{
+	background:#4F9EC9
+}
+#D4J_MainMenu .transMenu .items{
+	background:#4F9EC9;
+	border-top:1px solid #a7dbf3;
+	width:150px
+}
+#D4J_MainMenu .transMenu img{
+	display:none
+}
+#D4J_MainMenu .transMenu .items .item{
+	height:23px;
+	padding:0;	
+}
+#D4J_MainMenu .transMenu .items .item td{
+	padding:0;
+	width:0
+}
+#D4J_MainMenu .transMenu .items .item .sublevel{
+	display:block;
+	height:23px;
+	padding:3px 0 0 10px;
+	margin:0;
+	font-size:1.5em;
+	background:#4F9EC9;
+	color:#fff;
+	text-decoration:none;
+	border:1px solid #a7dbf3;
+	border-top:none;
+}
+#D4J_MainMenu .transMenu .items .item .sublevel:hover{
+	background:#fff;
+	color:#4F9EC9;
+}

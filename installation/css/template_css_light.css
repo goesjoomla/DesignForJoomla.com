@@ -1,0 +1,24 @@
+body{background:#f6f6f6 url(../images/light/body.jpg) repeat}
+
+#D4J_TopPage{background:url(../images/light/innerwrapper.jpg) top repeat-x}
+#D4J_Title{font:1.4em Georgia}
+#D4J_Title h3{font:1.67em Georgia;color:#333;border-right:none}
+#D4J_Title a{color:#555}
+#D4J_Title a:hover{border-bottom:2px solid #f6f6f6}
+
+#D4J_MainMenu{background:#388CBA url(../images/light/nav.jpg) repeat-x}
+
+#D4J_Center{background:none}
+#D4J_RightSide{background:url(../images/light/sidebarright.jpg) top left no-repeat}
+
+#D4J_LeftSide{background:#fff;padding:30px 5px;width:230px}
+#D4J_LeftSide a{color:#ccc}
+#D4J_LeftSide a:hover{color:#666}
+#D4J_LeftSide .moduletable h3,#D4J_LeftSide .moduletable-nav h3{background:none;color:#333}
+#D4J_LeftSide ul#mainlevel,#D4J_LeftSide .moduletable-nav table{border-top:1px solid #fafafa}
+
+#D4J_LeftSide .mainlevel,#D4J_LeftSide .sublevel{border-bottom:1px solid #fafafa;color:#ccc}
+#D4J_LeftSide .mainlevel:hover,#D4J_LeftSide .sublevel:hover{background:url(../images/light/sidemenu_bg.gif) right no-repeat}
+#D4J_LeftSide input.inputbox{background:#f6f6f6;border:1px solid #ccc;color:#777;font:0.9em Verdana}
+
+#D4J_LeftSide .contentheading{color:#999;font:1em Verdana;font-weight:bold;letter-spacing:1px;margin:0 0 10px 0;display:block}
