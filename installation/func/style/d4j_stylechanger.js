@@ -1,6 +1,10 @@
 var prefsLoaded = false;
-var defaultFontSize = 12;
+var defaultFontSize = 11;
 var currentFontSize = defaultFontSize;
+var minWidth = 820;
+var maxWidth = 960;
+var defaultContainerWidth = minWidth;
+var currentContainerWidth = defaultContainerWidth;
 
 function revertStyles(){
 	currentFontSize = defaultFontSize;
@@ -10,20 +14,38 @@ function revertStyles(){
 function changeFontSize(sizeDifference){
 	currentFontSize = parseInt(currentFontSize) + parseInt(sizeDifference);
 
-	if(currentFontSize > 14){
-		currentFontSize = 14;
-	}else if(currentFontSize < 10){
-		currentFontSize = 10;
+	if(currentFontSize > 13){
+		currentFontSize = 13;
+	}else if(currentFontSize < 9){
+		currentFontSize = 9;
 	}
 
 	setFontSize(currentFontSize);
-	createCookie("fontSize", currentFontSize, 30);
 };
 
 function setFontSize(fontSize){	
 	document.body.style.fontSize = fontSize + 'px';
 };
 
+function changeContainerWidth(newWidth) {
+	var obj = document.getElementById('D4J_Container');
+	var objLeftSide = document.getElementById("D4J_LeftSide");
+	var objHeader = document.getElementById('D4J_Header');
+	
+	currentContainerWidth = parseInt(newWidth);
+		
+	if(currentContainerWidth == 0) {
+		obj.style.width = '100%';
+		objHeader.style.background = 'url('+_TEMPLATE_URL+'/images/img02_2.jpg) repeat';
+	}
+	else {
+		obj.style.width = currentContainerWidth + 'px';
+		//objLeftSide.style.marginLeft = '1.5%';
+		if(currentContainerWidth == maxWidth) {
+			objHeader.style.background = 'url('+_TEMPLATE_URL+'/images/img02_2.jpg) no-repeat';
+		}
+	}
+};
 
 function createCookie(name,value,days) {
   if (days) {
@@ -52,12 +74,23 @@ function setUserOptions(){
 	if(!prefsLoaded){
 
 		userFontSize = readCookie("fontSize");
-		
+		userContainerWidth = readCookie("containerWidth");		
+
 		currentFontSize = userFontSize ? userFontSize : defaultFontSize;
 		setFontSize(currentFontSize);
-		
-		
+		currentContainerWidth = userContainerWidth ? userContainerWidth : defaultContainerWidth;
+		changeContainerWidth(currentContainerWidth);		
+
 		prefsLoaded = true;
 	}
 
+}
+
+window.onunload = saveUserOptions;
+
+function saveUserOptions()
+{
+	createCookie("fontSize", currentFontSize, 30);
+	createCookie("containerWidth", currentContainerWidth, 30);		
+	
 }
