@@ -1,73 +1,41 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <mosinstall type="template">
 
-<name>blogdivision</name>
-<creationDate>2nd January 2008</creationDate>
+<name>blue_blog</name>
+<creationDate>December 2006</creationDate>
 <author>DesignForJoomla.com</author>
 <copyright>DesignForJoomla.com</copyright>
-<authorEmail>support@designforjoomla.com</authorEmail>
+<authorEmail>cuongnm@designforjoomla.com</authorEmail>
 <authorUrl>designforjoomla.com</authorUrl>
 <version>1.0</version>
-<description>blogdivision - Joomla template by DesignForJoomla.com</description>
+<description>Blue Blog  - Joomla template by DesignForJoomla.com</description>
 
 <files>
     <filename>index.php</filename>
     <filename>template_thumbnail.png</filename>
-	<filename>func/style/d4j_sitetools.php</filename>
-	<filename>func/style/d4j_stylechanger.js</filename>
-	<filename>func/style/d4j_stylechanger.php</filename>
 </files>
 
 <images>
-<filename>images/arrow1.gif</filename>
-<filename>images/arrow2.gif</filename>
-<filename>images/blank.gif</filename>
-<filename>images/button.gif</filename>
-<filename>images/company-bg.gif</filename>
-<filename>images/footerbg.gif</filename>
-<filename>images/footerlogo.gif</filename>
-<filename>images/formbg.gif</filename>
-<filename>images/form-bottombg.gif</filename>
-<filename>images/header.jpg</filename>
-<filename>images/icon1-normal.gif</filename>
-<filename>images/icon1-hover.gif</filename>
-<filename>images/icon2-normal.gif</filename>
-<filename>images/icon2-hover.gif</filename>
-<filename>images/icon3-normal.gif</filename>
-<filename>images/icon3-hover.gif</filename>
-<filename>images/icon.gif</filename>
-<filename>images/logo.jpg</filename>
-<filename>images/mainbg.gif</filename>
-<filename>images/menu-div.gif</filename>
-<filename>images/new-registerbg.gif</filename>
-<filename>images/not-memberbg.gif</filename>
-<filename>images/reedmore-bg.gif</filename>
-<filename>images/reedmore-hover.gif</filename>
-<filename>images/rightmenu.gif</filename>
-<filename>images/rightsidebg.jpg</filename>
-<filename>images/ser.gif</filename>
-<filename>images/servicesbody-bg.gif</filename>
-<filename>images/servicestop-bg.gif</filename>
-<filename>images/sitetools.gif</filename>
-<filename>images/topleftmenu-hover.gif</filename>
-<filename>images/topmenubg.gif</filename>
-
-	<filename>images/site_tools/biggerFont.gif</filename>
-	<filename>images/site_tools/normalFont.gif</filename>
-	<filename>images/site_tools/smallerFont.gif</filename>
+        <filename>images/articlebg.gif</filename>
+        <filename>images/bg.gif</filename>
+        <filename>images/button.gif</filename>
+        <filename>images/content.gif</filename>
+        <filename>images/h2bg.gif</filename>
+        <filename>images/header.gif</filename>
+        <filename>images/horizontal.gif</filename>
+        <filename>images/left.gif</filename>
+        <filename>images/left_h3.gif</filename>
+        <filename>images/menutop.gif</filename>
+        <filename>images/searchbox.gif</filename>
+        <filename>images/sidebar.gif</filename>
 </images>
 
 <css>
-	<filename>css/template_css.css</filename>
-	<filename>css/template.css</filename>
-	<filename>css/d4j_dropdownmenu.css</filename>
-	<filename>css/d4j_transmenu.css</filename>
-	<filename>css/bottom.css.php</filename>	
-	<filename>css/footer.css.php</filename>
-	<filename>css/base.css</filename>
-	<filename>css/layout.css</filename>
-	<filename>css/custom.css</filename>
-	<filename>css/D4J_sitetools/site_tools.css</filename>
+        <filename>css/bottom.css.php</filename>
+        <filename>css/footer.css.php</filename>
+        <filename>css/template_css.css</filename>
+        <filename>css/template_css_ie.css</filename>
+        <filename>css/template.css</filename>
 </css>
 
 </mosinstall>
