@@ -1,5 +1,5 @@
-D4J Blue Leaves template for Joomla! 1.0 series
-================================================
+D4J Breaking On Top template for Joomla! 1.0 series
+===================================================
 
 Install Git client by following the guide at the URL below:
 
@@ -9,7 +9,7 @@ Then, clone the repository at following URL:
 
 https://github.com/goesjoomla/DesignForJoomla.com.git
 
-Finally, checkout templates/blue_leaves branch to get D4J Blue Leaves.
+Finally, checkout templates/breakingontop branch to get D4J Breaking On Top.
 
 --
 Manh-Cuong Nguyen

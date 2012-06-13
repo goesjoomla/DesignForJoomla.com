@@ -3,51 +3,172 @@
 /* ======================== COMMON ======================== */
 
 /* standard */
-body{margin:0;padding:0;background:#fff url(../images/bg2.gif);font-family:Verdana,Arial,Helvetica,sans-serif;font-size:12px;text-align:center;color:#666;line-height:20px;word-spacing:2px}
-th,td,form,div,p{margin:0;padding:0;color:#666;font-size:12px;line-height:20px;word-spacing:2px}
-ul{margin:0;padding:0 0 0 20px}
-li{padding-left:10px}
+*{padding:0;margin:0}
+body,form,div,p,table{width:auto}
+body{background-color:#F1E9D6; color:#453A1E; font-family: Arial, Helvetica, sans-serif;margin:0;padding:0;font-size:12px}
+a{color:#555;text-decoration:underline}
+a:hover{text-decoration:none}
+ul{margin:12px 0 12px 15px}
+ul li{}
+blockquote{background:#fff; height:72px; color:#ABA501; font:1.28em Georgia, "Times New Roman", Times, serif; font-style:italic; padding:10px 0 0;}
+img{border:none}
+/* ======================== PATHWAY ======================== */
+span.pathway,a.pathway{}
+a.pathway:hover{}
+span.pathway img{}
 
-/* link */
-a{text-decoration:none;color:#369;border-bottom:1px dashed #369}
-a:hover{border-bottom:1px dashed #49515C;color:#49515C}
+/* ======================== CONTENT ======================== */
 
-/* ======================== MORE ======================== */
-.blog td{padding:2px}
-.blog_more{margin:0 3px 15px 13px;padding:3px 6px;border:1px dotted #555}
-.blog_more div{border-bottom:1px dotted #666}
-.blog_more ul{margin:2px 0 2px 34px}
-.blog_more ul li a.blogsection{text-decoration:none}
+/* page title */
+.componentheading{font:normal 2em Arial, Helvetica,sans-serif;color:#765914;text-indent:0;background-color:#F1E9D6;padding:0 0 22px 0;display:block;margin:0 0 22px 0}
+
+/*module title*/
+div.moduletable h3{}
+
+/* blog page main wrapper */
+table.blog{}
+table.blog td{padding:0 0.1em}
+
+/* component & content container */
+table.contentpane,table.contentpaneopen{width:auto}
+
+/* separator after each content item */
+span.article_seperator{}
+
+/* content title */
+td.contentheading{font-size:0.92em;color:#453A1E; text-transform:uppercase;font-weight:bold; padding:0 0 8px 0 ; display:block;line-height:16px;background-color:#F1E9D6;margin:0 0 8px 0}
+a.contentpagetitle{}
+
+/* 3 buttons */
+td.buttonheading{}
+
+/* date & author */
+span.small,td.createdate,td.modifydate{font-size:0.8em}
+.smalldark{}
+
+/* page counter */
+div.pagenavcounter{}
+
+/* table of content */
+table.contenttoc{padding:4px;margin:4px}
+table.contenttoc th{}
+table.contenttoc td{}
+a.toclink{}
+
+/* content image */
+div.mosimage{}
+div.mosimage_caption{font-size:0.9em;margin:2px;font-weight:bold}
 
 /* read more */
-.readon{float:right;font-weight:bold}
+a.readon{background:url(../images/read_more.gif) no-repeat 0 0;padding:0;margin:0;float:right;height:11px;width:71px;display:block;font-size:0;}
+a.readon:hover{background:url(../images/read_more_h.gif) no-repeat 0 0;}
 
-/* ======================== CONTENTTOC ======================== */
-.contenttoc{margin:7px;padding:0 10px;border:1px dotted #555}
-.contenttoc th{border-bottom:1px dotted #555;font-size:13px;color:#555;text-align:center}
-.contenttoc td{margin:5px 0 5px 14px;padding:2px 7px}
-.contenttoc a.toclink{text-decoration:none;font-weight:bold}
+/* ======================== MORE ======================== */
+
+/* panel */
+div.blog_more{}
+
+/* panel heading */
+div.blog_more div{}
+
+/* block list */
+div.blog_more ul{}
+div.blog_more ul li{}
+
+/* list link */
+a.blogsection{}
+
+/* ======================== TABLE ======================== */
+
+/* description */
+td.contentdescription{font-weight:bold}
+
+/* category link */
+a.category{}
+
+/* listing */
+td.sectiontableheader{padding:0.5em;background:#FF7113;;color:white;text-transform:uppercase;font-weight:bold}
+tr.sectiontableentry1 td{padding:0.4em 0.5em;background:#d9d9d9;color:black}
+tr.sectiontableentry2 td{padding:0.4em 0.5em;background:#f5f5f5;color:black}
 
 /* ======================== NAVIGATION ======================== */
-.contentpane,.contentpaneopen{text-align:justify}
-.small,span.small,#mainbody .createdate,#mainbody .modifydate,.pagenavcounter{font-size:11px;font-style:italic}
-.back_button,.pagenav_prev,.pagenav_next{font-size:11px}
-select#mod_templatechooser_jos_change_template{width:142px}
+
+/* multi-page content nav */
+div.pagenavbar{}
+div.pagenavbar div{}
+div.pagenavbar div a{}
+
+/* content item nav */
+th.pagenav_prev,th.pagenav_next{}
+th.pagenav_prev a,th.pagenav_next a{}
+
+/* blog page nav */
+.pagenav{}
+a.pagenav{}
+
+/* back button */
+div.back_button{margin:1em 0}
+div.back_button a{}
+
+/* ======================== FORM ======================== */
+form{}
+form label{}
+input,textarea{width:190px}
+
+input.button{width:auto}
+.contentpane .inputbox{}
+.contentpane select.inputbox{}
+
+select#mod_templatechooser_jos_change_template{width:142px;margin-top:3px}
+
+/* ======================== POPUP ======================== */
+body.contentpane{}
+
+/* ======================== MENU ======================== */
+
+
+/* ======================== SEARCH ======================== */
+
+/* search wrapper */
+div.search{}
+
+/* keyword input field */
+input#mod_search_searchword{}
+
+/* keyword high-light */
+span.highlight{}
+
+/* ======================== LOGIN ======================== */
+input#mod_login_username{}
+input#mod_login_password{}
+input#mod_login_remember{}
+
+/* ======================== LATEST ARTICLE ======================== */
+ul.latestnews{}
+li.latestnews{}
+a.latestnews{}
+
+/* ======================== POPULAR ARTICLE ======================== */
+ul.mostread{}
+li.mostread{}
+a.mostread{}
 
 /* ======================== POLL ======================== */
-.sectiontableheader{background:#49515C;color:#fff;font-weight:bold;padding:0 5px;height:20px}
-.sectiontablefooter{text-align:center}
-.sectiontableentry1 label{color:#333}
-.sectiontableentry2 label{color:#333}
 
-.pollstableborder{margin:0}
-.pollstableborder td{vertical-align:middle}
-.pollstableborder input{margin:0}
-.poll .button{margin-top:2px}
+/* wrapper table */
+table.poll{margin-bottom:0.25em}
 
-.sectiontableentry1,.sectiontableentry1 td{padding-left:5px;text-align:left;background:#eee;color:#333;line-height:25px}
-.sectiontableentry1 td a,.sectiontableentry2 td a{color:#333;text-decoration:none;line-height:25px}
-.sectiontableentry2,.sectiontableentry2 td{padding-left:5px;text-align:left;color:#333;line-height:25px}
+/* question cell */
+table.poll thead td{font-size:0.9em}
+
+/* answers cell */
+table.poll td{text-align:left}
+
+/* answers table */
+table.pollstableborder{margin:0.25em 0}
+table.pollstableborder td{font-size:0.9em;vertical-align:middle}
+td.sectiontableentry1,td.sectiontableentry2{padding:0.5em}
 
 /* ======================== SYNDICATE ======================== */
-.syndicate div{text-align:center}
+div.syndicate{}
+div.syndicate div{}
