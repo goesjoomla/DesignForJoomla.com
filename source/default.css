@@ -1,154 +1,126 @@
 /*#############################################################
-Name: Bitter Sweet
-Date: 2006-10-02
-Description: Lime flavoured template with two columns.
+Name: Blackbox
+Date: 2006-06-01
 Author: Viktor Persson
-URL: http://templates.arcsin.se
+URL: http://arcsin.se
 
 Feel free to use and modify but please provide credits.
 #############################################################*/
 
-/* standard elements */
+/* Standard elements */
 * {
 	margin: 0;
 	padding: 0;
 }
-a {color: #682;}
-a:hover {color: #9A6;}
+a {
+	color: #999;
+	text-decoration: none;
+}
 body {
-	background: #5F8000 url(img/bg.gif) repeat-y center top;
-	color: #333;
-	font: normal 62.5% "Lucida Sans Unicode",sans-serif;
-}
-input {
+	background: #000 url(img/bg.png) repeat-x fixed left bottom;
 	color: #555;
-	font: normal 1.1em "Lucida Sans Unicode",sans-serif;
+	margin: 20px 0;
+	text-align: center;
+	font: normal 0.7em sans-serif,Arial;
 }
-p,cite,code,ul {
+ul {
+	margin: 12px 0;
+}
+li {
+	list-style: url(img/li.gif);
+	margin-left: 18px;
+}
+code {
+	font: normal 1em "Lucida Sans Unicode",serif;
+	background: url(img/bgcode.gif);
+	color: #888;
+	display: block;
+	padding: 3px 6px;
+	white-space: pre;
+	margin-bottom: 12px;
+}
+
+
+/* Misc */
+div.quote {
+	margin-bottom: 12px;
+	font: normal 1.1em "Lucida Sans Unicode",serif;
+	background: url(img/quote.gif) no-repeat;
+	padding-left: 28px;
+	color: #666;
+}
+
+
+/* Main structure */
+.main {
+	background: #000; 
+	border: 3px double #EEE; 
+	border-color: #141414 #202020 #222 #202020; 
+	margin: 20px auto 4px auto; 
+	text-align: left;
+	width: 600px; 
+}
+
+
+/* Header */
+.gfx {
+	background: #222 url(img/dark_pixel.jpg) no-repeat;
+	height: 240px;
+}
+.gfx h1 {
+	color: #111;
+	font: normal 2.6em Tahoma,sans-serif;
+	padding: 16px 20px;
+}
+
+
+/* Menu */
+.menu a {
+	background: #000 url(img/bgmenu.png) repeat-x;
+	border-right: 1px solid #222;
+	border-top: 1px solid #1A1A1A;
+	color: #444;
 	font-size: 1.2em;
-	padding-bottom: 1.2em;
-}
-ul {margin-left: 1.2em;}
-li {list-style-image: url(img/li.gif);}
-h1 {font-size: 1.4em;}
-blockquote {
-	background: #FFF;
-	border-bottom: 1px solid #EEE;
-	border-top: 1px solid #EEE;
-	color: #333;
-	display: block;
-	font-size: 0.9em;
-	margin-bottom: 1.2em;
-	padding: 6px 12px;
-}
-blockquote p {padding: 3px 0;}
-h1,h2,h3 {color: #654;}
-
-/* misc */
-.clearer {clear: both;}
-
-/* structure */
-.container {
-	background: url(img/bgcontainer.gif) repeat-y;
-	margin: 0 auto;
-	width: 702px;
-}
-
-/* top */
-.top {
-	background: #567300;
-	font: normal 2.4em Verdana,sans-serif;
-	height: 60px;
-	margin: 0 auto;
-	width: 630px;
-}
-.top a {
-	color: #FFF;
-	display: block;
-	line-height: 60px;
-	text-decoration: none;
-	width: 100%;
-}
-.top span {padding-left: 24px;}
-.top a:hover {
-	background: #688B00;
-	color: #FFF;
-}
-
-/* header */
-.header {
-	background: url(img/header.jpg) no-repeat;
-	height: 180px;
-	margin: 0 auto;
-	width: 630px;
-}
-
-/* item */
-.item {clear: both;}
-.item .date {
-	background: url(img/bgdate.gif) no-repeat;
-	color: #FDD;
 	float: left;
-	height: 40px;
-	text-align: center;
-	width: 36px;
+	padding-top: 4px;
+	width: 149px; height: 36px;
 }
-.item .date div {padding-top: 4px;}
-.item .date span {font: normal 1.6em serif;}
-.item .content {
-	float: left;
-	width: 420px;
+.menu a span {
+	padding-left: 6px;
 }
-.item h1 {
-	background: #567300;
-	color: #FFF;
-	line-height: 40px;
-	padding-left: 16px;
+.menu a:hover {
+	background-position: left bottom;
+	color: #666;
 }
-.item .body {padding: 12px 18px;}
-
-/* main */
-.main {float: left;}
-
-/* navigation */
-.navigation {
-	float: left;
-	margin-left: 1px;
-	width: 208px;
-}
-.navigation h1 {
-	background: #81AC00;
-	color: #FFF;
-	font-size: 1.3em;
-	line-height: 40px;
-	padding-left: 12px;
-}
-.navigation ul {margin: 0; padding: 0;}
-.navigation li {
-	border-bottom: 1px solid #D5E8AD;
-	list-style: none;
-}
-.navigation li a {
-	background: #E8F6BF url(img/bgnavigation.gif) repeat-x;	
-	color: #553;
-	display: block;
-	padding: 8px 4px 8px 12px;
-	text-decoration: none;
-}
-.navigation li a:hover {
-	background: #F0FFC6;
-	color: #553;
+.menu a#last {
+	width: 150px;
+	border-right: none;
 }
 
-/* footer */
+
+/* Content */
+.content {
+	border-top: 1px solid #1A1A1A;
+	background: #1A1A1A;
+	clear: both;
+}
+.content h1 {
+	margin: 0 0 4px;
+	font: bold 1.1em sans-serif,Arial;
+	color: #666;
+}
+.content p {
+	margin: 0 0 12px;
+}
+.item {
+	background: #030303 url(img/bgitem.gif) repeat-x;
+	padding: 8px 10px;
+}
+
+
+/* Footer */
 .footer {
-	background: url(img/bgfooter.gif) repeat-x;
-	color: #FFF;
-	font-size: 1.1em;
-	line-height: 40px;
-	margin: 0 auto;
-	text-align: center;
-	width: 626px;
-}
-.footer a {color: #FFF;}
-.footer a:hover {color: #FAFCB0;}
+	padding: 5px;
+	background: #0A0A0A;
+	color: #666;
+} 
