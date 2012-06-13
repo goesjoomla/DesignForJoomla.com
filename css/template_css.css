@@ -1,0 +1,84 @@
+/*document settings*/
+body{margin:3px}
+form{margin:0;padding:0}
+body,form,div,p,table{font-family:arial,helvetica,sans-serif;font-size:11px;color:black}
+ul{margin:1px;padding:1px;list-style:none}
+li{background:url(../../../images/M_images/arrow.png) 0 3px no-repeat;padding:1px 0 1px 15px;line-height:15px}
+hr{background:#88abf2;height:1px;width:97%}
+a{color:#88abf2;text-decoration:none}
+a:hover,a:active{border-bottom:1px solid}
+a img{border:none}
+
+/*positions settings (tableless)*/
+.clr{clear:both;height:0px;overflow:hidden}
+#container{position:relative;width:800px}
+
+#header,#header div{width:auto !important;width:800px}
+#pathway{height:21px;background:url(../images/img_01.png) no-repeat;padding-left:10px;text-align:left}
+span.pathway,a.pathway{display:block;line-height:21px}
+a.pathway{display:inline}
+#title{height:48px;overflow:hidden;line-height:48px;background:url(../images/img_02.jpg) no-repeat;padding-left:10px;text-align:left}
+#title h1{margin:0}
+#title h1 a{color:white;letter-spacing:3px;font-size:1.3em;border:none}
+#topmenu{line-height:21px;background:url(../images/img_03.png) no-repeat;text-align:center}
+#topmenu a{color:#88abf2;font-weight:bold;line-height:21px;padding:0 20px}
+#date{line-height:20px;background:url(../images/img_04.png) left bottom no-repeat;padding-right:10px;text-align:right}
+
+#body,#footer{padding-top:7px}
+#left,#center{float:left;width:159px;text-align:left}
+#left .moduletable,#right .moduletable{width:153px;background:#EAEAEA url(../images/img_08.png) left bottom no-repeat}
+#left .moduletable h3,#right .moduletable h3{text-align:left;padding-left:9px;background:url(../images/img_06.png) left top no-repeat}
+#center{/*define in index.php file*/}
+#center .moduletable{/*define in index.php file*/}
+#center .moduletable h3{text-align:center}
+#main_rep{/*define in index.php file*/}
+#main_top{/*define in index.php file*/}
+#main_bottom{position:relative;width:auto !important;width:100%;padding:24px 6px}
+#right{float:right;width:153px;text-align:left}
+
+#footer .moduletable{width:800px;margin-bottom:0;background:#EAEAEA url(../images/img_04.png) left bottom no-repeat}
+#footer .moduletable h3,#main_top{background:url(../images/img_01.png) left top no-repeat}
+#bottom_left{float:left}
+#bottom_left div{text-align:left}
+#bottom_right{float:right}
+#bottom_right div{text-align:right}
+
+/*joomla settings*/
+.moduletable{margin-bottom:7px;padding-bottom:21px}
+.moduletable *{margin:6px}
+.moduletable * *{margin:0}
+.moduletable table{width:auto}
+.moduletable h3,.componentheading,.back_button{margin:0;padding:0;font-size:1.2em;font-weight:bold;color:#88abf2;line-height:21px}
+
+.mainlevel,.sublevel{text-align:left;font-family:verdana,helvetica,serif;font-size:12px;font-weight:bold;margin:0 0 3px 3px;line-height:18px}
+.sublevel{font-weight:normal;margin:0 0 3px 13px;line-height:16px}
+
+.componentheading,.back_button{width:100%;text-align:center;position:absolute;top:0}
+.back_button{font-size:1em;top:auto;bottom:0}
+
+.inputbox,.button{font-family:arial,helvetica,sans-serif;font-size:1em;border:1px solid}
+
+.blog td{padding:0 2px}
+.contentpane,.contentpaneopen{text-align:justify}
+.contentheading,.contentpagetitle,.buttonheading a{font-weight:bold;font-size:1.1em;text-align:left;border:none}
+.small,.smalldark,.createdate,.modifydate{font-size:0.8em;font-weight:bold;color:gray}
+.smalldark{font-size:0.9em}
+
+.readon{float:right;color:#88abf2;font-weight:bold;padding:5px 1px 1px 5px}
+.blog_more{margin:0 3px 15px 3px;padding:3px 6px;border:1px dotted #D4DFF7}
+.blog_more div{padding-bottom:3px;border-bottom:1px dotted #D4DFF7}
+.blog_more ul{margin:2px 0 2px 14px}
+
+.contenttoc{background:#F0F3F9;border:1px solid #D4DFF7;padding:3px;margin:0 0 1px 5px}
+.contenttoc th{padding-bottom:1px;border-bottom:1px solid #D4DFF7}
+.contenttoc td{padding:3px 1px}
+
+.sectiontableheader{background:#88ABF2;color:#FFFFFF;height:20px;font-weight:bold;padding:0 5px;border-bottom:2px solid #FFFFFF}
+.sectiontablefooter{text-align:center}
+.sectiontableentry1,.sectiontableentry1 td{background:#D4DFF7;padding:5px;text-align:left}
+.sectiontableentry2,.sectiontableentry2 td{background:#F0F3F9;padding:5px;text-align:left}
+.pollstableborder{margin:3px 0}
+.pollstableborder td{padding:5px;vertical-align:middle}
+.pollstableborder input{margin:0}
+
+.tips{display:none}
