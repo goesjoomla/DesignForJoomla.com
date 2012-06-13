@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <mosinstall type="template">
 
-<name>blue_blog</name>
+<name>blue_leaves</name>
 <creationDate>December 2006</creationDate>
 <author>DesignForJoomla.com</author>
 <copyright>DesignForJoomla.com</copyright>
 <authorEmail>cuongnm@designforjoomla.com</authorEmail>
 <authorUrl>designforjoomla.com</authorUrl>
 <version>1.0</version>
-<description>Blue Blog  - Joomla template by DesignForJoomla.com</description>
+<description>Blue Leaves - Joomla template by DesignForJoomla.com</description>
 
 <files>
     <filename>index.php</filename>
@@ -16,26 +16,23 @@
 </files>
 
 <images>
-        <filename>images/articlebg.gif</filename>
         <filename>images/bg.gif</filename>
-        <filename>images/button.gif</filename>
+        <filename>images/bg2.gif</filename>
         <filename>images/content.gif</filename>
-        <filename>images/h2bg.gif</filename>
-        <filename>images/header.gif</filename>
-        <filename>images/horizontal.gif</filename>
-        <filename>images/left.gif</filename>
-        <filename>images/left_h3.gif</filename>
-        <filename>images/menutop.gif</filename>
-        <filename>images/searchbox.gif</filename>
-        <filename>images/sidebar.gif</filename>
+        <filename>images/header_right.gif</filename>
+        <filename>images/para_bg.jpg</filename>
+        <filename>images/para_bg2.jpg</filename>
 </images>
 
 <css>
+        <filename>css/base.css</filename>
         <filename>css/bottom.css.php</filename>
+        <filename>css/custom.css</filename>
+        <filename>css/layout.css</filename>
         <filename>css/footer.css.php</filename>
+        <filename>css/template.css</filename>
         <filename>css/template_css.css</filename>
         <filename>css/template_css_ie.css</filename>
-        <filename>css/template.css</filename>
 </css>
 
 </mosinstall>

@@ -1,0 +1,33 @@
+/* CSS SELECTORS FOR CUSTOMIZATION */
+
+/* ======================== LOGO ======================== */
+#title .moduletable,#title h2{margin:0;color:#8D8E90;word-spacing:0px;font-size:14px;font-weight:bold;padding:31px 0 0 31px}
+#title .moduletable h3,#title h1{margin:0 0 2px -1px;color:#C6C4C5;word-spacing:0px;font-size:22px;font-weight:normal}
+#title h1{margin:31px 0 0 30px}
+#title h2{padding:2px 0 0 31px}
+
+/* ======================== MENU ======================== */
+#menu ul{margin:0;padding:0;list-style:none;display:inline}
+#menu ul li{list-style:none;display:inline;line-height:26px;padding:0}
+#menu ul li a{background:#858F9E;border-right:4px solid #fff;padding:14px 8px 8px;color:#ddd;font-size:1em;font-weight:bold}
+#menu ul li a:hover{background:#6B7687}
+#menu ul li a#active_menu1{background:#49515C;color:#C6C4C5}
+
+/* ======================== COLUMNS ======================== */
+#left .moduletable,#right .moduletable,#top .moduletable,#bottom .moduletable{padding:0 10px 22px;background:#fff url(../images/para_bg.jpg) repeat-x;border-top:1px solid #ddd}
+#left .moduletable h3,#right .moduletable h3,#top .moduletable h3,#bottom .moduletable h3,#mainbody .contentheading,#mainbody .componentheading{margin:10px 0 12px;font-size:13px;color:#49515C;font-weight:bold}
+#left .moduletable ul,#right .moduletable ul,#top .moduletable ul,#bottom .moduletable ul{margin:0;padding:0 0 0 10px}
+#left .moduletable ul li,#right .moduletable li,#top .moduletable ul li,#bottom .moduletable li{padding:0}
+#top .moduletable,#bottom .moduletable{text-align:justify;padding:0 17px 22px 10px}
+#top .moduletable thead,#bottom .moduletable thead{text-align:center}
+
+#mainbody .buttonheading img{border:0px;margin:0px;padding:0}
+
+/* ======================== FOOTER ======================== */
+#footer a{text-decoration:none;color:#A2AFBF;border-bottom:1px dashed #A2AFBF}
+#footer a:hover{border-bottom:1px dashed #fff;color:#fff}
+#bottom_left{float:left;margin:18px 0 0 0;padding:0 0 0 10px;text-align:left}
+#bottom_left div{font-size:10px;text-align:left;color:#fff}
+#bottom_left a,#bottom_right a{color:#A2AFBF;border-bottom:1px dashed #A2AFBF}
+#bottom_right{float:right;margin:0;padding:0 10px 0;text-align:right}
+#bottom_right div{font-size:10px;text-align:right;color:#fff}

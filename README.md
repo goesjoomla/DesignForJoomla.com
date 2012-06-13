@@ -1,4 +1,4 @@
-D4J Blue Blog template for Joomla! 1.0 series
+D4J Blue Leaves template for Joomla! 1.0 series
 ================================================
 
 Install Git client by following the guide at the URL below:
@@ -9,7 +9,7 @@ Then, clone the repository at following URL:
 
 https://github.com/goesjoomla/DesignForJoomla.com.git
 
-Finally, checkout templates/blue_blog branch to get D4J Blue Blog.
+Finally, checkout templates/blue_leaves branch to get D4J Blue Leaves.
 
 --
 Manh-Cuong Nguyen

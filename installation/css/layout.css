@@ -1,0 +1,27 @@
+/* CSS SELECTORS FOR LAYOUT */
+
+/* ======================== WRAPPERS ======================== */
+#container{margin:0 auto;background:#fff;width:740px;border:1px solid #ddd;border-left:5px solid white;border-right:5px solid white;text-align:left;overflow:hidden}
+
+/* ======================== COMMON ======================== */
+.clr{clear:both}
+.tips{display:none}
+
+/* ======================== HEADER ======================== */
+#header{margin:0;float:left;width:740px;height:99px;overflow:hidden;background:#49515C url(../images/header_right.gif) no-repeat right top;border-bottom:4px solid #fff;border-top:5px solid #fff}
+#title{margin:0;width:740px;height:100px;float:left;overflow:hidden}
+
+
+/* ======================== TOOLBAR ======================== */
+#menu{background:#858F9E;border-bottom:4px solid #fff;margin:0;padding:0;float:left;width:740px;height:26px;overflow:hidden}
+
+/* ======================== BODY ======================== */
+#content{margin:0;float:left;width:740px;overflow:hidden;;background:#fff url(../images/content.gif) repeat-y}
+#lbox{margin:0;float:left;width:175px;overflow:hidden}
+#left,#right{margin:0;float:left;width:175px;overflow:hidden}
+#rbox{margin:0 0 0 8px;float:left;width:557px;overflow:hidden}
+#top,#bottom,#mainbody{margin:0 0 0 7px;float:left;width:557px;overflow:hidden}
+#mainbody{width:530px;padding:10px 17px 22px 10px;background:#fff url(../images/para_bg.jpg) repeat-x;border-top:1px solid #ddd}
+/* ======================== FOOTER ======================== */
+#footer_container{margin:0;width:740px;height:68px;float:left;overflow:hidden;background:#49515C url(../images/header_right.gif) no-repeat 100% 0;border-bottom:5px solid #fff;border-top:10px solid #fff}
+#footer,#footer p{text-align:center;color:#fff;font-size:10px;padding:6px 0 0 6px;line-height:16px}
