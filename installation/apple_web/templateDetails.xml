@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="template">
+
+<name>apple_web</name>
+<creationDate>May 2008</creationDate>
+<author>DesignForJoomla.com</author>
+<copyright>DesignForJoomla.com</copyright>
+<authorEmail>cuongnm@designforjoomla.com</authorEmail>
+<authorUrl>designforjoomla.com</authorUrl>
+<version>1.0</version>
+<description>Apple Web - Joomla template by DesignForJoomla.com</description>
+
+<files>
+        <filename>index.php</filename>
+        <filename>template_thumbnail.png</filename>
+</files>
+
+<images>
+        <filename>images/arrow.gif</filename>
+        <filename>images/arrow1.gif</filename>
+        <filename>images/bg.gif</filename>
+        <filename>images/contact.gif</filename>
+        <filename>images/contact_h.gif</filename>
+        <filename>images/event_bg.gif</filename>
+        <filename>images/footer_bg.gif</filename>
+        <filename>images/header_pic.gif</filename>
+        <filename>images/home.gif</filename>
+        <filename>images/home_h.gif</filename>
+        <filename>images/logo.gif</filename>
+        <filename>images/more_bg.gif</filename>
+        <filename>images/more_bg_h.gif</filename>
+        <filename>images/navi_h.gif</filename>
+        <filename>images/saparation.gif</filename>
+        <filename>images/search_bg.gif</filename>
+        <filename>images/services.gif</filename>
+        <filename>images/support.gif</filename>
+        <filename>images/toll_free-1.gif</filename>
+        <filename>images/user.gif</filename>
+        <filename>images/user_h.gif</filename>
+        <filename>images/welcome_pic.gif</filename>
+</images>
+
+<css>
+        <filename>css/bottom.css.php</filename>
+        <filename>css/footer.css.php</filename>
+        <filename>css/template.css</filename>
+        <filename>css/d4j_dropdownmenu.css</filename>
+        <filename>css/template_css.css</filename>
+        <filename>css/template_css_ie.css</filename>
+        <filename>css/template_css_ie7.css</filename>
+</css>
+
+</mosinstall>
