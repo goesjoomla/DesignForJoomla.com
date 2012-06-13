@@ -1,36 +1,52 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <mosinstall type="template">
 
-<name>bermuda</name>
-<creationDate>01st Novembre 2006</creationDate>
+<name>bitter_sweet</name>
+<creationDate>22nd March 2007</creationDate>
 <author>DesignForJoomla.com</author>
 <copyright>DesignForJoomla.com</copyright>
 <authorEmail>support@designforjoomla.com</authorEmail>
 <authorUrl>designforjoomla.com</authorUrl>
 <version>1.0</version>
-<description>Bermuda - Joomla template by DesignForJoomla.com</description>
+<description>bitter_sweet - Joomla template by DesignForJoomla.com</description>
 
 <files>
     <filename>index.php</filename>
     <filename>template_thumbnail.png</filename>
+	<filename>func/style/d4j_sitetools.php</filename>
+	<filename>func/style/d4j_stylechanger.js</filename>
+	<filename>func/style/d4j_stylechanger.php</filename>
 </files>
 
 <images>
-	<filename>images/column2.jpg</filename>
-	<filename>images/column.jpg</filename>
-	<filename>images/footer.jpg</filename>
-	<filename>images/slogan.jpg</filename>
-	<filename>images/main_photo.jpg</filename>
-	<filename>images/shadow.jpg</filename>
-	<filename>images/shadow2.jpg</filename>
+	<filename>images/bg.gif</filename>
+	<filename>images/bgdate.gif</filename>
+	<filename>images/bgfooter.gif</filename>
+	<filename>images/bgnavigation.gif</filename>
+	<filename>images/container_l.png</filename>
+	<filename>images/container_r.png</filename>
+	<filename>images/header.jpg</filename>
+	<filename>images/right_side.gif</filename>
+	<filename>images/li.gif</filename>
+	<filename>images/sitetools.gif</filename>
+
+	<filename>images/site_tools/autofit.gif</filename>
+	<filename>images/site_tools/biggerFont.gif</filename>
+	<filename>images/site_tools/expand.gif</filename>
+	<filename>images/site_tools/narrow.gif</filename>
+	<filename>images/site_tools/normalFont.gif</filename>
+	<filename>images/site_tools/smallerFont.gif</filename>
 </images>
 
 <css>
-	<filename>css/template.css</filename>
 	<filename>css/template_css.css</filename>
-	<filename>css/template_css_ie.css</filename>
+	<filename>css/template.css</filename>
 	<filename>css/bottom.css.php</filename>
 	<filename>css/footer.css.php</filename>
+	<filename>css/base.css</filename>
+	<filename>css/layout.css</filename>
+	<filename>css/custom.css</filename>
+	<filename>css/D4J_sitetools/site_tools.css</filename>
 </css>
 
 </mosinstall>

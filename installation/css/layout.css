@@ -1,0 +1,30 @@
+/* CSS SELECTORS FOR LAYOUT */
+
+/* ======================== WRAPPERS ======================== */
+#D4J_Container_Out{width:767px;background:url(../images/container_r.png) right repeat-y;text-align:left;height:auto}
+#D4J_Container_In{float:left;width:695px;background:#f7fbf3 url(../images/container_l.png) left repeat-y;height:auto;border-right:1px solid #c5ceb2}
+#D4J_Container_In2{background:480px 0 url(../images/right_side.gif) repeat-y}
+
+/* ======================== COMMON ======================== */
+.clearer{clear:both;height:0px;overflow:hidden}
+.tips{display:none}
+
+/* ======================== HEADER ======================== */
+#D4J_Header{height:240px;margin-left:66px;float:left;width:630px}
+#D4J_Title{float:left;width:100%;height:60px;overflow:hidden;background:#567300}
+#D4J_Banner{height:180px;overflow:hidden;text-align:left;float:left;background:#F7FBF3;width:100%}
+
+/* ======================== BODY ======================== */
+#D4J_Left{width:55.05%;float:right;padding:0 15px 0 82px;overflow:hidden}
+#D4J_Right{float:right;width:31%}
+
+/* ======================== FOOTER ======================== */
+#D4J_Footer{background:#8bbe2e url(../images/bgfooter.gif) top repeat-x;margin:10px 1px 1px 67px;color:#FFFFFF;text-align:center}
+#D4J_Footer .copyright{padding:10px 0 20px 10px}
+#bottom_left{float:left;text-align:left;padding:10px 0 0 10px}
+#bottom_left div{text-align:left}
+#bottom_right{text-align:right;padding:10px 5px 10px 0}
+
+/* ======================== SITE TOOLS ==================== */
+#sitetools{position:fixed;bottom:10px;right:10px}
+#tools{margin-top:-4px;display:none;position:fixed;bottom:10px;right:10px}

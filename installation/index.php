@@ -1,105 +1,165 @@
 <?php /* Joomla Template by DesignForJoomla.com */
 
+
 defined( '_VALID_MOS' ) or die( 'Direct Access to this location is not allowed.' );
+
+//D4J Template Settings *********************************************************
+$site_tools = 1; // 0:disable all , 1:enable for SITE TOOLS
+$site_tools_font = 1; // 0:disable , 1:enable for font changer SITE TOOLS
+$site_tools_width = 1; // 0:disable all , 1:enable for width changer SITE TOOLS
+
+//End Template Settings **********************************************************
+
 define( '_TEMPLATE_URL', $mosConfig_live_site.'/templates/'.$cur_template );
 define( '_TEMPLATE_PATH', str_replace('\\', '/', dirname(__FILE__)) );
-
 $iso = split( '=', _ISO );
-echo '<?xml version="1.0" encoding="'. $iso[1] .'"?' .'>';
 
-$_left = mosCountModules('left');
-$_right = mosCountModules('right');
+/* 
+	Image switching settings 
+*/
+$changing_type = 'random';// random,sequence
+$enable 	= true; 	// enable or not
+$images		= array('header.jpg'); // name of the images
+$time 		= 3;		// time delay (s)
+
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
-<?php if ( $my->id ) initEditor() ?>
-<?php mosShowHead() ?>
-<meta http-equiv="Content-Type" content="text/html; <?php echo _ISO ?>" />
-	<link rel="stylesheet" type="text/css" href="<?php echo _TEMPLATE_URL ?>/css/template_css.css" />
-<?php if (!$_left AND !$_right) { // both 'left' and 'right' positions empty, dont show right column ?>
-	<style type="text/css">
-	#col1{float:none;width:700px}
-	#col1content {width:670px}
-	#wrapper{width: 700px;margin-right: auto;margin-left: auto;background:url(<?php echo _TEMPLATE_URL; ?>/images/column2.jpg) repeat-y;text-align: left;background-color: #FFFFFF}
-	#shadow{background:url(<?php echo _TEMPLATE_URL; ?>/images/shadow2.jpg)}
-	</style>
-<?php } ?>
-	<!--[if lt IE 7]>
-	<link rel="stylesheet" type="text/css" href="<?php echo _TEMPLATE_URL; ?>/css/template_css_ie.css" />
-	<?php if (!$_left AND !$_right) { // both 'left' and 'right' positions empty, dont show right column ?>
-	<style type="text/css">
-	#col1{float:none;width:670px}
+<?php
+if( $my->id ) {
+	initEditor();
+}
+?>
+<meta http-equiv="Content-Type" content="text/html; <?php echo _ISO; ?>" />
+<?php mosShowHead(); ?>
+<link rel="stylesheet" type="text/css" href="<?php echo _TEMPLATE_URL ?>/css/template_css.css" />	
+<style type="text/css">
+<?php if (!mosCountModules('left') and !mosCountModules('right')) { ?>
+#D4J_Container_In2{background:none}
+<?php }?>
 </style>
+<!--[if IE ]>
+<style type="text/css">
+#D4J_Title h1{font-size:2em}
+</style>
+<![endif]-->
+<!--[if lt IE 7.]>
+<style type="text/css">
+html,body{height:100%;overflow:auto}
+html{overflow:hidden}
+#sitetools{position:absolute;right:30px}
+#tools{position:absolute;right:30px}
+#D4J_Container_Out{margin-top:0}
+#D4J_Header{margin-left:33px;width:629px}
+<?php if (!mosCountModules('left') and !mosCountModules('right')) { ?>
+#D4J_Left{margin-top:-20px}
+<?php }?>
+</style>
+<![endif]-->
+
+
+<?php if($site_tools) {
+	include_once(_TEMPLATE_PATH."/func/style/d4j_sitetools.php");
+?>	
+	<link rel="stylesheet" type="text/css" href="<?php echo _TEMPLATE_URL ?>/css/D4J_sitetools/site_tools.css" />
+<?php }?>
+<script type="text/javascript" language="JavaScript">
+		var _TEMPLATE_URL = '<?php echo _TEMPLATE_URL; ?>';
+<?php if (!mosCountModules('left') and !mosCountModules('right')) { ?>
+		var _noRightCol = true;
+<?php } else { ?>
+		var _noRightCol = false;
 <?php } ?>
-	<![endif]-->
-</head>
+</script>
+<?php include_once(_TEMPLATE_PATH."/func/style/d4j_stylechanger.php"); ?>
+<script type="text/javascript" src="<?php echo _TEMPLATE_URL?>/func/d4jCommonInclude.compact.js">
+</script>
+<script type="text/javascript" src="<?php echo _TEMPLATE_URL?>/func/style/d4j_stylechanger.js">
+</script>
+<script language="javascript">
+var changing_type = "<?php echo $changing_type;?>";
+var enable = <?php echo (($enable)? '1' : '0');?>;
+var images = new Array("<?php $str =  join('","',$images);echo $str;?>");
+var time = <?php echo $time;?>;
 
-<body><center>
-<div id="wrapper">
-	<div id="slogan">
-		<?php if (mosCountModules('header')) mosLoadModules('header', -2); else
-			echo '<h1 title="'.$mosConfig_sitename.'"><a href="'.$mosConfig_live_site.'" title="'.$mosConfig_sitename.'">'.$mosConfig_sitename.'</a></h1>
-			<h2 title="Your slogan here">Your slogan here</h2>';
-		?>
-	</div>
-	<div id="mainphoto">
-			<?php if (mosCountModules('user9')) { ?><div id="user9"><?php mosLoadModules('user9',-1); ?></div><?php } ?>
-			</div>
-	<div id="nav">
-      	<?php
-			$database->setQuery("SELECT id,name,link,type,browserNav FROM #__menu WHERE menutype = 'mainmenu' AND published = 1 AND access <= $my->gid AND parent = 0 ORDER BY ordering LIMIT 0,6");
-			if ($rows = $database->loadObjectList()) {
-				echo '<ul id="navlist">';
-				for ($i = 0, $n = count($rows); $i < $n; $i++) {
-					$link = $rows[$i]->type == 'url' ? $rows[$i]->link : sefRelToAbs($rows[$i]->link.'&Itemid='.$rows[$i]->id);
-					$link = ampReplace($link);
-					if ($rows[$i]->browserNav == 1) {
-						$link .= '" target="_blank';
-					} elseif ($rows[$i]->browserNav == 2) {
-						$link .= '" onclick="javascript: window.open(\''.$link.'\', \'\', \'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=780,height=550\'); return false';
-					}
-					echo '<li><a href="'.$link.'">'.$rows[$i]->name.'</a></li>';
-				}
-				echo '</ul>';
-			} ?>
-    </div>
-<!-- end nav -->
-	<div id="shadow"></div>
-	<div id="col1">
-		<div id="col1content">
-			<?php mosMainBody() ?>
-		</div>
-	</div>
-<!-- end col1 -->
-	<?php if ($_left OR $_right) { ?><div id="col2">
-		<div id="col2content">
-	<?php if ($_left) mosLoadModules('left', -2); ?>
-	<?php if ($_right) mosLoadModules('right', -2); ?>
-</div><!-- end col2content -->
-</div><!-- end col2 --><?php } ?>
+var _TEMPLATE_URL = "<?php echo _TEMPLATE_URL;?>";
+var currentImage = 0;
 
-<div id="footer"><p><?php
-	$database->setQuery("SELECT id,name,link,type,browserNav FROM #__menu WHERE menutype = 'topmenu' AND published = 1 AND access <= $my->gid AND parent = 0 ORDER BY ordering LIMIT 0,6");
-	if ($rows = $database->loadObjectList()) {
-		for ($i = 0, $n = count($rows); $i < $n; $i++) {
-			$link = $rows[$i]->type == 'url' ? $rows[$i]->link : sefRelToAbs($rows[$i]->link.'&Itemid='.$rows[$i]->id);
-			$link = ampReplace($link);
-			if ($rows[$i]->browserNav == 1) {
-				$link .= '" target="_blank';
-			} elseif ($rows[$i]->browserNav == 2) {
-				$link .= '" onclick="javascript: window.open(\''.$link.'\', \'\', \'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=780,height=550\'); return false';
-			}
-			echo '<a href="'.$link.'">'.$rows[$i]->name."</a>\n";
-		}
+function changeImage() {
+	var image = document.getElementById("D4J_Banner").getElementsByTagName("IMG")[0];
+	if(image != null || image != 'undefined') {
+		image.src = _TEMPLATE_URL+"/images/"+images[currentImage];	
+		if(changing_type == 'random') {
+			currentImage = parseInt(Math.random()*images.length);
+		} else if(changing_type == 'sequence') {
+			if(currentImage < images.length - 1) currentImage++;	
+				else currentImage = 0;
+		}		
+		setTimeout(changeImage,time*1000);
 	}
-	echo '&copy; '.$mosConfig_sitename;
-	?></p></div>
-
-</div><!-- end wrapper -->
-	
-	<div id="bottom"><?php if (mosCountModules('footer')) mosLoadModules('footer', -1); else include_once("$mosConfig_absolute_path/templates/$cur_template/css/bottom.css.php"); ?></div>
-</center><?php include_once($GLOBALS['mosConfig_absolute_path'].'/templates/'.$GLOBALS['cur_template'].'/css/footer.css.php') ?>
+}
+</script>
+</head>
+<body>
+<center>
+<div id="D4J_Container_Out">
+<div id="D4J_Container_In">
+<div id="D4J_Container_In2">
+	<div id="D4J_Header">
+		<div id="D4J_Title" onmouseover="this.style.background='#688B00';" onmouseout="this.style.background='#567300';">
+			<?php if(mosCountModules('user7')) mosLoadModules('user7',-2); else echo '<h1 title="'.$GLOBALS['mosConfig_sitename'].'"><a href="'.$GLOBALS['mosConfig_live_site'].'" title="'.$GLOBALS['mosConfig_sitename'].'">'.$GLOBALS['mosConfig_sitename'].'</a></h1>';?>
+		</div>
+		<div id="D4J_Banner">
+			<?php if(mosCountModules('user9')) mosLoadModules('user9',-1); else echo'<center><img id="bigimage" height="180px" src="'._TEMPLATE_URL.'/images/header.jpg" alt=""/></center>';?>
+		</div>		
+	</div>
+	<div id="D4J_Body">		
+		<div id="D4J_Right">
+			<?php if(mosCountModules('left')) mosLoadModules('left',-2);?>
+			<?php if(mosCountModules('right')) mosLoadModules('right',-2);?>
+		</div>
+		<div id="D4J_Left">
+			<?php if(mosCountModules('top')){?>			
+			<div id="top">
+				 <?php mosLoadModules('top',-2);?>
+			</div>
+			<?php }?>
+			<div id="main">
+				<?php mosMainBody();?>
+			</div>
+			<?php if(mosCountModules('bottom')){?>			
+			<div id="bottom">
+				 <?php mosLoadModules('bottom',-2);?>
+			</div>
+			<?php }?>
+		</div>		
+	</div>
+	<div class="clearer"><!-- --></div>
+	<div id="D4J_Footer">
+		<?php if (mosCountModules('footer')) {?>
+		<div class="copyright">
+			<?php mosLoadModules('footer', -1);?>
+		</div>
+		<?php } else include_once(_TEMPLATE_PATH.'/css/bottom.css.php');?>
+	</div>
+</div>
+<div class="clearer"><!-- --></div>
+</div>
+<div class="clearer"><!-- --></div>
+</div>
+</center>
+<?php if($site_tools){?>		
+	<div id="sitetools" style="">
+		<img src="<?php echo _TEMPLATE_URL; ?>/images/sitetools.gif" alt="" onmouseover="document.getElementById('tools').style.display='block'" onmouseout="document.getElementById('tools').style.display='none'"/>		
+	</div>
+	<div id="tools" onmouseover="this.style.display='block'" onmouseout="this.style.display='none'" style="display:none;width:auto;height:auto;background:url(<?php echo _TEMPLATE_URL; ?>/images/blank.gif) repeat">			
+		<?php writeTools();?>
+	</div>
+<?php }?>
+<?php include_once(_TEMPLATE_PATH.'/css/footer.css.php') ?>
+<script language="javascript">
+if(enable) changeImage();
+</script>
 </body>
-</html>
+</html><!-- Joomla Template by DesignForJoomla.com -->
