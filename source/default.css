@@ -1,0 +1,161 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #191919 url(images/img1.gif) repeat-x;
+	font: normal small "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #999999;
+}
+
+a {
+	border-bottom: 1px dotted #7D9412;
+	text-decoration: none;
+	color: #F2900B;
+}
+
+a:hover {
+	border: none;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/* Header */
+
+#header {
+	width: 700px;
+	height: 100px;
+	margin: 0 auto;
+	background: url(images/img2.gif);
+}
+
+#header * {
+	margin: 0;
+	padding: 0;
+	text-transform: lowercase;
+	text-align: center;
+	font-style: italic;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+#header h1 {
+	letter-spacing: -4px;
+	font-size: 4em;
+}
+
+#header h2 {
+	margin-top: -.5em;
+	font-size: 1em;
+}
+
+/* Content */
+
+#content {
+	width: 700px;
+	margin: 0 auto;
+	padding: 20px 0 0 0;
+}
+
+/* Column One */
+
+#colOne {
+	float: left;
+	width: 470px;
+}
+
+#colOne h2 {
+	margin-top: 0;
+	font-size: 2.2em;
+	color: #CCCCCC;
+}
+
+#colOne p, #colOne ul, #colOne ol {
+	line-height: 200%;
+}
+
+#colOne .credits {
+	margin-bottom: 50px;
+	padding: 5px 0 8px 8px;
+	background: #000000;
+	border-left: 2px solid #F2900B;
+}
+
+#colOne .credits p {
+	margin: 0;
+	padding: 0;
+	line-height: normal;
+}
+
+/* Column Two */
+
+#colTwo {
+	float: right;
+	width: 200px;
+	background: #111111;
+}
+
+#colTwo ul {
+	margin: 0;
+	padding: 10px 0 0 0;
+	list-style: none;
+}
+
+#colTwo li {
+	margin-bottom: 20px;
+	background: url(images/img3.gif) repeat-x;
+}
+
+#colTwo li li {
+	margin-bottom: auto;
+	background: none;
+}
+
+#colTwo li ul {
+	padding-top: 0;
+	padding-left: 20px;
+	list-style: square inside;
+}
+
+#colTwo h2 {
+	height: 25px;
+	padding: 10px 0 0 10px;
+	background: url(images/img4.gif) no-repeat right top;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: .8em;
+	color: #F2900B;
+}
+
+#form1 {
+	background: #191919;
+}
+
+#textfield1 {
+	width: 100px;
+	margin-left: 20px;
+}
+
+#submit1 {
+}
+
+/* Footer */
+
+#footer {
+	clear: both;
+	width: 150px;
+	height: 60px;
+	margin: 0 auto;
+	padding: 20px 0 0 550px;
+}
+
+#footer p {
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	font-size: smaller;
+}
