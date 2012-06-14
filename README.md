@@ -1,4 +1,4 @@
-D4J Car-Motor 02 template for Joomla! 1.0 series
+D4J City In Paint template for Joomla! 1.0 series
 ===============================================
 
 Install Git client by following the guide at the URL below:
@@ -9,7 +9,7 @@ Then, clone the repository at following URL:
 
 https://github.com/goesjoomla/DesignForJoomla.com.git
 
-Finally, checkout templates/car-motor_02 branch to get D4J Car-Motor 02.
+Finally, checkout templates/city_in_paint branch to get D4J City In Paint.
 
 --
 Manh-Cuong Nguyen

@@ -1,0 +1,87 @@
+/*document settings*/
+body,form,div,p,table{color:#fff;font-size:11px;font-family:'Tahoma'}
+body{background:#072450 url(../images/seattle_background_paint.jpg) repeat-x;margin:0;padding:0;height:100%}
+p{margin:10px 30px 10px 30px}
+a{text-decoration:none;color:#ffd502}
+a img{border:none}
+
+/*position settings(tabless)*/
+
+#container{width:840px;background:url(../images/sidebar_body.png) 30px 0px repeat-y !important;background:url(../images/sidebar_body.png) 60px 0px repeat-y;text-align:left}
+
+#left_col{width:170px;text-align:left;float:left;margin:0 0 0 30px;overflow:hidden}
+#left_col .moduletable{margin:30px 30px 30px 25px}
+#left_col .moduletable h3{color:#ffd502;font-weight:bold;text-transform:none;margin:10px 0}
+
+#navigation{width:170px;float:left}
+#navigation p{margin:0px 10px 20px 25px;font-size:9px;color:#fff;text-transform:uppercase}
+
+#nav_list{margin:0;padding:0;width:170px;list-style:none;overflow:hidden}
+#nav_list li{width:170px;overflow:hidden;text-transform:uppercase;font-size:9px;font-weight:bold}
+#nav_list a{color:#fff}
+.li_nav_body a,.li_nav_footer a{display:block;width:170px;height:20px;background:url(../images/nav_body.png) no-repeat;padding-left:25px;line-height:20px}
+.li_nav_footer a{height:21px;background-position:0 0px;line-height:21px}
+.li_nav_body a:hover,.li_nav_footer a:hover{background-position:0 -20px;color:#016001}
+
+#contactUs textarea.inputbox#contact_text{width:115px;height:80px;margin:5px 0px 5px 25px}
+#contactUs input.inputbox{width:115px;margin:0px 0px 5px 25px}
+#contactUs input.button{width:119px;margin:0px 0px 5px 25px}
+
+#user_bottom{}
+
+#slogan{height:220px;width:570px;text-align:right;margin-right:50px;float:right}
+#slogan h1{padding:0;margin:0}
+#slogan,#slogan h1 a{font-family:"Century Gothic","Trebuchet MS","Arial Narrow",Arial,sans-serif;font-size:30px;text-transform:uppercase;font-weight:normal;color:#fff}
+
+#content{text-align:justify;float:left}
+#content .moduletable{margin-bottom:32px}
+
+#body{margin:-3px 0 10px 20px;font-size:11px;text-align:justify;width:280px;float:left;overflow:hidden}
+
+#left{width:120px;margin:0 0 10px 20px;float:left;color:#ddd;font-size:10px;text-align:justify;overflow:hidden}
+#left .moduletable img{width:124px}
+#left .moduletable div img,#left .moduletable table img{width:auto}
+#left input.inputbox{width:124px}
+#left ul,#right ul{margin:0;padding:0}
+
+#right{width:120px;margin:0px 0px 0px 20px;float:left;overflow:hidden}
+
+#footer p{margin:0;padding:0}
+#footer{text-transform:uppercase;margin:0px 25px 20px 25px}
+
+#bottom_left div{text-align:left}
+
+.clear{	clear:both}
+.yellow{color:#ffd502}
+.red{color:#FF0000}
+
+/*joomla settings */
+
+.pollstableborder{border-bottom:1px solid #CCCCCC}
+.pollstableborder td{vertical-align:middle}
+.poll thead td{text-align:center}
+
+.sectiontableheader{border-top:1px solid #808080;border-bottom:1px solid #808080;background:#FF9933;padding:10px;font-weight:bold;text-align:left;border:1px solid}
+.sectiontablefooter{text-align:center}
+.sectiontableentry1,.sectiontableentry2{padding:2px;text-align:left;line-height:15px;border:1px solid #CCCCCC;border-bottom:none}
+
+.componentheading,.contentheading,.moduletable h3{margin:0px 0px 10px 0px;text-transform:uppercase;font-size:12px;color:#fff;font-weight:bold;text-align:left}
+.componentheading{font-size:15px}
+
+.contentpane .inputbox{width:50%}
+.contentpane select.inputbox{width:55px}
+
+select#mod_templatechooser_jos_change_template{width:124px;margin-top:3px}
+
+textarea.inputbox#contact_text{width:270px}
+
+input.inputbox,input.button,textarea.inputbox{border-top:1pt solid #cccccc;border-bottom:1pt solid #cccccc;border-right:1pt solid #cccccc;border-left:1pt solid #cccccc;font:normal 10px tahoma;color:#707070;margin:0px 0px 5px 0px}
+input.button{margin-top:5px}
+input.inputbox#mod_login_remember{width:auto;border:none}
+
+.back_button{margin-bottom:5px}
+.contenttoc{padding:4px;margin:4px}
+.pagenavbar{margin:5px 0}
+.createdate{text-decoration:overline;font-size:10px}
+.small{font-size:10px;font-style:italic}
+.contentdescription{font-weight:bold;color:#ffd502}
