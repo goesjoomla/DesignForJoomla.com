@@ -1,47 +1,39 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <mosinstall type="template">
 
-<name>dark_dimension</name>
-<creationDate>November 2007</creationDate>
+<name>dark_shine</name>
+<creationDate>28nd October 2006</creationDate>
 <author>DesignForJoomla.com</author>
 <copyright>DesignForJoomla.com</copyright>
-<authorEmail>cuongnm@designforjoomla.com</authorEmail>
+<authorEmail>support@designforjoomla.com</authorEmail>
 <authorUrl>designforjoomla.com</authorUrl>
 <version>1.0</version>
-<description>Dark dimension - Joomla template by DesignForJoomla.com</description>
+<description>dark_shine- Joomla template by DesignForJoomla.com</description>
 
 <files>
     <filename>index.php</filename>
-    <filename>template_thumbnail.png</filename>
+    <filename>template_thumbnail.png</filename>    
 </files>
 
 <images>
-		<filename>images/01.gif</filename>
-        <filename>images/bg.gif</filename>
-        <filename>images/current_event.gif</filename>
-        <filename>images/footer.gif</filename>
-        <filename>images/footer_bg.gif</filename>
-        <filename>images/header_pic.jpg</filename>
-        <filename>images/left_side_arrow.gif</filename>
-        <filename>images/left_side_down.gif</filename>
-        <filename>images/left_side_up.gif</filename>
-        <filename>images/lor_bg.gif</filename>
-        <filename>images/lor_bg_h3.gif</filename>
-        <filename>images/search_bg.gif</filename>
-        <filename>images/search_button.gif</filename>
-		<filename>images/services_icon.gif</filename>
-		<filename>images/top_readmore.gif</filename>
-        <filename>images/works.gif</filename>
+	<filename>images/ad.gif</filename>
+	<filename>images/blue.jpg</filename>	
+	<filename>images/green.jpg</filename>
+	<filename>images/hover_list.jpg</filename>
+	<filename>images/main.gif</filename>
+	<filename>images/nav.gif</filename>
+	<filename>images/orange.jpg</filename>
+	<filename>images/red.jpg</filename>
+	<filename>images/stripes.gif</filename>
+	<filename>images/stripes_small.gif</filename>
+	<filename>images/title_background.jpg</filename>	
 </images>
 
 <css>
-        <filename>css/bottom.css.php</filename>
-        <filename>css/footer.css.php</filename>
-        <filename>css/template.css</filename>
-        <filename>css/d4j_dropdownmenu.css</filename>
-        <filename>css/template_css.css</filename>
-        <filename>css/template_css_ie.css</filename>
-        <filename>css/template_css_ie7.css</filename>
-        <filename>css/d4j_transmenu.css</filename>        
+	<filename>css/template_css.css</filename>
+	<filename>css/bottom.css.php</filename>
+	<filename>css/footer.css.php</filename>
+	<filename>css/template.css</filename>
 </css>
+
 </mosinstall>

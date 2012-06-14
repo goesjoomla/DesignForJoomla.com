@@ -1,0 +1,297 @@
+/*	__________________________________________________________________
+	|                 	                                             |
+	|  Template Info:                                                 |
+   |                	                                                |
+	|  This template is released into the public domain. Attribution  |
+	|  to me is appreciated, but not required. You are free to        |
+	|  modify and redistribute this page as you see fit. This notice  |
+	|  does not need to be retained if it is used or redistributed.   |
+	|                                                                 |
+	|  Jack Qiao                                                      |
+	|  www.pureweb.ca                                                 |
+	|                                                                 |
+	|_________________________________________________________________|
+*/
+
+/*
+
+note: my css selectors are generally location based. For example,
+the top navigation selector is placed at the top of the css file,
+and the footer is placed at the very end. Have fun tinkering!
+
+*/
+
+body {
+	background: #90140C url(images/stripes.gif) repeat-x;
+	background-position: 50% 40px;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #600000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #000;
+}
+
+a:hover {
+	color: #90140C;
+}
+
+img {
+	border: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+h1 {
+	font: normal 1.2em arial, verdana, helvetica, sans-serif;
+	margin: 23px 18px;
+	text-align: left;
+}
+
+h2 {
+	color: #333;
+	font: bold 12px arial, verdana, helvetica, sans-serif;
+}
+
+#nav {
+	text-align: center;
+	width: 100%;
+	background: #000 url(images/nav.gif) repeat-x;
+	margin: 0;
+	padding: 0;
+	height: 40px;
+	overflow: hidden;
+	cursor: default;
+}
+
+#nav li, #nav a {
+	display: inline;
+	color: #fff;
+	text-decoration: none;
+	font: bold 11px verdana, arial, helvetica, sans-serif;
+	height: 40px;
+	line-height: 40px;
+	padding: 13px 15px;
+	margin: 0;
+}
+
+#nav li a {
+	background: transparent url(images/nav.gif) repeat-x;
+}
+
+#nav li a:hover, #nav li#current a {
+	background: transparent url(images/nav.gif) repeat-x;
+	background-position: 0 -40px;
+}
+
+#nav li {
+	padding: 14px 0;
+}
+
+#title {
+	width: 410px;
+	height: 101px;
+	background: transparent url(images/title_background.jpg) no-repeat;
+	line-height: 75px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 66px;
+	text-align: center;
+	font: normal 2.5em/1.8em 'trebuchet ms', georgia, 'lucidia grande';
+	color: #FE9B27;
+	letter-spacing: 8px;
+	cursor: default;
+}
+
+#wrapper {
+	width: 732px;
+	margin: 0 auto;
+	border: solid 15px #600000;
+	border-bottom: none;
+	background-color: #F3F3F3;
+	height: auto;
+}
+
+#top {
+	height: 28px;
+	overflow: hidden;
+	width: 100%;
+	background: #000 url(images/stripes_small.gif) repeat-x;
+	color: #fff;
+	cursor: default;
+	text-align: left;
+	font: normal 10px/32px arial, verdana, helvetica, sans-serif;
+}
+
+#top strong {
+	font: bold 11px arial;
+	margin-left: 2px;
+	margin-right: 6px;
+}
+
+#top span {
+	display: inline;
+	margin-left: 10px;
+	float: left;
+	clear: none;
+	margin-top: -28px;
+}
+
+#top ul {
+	margin: 0;
+	padding: 0;
+	float: right;
+	clear: none;
+	display: inline;
+}
+
+#top ul li a, #top ul li {
+	display: block;
+	float: right;
+	width: 78px;
+	height: 28px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	font: bold 12px/32px arial, verdana, helvetica, sans-serif;
+	overflow: hidden;
+}
+
+#top ul li a:hover {
+	color: #000;
+}
+
+#chat a {
+	background: #0086EE url(images/blue.jpg) no-repeat;
+}
+
+#join a {
+	background: #F41100 url(images/red.jpg) no-repeat;
+}
+
+#login a {
+	background: #ED700D url(images/orange.jpg) no-repeat;
+}
+
+#search a {
+	background: #199B2C url(images/green.jpg) no-repeat;
+}
+
+#adspace {	
+	height: 67px;
+	background: #86221B url(images/ad.gif) repeat-x;
+	border-top: 1px solid #CA807C;
+	border-left: 1px solid #A5514B;
+	border-right: 1px solid #5B1D1B;
+	border-bottom: 1px solid #3E1B19;
+	font: normal 10px/100px verdana, arial, sans-serif;
+	text-align: center;
+	color: #fff;
+	cursor: default;
+	overflow: hidden;
+}
+
+#main {
+	height: 246px;
+	background: #FE8624 url(images/main.gif) repeat-x;
+	border-top: 1px solid #FEC782;
+	border-left: 1px solid #FEB154;
+	border-right: 1px solid #D76C22;
+	border-bottom: 1px solid #783C1C;
+	overflow: hidden;
+}
+
+#main ul {
+	width: 710px;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	margin-left: 15px;
+}
+
+#main ul li {
+	float: left;
+	text-align: center;
+	margin-left: 25px;
+	display: inline;
+}
+
+#main ul li a img {
+	border: 3px solid #fff;
+}
+
+#main ul li a img:hover {
+border: 3px solid #FEE5C6;
+}
+
+#main ul li h2 {
+	font: bold 11px arial, verdana, helvetica;
+	margin-top: 10px;
+	color: #000;
+}
+
+.content {
+	float: left;
+	width: 330px;
+	margin: 20px 10px 0 20px;
+	font: normal 11px/18px arial, verdana, helvetica, sans-serif;
+	text-align: justify;
+	display: inline;
+}
+
+.content h1, .content ul {
+	margin: 0;
+	padding: 0;
+}
+
+.content h1 {
+	color: #8A0700;
+	font: normal 2em arial, verdana, helvetica, sans-serif;
+	margin-bottom: 20px;
+}
+
+.content h2 {
+	margin: 20px 0 4px 0;
+}
+
+.content ul.hover_list li {
+	border: 1px solid #783C1C;
+	border-width: 0 0 1px 0;
+	color: #600000;
+}
+
+.content ul.hover_list li a {
+	height: 40px;
+	color: #600000;
+	display: block;
+	line-height: 40px;
+	padding-left: 15px;
+}
+
+.content ul.hover_list li a:hover, .content ul.hover_list li a:focus {
+	background: #FD9339 url(images/hover_list.jpg) repeat-x;
+	color: #fff;
+}
+
+#footer {
+	height: 25px;
+	background-color: #000;
+	color: #fff;
+	font: normal 10px/25px arial, verdana, helvetica, sans-serif;
+	color: #999;
+	text-align: center;
+	border-top: 50px solid #F3F3F3;
+	clear: both;
+}
+
+#footer a {	
+	color: #ccc;
+}
