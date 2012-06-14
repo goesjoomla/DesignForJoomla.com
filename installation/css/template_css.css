@@ -1,10 +1,129 @@
-/* JOOMLA 1.0.X TEMPLATE CSS FILE */
+/*document settings*/
+body{margin:0;padding:0;font:12px verdana,arial,sans-serif;background:#656565;color:#000;text-align:left}
+th,td,form,div,p{margin:0;padding:0;color:#000;font-size:12px}
+li{list-style-image:url(../images/li.gif)}
+a{text-decoration:none;color:#BB5F05}
+a:hover{text-decoration:underline}
 
-/* Main css file with standard css selectors */
-@import url("base.css");
+/* position setting (tableless)*/
+.clr{clear:both}
+#container{width:780px;text-align:left;margin:0 auto;overflow:hidden;background:#fff}
 
-/* Css file with css selectors for layout */
-@import url("layout.css");
+#header{margin:0;float:left;height:69px;width:780px;background:url(../images/header.jpg) no-repeat top left;overflow:hidden}
 
-/* Css file with css selectors for custom modules and menus */
-@import url("custom.css");
+#logo{float:left;width:250px;overflow:hidden}
+#logo h1,#logo h1 a{width:250px;height:69px}
+#logo h1{background:url(../images/logo.jpg) left top no-repeat;margin:0}
+#logo h1 a{display:block;text-indent:-5000px}
+
+#logan,#logan h1{margin:0;float:left;height:69px;width:515px;font:18px Arial Narrow;color:#fff;text-align:right;padding-top:24px}
+#logan h1{padding:0}
+
+#subheader{margin:0;float:left;height:30px;width:780px;background:url(../images/sub.jpg) repeat-x;overflow:hidden}
+
+#topmenu{width:441px;float:left;height:30px;padding-left:20px}
+#topmenu ul{margin:0;padding:0}
+#topmenu a{float:none;display:block;color:#7A0000;padding:0px 20px 4px 10px;background:#C43219 url(../images/nav.gif) no-repeat 100% 0px;text-decoration:none;font-weight:bold;line-height:30px}
+#topmenu li{list-style:none;width:auto;float:left;color:#FFF;background:#C43219 url(../images/nav.gif) no-repeat 0px 0px;margin:0;padding:0 0 0 9px;font:12px Verdana}
+#topmenu .active_menu{background:#1995C2 url(../images/nav.gif) no-repeat 0px -41px}
+#topmenu .active_menu a{background:#1995C2 url(../images/nav.gif) no-repeat 53% -41px;padding:0px 20px 4px 11px;color:#7A0000}
+#topmenu .active_menu a:hover{background:#1995C2 url(../images/nav.gif) no-repeat 53% -41px}
+#topmenu a:hover{background:#C43219 url(../images/nav.gif) no-repeat 100% 0px}
+
+#search_field{margin:0;float:left;background:url(../images/lmenu.gif) left top no-repeat;height:30px;width:319px}
+#search_field #search{float:left;width:239px}
+#search_field #inputbox input.inputbox{background:#FFF;color:#000;height:15px;position:absolute;margin:4px 0 0 132px;width:130px;background:url(../images/search.gif) no-repeat -1px -1px;padding-left:3px}
+#search_field #button{padding-left:275px}
+#search_field #button input.button{margin:0;width:18px;height:18px;padding-top:5px;border:none;background:none}
+
+#content{margin:0 0 10px 0;float:left;width:780px;background:url(../images/content.gif) no-repeat top left;overflow:hidden}
+
+#lbox{margin:0;float:left;width:180px;overflow:hidden}
+
+#left{margin:14px 0 0 0;width:180px;overflow:hidden;float:left}
+div.leftblock div.module{padding:0;margin:0 0 15px 0}
+.leftblock#left div.module{background:url(../images/box1.jpg) repeat-y left;width:100%}
+.leftblock#left div.module div{background:none}
+.leftblock#left div.module div div{background:url(../images/foot.gif) left bottom no-repeat;padding-bottom:7px}
+.leftblock#left div.module div div div{background:none}
+.leftblock#left div.module div div div h3,#left div div div h3{font-size:13px;letter-spacing:-1px;font-family:Arial;color:#EE6A01;text-align:left;padding:0 0 0 20px;height:27px;line-height:27px;background:url(../images/h3.gif);overflow:hidden;margin:0 0 2px -10px;width:180px}
+.leftblock#left div.module div div div div{background:none}
+
+#left div,#left div td{text-align:left;color:#5A5A5A}
+#left div div div div{margin:0;padding:0 10px}
+#left div div div div ul{margin:-1px 0 0;padding:0}
+#left div div div div ul li{line-height:20px;width:180px;margin-left:-7px;text-indent:35px;overflow:hidden;margin-top:-1px}
+#left div div div div ul li a{color:#5A5A5A;display:block;background:url(../images/alink.jpg) no-repeat -3px 0px;letter-spacing:-1px;height:22px}
+#left div div div div ul li a:hover{text-decoration:none;background:url(../images/ahover.jpg) no-repeat -3px 0px;height:22px}
+#left div div div div a.mainlevel{display:block;color:#5A5A5A}
+
+#centerbox{margin:0;float:left;width:430px;overflow:hidden}
+
+#pathway{margin:14px 0 0 16px;width:400px;float:left;overflow:hidden;height:15px;border-bottom:2px solid #FF8813}
+#pathway .pathway{color:#7A0000;font-size:12px;font-weight:bold;font-family:Arial;line-height:15px}
+#pathway .pathway img{display:none}
+#pathway .pathway a{color:#7A0000;text-decoration:none;font-size:12px;font-weight:normal;padding-bottom:1px;padding-right:8px;margin-right:6px;background:url(../images/arrow_path.gif) right no-repeat}
+#pathway .pathway a:hover{text-decoration:none}
+
+#top,#bottom{margin:10px 0 0;float:left;width:430px;overflow:hidden}
+#top .moduletable,#bottom .moduletable{margin:0;padding:0 18px 10px 18px;text-align:left}
+#top .moduletable h3,#bottom .moduletable h3,#mainbody .contentheading,#mainbody .componentheading{margin:3px 0 5px 0;background:url(../images/dot.jpg) no-repeat 8px 4px;font:15px Arial;color:#BB5F05;font-weight:bold;padding-left:25px}
+#mainbody .contentheading{background:none}
+#top .moduletable thead,#bottom .moduletable thead{text-align:center}
+
+#mainbody{margin:10px 0 0;float:left;width:394px;overflow:hidden;padding:0 18px 10px}
+#mainbody img{margin:5px 15px 10px 10px;border:1px solid #aaa}
+#mainbody .buttonheading img{border:0px;margin:0px;padding:0}
+
+#rbox{margin:0;float:left;width:170px;overflow:hidden}
+
+#right{margin:14px 0 0 0;float:left;width:170px;overflow:hidden}
+#right .moduletable{margin:0;padding:0 10px 15px 10px;text-align:left}
+#right .moduletable h3{color:#B55000;border-bottom:2px solid #7A0000;height:15px;font:13px Arial;margin:0 0 5px 0;font-weight:bold;width:150px;overflow:hidden}
+#right .moduletable ul{padding:0 0 0 10px;margin:0;line-height:20px}
+
+#footer_container{width:780px;height:42px;float:left;margin:0;overflow:hidden;background:#aeaeae url(../images/footer.gif) repeat-x top left}
+#footer{text-align:center;font:12px Arial;padding-top:8px;padding-left:8px}
+
+#bottom_left{float:left;margin:2px 0 0 0;padding:0 0 0 15px;text-align:left}
+#bottom_left div{font-size:11px;text-align:left}
+#bottom_right{float:right;margin:2px 0 0 0;padding:0 15px 0 0;text-align:right}
+#bottom_right div{font-size:11px;text-align:right}
+
+/*joomla settings*/
+.contentpane,.contentpaneopen{text-align:justify}
+.contentpane .inputbox{width:50%}
+.contentpane select.inputbox{width:55px}
+
+.small,span.small,#mainbody .createdate,#mainbody .modifydate,.pagenavcounter{font-size:10px;color:#9D5712;font-style:italic}
+.back_button,.pagenav_prev,.pagenav_next{font-size:11px}
+.readon{float:right;font-weight:bold}
+
+.contenttoc{margin:7px;padding:0 10px;border:1px dotted #aaa;background:#eee}
+.contenttoc th{border-bottom:1px dotted #aaa;font-size:13px;color:#7A0000}
+.contenttoc td{margin:5px 0 5px 14px;padding:2px 7px}
+.contenttoc a.toclink{text-decoration:none;font-weight:bold}
+.contenttoc a:hover.toclink{text-decoration:underline}
+
+.blog td{padding:2px}
+.blog_more{margin:0 3px 15px 13px;padding:3px 6px;border:1px dotted #aaa;background:#EEE}
+.blog_more div{border-bottom:1px dotted #aaa}
+.blog_more ul{margin:2px 0 2px 34px}
+.blog_more ul li a.blogsection{text-decoration:none}
+
+.syndicate div{text-align:center}
+select#mod_templatechooser_jos_change_template{width:142px}
+input.button{padding:0 1px;font:13px Arial;color:#fff;background:#FF8321;border:1px solid #9A9A9A;height:22px;font-weight:bold}
+
+.sectiontableheader{background:#88ABF2;color:#FFFFFF;height:20px;font-weight:bold;padding:0 5px;border-bottom:2px solid #FFFFFF}
+.sectiontablefooter{text-align:center}
+.sectiontableentry1,.sectiontableentry1 td{background:#fff;padding:5px;text-align:left}
+.sectiontableentry2,.sectiontableentry2 td{background:#ececec;padding:5px;text-align:left}
+
+.pollstableborder{margin:3px 0;line-height:20px}
+.pollstableborder td{padding:5px;vertical-align:middle}
+.pollstableborder input{margin:0}
+
+div.contact_email textarea#contact_text.inputbox{width:350px}
+
+.tips{display:none}
