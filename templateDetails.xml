@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="template">
+  <name>business_01</name>
+  <creationDate>January 2005</creationDate>
+ <author>DesignForJoomla.com</author>
+  <copyright>Converted to Joomla template by DesignForJoomla.com.</copyright>
+  <authorEmail>design@designforjoomla.com</authorEmail>
+  <authorUrl>www.designforjoomla.com</authorUrl>
+  <version>1.0</version>
+  <description>Converted to Joomla template by DesignForJoomla.com.</description>
+  <files>
+    <filename>index.php</filename>
+    <filename>template_thumbnail.png</filename>
+  </files>
+  <images>
+    
+    <filename>images/logo.gif</filename>
+    <filename>images/man.gif</filename>
+    <filename>images/mbg.gif</filename>
+    <filename>images/tc.gif</filename>
+    <filename>images/welcome.gif</filename>
+  </images>
+  <css>
+    <filename>css/template_css.css</filename>
+  </css>
+</mosinstall>
