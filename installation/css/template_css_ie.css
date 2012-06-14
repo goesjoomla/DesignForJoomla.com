@@ -1,4 +1,5 @@
-#left,#right,#top,#bottom{margin:18px 0 0 0}
-#left .moduletable h3,#right .moduletable h3,#top .moduletable h3,#bottom .moduletable h3{margin:0 0 19px 0}
-#mainbody{width:500px}
-#menu a:hover{width:114px;margin:-1px 0 0 -2px;padding:1px 2px 2px 4px}
+table{font-size:1em;line-height:1.8em}
+#sitetools{position:absolute;right:30px}
+#tools{position:absolute;right:30px}
+#advert1{font-size:5.6em}
+  
