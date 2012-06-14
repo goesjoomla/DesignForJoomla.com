@@ -1,43 +1,39 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <mosinstall type="template">
 
-<name>greenery</name>
-<creationDate>October 2006</creationDate>
+<name>greenlush</name>
+<creationDate>2nd December 2006</creationDate>
 <author>DesignForJoomla.com</author>
 <copyright>DesignForJoomla.com</copyright>
-<authorEmail>cuongnm@designforjoomla.com</authorEmail>
+<authorEmail>support@designforjoomla.com</authorEmail>
 <authorUrl>designforjoomla.com</authorUrl>
 <version>1.0</version>
-<description>Greenery - Joomla template by DesignForJoomla.com</description>
+<description>greenlush- Joomla template by DesignForJoomla.com</description>
 
 <files>
     <filename>index.php</filename>
-    <filename>template_thumbnail.png</filename>
+	<filename>template_thumbnail.png</filename>
+	<filename>func/style/d4j_stylechanger.js</filename>
 </files>
 
 <images>
-        <filename>images/bg_body.jpg</filename>
-        <filename>images/bg_header.jpg</filename>
-        <filename>images/bgheader.jpg</filename>
-        <filename>images/footer.gif</filename>
-        <filename>images/h3.gif</filename>
-        <filename>images/lh3.gif</filename>
-        <filename>images/li_bullet.gif</filename>
-        <filename>images/logo_greenery.gif</filename>
-        <filename>images/menu_tab.gif</filename>
-        <filename>images/plants.jpg</filename>
-        <filename>images/quote.gif</filename>
-        <filename>images/rh3.gif</filename>
-        <filename>images/rhover.gif</filename>
+	<filename>images/abovefooter.png</filename>
+	<filename>images/belowheader.png</filename>
+	<filename>images/bg.png</filename>
+	<filename>images/containerbg.png</filename>
+	<filename>images/contentbg.png</filename>
+	<filename>images/footer.png</filename>
+	<filename>images/menuoff.png</filename>
+	<filename>images/menuon.png</filename>
+	<filename>images/footer.jpg</filename>
+	<filename>images/header.jpg</filename>	
 </images>
 
 <css>
-        <filename>css/bottom.css.php</filename>
-        <filename>css/template.css</filename>
-        <filename>css/footer.css.php</filename>
-        <filename>css/template_css.css</filename>
-        <filename>css/template_css_ie.css</filename>
-
+	<filename>css/template_css.css</filename>
+	<filename>css/template.css</filename>
+	<filename>css/bottom.css.php</filename>
+	<filename>css/footer.css.php</filename>
 </css>
 
 </mosinstall>

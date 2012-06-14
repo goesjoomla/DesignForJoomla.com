@@ -1,4 +1,4 @@
-D4J Greenery template for Joomla! 1.0 series
+D4J Greenlush template for Joomla! 1.0 series
 ===============================================
 
 Install Git client by following the guide at the URL below:
@@ -9,7 +9,7 @@ Then, clone the repository at following URL:
 
 https://github.com/goesjoomla/DesignForJoomla.com.git
 
-Finally, checkout templates/greenery branch to get D4J Greenery.
+Finally, checkout templates/greenlush branch to get D4J Greenlush.
 
 --
 Manh-Cuong Nguyen
