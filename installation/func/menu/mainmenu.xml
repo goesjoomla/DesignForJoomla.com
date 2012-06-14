@@ -1,0 +1,10 @@
+<menu>
+	<item>
+		<title>Home</title>
+		<alias><![CDATA[Home <span>of DesignForJoomla.com</span> <span class="tips">Keyword/Keyphrase associated with this page</span>]]></alias>
+	</item>
+	<item>
+		<title>News</title>
+		<alias><![CDATA[News <span>of DesignForJoomla.com</span> <span class="tips"><strong>Keyword/Keyphrase associated with this page</strong></span>]]></alias>
+	</item>
+</menu>
