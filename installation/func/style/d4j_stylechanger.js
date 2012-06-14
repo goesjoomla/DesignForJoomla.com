@@ -1,22 +1,19 @@
 var prefsLoaded = false;
-var defaultFontSize = 13;
+var defaultFontSize = 16;
 var currentFontSize = defaultFontSize;
 
-
 function revertStyles(){
-
         currentFontSize = defaultFontSize;
         changeFontSize(0);
-
 }
 
 function changeFontSize(sizeDifference){
         currentFontSize = parseInt(currentFontSize) + parseInt(sizeDifference);
 
-        if(currentFontSize > 18){
-                currentFontSize = 18;
-        }else if(currentFontSize < 6){
-                currentFontSize = 6;
+        if(currentFontSize > 19){
+                currentFontSize = 19;
+        }else if(currentFontSize < 11){
+                currentFontSize = 11;
         }
 
         setFontSize(currentFontSize);
@@ -25,7 +22,6 @@ function changeFontSize(sizeDifference){
 function setFontSize(fontSize){
         document.body.style.fontSize = fontSize + 'px';
 };
-
 
 
 function createCookie(name,value,days) {
@@ -58,11 +54,13 @@ function setUserOptions(){
                 setFontSize(currentFontSize);
                 prefsLoaded = true;
         }
+
 }
 
 window.onunload = saveUserOptions;
 
 function saveUserOptions()
 {
-                createCookie("fontSize", currentFontSize, 30);
+        createCookie("fontSize", currentFontSize, 30);
+
 }

@@ -1,45 +1,50 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <mosinstall type="template">
 
-<name>midnight_rainforest</name>
-<creationDate>January 2007</creationDate>
+<name>mike</name>
+<creationDate>October 2007</creationDate>
 <author>DesignForJoomla.com</author>
 <copyright>DesignForJoomla.com</copyright>
 <authorEmail>cuongnm@designforjoomla.com</authorEmail>
 <authorUrl>designforjoomla.com</authorUrl>
 <version>1.0</version>
-<description>Midnight Rainforest - Joomla template by DesignForJoomla.com</description>
+<description>Mike - Joomla template by DesignForJoomla.com</description>
 
 <files>
     <filename>index.php</filename>
     <filename>template_thumbnail.png</filename>
     <filename>func/style/d4j_stylechanger.js</filename>
-	<filename>func/style/d4j_stylechanger.php</filename>
+    <filename>func/style/d4j_stylechanger.php</filename>
+    <filename>func/d4jCommonInclude.compact.js</filename>
+    <filename>func/style/d4j_sitetools.php</filename>
 </files>
 
 <images>
-        <filename>images/b1.gif</filename>
-        <filename>images/b2.gif</filename>
-        <filename>images/b3.gif</filename>
-        <filename>images/grass_sm1.jpg</filename>
-        <filename>images/508.gif</filename>
-        <filename>images/xhtml.gif</filename>
-        <filename>images/css.gif</filename>
-        <filename>images/header.jpg</filename>
-        <filename>images/logo.png</filename>
-        <filename>images/indent1.png</filename>
-        <filename>images/menu.gif</filename>
+        <filename>images/arrow.gif</filename>
+        <filename>images/containerBg.gif</filename>
+        <filename>images/header.gif</filename>
+        <filename>images/header1.gif</filename>
+        <filename>images/header2.gif</filename>
+        <filename>images/header3.gif</filename>
+        <filename>images/header4.gif</filename>
+		<filename>images/header5.gif</filename>
+        <filename>images/header6.gif</filename>
+        <filename>images/headerBg.gif</filename>
+        <filename>images/sitetools.gif</filename>
+        <filename>images/site_tools/biggerFont.gif</filename>
+        <filename>images/site_tools/normalFont.gif</filename>
+        <filename>images/site_tools/smallerFont.gif</filename>
 </images>
 
 <css>
-        <filename>css/base.css</filename>
         <filename>css/bottom.css.php</filename>
-        <filename>css/custom.css</filename>
-        <filename>css/layout.css</filename>
         <filename>css/footer.css.php</filename>
-		<filename>css/template.css</filename>
+        <filename>css/template.css</filename>
+        <filename>css/d4j_dropdownmenu.css</filename>
         <filename>css/template_css.css</filename>
         <filename>css/template_css_ie.css</filename>
+        <filename>css/template_css_ie7.css</filename>
+        <filename>css/D4J_sitetools/site_tools.css</filename>
 </css>
 
 </mosinstall>
