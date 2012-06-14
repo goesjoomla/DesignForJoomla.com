@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <mosinstall type="template">
 
-<name>closetoattract</name>
-<creationDate>November 2006</creationDate>
+<name>dark_dimension</name>
+<creationDate>November 2007</creationDate>
 <author>DesignForJoomla.com</author>
 <copyright>DesignForJoomla.com</copyright>
 <authorEmail>cuongnm@designforjoomla.com</authorEmail>
 <authorUrl>designforjoomla.com</authorUrl>
 <version>1.0</version>
-<description>CloseToAtrract - Joomla template by DesignForJoomla.com</description>
+<description>Dark dimension - Joomla template by DesignForJoomla.com</description>
 
 <files>
     <filename>index.php</filename>
@@ -16,27 +16,32 @@
 </files>
 
 <images>
-        <filename>images/blinkarrow.gif</filename>
-        <filename>images/bodybg.png</filename>
-        <filename>images/contentbg.png</filename>
-        <filename>images/entrybg.png</filename>
-        <filename>images/flash.gif</filename>
-        <filename>images/flash2.gif</filename>
-        <filename>images/globe.gif</filename>
-        <filename>images/globebottom.gif</filename>
-        <filename>images/h3.gif</filename>
-        <filename>images/linkarrow.gif</filename>
-        <filename>images/linkarrow1.gif</filename>
-        <filename>images/menuhover.png</filename>
+		<filename>images/01.gif</filename>
+        <filename>images/bg.gif</filename>
+        <filename>images/current_event.gif</filename>
+        <filename>images/footer.gif</filename>
+        <filename>images/footer_bg.gif</filename>
+        <filename>images/header_pic.jpg</filename>
+        <filename>images/left_side_arrow.gif</filename>
+        <filename>images/left_side_down.gif</filename>
+        <filename>images/left_side_up.gif</filename>
+        <filename>images/lor_bg.gif</filename>
+        <filename>images/lor_bg_h3.gif</filename>
+        <filename>images/search_bg.gif</filename>
+        <filename>images/search_button.gif</filename>
+		<filename>images/services_icon.gif</filename>
+		<filename>images/top_readmore.gif</filename>
+        <filename>images/works.gif</filename>
 </images>
 
 <css>
         <filename>css/bottom.css.php</filename>
         <filename>css/footer.css.php</filename>
         <filename>css/template.css</filename>
+        <filename>css/d4j_dropdownmenu.css</filename>
         <filename>css/template_css.css</filename>
         <filename>css/template_css_ie.css</filename>
         <filename>css/template_css_ie7.css</filename>
+        <filename>css/d4j_transmenu.css</filename>        
 </css>
-
 </mosinstall>

@@ -1,4 +1,4 @@
-D4J Close To Attract template for Joomla! 1.0 series
+D4J Dark Dimension template for Joomla! 1.0 series
 ===============================================
 
 Install Git client by following the guide at the URL below:
@@ -9,7 +9,7 @@ Then, clone the repository at following URL:
 
 https://github.com/goesjoomla/DesignForJoomla.com.git
 
-Finally, checkout templates/closetoattract branch to get D4J Close To Attract.
+Finally, checkout templates/dark_dimension branch to get D4J Dark Dimension.
 
 --
 Manh-Cuong Nguyen
