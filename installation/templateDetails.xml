@@ -1,42 +1,57 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <mosinstall type="template">
 
-<name>expert_vision</name>
-<creationDate>February 2008</creationDate>
+<name>extreme_updates</name>
+<creationDate>November 2007</creationDate>
 <author>DesignForJoomla.com</author>
 <copyright>DesignForJoomla.com</copyright>
 <authorEmail>cuongnm@designforjoomla.com</authorEmail>
 <authorUrl>designforjoomla.com</authorUrl>
 <version>1.0</version>
-<description>Expert Vision - Joomla template by DesignForJoomla.com</description>
+<description>Extreme Updates - Joomla template by DesignForJoomla.com</description>
 
 <files>
-        <filename>index.php</filename>
-        <filename>template_thumbnail.png</filename>
-        <filename>menu.php</filename>
+    <filename>index.php</filename>
+    <filename>template_thumbnail.png</filename>
 </files>
 
 <images>
-        <filename>images/arrow3.gif</filename>
-        <filename>images/arrow4.gif</filename>
-        <filename>images/body-bottombg.gif</filename>
-        <filename>images/buttet1.gif</filename>
-        <filename>images/buttet2.gif</filename>
-        <filename>images/footerbg.gif</filename>
-        <filename>images/icon1.gif</filename>
-        <filename>images/icon2.gif</filename>
-        <filename>images/icon3.gif</filename>
-        <filename>images/icon4.gif</filename>
+        <filename>images/about_us_icon.gif</filename>
+        <filename>images/about_us_icon_hover.gif</filename>
+        <filename>images/arrow_green2.gif</filename>
+        <filename>images/bullet_blue.gif</filename>
+        <filename>images/bullet_white.gif</filename>
+        <filename>images/contact_icon.gif</filename>
+        <filename>images/contact_icon_hover.gif</filename>
+        <filename>images/content1.gif</filename>
+        <filename>images/content2.gif</filename>
+        <filename>images/footer_bg.gif</filename>
+        <filename>images/header_pic1.jpg</filename>
+        <filename>images/header_pic2.jpg</filename>
+        <filename>images/header_pic3.jpg</filename>
+        <filename>images/header_pic4.jpg</filename>
+        <filename>images/header_pic5.jpg</filename>
+        <filename>images/home_icon.gif</filename>
+        <filename>images/home_icon_hover.gif</filename>
+        <filename>images/left.gif</filename>
         <filename>images/logo.gif</filename>
-        <filename>images/mainbg.gif</filename>
-        <filename>images/midbg.jpg</filename>
-        <filename>images/more.gif</filename>
-        <filename>images/more_h.gif</filename>
-        <filename>images/tab.gif</filename>
-        <filename>images/tab_se.gif</filename>
-        <filename>images/topbg.jpg</filename>
-        <filename>images/viewmore.gif</filename>
-        <filename>images/viewmore-hover.gif</filename>
+        <filename>images/main_bg.gif</filename>
+        <filename>images/main_bg1.gif</filename>
+        <filename>images/main_bg2.gif</filename>
+        <filename>images/main_bg3.gif</filename>
+        <filename>images/member_login_bg.gif</filename>
+        <filename>images/member_login_bg_login.gif</filename>
+        <filename>images/member_login_bottom.gif</filename>
+        <filename>images/menuhack.gif</filename>
+        <filename>images/mid1_link_bg.gif</filename>
+        <filename>images/mid1_link_top.gif</filename>
+        <filename>images/mid1_link_top_special.gif</filename>
+        <filename>images/mid1_top.gif</filename>
+        <filename>images/news_div.gif</filename>
+        <filename>images/quote.gif</filename>
+        <filename>images/right_panel_div.gif</filename>
+        <filename>images/xhtml_bg.gif</filename>
+        <filename>images/xhtml_bg_hover.gif</filename>
 </images>
 
 <css>
@@ -44,12 +59,9 @@
         <filename>css/footer.css.php</filename>
         <filename>css/template.css</filename>
         <filename>css/d4j_dropdownmenu.css</filename>
-        <filename>css/d4j_transmenu.css</filename>
         <filename>css/template_css.css</filename>
         <filename>css/template_css_ie.css</filename>
         <filename>css/template_css_ie7.css</filename>
-        <filename>js/ie.js</filename>
-        <filename>js/tabcontent.js</filename>
 </css>
 
 </mosinstall>

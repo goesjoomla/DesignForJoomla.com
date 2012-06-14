@@ -1,130 +1,673 @@
 /* CSS Document */
-body{padding:0px; margin:17px 0 0; background:url(images/mainbg.gif) 0 0 repeat-x #F3F3F3; color:#6D6D6D; font:14px/18px Arial, Helvetica, sans-serif;}
-div, p, ul, li, h1, h2, h3, h4{padding:0px; margin:0px;}
-ul{list-style-type:none;}
 
-/*----MAIN PANEL----*/
-#mainPan{width:778px; position:relative; margin:0 auto;}
+body{
+        padding:0;
+        margin:0;
+        background:url(images/main_bg.gif) 0 0 repeat-x #fff;
+        color:#000;
+}
+div, h1, h2, p, form, label, input, textarea, img, span{
+        margin:0; padding:0;
+}
 
-/*----TOP PANEL----*/
-#topPan{width:778px; height:330px; background:url(images/topbg.jpg) 0 0 no-repeat; position:relative; margin:0 auto;} 
-#topPan img.logo{width:230px; height:44px; position:absolute; top:48px; left:26px;}
-#topPan h1{width:241px; height:78px; display:block; background:url(images/header.jpg) 0 0 no-repeat #F3F3F3; color:#fff; position:absolute; top:114px; left:0px; font-size:12px; font-weight:bold; line-height:16px; padding:73px 186px 0 53px;}
-#topPan h2{width:200px; height:25px; display:block; position:absolute; bottom:0px; left:53px; background:#fff; color:#B88F00; font:22px/25px Georgia, "Times New Roman", Times, serif;}
+ul{
+        margin:0;
+        padding:0;
+        list-style-type:none;
+        font-size:0;
+}
+.spacer{
+        clear:both;
+        font-size:0;
+        line-height:0;
+}
+/*------------------------------------------------body--------------------*/
 
-#topPan ul{width:438px; height:16px; display:block; position:absolute; top:64px; right:45px;}
-#topPan ul li{width:59px; height:16px; float:left;}
-#topPan ul li a{width:47px; height:16px; display:block; background:url(images/arrow3.gif) 0 6px no-repeat #fff; color:#5A5A5A; font-size:13px; text-decoration:none; padding:0 0 0 12px;}
-#topPan ul li a:hover{background:url(images/arrow4.gif) 0 6px no-repeat #fff; color:#5A5A5A; text-decoration:none;}
-#topPan ul li.about{width:80px;}
-#topPan ul li.about a{width:70px; height:16px; display:block; background:url(images/arrow3.gif) 0 6px no-repeat #fff; color:#5A5A5A; font-size:13px; text-decoration:none; padding:0 0 0 12px;}
-#topPan ul li.about a:hover{background:url(images/arrow4.gif) 0 6px no-repeat #fff; color:#5A5A5A; text-decoration:none;}
+/*------------------------------------------------header--------------------*/
+#headerMain{
+        width:100%;
+}
+#header{
+        width:961px;
+        height:319px;
+        background:url(images/header_pic.jpg) 479px 57px no-repeat;
+        float:right;
+        position:relative;
+}
+#header ul.top{
+        background:url(images/top_nav_bg.gif) 0 0 no-repeat;
+        width:237px;
+        height:18px;
+        position:absolute;
+        left:687px;
+        top:29px;
+        padding:0 0 0 15px;
+}
+#header ul.top li{
+        float:left;
+        display:block;
+}
+#header ul.top li.hover{
+        background:url(images/home_icon.gif) 0 3px no-repeat;
+        padding:0 0 0 18px;
+        font:bold 10px/18px "Trebuchet MS", Arial, Helvetica, sans-serif;
+        color:#000;
+        margin:0 21px 0 0;
+        text-transform:uppercase;
+        float:left;
+        display:block;
+        background-color:inherit;
+}
+#header ul.top li a.about{
+        background:url(images/about_us_icon.gif) 0 3px no-repeat;
+        padding:0 0 0 19px;
+        font:bold 10px/17px "Trebuchet MS", Arial, Helvetica, sans-serif;
+        color:#000;
+        text-transform:uppercase;
+        text-decoration:none;
+        display:block;
+        margin:0 15px 0 0;
+        background-color:inherit;
+}
+#header ul.top li a.about:hover{
+        background:url(images/about_us_icon_hover.gif) 0 3px no-repeat;
+}
+#header ul.top li a.contact{
+        background:url(images/contact_icon.gif) 0 3px no-repeat;
+        padding:0 0 0 23px;
+        font:bold 10px/17px "Trebuchet MS", Arial, Helvetica, sans-serif;
+        color:#000;
+        text-transform:uppercase;
+        text-decoration:none;
+        display:block;
+        margin:0 15px 0 0;
+        background-color:inherit;
+}
+#header ul.top li a.contact:hover{
+        background:url(images/contact_icon_hover.gif) 0 3px no-repeat;
+}
+#header img{
+        position:absolute;
+        left:0;
+        top:30px;
+        width:411px;
+        height:96px;
+}
+#header h1{
+        font:bold 24px/27px Verdana, Arial, Helvetica, sans-serif;
+        color:#fff;
+        background-color:inherit;
+        position:absolute;
+        left:0;
+        top:166px;
+        text-transform:uppercase;
+}
+#header p{
+        font:normal 17px/20px Verdana, Arial, Helvetica, sans-serif;
+        color:#FEEDB7;
+        background-color:inherit;
+        position:absolute;
+        left:24px;
+        top:198px;
+        text-transform:none;
+        text-align:center;
+        width:443px;
+}
+#header ul.nav{
+        width:730px;
+        height:39px;
+        position:absolute;
+        left:95px;
+        top:279px;
+}
+#header ul.nav li{
+        float:left;
+        margin:0;
+        padding:0;
+}
+#header ul.nav li a{
+        display:block;
+        padding:0 15px;
+        font:bold 11px/39px Verdana, Arial, Helvetica, sans-serif;
+        color:#fff;
+        background-color:inherit;
+        text-decoration:none;
+}
+#header ul.nav li a:hover{
+        color:#fff;
+        background-color:#0078AA;
+}
+/*------------------------------------------------header--------------------*/
 
+/*------------------------------------------------bodyTop--------------------*/
+#bodyTopMain{
+        width:100%;
+        background:url(images/body_top_bg.gif) 0 0 repeat-x #FFFAE8;
+        color:#251C00;
+        padding:22px 0 0 0;
+}
+#bodyTop{
+        width:930px;
+        margin:0 auto;
+        background:url(images/body_top_bg2.gif) 0 0 repeat-y;
+}
+/*------------------------------------------------left1--------------------*/
+#left1{
+        width:447px;
+        margin:0 27px 0 0;
+        padding:0 0 35px 0;
+        float:left;
+}
+#left1 h2{
+        font:bold 34px/40px Georgia, "Times New Roman", Times, serif;
+        color:#202020;
+        background-color:inherit;
+        text-transform:uppercase;
+        margin:0 0 21px 0;
+}
+#left1 h2 span{
+        font:normal 30px/18px Verdana, Arial, Helvetica, sans-serif;
+        color:#970000;
+        background-color:inherit;
+        display:block;
+}
+#left1 p.leftText1{
+        font:normal 12px/17px Verdana, Arial, Helvetica, sans-serif;
+        color:#251C00;
+        background-color:inherit;
+        margin:0 0 24px 0;
+        display:block;
+        width:447px;
+}
+#left1 p.leftText1 span{
+        font:bold 12px/17px Verdana, Arial, Helvetica, sans-serif;
+        color:#006882;
+        background-color:#FFFEFA;
+}
+#left1 p.leftText1 a.link1{
+        font:normal 12px/17px Verdana, Arial, Helvetica, sans-serif;
+        color:#1B7D01;
+        background-color:inherit;
+        text-decoration:underline;
+}
+#left1 p.leftText1 a.link1:hover{
+        color:#1B7D01;
+        background-color:#F7F0D9;
+        text-decoration:none;
+}
+#left1 a.link2{
+        background:url(images/left_link_bg.gif) 0 0 no-repeat #F0FFFF;
+        padding:0 0 0 54px;
+        font:bold 18px/39px Georgia, "Times New Roman", Times, serif;
+        color:#144848;
+        width:390px;
+        height:41px;
+        display:block;
+        text-decoration:none;
+}
+#left1 a.link2:hover{
+        background:url(images/left_link_bg_hover.gif) 0 0 no-repeat;
+}
+/*------------------------------------------------left1--------------------*/
 
-#toprightPan{width:300px; height:151px; background:url(images/specialbg.jpg) 0 0 no-repeat #F3F3F3; color:#fff; position:absolute; top:114px; right:0px;}
-#toprightPan p{padding:64px 76px 0 59px; font-size:12px; font-weight:bold; line-height:16px;}
+/*------------------------------------------------mid1--------------------*/
+#mid1{
+        width:230px;
+        float:left;
+        background-color:#C58C00;
+        color:#000;
+        padding:0 0 0 0;
+}
+#mid1 p.mid1Top{
+        background:url(images/mid1_top.gif) 0 0 no-repeat;
+        width:230px;
+        height:25px;
+        font-size:0;
+}
+#mid1 h2{
+        width:102px;
+        height:41px;
+        background:url(images/importaint_service_pic.gif) 0 0 no-repeat;
+        padding:0 0 0 63px;
+        font:bold 14px/17px Verdana, Arial, Helvetica, sans-serif;
+        color:#fff;
+        background-color:inherit;
+        margin:0 0 15px 14px;
+        display:block;
+}
+#mid1 h2 span{
+        font:bold 24px/17px Verdana, Arial, Helvetica, sans-serif;
+        display:block;
+}
+#mid1 p.linkTop{
+        background:url(images/mid1_link_top.gif) 0 0 no-repeat;
+        width:204px;
+        height:15px;
+        font-size:0;
+        margin:0 0 0 14px;
+        padding:0;
+        display:block;
+}
+#mid1 ul{
+        background:url(images/mid1_link_bg.gif) left bottom no-repeat #FFE5A4;
+        width:188px;
+        margin:0 0 0 14px;
+        color:#000;
+        padding:0 0 22px 16px;
+}
+#mid1 ul li{
+        border-bottom:#886B21 dashed 1px;
+        height:20px;
+        padding:0;
+        margin:0;
+}
+#mid1 ul li.bdrNo{
+        border-bottom:none;
+        height:20px;
+        padding:0;
+        margin:0;
+}
+#mid1 ul li a{
+        background:url(images/bullet_white.gif) 0 6px no-repeat;
+        padding:0 0 0 15px;
+        font:bold 11px/20px Verdana, Arial, Helvetica, sans-serif;
+        color:#910303;
+        background-color:inherit;
+        text-decoration:none;
+        display:block;
+}
+#mid1 ul li a:hover{
+        color:#000;
+        background:url(images/bullet_blue.gif) 0 6px no-repeat #F0FFFF;
+}
+/*------------------------------------------------mid1--------------------*/
 
-#toprightPan p.more{padding:13px 0 0; font-size:13px; font-weight:bold;}
-#toprightPan p.more a{width:130px; height:23px; display:block; background:url(images/viewmore.gif) 0 0 no-repeat #EFBA00; color:#A98401; line-height:21px; text-decoration:none; margin:0 0 0 56px; padding:0 0 0 35px;}
-#toprightPan p.more a:hover{display:block; background:url(images/viewmore-hover.gif) 0 0 no-repeat #EFBA00; color:#A98401; text-decoration:none;}
+/*------------------------------------------------right1--------------------*/
+#right1{
+        width:212px;
+        float:right;
+}
+#right1 a.jobBanner{
+        background:url(images/job_banner.gif) 0 0 no-repeat;
+        width:212px;
+        height:87px;
+        display:block;
+        margin:0 0 22px 0;
+}
+#right1 a.jobBanner:hover{
+        background:url(images/job_banner_hover.gif) 0 0 no-repeat;
+}
+#right1 h2{
+        width:137px;
+        background:url(images/right_panel_div.gif) left bottom no-repeat;
+        height:45px;
+        padding:0 20px 0 19px;
+        font:normal 22px/21px Verdana, Arial, Helvetica, sans-serif;
+        color:#202020;
+        background-color:inherit;
+        display:block;
+        margin:0 0 13px 12px;
+}
+#right1 h2 span{
+        font:bold 26px/21px Georgia, "Times New Roman", Times, serif;
+        color:#0078AA;
+        background-color:inherit;
+        text-transform:uppercase;
+        display:block;
+        width:140px;
+}
+#right1 a.rightLogo{
+        background:url(images/right_logo.gif) 0 0 no-repeat;
+        width:176px;
+        height:50px;
+        margin:0 0 25px 12px;
+        display:block;
+}
+#right1 a.rightLogo:hover{
+        background:url(images/right_logo_hover.gif) 0 0 no-repeat;
+}
+#right1 a.viewMore{
+        background:url(images/view_more_bg.gif) 0 0 no-repeat;
+        width:179px;
+        height:27px;
+        font:bold 15px/27px Georgia, "Times New Roman", Times, serif;
+        color:#144848;
+        background-color:inherit;
+        text-decoration:none;
+        text-align:center;
+        display:block;
+        margin:0 0 0 12px;
+}
+#right1 a.viewMore:hover{
+        color:#A41007;
+        background-color:inherit;
+}
+/*------------------------------------------------right1--------------------*/
 
+/*------------------------------------------------bodyTop--------------------*/
 
+/*------------------------------------------------bodyBot--------------------*/
+#bodyBotMain{
+        width:100%;
+        background:url(images/body_bot_bg.gif) 0 0 repeat-x #fff;
+        color:#000;
+        padding:0 0 15px 0;
+}
+#bodyBot{
+        width:930px;
+        margin:0 auto;
+}
+/*------------------------------------------------left2--------------------*/
+#left2{
+        width:447px;
+        float:left;
+        margin:31px 27px 0 0;
+}
+#left2 h2{
+        width:441px;
+        height:17px;
+        background:url(images/news_div.gif) 0 0 repeat-x;
+        margin:0 0 26px 0;
+        display:block;
+}
+#left2 h2 span{
+        font:bold 24px/17px Georgia, "Times New Roman", Times, serif;
+        color:#202020;
+        background-color:#fff;
+        width:67px;
+}
+#left2 p.newsPic{
+        display:block;
+        background:url(images/news_pic.gif) 0 0 no-repeat;
+        margin:0 16px 29px 0;
+        padding:0;
+        float:left;
+        width:91px;
+        height:119px;
+}
+#left2 p.newsText{
+        font:normal 12px/17px Verdana, Arial, Helvetica, sans-serif;
+        color:#251C00;
+        background-color:#fff;
+        padding:0;
+        margin:0;
+        float:left;
+        display:block;
+        width:340px;
+}
+#left2 p.newsText span{
+        color:#006882;
+        background-color:#fff;
+        font:bold 12px/17px Verdana, Arial, Helvetica, sans-serif;
+}
+#left2 p.newsText a.linkNews{
+        font:normal 12px/17px Verdana, Arial, Helvetica, sans-serif;
+        color:#1B7D01;
+        background-color:inherit;
+        text-decoration:underline;
+        padding:0;
+        margin:0;
+}
+#left2 p.newsText a.linkNews:hover{
+        color:#1B7D01;
+        background-color:#F7F0D9;
+        text-decoration:none;
+}
+#left2 a.link3{
+        background:url(images/bottom_link_bg.gif) 0 0 no-repeat #F0FFFF;
+        padding:0 0 0 54px;
+        font:bold 18px/39px Georgia, "Times New Roman", Times, serif;
+        color:#144848;
+        width:390px;
+        height:41px;
+        display:block;
+        text-decoration:none;
+        float:left;
+}
+#left2 a.link3:hover{
+        background:url(images/bottom_link_bg_hover.gif) 0 0 no-repeat;
+}
+/*------------------------------------------------left2--------------------*/
 
-/*----/TOP PANEL----*/
+/*------------------------------------------------mid2--------------------*/
+#mid2{
+        width:204px;
+        float:left;
+        background-color:#C58C00;
+        color:#000;
+        padding:8px 13px 54px 13px;
+        margin:0;
+}
+#mid2 h2{
+        width:70px;
+        height:50px;
+        background:url(images/member_login_bg.gif) 0 0 no-repeat;
+        padding:16px 73px 0 61px;
+        font:bold 14px/17px Verdana, Arial, Helvetica, sans-serif;
+        color:#fff;
+        background-color:inherit;
+        margin:0;
+}
+#mid2 h2 span{
+        font:bold 24px/17px Georgia, "Times New Roman", Times, serif;
+        color:#fff;
+        background-color:#543C00;
+        display:block;
+}
+#mid2 form{
+        width:188px;
+        padding:0 8px;
+        margin:0;
+        background-color:#543C00;
+        color:#000;
+}
+#mid2 form input.txtBox{
+        width:169px;
+        height:19px;
+        border-left:#808080 solid 1px;
+        border-top:#808080 solid 1px;
+        border-right:#D4D0C8 solid 1px;
+        border-bottom:#D4D0C8 solid 1px;
+        /*font:normal 11px/19px Arial, Helvetica, sans-serif;*/
+        color:#000;
+        background-color:#fff;
+        margin:0 0 14px 0;
+        padding:0 0 0 17px;
+        float:left;
+}
+#mid2 form label.yellow{
+        width:124px;
+        height:18px;
+        background-color:#EDBA3C;
+        color:#000;
+        padding:0 30px 0 34px;
+        margin:0 0 7px 0;
+        display:block;
+        float:left;
+}
+#mid2 form label.yellow a.register{
+        width:120px;
+        height:18px;
+        background-color:#EDBA3C;
+        color:#000;
+        font:bold 11px/18px Verdana, Arial, Helvetica, sans-serif;
+        text-align:center;
+        text-decoration:none;
+}
+#mid2 form label.yellow a.register:hover{
+        text-decoration:underline;
+}
+#mid2 form input.go{
+        background:url(images/btn_go.gif) 0 0 no-repeat #543C00;
+        width:63px;
+        height:16px;
+        font:bold 12px/16px Verdana, Arial, Helvetica, sans-serif;
+        color:#144848;
+        float:right;
+        border:none;
+        cursor:pointer;
+}
+#mid2 p.memberBottom{
+        background:url(images/member_login_bottom.gif) 0 0 no-repeat;
+        width:204px;
+        height:43px;
+        margin:0;
+        padding:0;
+        display:block;
+}
+/*------------------------------------------------mid2--------------------*/
 
-/*----BODY PANEL----*/
-#bodyTopPan{width:778px; height:234px; position:relative; margin:0 auto;}
-#bodyTopPan p{padding:23px 53px 0;}
-#bodyTopPan p span{font-weight:bold;}
-#bodyTopPan p.more{width:73px; height:26px; background:url(images/morebg.gif) 0 0 no-repeat; position:absolute; bottom:0px; right:0px; padding:0px;}
-#bodyTopPan p.more a{display:block; width:48px; height:20px; background: url(images/arrow1.gif) 100% 50% no-repeat #fff; color:#A98401; font-size:13px; font-weight:bold; text-decoration:none; margin:3px 0 0 12px;}
-#bodyTopPan p.more a:hover{background: url(images/arrow2.gif) 100% 50% no-repeat #fff; color:#A98401; text-decoration:none;}
+/*------------------------------------------------right2--------------------*/
+#right2{
+        width:212px;
+        float:right;
+        padding:36px 0 0 0;
+}
+#right2 h2{
+        background:url(images/support_div.gif) 0 0 repeat-x;
+        width:202px;
+        height:22px;
+        display:block;
+        margin:0 0 16px 0;
+}
+#right2 h2 span{
+        font:bold 24px/17px Georgia, "Times New Roman", Times, serif;
+        color:#202020;
+        background-color:#fff;
+        width:106px;
+}
+#right2 ul{
+        width:212px;
+        padding:0;
+        margin:0;
+        font-size:0;
+}
+#right2 ul li{
+        padding:0;
+        margin:0;
+        height:24px;
+}
+#right2 ul li a{
+        display:block;
+        background:url(images/arrow_green2.gif) 0 7px no-repeat #fff;
+        padding:0 0 0 15px;
+        font:normal 12px/24px Verdana, Arial, Helvetica, sans-serif;
+        color:#202020;
+        margin:0;
+        text-decoration:none;
+}
+#right2 ul li a:hover{
+        color:#202020;
+        background-color:#FFFAE8;
+}
+/*------------------------------------------------right2--------------------*/
 
-/*----Body Left Panel---*/
-#leftPan{width:538px; float:left; background:url(images/body-bottombg.gif) bottom left no-repeat #fff; color:#6D6D6D;}
-#leftPan ul{width:538px; height:102px; background:url(images/togel.gif) 0 0 no-repeat; margin:0px; padding:0px;}
-#leftPan ul li{width:110px; height:52px; float:left;}
-#leftPan ul li a{width:110px; height:22px; display:block; background:#fff; color:#6D6D6D; text-decoration:none; font:20px/22px Georgia, "Times New Roman", Times, serif;}
-#leftPan ul li a:hover{background:#fff; color:#B88F00; text-decoration:none;}
-#leftPan ul li.positioncommunity{padding:20px 0 0 53px; background:#fff; color:#B88F00; font:20px/22px Georgia, "Times New Roman", Times, serif;}
-#leftPan ul li.positionsolutions{padding:20px 0 0 100px;}
-#leftPan ul li.positionmeetings{padding:20px 0 0 40px;}
+/*------------------------------------------------bodyBot--------------------*/
 
-#leftPan ul.next{background:none; height:164px;}
-#leftPan ul.next li{height:24px; width:413px; padding:0 0 0 53px;}
-#leftPan ul.next li a{height:24px; width:413px; background:url(images/buttet1.gif) 0 11px no-repeat #fff; color:#6D6D6D; font-size:14px; font-weight:normal; line-height:24px; text-decoration:none; padding:0 0 0 15px;}
-#leftPan ul.next li a:hover{height:24px; background:url(images/buttet2.gif) 0 11px no-repeat #fff; color:#B88F00; line-height:24px; text-decoration:none;}
-
-
-
-#leftPan h2{width:250px; height:41px; display:block; background:url(images/icon1.gif) 0 0 no-repeat #fff; color:#B88F00; font-size:12px; line-height:18px; font-weight:bold; margin:0 0 0 53px; padding:0 0 0 52px; text-transform:uppercase;}
-#leftPan h2 span{font-size:12px; line-height:18px; font-weight:bold; background:#fff; color:#0554AD;}
-
-#leftPan h3{width:250px; height:41px; display:block; background:url(images/icon4.gif) 0 0 no-repeat #fff; color:#3D3D3D; font:18px/22px "Trebuchet MS",Arial, Helvetica, sans-serif; margin:0 0 0 53px; padding:0 0 0 30px;}
-
-#leftPan h4{width:250px; height:41px; display:block; background:url(images/icon1.gif) 0 0 no-repeat #fff; color:#B88F00; font-size:12px; line-height:18px; font-weight:bold; margin:0 0 0 53px; padding:0 0 0 52px; text-transform:uppercase;}
-#leftPan h4 span{font-size:12px; line-height:18px; font-weight:bold; background:#fff; color:#0554AD;}
-
-
-#leftPan p{padding:20px 53px 0;}
-#leftPan p span{font-weight:bold;}
-#leftPan p.bottompadding{padding:40px 53px;}
-
-#bodyleftlinkboxonePan{width:428px; height:50px; display:block; margin:25px 0 0  53px; padding:0px;}
-#bodyleftlinkboxonePan ul{width:428px; height:28px; background:none; font-family:"Trebuchet MS",Arial, Helvetica, sans-serif;}
-#bodyleftlinkboxonePan ul li{display:block; width:148px; height:34px; float:left;}
-#bodyleftlinkboxonePan ul li.comments{width:110px; height:28px; display:block; background:url(images/icon2.gif) 0 0 no-repeat #fff; color:#1A5BB2; font-size:14px; font-weight:normal; padding:0 0 0 35px;}
-#bodyleftlinkboxonePan ul li.comments span.boldtext{font-weight:bold;}
-
-#bodyleftlinkboxonePan ul li.continue{float:left; width:150px; height:34px; background:url(images/icon3.gif) 0 0 no-repeat; padding:2px 0 0 35px; }
-#bodyleftlinkboxonePan ul li.continue a{display:block; width:150px; height:18px; background:#fff; color:#1A5BB2; font-size:14px; line-height:18px; font-weight:normal; text-decoration:none; }
-#bodyleftlinkboxonePan ul li.continue a:hover{display:block; height:18px; background:#F4F4F4; color:#B88F00; text-decoration:none;}
-
-#bodyleftlinkboxtwoPan{width:428px; height:50px; display:block; margin:25px 0 0  53px; padding:0px;}
-#bodyleftlinkboxtwoPan ul{width:428px; height:28px; background:none; font-family:"Trebuchet MS",Arial, Helvetica, sans-serif;}
-#bodyleftlinkboxtwoPan ul li{display:block; width:148px; height:34px; float:left;}
-#bodyleftlinkboxtwoPan ul li.comments{width:110px; height:28px; display:block; background:url(images/icon2.gif) 0 0 no-repeat #fff; color:#1A5BB2; font-size:14px; font-weight:normal; padding:0 0 0 35px;}
-#bodyleftlinkboxtwoPan ul li.comments span.boldtext{font-weight:bold;}
-
-#bodyleftlinkboxtwoPan ul li.continue{float:left; width:150px; height:34px; background:url(images/icon3.gif) 0 0 no-repeat; padding:2px 0 0 35px; }
-#bodyleftlinkboxtwoPan ul li.continue a{display:block; width:150px; height:18px; background:#fff; color:#1A5BB2; font-size:14px; line-height:18px; font-weight:normal; text-decoration:none; }
-#bodyleftlinkboxtwoPan ul li.continue a:hover{display:block; height:18px; background:#F4F4F4; color:#B88F00; text-decoration:none;}
-/*----/Body Left Panel---*/
-
-/*----Body Right Panel---*/
-#bodyrightPan{width:240px; float:left;}
-#bodyrightPan h2{height:55px; font:22px/55px Georgia, "Times New Roman", Times, serif; background:#F3F3F3; color:#B88F00; font-weight:normal; margin:0 0 0 44px;}
-
-#bodyrightPan p{padding:11px 75px 0 44px;}
-#bodyrightPan p.toppadding-rightpantext{padding:33px 67px 0 44px;}
-#bodyrightPan p span{padding:11px 0 25px 0; font-size:12px; font-weight:bold;}
-/*----/Body Right Panel---*/
-
-/*----FOOTER PANEL---*/
-#footermainPan{height:195px; background:url(images/footerbg.gif) 0 0 repeat-x; clear:both;}
-
-#footerPan{width:778px; height:90px; display:block; position:relative; margin:0 auto; color:#fff; background:url(images/footerbg.gif) 0 0 repeat-x #979797; font-family:Tahoma,Arial, Helvetica, sans-serif;}
-#footerPan p{padding:51px 0 0;}
-#footerPan p span{background:#1C1B19; color:#AC2626; font-size:10px;}
-#footerPan p.copyright{ background:#979797; display:block; position:absolute; top:130px; left:192px; color:#fff; font:11px/15px Tahoma,Arial, Helvetica, sans-serif; padding:0;}
-
-#footerPan ul{width:424px; display:block; position:absolute; left:120px; top:41px; padding:0; }
-#footerPan li{float:left; font:13px/18px Arial, Helvetica, sans-serif; font-weight:normal;}
-#footerPan ul li a{padding:0 0 0 12px; color:#fff; background:#979797; text-decoration:none;}
-#footerPan ul li a:hover{text-decoration:underline;}
-#footerPan ul.info{width:424px; height:45px; display:block; position:absolute; left:120px; top:70px; padding:0;}
-#footerPan ul.info li{display:block; width:109px;}
-#footerPan ul.info li.address{width:97px; background:url(images/vertical-dot.gif) 100% 0 repeat-y #979797; color:#353535; font-size:10px; font-family:Tahoma,Arial, Helvetica, sans-serif;  font-weight:bold; padding:0 0 0 12px;}
-#footerPan ul.info li.phone{width:94px; background:url(images/vertical-dot.gif) 100% 0 repeat-y #979797; color:#353535; font-family:Tahoma,Arial, Helvetica, sans-serif; font-size:10px; padding:0 0 0 15px; font-weight:bold;}
-#footerPan ul.info li.fax{width:94px; background:#979797; color:#353535; font-size:10px; padding:0 0 0 15px; font-family:Tahoma,Arial, Helvetica, sans-serif; font-weight:bold;}
-#footerPan ul li span{background:#979797; color:#FFDB5D; font-size:10px; font-weight:bold; line-height:18px;}
-
-#footerPan ul.templateworld{width:250px; background:#979797; color:#fff; display:block; position:absolute; top:147px; left:192px;}
-#footerPan ul.templateworld li{widows:150; font-size:11px;}
-#footerPan ul.templateworld li a{background:#979797; display:block; color:#fff; text-decoration:none;}
-#footerPan ul.templateworld li a:hover{text-decoration:underline;}
-
-
-
-
-
+/*------------------------------------------------footer--------------------*/
+#footerMain{
+        width:100%;
+        height:137px;
+        background:url(images/footer_bg.gif) 0 0 repeat-x;
+}
+#footer{
+        width:628px;
+        margin:0 auto;
+        height:137px;
+        position:relative;
+}
+#footer ul{
+        width:628px;
+        position:absolute;
+        left:0px;
+        top:20px;
+}
+#footer ul li{
+        float:left;
+        color:#FFFAE8;
+        background-color:inherit;
+        font:normal 11px/18px Verdana, Arial, Helvetica, sans-serif;
+}
+#footer ul li a{
+        color:#FFFAE8;
+        background-color:inherit;
+        font:normal 11px/18px Verdana, Arial, Helvetica, sans-serif;
+        padding:0 11px;
+        text-decoration:none;
+}
+#footer ul li a:hover{
+        color:#FFFAE8;
+        background-color:#C58C00;
+}
+#footer p.copyright{
+        font:normal 11px/18px Verdana, Arial, Helvetica, sans-serif;
+        color:#fff;
+        background-color:inherit;
+        position:absolute;
+        left:170px;
+        top:39px;
+}
+#footer a.xht{
+        width:66px;
+        height:15px;
+        background:url(images/xhtml_bg.gif) 0 0 no-repeat;
+        font:bold 10px/15px Verdana, Arial, Helvetica, sans-serif;
+        color:#C58C00;
+        background-color:inherit;
+        position:absolute;
+        left:216px;
+        top:60px;
+        margin:0;
+        text-align:center;
+        text-decoration:none;
+}
+#footer a.xht:hover{
+        background:url(images/xhtml_bg_hover.gif) 0 0 no-repeat;
+        color:#000;
+        background-color:inherit;
+}
+#footer a.cs{
+        width:66px;
+        height:15px;
+        background:url(images/xhtml_bg.gif) 0 0 no-repeat;
+        font:bold 10px/15px Verdana, Arial, Helvetica, sans-serif;
+        color:#C58C00;
+        background-color:inherit;
+        position:absolute;
+        left:287px;
+        top:60px;
+        margin:0;
+        text-align:center;
+        text-decoration:none;
+}
+#footer a.cs:hover{
+        background:url(images/xhtml_bg_hover.gif) 0 0 no-repeat;
+        color:#000;
+        background-color:inherit;
+}
+#footer p.design{
+        display:block;
+        width:203px;
+        height:12px;
+        padding:2px;
+        position:absolute;
+        left:182px;
+        top:84px;
+        font:bold 12px/12px Verdana, Arial, Helvetica, sans-serif;
+        color:#FFFAE8;
+        background-color:inherit;
+        text-transform:none;
+}
+#footer p.design a.link{
+        font:bold 12px/12px Verdana, Arial, Helvetica, sans-serif;
+        color:#FFFAE8;
+        background-color:inherit;
+        text-transform:none;
+        text-decoration:none;
+        padding:2px;
+}
+#footer p.design a.link:hover{
+        color:#fff;
+        background-color:#090909;
+}
+/*------------------------------------------------footer--------------------*/

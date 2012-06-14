@@ -1,12 +1,8 @@
-#logo{margin:48px 0 0 13px}
-#user8 .moduletable h3{margin:0 0 16px}
-#user8 h2{padding-top:14px}
-#user7 .moduletable{padding:33px 76px 0 59px}
-#user7 .moduletable h3{margin:0 -76px 14px 0}
-#user7 .moduletable a{margin:14px 0 0 -3px}
-#user7 h1{padding:33px 76px 0 59px;margin-bottom:12px}
-#user7 h2 a{margin:14px 0 0 -3px}
-.shadetabs li a,.shadetabs li a:hover{margin-bottom:-6px}
-#box{margin:0 0 0 65px}
-#user9{margin:24px 0 17px 63px}
-#toolbar .transMenu .items{border-top:none}
+#logo{margin-left:12px}
+#header{height:152px}
+#advert1{height:221px}
+#toolbar a.mainlevel{padding:14px 15px 13px}
+#toolbar ul li a.mainlevel{line-height:41px}
+#toolbar ul.list_menu li .mainlevel{line-height:40px}
+#toolbar ul.list_menu li ul{top:40px}
+#toolbar ul.list_menu li ul ul{margin:-41px 0 0 156px}

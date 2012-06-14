@@ -10,33 +10,39 @@
         position:relative;
         float:left;
         padding:0;
+        height:20px;
 }
 #toolbar ul.list_menu li .mainlevel{/* root-menu items :: link and placeholder */
+        width:auto;
+        text-align:right;
+        background:none;
+        line-height:39px
 }
-#toolbar ul.list_menu li:hover .mainlevel,
+#toolbar ul.list_menu li:hover .mainlevel{background:#0078AA }
 
 #toolbar ul.list_menu li.active_mitem .mainlevel,
 #toolbar ul.list_menu li.sfhover .mainlevel,
 #toolbar ul.list_menu li.active_mitem .mainlevel{/* root-menu items :: hover and active state */
-        text-decoration:none}
+background-color:#0078AA
+}
 #toolbar ul.list_menu li ul{/* drop-down sub-menu */
         position:absolute;
-        top:18px;
+        top:38px;
         left:-999em;
         width:158px;
         margin:0;
         z-index:100;
         background:#FFF;
         text-align:left;
-        border-bottom:1px solid #7F7F7F;
-        }
+        border-bottom:1px solid #555
+}
 #toolbar ul.list_menu li:hover ul,
 #toolbar ul.list_menu li.sfhover ul{/* drop-down sub-menu :: active state */
         left:0;
         float:left
 }
 #toolbar ul.list_menu li ul ul{/* pull-out sub-menu */
-        margin:-19px 0 0 156px;
+        margin:-39px 0 0 156px;
         float:left
 }
 #toolbar ul.list_menu li:hover ul ul,
@@ -67,9 +73,9 @@
 #toolbar ul.list_menu li li li li li li{/* sub-menu items */
         display:block;
         width:143px;
-        padding:6px 0 4px 13px;
+        padding:7px 0 3px 13px;
         margin:0;
-        border:1px solid #7F7F7F;
+        border:1px solid #555;
         border-bottom:none;
 }
 #toolbar ul.list_menu li li .sublevel,
@@ -83,10 +89,11 @@
 #toolbar ul.list_menu li li.sfhover li li li li .sublevel{/* sub-menu items :: link and placeholder */
         display:block;
         width:143px;
-        color:#050505;
+        color:#960000;
         height:16px;
-        font-size:12px;
+        font-size:11px;
         text-decoration:none;
+        font-weight:bold;
 }
 #toolbar ul.list_menu li li:hover .sublevel,
 #toolbar ul.list_menu li li li:hover .sublevel,
@@ -103,29 +110,30 @@
 #toolbar ul.list_menu li li li li.active_mitem .sublevel,
 #toolbar ul.list_menu li li li li li.active_mitem .sublevel,
 #toolbar ul.list_menu li li li li li li.active_mitem .sublevel{/* sub-menu items :: hover and active state */
-        color:#050505;
+        background:#F5F5F5;
         display:block;
         width:143px;
-        padding:6px 0 4px 13px;
-        margin:-6px 0 -4px -13px;
-        background:none
+        padding:7px 0 7px 13px;
+        margin:-7px 0 -4px -13px;
 }
 #toolbar ul.list_menu li li:hover li .sublevel,
 #toolbar ul.list_menu li li li:hover li .sublevel{
-        color:#050505;
+        background:#fff;
         width:143px
 }
 #toolbar ul.list_menu li:hover li li .sublevel,
 #toolbar ul.list_menu li li:hover li li .sublevel,
 #toolbar ul.list_menu li:hover li:hover li:hover li .sublevel,
 #toolbar ul.list_menu li:hover li:hover li:hover li:hover li .sublevel{
-        color:#050505;
+        color:#960000;
+        background:#fff;
         width:143px
 }
 #toolbar ul.list_menu li:hover li li:hover .sublevel,
 #toolbar ul.list_menu li:hover li:hover li:hover .sublevel,
 #toolbar ul.list_menu li:hover li:hover li:hover li:hover .sublevel,
 #toolbar ul.list_menu li:hover li:hover li:hover li:hover li:hover .sublevel{
-        color:#050505;
+        background:#F5F5F5;
+        color:#960000;
         width:143px
 }
