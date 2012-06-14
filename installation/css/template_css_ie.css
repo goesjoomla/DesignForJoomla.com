@@ -1,25 +1,18 @@
-table{font-size:1em;line-height:1.6em}
-#button1{margin:14px 0 0 84px}
-#logo h2{margin:-21px 0 0 0;line-height:45px}
+#user3{margin:10px 0 0 4px}
+#logo{margin:10px 5px}
+#headerlink{margin:52px 2px 0;width:580px}
 
-/***SuckerFish menu***/
-#mainmenu li{border-bottom:none}
-#mainmenu li a{text-decoration:none;border-bottom:5px solid #EEE;padding:0}
-#mainmenu li:hover,#mainmenu li.active{border:none;padding:0}
-#mainmenu li a:hover,#mainmenu li a.active{border-bottom:5px solid #000;padding:0}
-#mainmenu li.active a{color:#000;border-bottom:5px solid #000;padding:0}
-#mainmenu a.daddy,#mainmenu li.active a.daddy,#mainmenu span.daddy,#mainmenu li.active span.daddy{/*child list item menu link and placeholder*/border:none}
-#mainmenu li li:hover a,#mainmenu li li.sfhover a{border:none}
-#mainmenu li:hover ul,#mainmenu li.sfhover ul{top:26px}
-#mainmenu li ul{width:111px}
-#mainmenu li li,#mainmenu li li:hover,#mainmenu li li.sfhover,#mainmenu li li.active{padding:3px 0 3px 22px}
-#mainmenu li li a,#mainmenu li li a:hover,#mainmenu li li a.active,#mainmenu li.active li a{border:none}
+#user2,#mainbody{margin:0 10px 5px 5px}
 
-#user1{margin:0 4px}
-#mainbody{width:100%}
-.pollstableborder{margin-right:12px}
+#hlogin{margin:9px 10px 10px 5px;height:94px}
+#hlogin #user input.inputbox,#hlogin #pass input.inputbox{height:20px}
+#hlogin #user_text{margin:1px 0 0}
+#hlogin #user_form input.inputbox{height:19px;margin:2px 0 0}
+#hlogin #pass_form input.inputbox{height:19px}
+#hlogin #reg{margin:1px 0 0 25px}
+#hlogin #go input.button{margin:6px 0 0 3px}
 
-#rbox{float:left}
-
-
-
+#left{margin:32px 5px 0}
+#right{margin:0 5px}
+#left .moduletable,#right .moduletable{margin:0;padding:0 0 10px}
+#footer{padding:15px 0 0}
