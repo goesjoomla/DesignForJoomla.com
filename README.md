@@ -1,4 +1,4 @@
-D4J Inspire template for Joomla! 1.0 series
+D4J Inter Craft template for Joomla! 1.0 series
 ===============================================
 
 Install Git client by following the guide at the URL below:
@@ -9,7 +9,7 @@ Then, clone the repository at following URL:
 
 https://github.com/goesjoomla/DesignForJoomla.com.git
 
-Finally, checkout templates/inspire branch to get D4J Inspire.
+Finally, checkout templates/intercraft branch to get D4J Inter Craft.
 
 --
 Manh-Cuong Nguyen

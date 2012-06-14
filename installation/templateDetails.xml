@@ -1,39 +1,71 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <mosinstall type="template">
 
-<name>inspire</name>
-<creationDate>5th December 2006</creationDate>
+<name>intercraft</name>
+<creationDate>2nd January 2008</creationDate>
 <author>DesignForJoomla.com</author>
 <copyright>DesignForJoomla.com</copyright>
 <authorEmail>support@designforjoomla.com</authorEmail>
 <authorUrl>designforjoomla.com</authorUrl>
 <version>1.0</version>
-<description>inspire- Joomla template by DesignForJoomla.com</description>
+<description>intercraft - Joomla template by DesignForJoomla.com</description>
 
 <files>
-    <filename>index.php</filename>    
-<filename>template_thumbnail.png</filename>
+    <filename>index.php</filename>
+    <filename>template_thumbnail.png</filename>
+	<filename>func/style/d4j_sitetools.php</filename>
+	<filename>func/style/d4j_stylechanger.js</filename>
+	<filename>func/style/d4j_stylechanger.php</filename>
 </files>
 
 <images>
-	<filename>images/back.jpg</filename>
-	<filename>images/block.jpg</filename>
-	<filename>images/bottom.jpg</filename>
-	<filename>images/bullet.jpg</filename>
-	<filename>images/icon.jpg</filename>
-	<filename>images/logo.jpg</filename>
-	<filename>images/inspire.jpg</filename>
-	<filename>images/link-active.jpg</filename>
-	<filename>images/link-hover.jpg</filename>
-	<filename>images/top.jpg</filename>
-
+<filename>images/arrow1.gif</filename>
+<filename>images/arrow2.gif</filename>
+<filename>images/arrow3.gif</filename>
+<filename>images/arrow.gif</filename>
+<filename>images/bullet.gif</filename>
+<filename>images/bullet2.gif</filename>
+<filename>images/button1-hover.gif</filename>
+<filename>images/button1-normal.gif</filename>
+<filename>images/button.gif</filename>
+<filename>images/click-hover.gif</filename>
+<filename>images/click-normal.gif</filename>
+<filename>images/companyname.gif</filename>
+<filename>images/copyrightbg.gif</filename>
+<filename>images/dot-line.gif</filename>
+<filename>images/footerbg.gif</filename>
+<filename>images/footerlogo.gif</filename>
+<filename>images/footermenubg.gif</filename>
+<filename>images/formarea.gif</filename>
+<filename>images/header.jpg</filename>
+<filename>images/heder-textbg.gif</filename>
+<filename>images/homebg.gif</filename>
+<filename>images/icon1.jpg</filename>
+<filename>images/image1.jpg</filename>
+<filename>images/logo.gif</filename>
+<filename>images/mainbg.gif</filename>
+<filename>images/menubg-normal.gif</filename>
+<filename>images/middlebg.jpg</filename>
+<filename>images/ser.gif</filename>
+<filename>images/servicesbg.jpg</filename>
+<filename>images/sitetools.gif</filename>
+<filename>images/topmenubg.jpg</filename>
+	<filename>images/site_tools/biggerFont.gif</filename>
+	<filename>images/site_tools/normalFont.gif</filename>
+	<filename>images/site_tools/smallerFont.gif</filename>
 </images>
 
 <css>
 	<filename>css/template_css.css</filename>
-	<filename>css/template.css</filename>	
-	<filename>css/bottom.css.php</filename>
+	<filename>css/template.css</filename>
+	<filename>css/d4j_dropdownmenu.css</filename>
+	<filename>css/d4j_transmenu.css</filename>
+	<filename>css/bottom.css.php</filename>	
 	<filename>css/footer.css.php</filename>
+	<filename>css/base.css</filename>
+	<filename>css/layout.css</filename>
+	<filename>css/custom.css</filename>
+	<filename>css/D4J_sitetools/site_tools.css</filename>
 </css>
 
 </mosinstall>

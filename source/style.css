@@ -1,289 +1,104 @@
-/*Inspire by Payal Dhar (http://writeside.net), 2006
-You are free to use and modify this design,
-but I will be most grateful if you kept the credit links.*/
+/* CSS Document */
+body{padding:0px; margin:0px; background:url(images/mainbg.gif) 0 0 repeat-x; font:14px/20px Arial, Helvetica, sans-serif;}
+div, p, ul, h1, h2, h3, form, label{margin:0px; padding:0px;}
+ul{list-style-type:none;}
 
-body{
-background:url(images/back.jpg) repeat;
-color:#808080;
-font:0.8em Arial, sans-serif;
-}
+/*---Top Panel---*/
+#topPan{width:729px; height:317px; position:relative; margin:0 auto;}
 
-#wrapper{
-width:750px;
-margin:0 auto;
-border:1px #D4E6D4 solid;
-background: #fff;
-}
+#topPan ul{width:729px; height:44px; background:url(images/topmenubg.jpg) 0 0 no-repeat; font-size:13px; position:absolute; top:0px; left:0px;}
+#topPan ul li{width:114px; float:left;}
+#topPan ul li.leftpadding{padding:0 0 0 59px; width:86px; background: url(images/homebg.gif) 100% 0 no-repeat #fff; color:#674E00; text-decoration:none; text-align:center; line-height:44px;}
+#topPan ul li a{width:114px; height:44px; display:block; background:url(images/menubg-normal.gif) 0 0 repeat-x #F2F2F2; color:#674E00; text-decoration:none; text-align:center; line-height:44px;}
+#topPan ul li a:hover{width:114px; background:#fff; color:#674E00; text-decoration:none;}
 
-/* Header styles*/
-#header{
-margin:5px -25px;
-height:180px;
-background:#83BB83 url(images/top.jpg) top no-repeat;
-}
+#topPan #logo{width:63px; height:73px; position:absolute; top:108px; left:46px;}
+#topPan h2{width:160px; height:40px; display:block; background:url(images/companyname.gif) 0 0 no-repeat #FFFCF2; color:#B38800; position:absolute; top:108px; left:114px; font-size:12px; line-height:16px; padding:41px 0 0; font-weight:normal;}
 
-#header_bottom{
-background:url(images/bottom.jpg) bottom no-repeat;
-}
+#topPan h1{width:315px; height:239px; background:url(images/header.jpg) 0 0 no-repeat; position:absolute; top:77px; right:0px; text-indent:-20000px;}
 
-.site_header{
-position:absolute;
-margin-left:100px;
-margin-top:60px;
-font-size:3.5em;
-color:#000;
-}
+#topPan form{width:380px; height:46px; background:url(images/formarea.gif) 0 0 no-repeat #fff;  color:#6E6E6E; position:absolute; top:242px; left:31px; font:18px/46px Georgia, "Times New Roman", Times, serif;}
+#topPan form label{float:left; width:104px; display:block; padding:0 0 0 72px;}
+#topPan form input{width:112px; height:18px; float:left; display:block; margin:12px 14px 0 0;}
+#topPan form input.button{width:50px; height:19px; float:left; display:block; border:none; background:url(images/button.gif) 0 0 no-repeat #F2F2F2; font-size:14px; line-height:19px; font-weight:bold; color:#fff; text-align:center; margin:12px 0 0;}
+/*---/Top Panel---*/
 
-.subheader{
-position:absolute;
-margin-left:145px;
-margin-top:105px;
-font-size:1.5em;
-color:#EBFFEB;
-}
+/*---Middle Panel---*/
+#middlePan{width:683px; background:url(images/middlebg.jpg) 0 0 no-repeat; position:relative; margin:0 auto; padding:38px 0 0 46px;}
 
-.main{
-text-align:left;
-margin-left:50px;
-}
+#middletopPan{width:682px; position:relative; top:0px; left:0px;}
+#middletopPan p.captiontext{font:17px/22px Georgia, "Times New Roman", Times, serif; font-style:italic; background:#fff; color:#989898; padding:0 310px 0 0;} 
+#middletopPan p.name{width:77px; background:#fff; color:#000; font-size:14px; font-style:italic; font-weight:bold; padding:0 0 0 300px;}
+#middletopPan p.border{background:url(images/dot-line.gif) 0% 50% repeat-x; height:74px; padding:0px; margin:0px;}
+#middletopPan #services{width:254px; height:101px; background:url(images/servicesbg.jpg) 0 0 no-repeat #DFCC97; color:#fff; font-family:"Trebuchet MS",Arial, Helvetica, sans-serif; font-weight:bold; position:absolute; top:0px; right:0px;}
+#middletopPan #services p.largeone{font-size:24px; padding:18px 0 0 100px;}
+#middletopPan #services p.largetwo{font-size:30px; padding:5px 0 0 100px;}
+#middletopPan #services p.click{width:51px;}
+#middletopPan #services p.click a{width:36px; height:18px; display:block; font-size:16px; background:url(images/arrow.gif) 0% 50% no-repeat #AC9248; line-height:14px; color:#fff; text-decoration:none; margin:14px 0 0 166px; padding:0 0 0 15px;}
+#middletopPan #services p.click a:hover{text-decoration:underline;}
+/*---/Middle Panel---*/
 
-/*Top navigation styles*/
-#main_nav{
-position:relative;
-top:5px;
-right:5px;
-text-align:right;
-padding:4px;
-}
+/*---Left Panel---*/
+#leftPan{width:428px; float:left;}
+#leftPan h2{width:200px; font:22px/28px Georgia, "Times New Roman", Times, serif; background:#fff; color:#3D3C2C;}
+#leftPan h3{width:300px; height:70px; background:url(images/icon1.jpg) 0% 50% no-repeat #fff; color:#B38800; font:18px/70px Georgia, "Times New Roman", Times, serif; padding:0 0 0 65px;}
 
-#main_nav a{
-color:#808080;
-font-size:1.1em;
-text-decoration:none;
-padding-right:20px;
-background:url(images/icon.jpg) right no-repeat;
-}
+#leftPan p.redtext{font-size:18px; background:#fff; color:#D20039; padding:0 61px 0 0;}
+#leftPan p.more{width:66px; height:25px;}
+#leftPan p.more a{width:60px; height:25px; display:block; background:url(images/arrow1.gif) 85% 50% no-repeat #AC9145; color:#fff; font:14px/25px "Trebuchet MS",Arial, Helvetica, sans-serif; text-transform:uppercase; text-decoration:none; margin:0 0 0 300px; padding:0 0 0 6px;}
+#leftPan p.more a:hover{background:url(images/arrow1.gif) 85% 50% no-repeat #D20039; color:#fff; text-decoration:none;}
 
-#main_nav a.last{
-text-decoration:none;
-padding-right:5px;
-background:none;
-}
+#leftPan ul{padding:20px 62px 10px 0;}
+#leftPan ul li{height:20px;}
+#leftPan ul li.top-lipadding{padding:24px 0 0;}
 
-#main_nav a:hover{
-color:#83BB83;
-}
+#leftPan ul li a{background:url(images/bullet.gif) 0 6px no-repeat #fff; color:#3D3C2C; font-size:14px; line-height:20px; text-decoration:none; padding:0 0 0 20px;}
+#leftPan ul li a:hover{ background:url(images/bullet2.gif) 0 6px no-repeat #fff; color:#7A7A77; text-decoration:none;}
 
-/* Left navigation column styles*/
-#leftbox{
-position:relative;
-top:10px;
-float:left;
-width:170px;
-margin-left:5px;
-padding:5px;
-}
+#leftPan #blog{width:367px; height:167px; background:url(images/image1.jpg) 0 0 no-repeat #fff; color:#3D3C2C; margin:39px 0 0; font-family:"Trebuchet MS",Arial, Helvetica, sans-serif;}
+#leftPan #blog p.smalltext{font-size:20px; padding:16px 0 0 137px;}
+#leftPan #blog p.bigtext{font-size:24px; padding:5px 0 0 137px;}
+#leftPan #blog p.link{font:14px/18px "Trebuchet MS",Arial, Helvetica, sans-serif; font-weight:bold; margin:35px 19px 0 137px;}
+#leftPan #blog p.link a{display:block; width:132px; height:54px; background:url(images/click-normal.gif) 100% 0% no-repeat #C4C4C4; color:#fff; font-weight:bold; text-decoration:none; padding:0 77px 0 0;}
+#leftPan #blog p.link a:hover{text-decoration:none; background:url(images/click-hover.gif) 100% 0% no-repeat #C4C4C4; color:#fff;}
 
-#leftbox p{
-padding-left:4px;
-}
+/*---/Left Panel---*/
+/*---Right Panel---*/
+#rightPan{width:254px; float:left;}
+#rightPan h2{width:200px; height:36px; font:22px/20px Georgia, "Times New Roman", Times, serif; background:#fff; color:#3D3C2C;}
+#rightPan h3{width:200px; height:36px; font:22px/20px Georgia, "Times New Roman", Times, serif; background:#fff; color:#3D3C2C;}
 
-#leftbox h1{
-color:#83BB83;
-font-size:1.35em;
-padding-left:4px;
-}
+#rightPan ul{padding:0 0 25px 0;}
+#rightPan ul li{width:220px; height:25px;}
+#rightPan ul li a{background:url(images/arrow2.gif) 0 7px no-repeat #fff; color:#3D3C2C; line-height:25px; text-decoration:underline; padding:0 0 0 20px;}
+#rightPan ul li a:hover{background:url(images/arrow3.gif) 0 7px no-repeat #fff; color:#7A7A77; text-decoration:underline;}
 
-#leftbox h2{
-color:#83BB83;
-font-size:1em;
-padding-left:4px;
-}
+#rightPan ul.nextone{padding:0 0 25px 0;}
+#rightPan ul.nextone li{width:220px; height:25px;}
+#rightPan ul.nextone li a{background:url(images/arrow2.gif) 0 7px no-repeat #fff; color:#D20039; line-height:25px; text-decoration:underline; padding:0 0 0 20px;}
+#rightPan ul.nextone li a:hover{background:url(images/arrow3.gif) 0 7px no-repeat #fff; color:#7A7A77; text-decoration:underline;}
+/*---/Right Panel---*/
+/*---Footer Panel---*/
+#footermainPan{height:117px; background:url(images/footerbg.gif) 0 0 repeat-x #fff; color:#6F5D2B; font:12px/22px "Trebuchet MS",Arial, Helvetica, sans-serif; clear:both; padding:105px 0 0;}
+#footerPan{width:729px; position:relative; margin:0 auto;}
+#footerlogoPan{display:block; width:215px; height:40px; position:absolute; top:0px; right:0px;}
 
-#leftbox ul{
-list-style:none;
-margin:0;
-padding:0;
-}
+#footerPan ul{width:546px; position:absolute; top:0px; left:42px;}
+#footerPan li{float:left; }
+#footerPan ul li a{padding:0 10px 0; color:#6F5D2B; background: url(images/footermenubg.gif) 0 0 repeat-x #FFFBEE; text-decoration:none;}
+#footerPan ul li a:hover{text-decoration:underline;}
 
-#leftbox ul li{
-margin:0;
-padding:0 0 0 5px;
-}
+#footerPan ul.templateworld{width:250px; background:#FFF; color:#444; display:block; position:absolute; top:80px; left:50px;}
+#footerPan ul.templateworld li{widows:150;}
+#footerPan ul.templateworld li a{background:#FFF; display:block; color:#444; text-decoration:none;}
+#footerPan ul.templateworld li a:hover{text-decoration:underline;}
 
-#leftbox ul li a{
-display:block;
-width:90%;
-line-height:1.5em;
-background:#FBFFFB;
-text-decoration:none;
-padding:5px;
-color:#808080;
-border-bottom:1px solid #83BB83;
-}
+#footerPan p.copyright{width:204px; background: url(images/copyrightbg.gif) 0 0 repeat-x #FFFDF6; color:#D20039; position:absolute; top:23px; left:50px;}
 
-#leftbox ul li a:hover{
-background:#EBFFEB url(images/link-hover.jpg) right no-repeat;
-border-bottom:1px solid #5A885A;
-}
+#footerPanhtml{width:58px; height:19px; display:block; position:absolute; top:47px; left:46px;}
+#footerPanhtml a{width:53px; height:19px; background:url(images/button1-normal.gif) 0 0 no-repeat #fff; display:block; position:absolute; top:0px; left:0px; line-height:19px; padding:1px 0 0 5px; border:1px solid #FFFFFA; color:#353427; text-transform:uppercase; text-decoration:none;}
+#footerPanhtml a:hover{background:url(images/button1-hover.gif) 0 0 no-repeat #fff; color:#353427; text-decoration:none;}
 
-#leftbox ul li a.now{
-font-weight:600;
-background:#EBFFEB url(images/link-active.jpg) right no-repeat;
-}
-
-/* Main body text styles*/
-#text{
-position:relative;
-top:10px;
-float:right;
-width:550px;
-}
-
-#text p{
-padding:2px 2px 7px;
-}
-
-#text ul{
-list-style:url(images/bullet.jpg);
-line-height:1.15em;
-}
-
-#text ol{
-list-style:lower-roman;
-line-height:1.15em;
-}
-
-#text h1{
-font-size:1.45em;
-padding:3px;
-margin:15px 5px 5px 2px;
-border-top:2px solid #EBFFEB;
-border-left:2px solid #EBFFEB;
-border-right:2px solid #EBFFEB;
-}
-
-#text h2{
-font-size:1.1em;
-padding:2px 2px 2px 5px;
-}
-
-#text h3{
-font-size:0.9em;
-padding:2px 2px 2px 5px;
-}
-
-#text blockquote{
-background:#FBFFFB url(images/block.jpg) top left no-repeat;
-border-top:1px solid #EBFFEB;
-border-bottom:1px solid #EBFFEB;
-border-right:1px solid #EBFFEB;
-border-left:4px solid #EBFFEB;
-padding:4px 4px 4px 25px;
-margin:2px 10px;
-text-align:justify;
-}
-
-#text a{
-color:#777;
-border-bottom:1px dotted #777;
-text-decoration:none;
-}
-
-#text a:hover{
-color:#000;
-border-bottom:1px solid #000;
-}
-
-#text img{
-border:1px solid #83BB83;
-margin:2px;
-padding:4px;
-float:right;
-}
-
-/*Table styles (I'm not good at tables - and very likely this will need some tweaking before use)*/
-table{
-padding:10px;
-caption-side:top;
-border-collapse:collapse;
-text-align:center;
-border-bottom:1px solid #808080;
-}
-
-table th{
-border-top:1px solid #808080;
-border-bottom:1px solid #808080;
-background:#FBFFFB;
-padding:10px;
-width:75px;
-}
-
-table td{
-background:#FBFFFB;
-padding:10px;
-width:75px;
-}
-
-/*If you want a table caption, uncomment this and add a caption in the HTML using the tags < caption > < /caption >, with no spaces*/
-caption{
-font-size:1.1em;
-border:0;
-}
-
-/* Form styles */
-input{
-border:1px solid #83BB83;
-background:#FBFFFB;
-color:#808080;
-padding:4px;
-margin:0 0 4px 4px;
-}
-
-input:hover{
-border:1px solid #5A885A;
-background:#EBFFEB;
-}
-
-input:focus{
-border:1px solid #5A885A;
-background:#EBFFEB;
-}
-
-textarea{
-border:1px solid #83BB83;
-background:#FBFFFB;
-padding:4px;
-margin:0 0 4px 4px;
-}
-
-textarea:hover{
-border:1px solid #5A885A;
-background:#EBFFEB;
-}
-
-textarea:focus{
-border:1px solid #5A885A;
-background:#EBFFEB;
-}
-
-/*Footer styles*/
-#footer {
-color:#808080;
-padding:5px;
-clear: both;
-background:#EBFFEB;
-font-size:0.85em;
-text-align:center;
-}
-
-#footer a {
-color:#808080;
-border-bottom:1px dotted #000;
-text-decoration:none;
-}
-
-#footer a:hover {
-border-bottom:1px solid #808080;
-text-decoration:none;
-}
+#footerPancss{width:58px; height:19px; display:block; position:absolute; top:47px; left:108px;}
+#footerPancss a{width:53px; height:19px; background:url(images/button1-hover.gif) 0 0 no-repeat #fff; display:block; position:absolute; top:0px; left:0px; line-height:19px; padding:1px 0 0 10px; border:1px solid #FFFFFA; color:#353427; text-transform:uppercase; text-decoration:none;}
+#footerPancss a:hover{background:url(images/button1-normal.gif) 0 0 no-repeat #fff; color:#353427; text-decoration:none;}
