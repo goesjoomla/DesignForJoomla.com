@@ -1,0 +1,43 @@
+/* CSS SELECTORS FOR LAYOUT */
+
+.clearer{clear:both;height:0}
+.tips{display:none}
+/* ======================== CONTAINER ======================== */
+#D4J_Wrapper1{width:100%}
+#D4J_Wrapper1{background:url(../images/mainbg.gif) top repeat-x}
+#D4J_Container{width:780px;text-align:left}
+
+
+/* ======================== HEADER ============================ */
+#D4J_Header{height:126px;overflow:hidden;background:url(../images/topPan-bg.gif) top repeat-x}
+
+/* ======================== MAIN MENU ========================= */
+#D4J_MainMenu{height:16px;margin:7px 0 0 48px;background:#FFF url(../images/menu-leftbg.gif) left no-repeat;width:605px}
+#D4J_MainMenu_In{margin-left:80px;background:#fff url(../images/menu-rightbg.gif) right no-repeat;width:100%;float:left}
+
+/* ======================== BODY ============================== */
+#D4J_Body{margin:33px 0 20px 50px;}
+
+/* ======================== LEFT SIDE ========================= */
+#D4J_LeftSide{float:left;width:410px;overflow:hidden}
+
+/* ======================== RIGHT SIDE ======================== */
+#D4J_RightSide{float:left;width:220px;overflow:hidden;margin:0 0 0 35px;border:1px solid #DADADA; background:#F3F3F3; color:#1A1A1A; padding:8px 10px}
+
+/* ======================== USERS ============================= */
+#D4J_Users{margin:0 0 20px 50px}
+#D4J_User1,#D4J_User2,#D4J_User3{float:left;margin-left:10px}
+
+/* ======================== FOOTPAGE ========================== */
+#D4J_FootPage{height:107px;background:#F3F3F3 url(../images/footerbg.gif) top repeat-x; padding:36px 0 50px 0}
+#D4J_FootNav{float:left;}
+#D4J_FootPage_In{width:780px;padding-left:100px;height:107px}
+#D4J_Footer{text-align:left;padding:0 0 0 30px;width:100%}
+#D4J_Footer_Left{width:374px;margin-left:-30px}
+#D4J_Footer_Right,#D4J_Footer_Left div{text-align:left;margin:0 0 0 20px;float:left}
+#D4J_Footer_Left div{width:100%}
+#D4J_Footer_Right{width:130px}
+
+/* ======================== SITE TOOLS ======================== */
+#D4J_Sitetools{position:fixed;bottom:0px;right:10px;height:25px}
+#D4J_Tools{display:none;position:fixed;bottom:20px;right:10px;width:21px}

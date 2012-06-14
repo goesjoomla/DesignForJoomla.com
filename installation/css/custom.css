@@ -1,0 +1,92 @@
+/* ====================== FOR SITETOOLS CHANGER ========= */
+body.font18{font-size:18px}
+body.font17{font-size:17px}
+body.font16{font-size:16px}
+body.font15{font-size:15px}
+body.font14{font-size:14px}
+body.font13{font-size:13px}
+
+/* ======================= HEADER ======================== */
+#D4J_Header{color:#FFF}
+#D4J_Header img{margin:33px 0 0 43px}
+#D4J_Header p{font-size:1.23em;padding:0 0 0 43px}
+#D4J_Header .moduletable{font-size:1.23em;margin:33px 0 0 43px}
+#D4J_Header .moduletable h3{font-size:2.5em;line-height:0.8em;font-family:"Impact";font-weight:normal}
+
+/* ======================= MAIN MENU ====================== */
+#D4J_MainMenu ul#mainlevel{list-style:none;margin:0;padding:0}
+#D4J_MainMenu ul#mainlevel li{float:left}
+#D4J_MainMenu ul#mainlevel li a{display:block; background:#fff; color:#4A4A4A; font:10px "Trebuchet MS",Arial, Helvetica, sans-serif; text-decoration:none; font-weight:bold; text-align:center; text-transform:uppercase; padding:0 12px 1px 12px; border-right:1px solid #E5E5E5}
+#D4J_MainMenu ul#mainlevel li a:hover,#D4J_MainMenu ul#mainlevel li a#active_menu{color:#0574AF}
+
+/* ======================== LEFT SIDE =========================== */
+#D4J_LeftSide .moduletable h3{height:30px; color:#00111A; font:2em Georgia, "Times New Roman", Times, serif; margin:0 0 10px 0;text-transform:lowercase; background:url(../images/border1.gif) 0 10px repeat-x}
+#D4J_LeftSide .moduletable h3 span.blue{color:#046598;background:#fff	}
+#D4J_LeftSide .moduletable h3 span.black{background:#fff;color:#000;padding:0 10px 0 0}
+#D4J_LeftSide span{color:#046598;font-weight:bold}
+#D4J_LeftSide .moduletable ul{}
+#D4J_LeftSide .moduletable ul li{}
+#D4J_LeftSide .moduletable ul a{height:20px; background:url(../images/button.gif) 0 6px no-repeat #fff; color:#1A1A1A; text-decoration:underline; padding:0 0 0 20px;}
+#D4J_LeftSide .moduletable ul a:hover{background:url(../images/button-hover.gif) 0 6px no-repeat #fff; color:#676363;}
+
+#D4J_Main .contentpane{}
+#D4J_Main .contentpane input.inputbox{width:110px}
+#D4J_Main .contentpane select.inputbox{}
+
+/* ========================= RIGHT SIDE ========================== */
+#D4J_RightSide .moduletable{margin:0 0 20px 0;padding:0 20px}
+#D4J_RightSide .moduletable h3{background:#FFF;border:1px solid #DADADA;padding:3px 20px;font-size:1.80em;font-weight:normal;text-transform:lowercase;margin:0 -20px 13px -20px}
+#D4J_RightSide .moduletable h3 span{color:#046598}
+
+#D4J_RightSide .moduletable ul{list-style:none;margin-left:0}
+#D4J_RightSide .moduletable ul li a{width:160px; height:18px; display:block; background:url(../images/button.gif) 0 6px no-repeat #F3F3F3; color:#1A1A1A; text-decoration:none; padding:0 0 0 20px;}
+#D4J_RightSide .moduletable ul li a:hover{background:url(../images/button-hover.gif) 0 6px no-repeat #F3F3F3; color:#797878; text-decoration:none;}
+
+#D4J_RightSide .moduletable .contentpaneopen{}
+#D4J_RightSide .moduletable .contentheading{color:#000;font-size:1.2em;;font-weight:bold;text-transform:lowercase}
+#D4J_RightSide .moduletable .readon{display:block; height:11px; background:#F3F3F3; color:#003D5C; text-decoration:none; font-size:11px; line-height:11px; text-align:center; text-transform:uppercase;float:right}
+#D4J_RightSide .moduletable .readon:hover{background:#E0DEDE; color:#003D5C;}
+
+/* =========================== CUSTOM MODULE ====================== */
+.bookcatagories{width:410px; position:relative; margin:0 auto; padding:5px 0 0;}
+.namePan{width:156px; float:left; background:url(../images/name-dot.gif) 100% 85% no-repeat #fff; color:#4F4F4F; font-size:14px; text-transform:uppercase;}
+.nameonePan{width:156px; float:left;}
+.nameonePan ul{width:156px;list-style:none;margin-left:0}
+.nameonePan ul li{width:140px; height:20px; background:url(../images/arrow.gif) 0 6px no-repeat #fff; color:#03537D; padding:0 0 0 10px;}
+
+.pricePan{width:106px; float:left; background:url(../images/price-dot.gif) 100% 85% no-repeat #fff; color:#4F4F4F; font-size:14px; text-transform:uppercase;}
+.priceonePan{width:143px; float:left;}
+.priceonePan ul{width:143px;;list-style:none;margin-left:0}
+.priceonePan ul li{width:133px; height:20px; background:url(../images/price-border.gif) 100% 50% no-repeat #fff; color:#00111A; line-height:20px; font-size:12px; font-weight:bold; padding:0 0 0 10px;}
+
+.discountPan{width:126px; float:left; background:url(../images/discount-dot.gif) 100% 85% no-repeat #fff; color:#4F4F4F; font-size:14px; text-transform:uppercase; padding:0 0 0 12px;}
+.discountonePan{width:110px; float:left;}
+.discountonePan ul{width:110px;;list-style:none;margin-left:0}
+.discountonePan ul li{width:100px; height:20px; background:url(../images/dicount-border.gif) 100% 50% no-repeat #fff; color:#00111A; font-size:12px; font-weight:bold; padding:0 0 0 10px;}
+
+.bodyLeftNextPan p.next{background:#F3F3F3; color:#003D5C; height:11px; padding:0px; line-height:11px; font-size:11px; clear:both }
+.bodyLeftNextPan p.next a{display:block; width:44px; height:11px; background:#fff; color:#003D5C; text-decoration:none; margin:0 0 0 246px; line-height:11px; text-align:center; padding:0px; text-transform:uppercase;}
+.bodyLeftNextPan p.next a:hover{display:block; width:44px; height:11px; background:#E0DEDE; color:#003D5C; text-decoration:none;}
+
+/* =========================== USERS =============================== */
+#D4J_Users ul{list-style:none;margin-left:0}
+#D4J_Users ul li{}
+#D4J_Users ul li a{height:20px; background:url(../images/button.gif) 0 6px no-repeat #fff; color:#1A1A1A; text-decoration:underline; padding:0 0 0 20px;}
+#D4J_Users ul li a:hover{background:url(../images/button-hover.gif) 0 6px no-repeat #fff; color:#676363;}
+
+/* =========================== FOOT NAV ============================ */
+#D4J_FootNav ul{list-style:none;padding:25px 0 0 0}
+#D4J_FootNav ul li{display:inline}
+#D4J_FootNav ul li a{padding:0 10px;background:url(../images/ser.gif) right no-repeat;font-family:"Trebuchet MS",Arial, Helvetica, sans-serif;color:#010101}
+
+/* =========================== FOOTER =============================== */
+#D4J_Footer{color:#04496D;font:0.92em "Trebuchet MS",Arial, Helvetica, sans-serif}
+#D4J_Footer_Left .design{color:#444;font:0.84em "Trebuchet MS",Arial, Helvetica, sans-serif}
+
+#D4J_Footer div.xhtml{width:60px; height:13px; display:block; float:left}
+#D4J_Footer div.xhtml a{width:48px; height:11px; display:block; background:url(../images/blue-arrow.gif) 85% 60% no-repeat #fff; color:#4F4F4F; border:1px solid #DEDEDE; line-height:11px; font-size:11px; font-weight:bold; text-decoration:none; padding:1px 0 0 10px;text-transform:uppercase;}
+#D4J_Footer div.xhtml a:hover{background:url(../images/gray-arrow.gif) 85% 60% no-repeat #fff;}
+
+#D4J_Footer div.css{width:50px; height:13px; display:block; float:left}
+#D4J_Footer div.css a{width:40px; height:11px; display:block; background:url(../images/blue-arrow.gif) 35px 3px no-repeat #fff; color:#4F4F4F; border:1px solid #DEDEDE; line-height:11px; font-size:11px; font-weight:bold; text-decoration:none; padding:1px 0 0 10px; text-transform:uppercase;}
+#D4J_Footer div.css a:hover{background:url(../images/gray-arrow.gif) 35px 3px no-repeat #fff}
