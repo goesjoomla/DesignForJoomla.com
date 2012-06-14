@@ -1,4 +1,4 @@
-D4J City In Paint template for Joomla! 1.0 series
+D4J City Scapes Inc template for Joomla! 1.0 series
 ===============================================
 
 Install Git client by following the guide at the URL below:
@@ -9,7 +9,7 @@ Then, clone the repository at following URL:
 
 https://github.com/goesjoomla/DesignForJoomla.com.git
 
-Finally, checkout templates/city_in_paint branch to get D4J City In Paint.
+Finally, checkout templates/city_scapes_inc branch to get D4J City Scapes Inc.
 
 --
 Manh-Cuong Nguyen
