@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <mosinstall type="template">
-  <name>design_01</name>
-  <creationDate>February 2005</creationDate>
+  <name>ecommerce_01</name>
+  <creationDate>January 2005</creationDate>
  <author>DesignForJoomla.com</author>
   <copyright>Converted to Joomla template by DesignForJoomla.com.</copyright>
   <authorEmail>design@designforjoomla.com</authorEmail>
@@ -14,33 +14,17 @@
   </files>
   <images>
     
-    <filename>images/bg_flash.jpg</filename>
-    <filename>images/bg_footer.jpg</filename>
-    <filename>images/bg_footer2.jpg</filename>
-    <filename>images/bg_mid.jpg</filename>
-    <filename>images/bg_panel.jpg</filename>
-    <filename>images/bg_rside.gif</filename>
-    <filename>images/butt_footerlogo.jpg</filename>
-    <filename>images/butt_menu.jpg</filename>
-    <filename>images/butt_menu_sel.jpg</filename>
-    <filename>images/butt_top.gif</filename>
-    <filename>images/fbutt_home.gif</filename>
-    <filename>images/gtx_des_01.jpg</filename>
-    <filename>images/gtx_des_02.jpg</filename>
-    <filename>images/gtx_des_03.jpg</filename>
-    <filename>images/gtx_des_04.gif</filename>
-    <filename>images/gtx_des_05.gif</filename>
-    <filename>images/gtx_des_07.jpg</filename>
-    <filename>images/gtx_des_08.jpg</filename>
-    <filename>images/gtx_des_13.jpg</filename>
-    <filename>images/gtx_des_24.jpg</filename>
-    <filename>images/gtx_des_25.jpg</filename>
+    <filename>images/index_01.gif</filename>
+    <filename>images/index_03.gif</filename>
+    <filename>images/index_04.gif</filename>
+    <filename>images/index_05.gif</filename>
+    <filename>images/index_06.gif</filename>
+    <filename>images/index_07.gif</filename>
+    <filename>images/index_08.gif</filename>
+    <filename>images/index_09.gif</filename>
+    <filename>images/index_11.gif</filename>
+    <filename>images/index_14.gif</filename>
     <filename>images/logo.gif</filename>
-    <filename>images/pg_01.gif</filename>
-    <filename>images/pg_02.gif</filename>
-    <filename>images/pg_04.gif</filename>
-    <filename>images/spacer.gif</filename>
-    <filename>images/tit_module.jpg</filename>
   </images>
   <css>
     <filename>css/template_css.css</filename>

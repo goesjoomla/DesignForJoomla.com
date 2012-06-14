@@ -17,7 +17,7 @@ echo '<?xml version="1.0" encoding="'. $iso[1] .'"?' .'>';
 	<meta name="Publisher" content="Your Mambo Design">
 	<meta name="Language" content="en">
 	<link rel="shortcut icon" href="<?php echo $GLOBALS['mosConfig_live_site'];?>/images/favicon.ico" />
-	<link rel="stylesheet" type="text/css" href="<?php echo $GLOBALS['mosConfig_live_site']; ?>/templates/design_01/css/template_css.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo $GLOBALS['mosConfig_live_site']; ?>/templates/ecommerce_01/css/template_css.css" />
 <script language="JavaScript">
 <!--
 function MM_reloadPage(init) {  //reloads the window if Nav4 resized
@@ -30,152 +30,130 @@ MM_reloadPage(true);
 </script>
 </head>
 
-<body marginwidth="0" marginheight="0" leftmargin="0" topmargin="0"><a name="top"></a>
-
-<table width="750" height="100%" border="0" cellpadding="0" cellspacing="0"><tr>
-<td valign="top" height="52">
-<table border="0" cellpadding="0" cellspacing="0" height="52">
-<tr>
-<td><img src="templates/design_01/images/logo.gif" width="170" height="52"></td>
-<td><img src="templates/design_01/images/gtx_des_02.jpg" width="17" height="52"></td>
-<td background="templates/design_01/images/gtx_des_03.jpg" width="471" height="52" valign="middle">
-	<a href="<?php echo $GLOBALS['mosConfig_live_site']; ?>" title="<?php echo strtoupper($GLOBALS['mosConfig_sitename']); ?>">
-<?php $site_title = explode(' - ', $GLOBALS['mosConfig_sitename']); ?>
-	<font face="Arial" size="3" color="#ff0000"><?php echo strtoupper($site_title[0]); ?></font>
-	</a><br/>
-	<font face="Arial" size="2" color="#ff6600"><?php echo $site_title[1]; ?></font>
-</td>
-<td><img src="templates/design_01/images/gtx_des_04.gif" width="90" height="52"></td>
-<td><img src="templates/design_01/images/gtx_des_05.gif" width="2" height="52"></td>
-</tr>
-</table>
-</td>
-</tr><tr>
-<td valign="top" height="100%">
-<table border="0" cellpadding="0" cellspacing="0" height="100%">
-<tr>
-<td background="templates/design_01/images/bg_panel.jpg" width="170" height="100%" valign="top">
-<table border="0" cellpadding="0" cellspacing="0">
-<tr>
-<td valign="top"><img src="templates/design_01/images/bg_flash.jpg" width="170" height="78"></td>
-</tr><tr>
-<td valign="top"><img src="templates/design_01/images/gtx_des_13.jpg" width="170" height="39"></td>
-</tr>
-<tr>
-<td valign="top">
-<!-- Load Left Module :: Begin -->
-	<?php mosLoadModules("left"); ?>
-	<?php if (mosCountModules('right') > 0) { echo '<hr/>'; mosLoadModules ( "right" ); } ?>
-<!-- Load Left Module :: End -->
-</td>
-</tr>
-</table>
-</td>
-<td background="templates/design_01/images/bg_mid.jpg" width="17" height="100%" valign="top">
-<img src="templates/design_01/images/gtx_des_07.jpg" width="17" height="24" border="0">
-</td>
-<td bgcolor="#FFFFFF" width="561" height="100%" valign="top">
-<table border="0" cellpadding="0" cellspacing="0" height="100%">
-<tr>
-<td valign="top"><img src="templates/design_01/images/gtx_des_08.jpg" width="561" height="24"></td>
-</tr>
-<tr><td bgcolor="#E0EBFE" width="561" height="75" align="center">
-<!-- Load Top Banner :: Begin -->
-<?php if (mosCountModules('banner') > 0) { mosLoadModules( 'banner', -1 ); } ?>
-<!-- Load Top Banner :: End -->
-</td></tr>
-<tr><td valign="top" height="100%">
-<table width="561" height="100%" border="0" cellpadding="0" cellspacing="0"><tr>
-<td valign="top">
-<table border="0" cellpadding="0" cellspacing="0"><tr>
-<td colspan="2"><img src="templates/design_01/images/pg_01.gif" width="561" height="1"></td>
-</tr><tr>
-<td><img src="templates/design_01/images/pg_02.gif" width="43" height="24"></td>
-<td width="518" height="24" bgcolor="#FFFFFF">
-<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%"><tr>
-<td class="title">
-<!-- Load Page Title :: Begin -->
-<?php echo strtoupper($GLOBALS['mosConfig_sitename']); ?>
-<!-- Load Page Title :: End -->
-</td></tr></table></td>
-</tr><tr>
-<td colspan="2"><img src="templates/design_01/images/pg_04.gif" width="561" height="7"></td>
-</tr></table></td>
-</tr><tr>
-<td valign="top" height="100%">
-<table border="0" cellpadding="0" cellspacing="0" height="100%"><tr>
-<td bgcolor="#7F7F7F" height="100%"><img src="templates/design_01/images/spacer.gif" width="1" height="100%"></td>
-<td width="560" height="239">
-<table border="0" cellpadding="6" cellspacing="0" width="100%" height="100%"><tr>
-<td height="239" valign="top">
-<!-- Load Page Content :: Begin -->
-<!-- Load Top Module -->
-	<?php if (mosCountModules('top') > 0) { mosLoadModules ( "top" ); echo '<hr/>'; } ?>
-<!-- Load Main Content -->
-	<?php mosMainBody(); ?>
-<!-- Load Bottom Module -->
-	<?php if (mosCountModules('bottom') > 0) { echo '<hr/>'; mosLoadModules ( "bottom" ); } ?>
-<!-- Load Page Content :: End -->
-</td></tr></table>
-</td></tr></table></td>
-</tr><tr>
-<td valign="top">
-<table border="0" cellpadding="0" cellspacing="0"><tr>
-<td><a href="<?php echo $GLOBALS['mosConfig_live_site']; ?>"><img src="templates/design_01/images/fbutt_home.gif" width="43" height="16" border="0" alt="<?php echo $GLOBALS['mosConfig_sitename']; ?> - Home Page"></a></td>
-<td width="465" height="16" align="center" valign="middle">
-<!-- Load Bottom Menu :: Begin -->
+<body BgColor="#FFFFFF" LeftMargin="0" TopMargin="0" MarginWidth="0" MarginHeight="0">
+<table Id="Table_01" Width="800" Height="600" Border="0" CellPadding="0" CellSpacing="0">
+	<tr>
+		<td>
+			<table Id="Table_02" Width="800" Height="105" Border="0" CellPadding="0" CellSpacing="0">
+				<tr>
+					<td Width="154" NoWrap></td>
+					<td Width="77" NoWrap></td>
+					<td Width="49" NoWrap></td>
+					<td Width="388" NoWrap></td>
+					<td Width="132" NoWrap></td>
+				</tr>
+				<tr>
+					<td RowSpan="3">
+						<img Src="templates/ecommerce_01/images/index_01.gif" Width="154" Height="105" /></td>
+					<td ColSpan="3" BgColor="#ffffff" Width="514" Height="48">
+<!-- Show Logo, Site's Title & Slogan - Begin -->
+	<table border="0" cellpadding="0" cellspacing="0" Width="100%"><tr>
+		<td Width="90">
+			<div align="center"><a href="<?php echo $GLOBALS['mosConfig_live_site']; ?>" title="<?php echo strtoupper($GLOBALS['mosConfig_sitename']); ?>">
+				<IMG border="0" width="36" height="46" align="absmiddle" SRC="<?php echo $GLOBALS['mosConfig_live_site']; ?>/templates/ecommerce_01/images/logo.gif" alt="<?php echo $GLOBALS['mosConfig_sitename']; ?> - <?php echo $mosConfig_MetaDesc; ?>"/>
+			</a></div>
+		</td>
+		<td Width="424" valign="middle">
+			<?php $site_title = explode(' - ', $GLOBALS['mosConfig_sitename']); ?>
+			<font face="Arial" size="3" color="#ff0000"><?php echo strtoupper($site_title[0]); ?></font><br/>
+			<font face="Arial" size="2" color="#ff6600"><?php echo $site_title[1]; ?></font>
+		</td>
+	</tr></table>
+<!-- Show Logo, Site's Title & Slogan - End -->
+					</td>
+					<td>
+						<img Src="templates/ecommerce_01/images/index_03.gif" Width="132" Height="48" /></td>
+				</tr>
+				<tr>
+					<td>
+						<img Src="templates/ecommerce_01/images/index_04.gif" Width="77" Height="25" /></td>
+					<td>
+						<img Src="templates/ecommerce_01/images/index_05.gif" Width="49" Height="25" /></td>
+					<td ColSpan="2" BackGround="templates/ecommerce_01/images/index_06.gif" Width="520" Height="25" Style="background-repeat: repeat-x;" align="center" valign="middle">
+<!-- Top Menu - Start -->
 <?php
-	$database->setQuery("SELECT id, name, link FROM #__menu WHERE menutype='mainmenu' AND name!='Home' AND parent='0' AND access<='$gid' AND sublevel='0' AND published='1' ORDER BY ordering");
+	$database->setQuery("SELECT id, name, link FROM #__menu WHERE menutype='mainmenu' and parent='0' AND access<='$gid' AND sublevel='0' AND published='1' ORDER BY ordering");
 	$rows = $database->loadObjectList();
-	$first = TRUE;
+	$i = 0;
 	foreach($rows as $row) {
-		if (!preg_match("/Itemid=/", $row->link)) {
-			$item_url = "$row->link&Itemid=$row->id";
+		$i += 1;
+		if ($i == 1) {
+			echo "<a class='buttonbar' href='$row->link&Itemid=$row->id'>$row->name</a>";
 		} else {
-			$item_url = $row->link;
-		}
-		if ($first) {
-			echo "<a class='buttonbar' href='$item_url'>$row->name</a>";
-			$first = FALSE;
-		} else {
-			echo "&nbsp;|&nbsp;<a class='buttonbar' href='$item_url'>$row->name</a>";
+			echo "&nbsp;&nbsp;|&nbsp;&nbsp;<a class='buttonbar' href='$row->link&Itemid=$row->id'>$row->name</a>";
 		}
 	}
 ?>
-<!-- Load Bottom Menu :: End -->
-</td>
-<td><a href="#top"><img src="templates/design_01/images/butt_top.gif" width="53" height="16" border="0" alt="<?php echo $GLOBALS['mosConfig_sitename']; ?> - Top of Page"></a></td>
-</tr></table>
-</td></tr></table>
-</td></tr>
-</table>
-</td>
-<td background="templates/design_01/images/bg_rside.gif" width="2" height="100%"></td>
-</tr>
-</table>
-</td>
-</tr><tr>
-<td valign="top" height="61">
-<table border="0" cellpadding="0" cellspacing="0" height="61">
-<tr>
-<td><img src="templates/design_01/images/gtx_des_24.jpg" width="170" height="61"></td>
-<td><img src="templates/design_01/images/gtx_des_25.jpg" width="17" height="61"></td>
-<td><img src="templates/design_01/images/bg_footer.jpg" width="1" height="61"></td>
-<td background="templates/design_01/images/bg_footer2.jpg" width="470" height="61" align="center" valign="bottom">
-<!-- Display Credit :: Begin -->
-Template source from <a href="http://www.supremetemplates.com" target="_blank">Supreme Templates</a>.<a href="http://designforjoomla.com" target="_blank" title="Joomla template by DesignForJoomla.com">Joomla template by DesignForJoomla.com</a>.
+<!-- Top Menu - End -->
+					</td>
+				</tr>
+				<tr>
+					<td ColSpan="4" BackGround="templates/ecommerce_01/images/index_07.gif" Width="646" Height="32" Style="background-repeat: repeat-x;" valign="middle">
+<!-- Load Pathway - Begin -->
+	<?php include $GLOBALS['mosConfig_absolute_path'] . '/pathway.php'; ?>
+<!-- Load Pathway - End -->
+					</td>
+				</tr>
+			</table></td>
+	</tr>
+	<tr>
+		<td>
+			<table Id="Table_03" Width="800" Border="0" CellPadding="0" CellSpacing="0">
+				<tr>
+					<td Width="153" NoWrap></td>
+					<td Width="170" NoWrap></td>
+					<td Width="46" NoWrap></td>
+					<td Width="299" NoWrap></td>
+					<td Width="132" NoWrap></td>
+				</tr>
+				<tr>
+					<td ColSpan="2" BackGround="templates/ecommerce_01/images/index_08.gif" Width="323" Height="23" Style="background-repeat: repeat-x;" align="center" valign="middle">
+<!-- Show Current Date - Begin -->
+	<?php echo (date(_DATE_FORMAT)); ?>
+<!-- Show Current Date - End -->
+					</td>
+					<td valign="top">
+						<img Src="templates/ecommerce_01/images/index_09.gif" Width="46" Height="23" /></td>
+					<td BgColor="#ffffff" Width="299" Height="23" nowrap>&nbsp;</td>
+					<td RowSpan="3" BackGround="templates/ecommerce_01/images/index_11.gif" Width="132" Style="background-repeat: repeat-y; padding: 3px;" align="center" valign="top">
+<!-- Load Right Module - Begin -->
+	<?php if (mosCountModules('right') > 0) mosLoadModules("right"); ?>
+<!-- Load Right Module - End -->
+					</td>
+				</tr>
+				<tr>
+					<td BgColor="#AA94FF" Width="153" Style="padding: 3px;" align="center" valign="top">
+<!-- Load Left Module - Begin -->
+	<?php mosLoadModules("left"); ?>
+<!-- Load Left Module - End -->
+					</td>
+					<td ColSpan="3" RowSpan="2" BgColor="#ffffff" Width="515" Style="padding: 3px;" align="center" valign="top">
+<!-- Load Top Module, Main Content & Bottom Module - Begin -->
+<?php
+	if (mosCountModules('top') > 0) { mosLoadModules ( "top" ); echo '<hr/>'; }
+	mosMainBody();
+	if (mosCountModules('bottom') > 0) { echo '<hr/>'; mosLoadModules ( "bottom" ); }
+?>
+<!-- Load Top Module, Main Content & Bottom Module - End -->
+					</td>
+				</tr>
+				<tr>
+					<td BgColor="#AA94FF" valign="bottom">
+						<img Src="templates/ecommerce_01/images/index_14.gif" Width="153" Height="26" /></td>
+				</tr>
+			</table></td>
+	</tr>
+	<tr>
+		<td>
+<!-- Credit Line - Begin -->
+<br/><hr style="width: 70%;"><br/>
+<div align="center">
+Template source from <a href="http://www.layouts4free.com" target="_blank">Layouts 4 Free</a>. <a href="http://designforjoomla.com" target="_blank" title="Joomla template by DesignForJoomla.com">Joomla template by DesignForJoomla.com</a>.
 <?php include_once( $GLOBALS['mosConfig_absolute_path'] . '/includes/footer.php' ); ?>
-<!-- Display Credit :: End -->
-</td>
-<td background="templates/design_01/images/butt_footerlogo.jpg" width="90" height="61" style="background-repeat: repeat-x;"></td>
-<td background="templates/design_01/images/bg_rside.gif" width="2" height="61"></td>
-</tr>
+<!-- Credit Line - End -->
+		</td>
+	</tr>
 </table>
-</td></tr></table>
-
 </body>
-<!-- /* Joomla Template by DesignForJoomla.com */ -->
+<!--/* Joomla Template by DesignForJoomla.com */ -->
 </html>
-
-
-

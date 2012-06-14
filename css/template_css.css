@@ -14,7 +14,7 @@ li {
 }
 
 hr {
-  background       : #C00000;
+  background       : #AA94FF;
   height           : 1px;
   width            : 97%;
 }
@@ -28,49 +28,52 @@ table.searchintro {
 a:link, a:visited {
   font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
   font-size        : 11px;
-  color            : #c00000;
+  color            : #303030;
   text-decoration  : none;
-}a:hover {
-  color            : #0000ff;
+}
+
+a:hover {
+  color            : #ff0000;
+  border-bottom    : 1px solid #ff0000;
 }
 
 a.category:link, a.category:visited {
   font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
-  font-size        : 13px;
-  color            : #c00000;
+  font-size        : 12px;
+  color            : #303030;
   font-weight      : bold;
-  border-bottom    : 1px dashed #c00000;
+  border-bottom    : 1px dashed #303030;
   text-decoration  : none;
 }
 
 a.category:hover {
-  color            : #c00000;
-  border-bottom    : 1px solid #c00000;
+  color            : #ff0000;
+  border-bottom    : 1px solid #ff0000;
 }
 
 a.buttonbar:link, a.buttonbar:visited {
   font-family      : Trebuchet MS;
-  font-size        : 11px;
-  color            : #969696;
+  font-size        : 12px;
+  color            : #303030;
   font-weight      : bold;
-  text-decoration  : none;
-  letter-spacing   : 1px;
 }
 
 a.buttonbar:hover {
-  color            : #c00000;
+  color            : #ff0000;
+  border-bottom    : none;
 }
 
 a.blogsection:link, a.blogsection:visited {
   font-family      : Trebuchet MS;
   font-size        : 11px;
-  color            : #c00000;
+  color            : #303030;
   font-weight      : bold;
-  border-bottom    : 1px dashed #c00000;
+  border-bottom    : 1px dashed #303030;
   text-decoration  : none;
 }
 a.blogsection:hover {
-  border-bottom    : 1px solid #c00000;
+  color            : #ff0000;
+  border-bottom    : 1px solid #ff0000;
 }
 
 /* ###################### MAIN MENU SETTINGS ###################### */
@@ -78,76 +81,64 @@ a.blogsection:hover {
   font-family      : Verdana, Geneva, Arial, Helvetica, serif;
   font-size        : 12px;
   font-weight      : bold;
-  text-align       : right;
-  padding-right    : 17px;
-  display: block;
-  line-height: 20px;
+  text-align       : left;
+  margin-bottom    : 3px;
+  padding-left     : 3px;
+  line-height      : 17px;
 }
 
 a.mainlevel:link, a.mainlevel:visited {
-  background-image: url(../images/butt_menu.jpg);
-  background-repeat: no-repeat;
-  color: #c00000;
+  color            : #303030;
+  border-bottom    : 1px dashed #303030;
 }
 
 a.mainlevel:hover {
-  background-image: url(../images/butt_menu_sel.jpg);
-  background-repeat: no-repeat;
-  color: #ffffff;
+  color            : #ff0000;
+  border-bottom    : 1px solid #ff0000;
 }
 
 .sublevel {
   font-family      : Arial, Helvetica, serif;
   font-size        : 12px;
-  width            : 100%;
   text-align       : right;
   margin-bottom    : 3px;
   padding-right    : 3px;
+  line-height      : 17px;
 }
 
 a.sublevel:link, a.sublevel:visited {
-  color            : #c00000;
+  color            : #303030;
+  border-bottom    : 1px dashed #303030;
 }
 
 a.sublevel:hover {
-  border-bottom: 1px dashed #C00000;
+  color            : #ff0000;
+  border-bottom    : 1px solid #ff0000;
 }
 
 /* ###################### MODULE SETTINGS ###################### */
 table.moduletable {
   width            : 100%;
-  padding          : 3px;
+  padding-left     : 3px;
+  padding-right    : 3px;
+  padding-top      : 3px;
+  padding-bottom   : 7px;
 }
 
 table.moduletable th {
   font             : Trebuchet MS, Verdana, sans-serif;
   font-size        : 13px;
   font-weight      : bold;
-  color            : #969696;
-  text-align       : left;
-  padding-left     : 5px;
-  background-image : url(../images/tit_module.jpg);
-  background-repeat: no-repeat;
-  height           : 20px;
-}
-
-.newsflash {
-  font-family      : Arial, Helvetica, sans-serif;
-  font-size        : 10px;
-  color            : #27A19A;
-}
-
-.frameheader {
-  font             : Verdana, Arial, Helvetica, sans-serif;
-  font-size        : 18px;
-  font-weight      : none;
-  color            : #808080;
+  color            : #AA94FF;
+  text-align       : center;
+  padding          : 1px;
+  background-color : #e0e0e0;
 }
 
 .poll {
   font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
   font-size        : 10px;
-  color            : #666666;
+  color            : #303030;
   line-height      : 15px
 }
 
@@ -204,12 +195,12 @@ a.contentpagetitle:hover {
 
 .componentheading {
   font-family      : Trebuchet MS;
-  font-size        : 14px;
+  font-size        : 13px;
   font-weight      : bold;
-  color            : #969696;
-  text-align       : left;
-  padding-left     : 5px;
-  border-bottom    : 1px solid #969696;
+  color            : #AA94FF;
+  text-align       : center;
+  padding          : 1px;
+  border           : 1px solid #AA94FF;
 }
 
 .contentdescription {
@@ -229,17 +220,19 @@ a.contentpagetitle:hover {
 
 /* ###################### SECTION LISTING SETTINGS ###################### */
 .sectiontableentry1 {
-  background-color : #E4E7EC;
-  margin           : 3px;
+  background-color : #e0e0e0;
+  margin-left      : 1px;
+  margin-right     : 1px;
  }
 
 .sectiontableentry2 {
-  background-color : #ECEFF4;
-  margin           : 3px;
+  background-color : #c0c0c0;
+  margin-left      : 1px;
+  margin-right     : 1px;
  }
 
 .sectiontableheader {
-  background-color : #969696;
+  background-color : #a0a0a0;
   color            : #FFFFFF;
   height           : 20px;
   font-weight      : bold;
@@ -252,7 +245,7 @@ a.contentpagetitle:hover {
 .small {
   font-family      : Verdana, Arial, Helvetica, sans-serif;
   font-size        : 9px;
-  color            : #CC6600;
+  color            : #000000;
   text-decoration  : none;
   font-weight      : normal;
 }
@@ -269,38 +262,41 @@ a.contentpagetitle:hover {
   background-color : #f0f0f0;
   border           : solid 1px #777777;
   padding          : 3px;
+  margin           : 3px;
 }
 
 a.toclink:link, a.toclink:visited {
   color            : #707070;
-  font-weight      : bold;
   border-bottom    : none;
 }
 
 a.toclink:hover {
-  color            : #ff3300;
-  border-bottom    : 1px dashed #ff3300;
+  color            : #ff6633;
+  border-bottom    : 1px dashed #ff6633;
 }
 
 /* ###################### PATH-WAY SETTINGS ###################### */
 .pathway {
   font-family      : Arial;
-  font-size        : 11px;
+  font-size        : 13px;
   font-weight      : bold;
-  color            : #ffffff;
+  color            : #f0f0f0;
 }
 
 a.pathway:link, a.pathway:visited {
   font-family      : Arial;
-  font-size        : 11px;
+  font-size        : 13px;
   font-weight      : bold;
-  color            : #ffffff;
-  border-bottom    : 1px dashed #ffffff;
+  color            : #f0f0f0;
+  border-bottom    : none;
 }
 
 a.pathway:hover {
-  color            : #ff3300;
-  border-bottom    : 1px solid #ff3300;
+  font-family      : Arial;
+  font-size        : 13px;
+  font-weight      : bold;
+  color            : #ffff00;
+  border-bottom    : none;
 }
 
 /* ###################### DATE TIME SETTINGS ###################### */
@@ -325,8 +321,10 @@ a.pathway:hover {
 
 .readon {
   font             : Arial, Verdana, Trebuchet MS;
-  font-size        : 13px;
+  font-size        : 11px;
   font-weight      : bold;
   text-align       : left;
   padding-left     : 10px;
+  padding-top      : 5px;
+  border-bottom    : 1px solid;
 }
