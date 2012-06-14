@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <mosinstall type="template">
-  <name>business_01</name>
+  <name>business_02</name>
   <creationDate>January 2005</creationDate>
  <author>DesignForJoomla.com</author>
   <copyright>Converted to Joomla template by DesignForJoomla.com.</copyright>
@@ -14,11 +14,14 @@
   </files>
   <images>
     
+    <filename>images/bcblank.jpg</filename>
+    <filename>images/clear.gif</filename>
+    <filename>images/header_bg.gif</filename>
+    <filename>images/header_bg2.gif</filename>
+    <filename>images/header_img.gif</filename>
+    <filename>images/header_img2.gif</filename>
     <filename>images/logo.gif</filename>
-    <filename>images/man.gif</filename>
-    <filename>images/mbg.gif</filename>
-    <filename>images/tc.gif</filename>
-    <filename>images/welcome.gif</filename>
+    <filename>images/page_bg.gif</filename>
   </images>
   <css>
     <filename>css/template_css.css</filename>
