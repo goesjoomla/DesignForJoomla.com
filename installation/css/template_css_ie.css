@@ -1,0 +1,12 @@
+#menu{margin:0 0 0 1px}
+#title h1{margin:5px 0 0 141px}
+#title{padding-top:5px}
+#top .moduletable h3,#bottom .moduletable h3,#left .moduletable h3,#right .moduletable h3{height:16px}
+#left .moduletable a.mainlevel,#right .moduletable a.mainlevel{margin:0 20px 1px 0}
+#left .moduletable ul li a.mainlevel,#right .moduletable ul li a.mainlevel{margin:0 0 1px}
+
+#mainbody{width:435px}
+#bottom_left{margin:0 0 0 -22px}
+#bottom_right{margin:-5px -10px 0 0}
+
+.pollstableborder{margin-right:10px}
