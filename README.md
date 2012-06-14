@@ -1,4 +1,4 @@
-D4J Mike template for Joomla! 1.0 series
+D4J Mint Chocolate Chip template for Joomla! 1.0 series
 ===============================================
 
 Install Git client by following the guide at the URL below:
@@ -9,7 +9,7 @@ Then, clone the repository at following URL:
 
 https://github.com/goesjoomla/DesignForJoomla.com.git
 
-Finally, checkout templates/mike branch to get D4J Mike.
+Finally, checkout templates/mint_chocolate_chip branch to get D4J Mint Chocolate Chip.
 
 --
 Manh-Cuong Nguyen

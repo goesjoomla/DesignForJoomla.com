@@ -1,0 +1,30 @@
+/* CSS SELECTORS FOR CUSTOMIZATION */
+
+/* ======================== HEADER ======================== */
+#Jtitle{color:#422100;text-transform:uppercase;font-weight:bold;padding-bottom:30px}
+#Jtitle h1,#Jtitle .moduletable h3{text-transform:capitalize;font-weight:400;font-size:3em;padding:10px 0}
+#Jtitle h1 a{color:#422100;text-decoration:none}
+#Jtitle h1 a:hover{text-decoration:none}
+
+#tools a{margin-right:0.5em;padding:0.2em 0.5em 0.3em 0.5em;line-height:2.5em;font-size:0.8em;color:#FFFFFF;background:#669999;text-decoration:none;border:#FF9900}
+#tools a:hover{color:white}
+
+/* ======================== NAV ======================== */
+#nav ul{margin:0;padding:0 0 0 27px;list-style:none}	
+#nav li{float:left;margin:0;padding:0 10px 0 0;margin-bottom:99px}	
+#nav li a.mainlevel{float:left;text-align:center;margin:5px 0 0 0;padding:4px 12px;font-weight:bold;text-decoration:none;color:#F1F7EE;border-bottom:2px solid #A9CE9B;border-right:2px solid #A9CE9B}
+#nav li a.mainlevel:hover{color:#FFFFFF;border-bottom:2px solid #6CAB54;border-right:2px solid #6CAB54;background:#86BA72}
+#nav li a.mainlevel#active_menu{color:#FFFFFF;background:#86BA72;border-bottom:2px solid #6CAB54;border-right:2px solid #6CAB54}
+
+/* ======================== LEFT COLUMN ======================== */
+#Jleft .contentheading{padding-bottom:0.7em}
+#Jleft .moduletable h3{padding-top:10px;font-size:1.2em;color:#422100;margin-bottom:1em}
+
+/* ======================== RIGHT COLUMN ======================== */
+#Jright .moduletable h3{font-size:1.25em;font-style:italic;color:#422100;background:#EDF3EB;margin-left:-1.4em;padding-bottom:1em}
+#Jright .moduletable{background:url(../images/vline.gif) left repeat-y;padding-left:0.8em;margin-left:1.1em;margin-bottom:1.25em}
+
+/* ======================== FOOTER ======================== */
+#footer{font-size:0.8em;color:#666666;text-align:center}
+#footer a{color:#333333;text-decoration:none}
+#footer a:hover{color:#422100;text-decoration:underline}

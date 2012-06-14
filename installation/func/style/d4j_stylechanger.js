@@ -1,28 +1,44 @@
 var prefsLoaded = false;
-var defaultFontSize = 16;
+var defaultFontSize = 12;
 var currentFontSize = defaultFontSize;
+var defaultContainerWidth = 770;
+var currentContainerWidth = defaultContainerWidth;
 
 function revertStyles(){
-        currentFontSize = defaultFontSize;
-        changeFontSize(0);
+
+	currentFontSize = defaultFontSize;
+	changeFontSize(0);
+
 }
 
 function changeFontSize(sizeDifference){
-        currentFontSize = parseInt(currentFontSize) + parseInt(sizeDifference);
+	currentFontSize = parseInt(currentFontSize) + parseInt(sizeDifference);
 
-        if(currentFontSize > 19){
-                currentFontSize = 19;
-        }else if(currentFontSize < 11){
-                currentFontSize = 11;
-        }
+	if(currentFontSize > 18){
+		currentFontSize = 18;
+	}else if(currentFontSize < 8){
+		currentFontSize = 8;
+	}
 
-        setFontSize(currentFontSize);
+	setFontSize(currentFontSize);
 };
 
 function setFontSize(fontSize){
-        document.body.style.fontSize = fontSize + 'px';
+	document.body.style.fontSize = fontSize + 'px';
 };
 
+function changeContainerWidth(newWidth) {
+	var obj1 = document.getElementById('Jcontainer');
+	currentContainerWidth = parseInt(newWidth);
+	if (currentContainerWidth == 0)
+	{
+		obj1.style.width = '100%';		
+	}
+	else 
+	{
+		obj1.style.width = currentContainerWidth + 'px';					
+	}
+};
 
 function createCookie(name,value,days) {
   if (days) {
@@ -48,12 +64,18 @@ function readCookie(name) {
 window.onload = setUserOptions;
 
 function setUserOptions(){
-        if(!prefsLoaded){
-                userFontSize = readCookie("fontSize");
-                currentFontSize = userFontSize ? userFontSize : defaultFontSize;
-                setFontSize(currentFontSize);
-                prefsLoaded = true;
-        }
+	if(!prefsLoaded){
+
+		userFontSize = readCookie("fontSize");
+		userContainerWidth = readCookie("containerWidth");
+
+		currentFontSize = userFontSize ? userFontSize : defaultFontSize;
+		setFontSize(currentFontSize);
+		currentContainerWidth = userContainerWidth ? userContainerWidth : defaultContainerWidth;
+		changeContainerWidth(currentContainerWidth);
+
+		prefsLoaded = true;
+	}
 
 }
 
@@ -61,6 +83,6 @@ window.onunload = saveUserOptions;
 
 function saveUserOptions()
 {
-        createCookie("fontSize", currentFontSize, 30);
-
+	createCookie("fontSize", currentFontSize, 30);
+	createCookie("containerWidth", currentContainerWidth, 30);
 }

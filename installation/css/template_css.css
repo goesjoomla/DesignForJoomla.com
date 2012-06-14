@@ -1,102 +1,10 @@
-/*document settings*/
-body{margin:0;padding:0;font-family:"Trebuchet MS", Verdana, sans-serif}
-th,td,form,div,p{margin:0;padding:0;font-family:"Trebuchet MS"}
-ul{margin:0;padding:0;list-style:none}
-li{margin:0;padding:0 0 0 15px}
-a {text-decoration: none;color: #a99190}
+/* JOOMLA 1.0.X TEMPLATE CSS FILE */
 
-/* position setting (tableless)*/
-.clr{clear:both}
+/* Main css file with standard css selectors */
+@import url("base.css");
 
-#sitetools{position:fixed;top:10px;right:20px}
-#tools{margin-top:8px;display:none;position:fixed;top:15px;right:20px}
-#tools a,#tools a:hover{border:none}
+/* Css file with css selectors for layout */
+@import url("layout.css");
 
-#container_outter{background: #a99190 url(../images/containerBg.gif) bottom left repeat-x;overflow:hidden}
-#container_inner{background: url(../images/headerBg.gif) top left repeat-x}
-#container{width:742px;margin:0 auto;text-align:left}
-
-#header{margin:0;width:742px;float:left;height:66px}
-#user7,#user7 h1{margin:0;float:left;height:66px;font-size: 1.9em;letter-spacing: -1px;width:240px;padding:5px 0 0 1px;color: #a99190;font-weight:bold}
-#user7 h1{font-size:1em;padding:0}
-
-#toolbar{margin:0;width:500px;float:left;text-align:right;height:66px}
-#toolbar ul li{display:inline;margin:0;padding:0}
-#toolbar a.mainlevel{padding: 14px 9px 13px;line-height:50px;margin:0;font-size: 17px;color: #fff}
-#toolbar a:hover.mainlevel{background:#806e6d}
-#toolbar ul li a.mainlevel{padding:14px 9px}
-
-#content{margin:0;width:712px;float:left;background:#fff;border-left:15px solid #fff;border-right:15px solid #fff}
-#content a:hover,#footer a:hover{background:#a99190;color:#fff}
-#content ul li{background: url(../images/arrow.gif) 0 5px no-repeat}
-
-#advert1{margin:16px 0 0;width:712px;height:200px;float:left}
-
-#lbox,#left,#user8,#right{margin:0;float:left;width:270px;overflow:hidden}
-#lbox .moduletable{margin:0;padding:14px 44px 1px 6px}
-#lbox .moduletable h3,#rbox .moduletable h3,#mainbody .contentheading,#mainbody .componentheading{margin:0 0 15px;font-size:1.5em;border-bottom: 1px solid #9b6e89;font-weight:bold}
-
-#rbox,#top,#box1,#user1,#user2,#banner,#mainbody,#bottom{margin:0;float:left;width:442px;text-align:justify;overflow:hidden}
-#user1,#user2{width:49%}
-#rbox .moduletable,#mainbody{margin:0;padding:14px 6px 1px 6px}
-#mainbody{width:430px}
-#mainbody .contentpaneopen,#mainbody .contentpane{width:100%}
-blockquote {background: #f7f7f7;padding: 15px;margin: 5px 0}
-
-#box3,#user3,#user4,#user5{margin:0;float:left;width:712px;overflow:hidden;background: #f7f7f7}
-#user3,#user4,#user5{width:33%}
-#box3 .moduletable{margin:5px 0 0 0;padding:8px 7px;font-size:0.9em}
-#box3 .moduletable h3{font-size:1.1em;border:none;padding:0;margin:0 0 8px}
-
-#footer{position:relative;clear:both;margin:0 auto 15px;background:#45444d;width:740px;color: #fff;border:1px solid #fff;clear:both;text-align:center}
-#footer a{color:#fff;font-weight:bold}
-
-#spacer,#spacer1{height:15px;width:100%;background:#fff;margin:0;float:left}
-
-#bottom_right{float:right;margin:0;padding:0 10px 0 0;text-align:right}
-#bottom_right div{text-align:right}
-/*joomla settings*/
-.small,span.small,#mainbody .createdate,#mainbody .modifydate,.pagenavcounter{font-size:0.9em;color:#aaa;font-style:italic}
-.back_button,.pagenav_prev,.pagenav_next{font-size:0.9em}
-.readon{float:right}
-.contentpane,.contentpaneopen{text-align:justify}
-
-.contenttoc{margin:7px 0 7px 7px;padding:0 10px;border:1px dotted #666}
-.contenttoc th{border-bottom:1px dotted #666;font-size:13px;color:#666;text-align:center}
-.contenttoc td{margin:5px 0 5px 14px;padding:2px 7px}
-.contenttoc a.toclink{text-decoration:none;font-weight:bold}
-
-input{background: #f7f7f7;font-size: 0.9em}
-input.button{padding: 0 6px;text-align: center}
-
-.blog td{padding:2px}
-.blog_more{margin:0 3px 15px 13px;padding:3px 6px;border:1px dotted #666}
-.blog_more div{border-bottom:1px dotted #666}
-.blog_more ul{margin:2px 0 2px 34px}
-.blog_more ul li{margin-left:30px}
-.blog_more ul li a.blogsection{text-decoration:none}
-
-.syndicate div{text-align:center}
-select#mod_templatechooser_jos_change_template{width:142px}
-div.contact_email textarea#contact_text.inputbox{width:350px}
-.contentpane .inputbox{width:50%}
-.contentpane select.inputbox{width:55px}
-
-.pollstableborder td{line-height:25px;vertical-align:middle}
-.poll thead td{text-align:center}
-.poll .button{margin-top:5px}
-
-.sectiontableheader{color:#FFF;background:#9B6E89;font-weight:bold;padding:0 5px;height:20px;border-bottom:1px dashed #222;font-size:12px}
-.sectiontablefooter{text-align:center}
-.sectiontableentry1 label{color:#333}
-.sectiontableentry2 label{color:#333}
-
-.pollstableborder{margin:0}
-.pollstableborder td{vertical-align:middle}
-.pollstableborder input{margin:0}
-
-.sectiontableentry1,.sectiontableentry1 td{padding:2px;text-align:left;background:#F2F2F2;color:#333;line-height:25px}
-.sectiontableentry1 td a,.sectiontableentry2 td a{line-height:25px}
-.sectiontableentry2,.sectiontableentry2 td{padding:2px;text-align:left;background:#FFF;color:#333;line-height:25px}
-
-.tips{display:none}
+/* Css file with css selectors for custom modules and menus */
+@import url("custom.css");
