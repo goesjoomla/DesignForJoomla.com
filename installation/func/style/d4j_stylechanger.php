@@ -2,11 +2,10 @@
 
 // no direct access
 defined( '_VALID_MOS' ) or die( 'Restricted access' );
-
-global $colors;
+define( '_TEMPLATE_URL', $mosConfig_live_site.'/templates/'.$cur_template );
 
 // set font size
-$defaultFontSize = 13;
+$defaultFontSize = 12;
 $currentFontSize = $defaultFontSize;
 $userOptions['fontSize'] = intval(mosGetParam($_COOKIE, 'fontSize', $defaultFontSize));
 
@@ -14,12 +13,10 @@ if ($userOptions['fontSize'] != $defaultFontSize) { // user has already interest
         $currentFontSize = $userOptions['fontSize'];
 }
 
-        echo "<style type=\"text/css\">";
-        echo "\tbody{font-size:".$currentFontSize."px}\n";
-        echo "</style>";
+        echo "<style type=\"text/css\">\tbody{font-size:".$currentFontSize."px}\n</style>";
 
 // set container width
-$defaultContainerWidth = 760;
+$defaultContainerWidth = 960;
 $currentContainerWidth = $defaultContainerWidth;
 
 $userOptions['containerWidth'] = intval(mosGetParam($_COOKIE, 'containerWidth', $defaultContainerWidth));
@@ -27,8 +24,6 @@ $userOptions['containerWidth'] = intval(mosGetParam($_COOKIE, 'containerWidth', 
 if ($userOptions['containerWidth'] != $defaultContainerWidth) { // user has already interested in a container width
         $currentContainerWidth = $userOptions['containerWidth'];
 }
-	echo "<style type=\"text/css\">";
-	echo "\t#container{width:".($currentContainerWidth == 0 ? '95%' : $currentContainerWidth.'px')."}\n";
-	echo "</style>";
 
+        echo "<style type=\"text/css\">\t#container{width:".($currentContainerWidth == 0 ? '96%' : $currentContainerWidth.'px')."}\n</style>";
 ?>

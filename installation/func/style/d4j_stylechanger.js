@@ -1,23 +1,23 @@
 var prefsLoaded = false;
-var defaultFontSize = 13;
+var defaultFontSize = 12;
 var currentFontSize = defaultFontSize;
-var minWidth = 760;
-var maxWidth = 960;
-var defaultContainerWidth = minWidth;
+var defaultContainerWidth = 960;
 var currentContainerWidth = defaultContainerWidth;
 
+
 function revertStyles(){
+
         currentFontSize = defaultFontSize;
         changeFontSize(0);
-}
 
+}
 function changeFontSize(sizeDifference){
         currentFontSize = parseInt(currentFontSize) + parseInt(sizeDifference);
 
-        if(currentFontSize > 17){
-                currentFontSize = 17;
-        }else if(currentFontSize < 9){
-                currentFontSize = 9;
+        if(currentFontSize > 18){
+                currentFontSize = 18;
+        }else if(currentFontSize < 6){
+                currentFontSize = 6;
         }
 
         setFontSize(currentFontSize);
@@ -30,9 +30,8 @@ function setFontSize(fontSize){
 function changeContainerWidth(newWidth) {
         var obj = document.getElementById('container');
         currentContainerWidth = parseInt(newWidth);
-        if (currentContainerWidth == 0) obj.style.width = '95%';
+        if (currentContainerWidth == 0) obj.style.width = '96%';
         else obj.style.width = currentContainerWidth + 'px';
-
 };
 
 function createCookie(name,value,days) {
@@ -60,25 +59,20 @@ window.onload = setUserOptions;
 
 function setUserOptions(){
         if(!prefsLoaded){
-
                 userFontSize = readCookie("fontSize");
                 userContainerWidth = readCookie("containerWidth");
-
                 currentFontSize = userFontSize ? userFontSize : defaultFontSize;
                 setFontSize(currentFontSize);
                 currentContainerWidth = userContainerWidth ? userContainerWidth : defaultContainerWidth;
                 changeContainerWidth(currentContainerWidth);
-
                 prefsLoaded = true;
         }
-
 }
 
 window.onunload = saveUserOptions;
 
 function saveUserOptions()
 {
-        createCookie("fontSize", currentFontSize, 30);
-        createCookie("containerWidth", currentContainerWidth, 30);
-
+                createCookie("fontSize", currentFontSize, 30);
+                createCookie("containerWidth", currentContainerWidth, 30);
 }

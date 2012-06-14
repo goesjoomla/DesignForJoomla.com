@@ -1,5 +1,10 @@
 table{font-size:1em;line-height:1.8em}
-#sitetools{position:absolute;right:30px}
-#tools{position:absolute;right:30px}
-#advert1{font-size:5.6em}
-  
+#rheader{height:150px}
+#inset{width:66.5%}
+#buttons{width:152px}
+#inset input.inputbox{margin:7px 0 0 28px;height:18px;width:111px}
+#inset input.button{margin:0 0 0 6px;height:18px}
+#nav{margin:16px 0 0;height:81px}
+#mainmenu li li,#mainmenu li li:hover,#mainmenu li li.sfhover{padding:3px 0 3px 22px}
+#rbox{width:65.72%}
+.pollstableborder{margin-right:25px}

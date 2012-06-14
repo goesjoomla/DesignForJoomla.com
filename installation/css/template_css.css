@@ -1,82 +1,117 @@
 /*document settings*/
-body{margin:0;padding:0;background:#FFF url(../images/img01.gif) repeat-x;font-family:Verdana,Arial,Helvetica,sans-serif;color:#666;line-height:1.8em}
-th,td,form,div,p{margin:0;padding:0;font-family:Verdana;color:#666;line-height:1.8em}
-ul{margin:0;padding:0;list-style:none}
+body{margin:0;padding:0;background:#fff;font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;color:#000;line-height:1.8em}
+th,td,form,div,p{margin:0;padding:0;font-family:"Trebuchet MS";color:#000;line-height:1.8em}
+ul{margin:0;padding:0 0 0 15px}
 li{margin:0;padding:0 0 0 15px}
-a{border-bottom:1px dotted #CCC;text-decoration:none;color:#1777B1}
-a:hover{border-bottom:none;color:#FF7400}
+a{color:#0065CC;text-decoration:underline}
+a:hover{text-decoration:none;color:#CC0000}
 
 /* position setting (tableless)*/
 .clr{clear:both}
 
-#sitetools{position:fixed;bottom:10px;right:10px}
-#tools{margin-top:-4px;display:none;position:fixed;bottom:10px;right:10px}
-#tools a,#tools a:hover{border:none}
+#container{width:100%;margin:0 auto;overflow:hidden;text-align:left}
 
-#container{width:100%;margin:0 auto;text-align:left;overflow:hidden}
-#banner .moduletable a{border:none}
+#header{margin:0;width:100%;float:left;height:150px}
 
-#header{margin:0;width:100%;float:left;overflow:hidden;background:url(../images/img02.gif) 3px 0 no-repeat;height:150px}
+#logo{margin:0;width:34.28%;float:left;height:150px;overflow:hidden}
+#logo h1,#logo h1 a{width:240px;height:150px}
+#logo h1{background:url(../images/logo.jpg) left top no-repeat;margin:0}
+#logo h1 a{display:block;text-indent:-5000px;background:none;border:none}
 
-#advert1,#advert2{margin:0;float:left;overflow:hidden}
-#advert1{padding:58px 0 0 15px;margin:0;text-transform:lowercase;line-height:72px;font-size:5.5em;font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;color:#000;font-weight:normal;width:50%}
-#advert1 h1,#advert2 h1{padding:0;margin:0;font-size:1em;font-weight:normal}
-#advert2{margin:0;text-align:right;padding:102px 4px 0 0;float:right;text-transform:uppercase;font:bold 1.4em "Trebuchet MS",Arial,Helvetica,sans-serif;color:#000;width:45%;}
-#advert2 h1{font-weight:bold}
+#rheader{margin:0;width:65.72%;float:left;height:147px;border-top:3px solid #000099;background:#0065CC url(../images/img01.gif) 0px 93px no-repeat}
 
-#content{margin:0;width:100%;float:left;overflow:hidden;background:url(../images/content.gif) 32% 45% repeat-y}
+#subheader,#inset,#buttons{margin:0;width:100%;float:left;height:50px;overflow:hidden}
 
-#lbox,#left,#newsflash,#right{margin:0;width:28.3%;float:left;overflow:hidden}
-#left,#newsflash,#right{width:100%}
-#left{margin:20px 0 0 0;background:url(../images/img10.gif) no-repeat right bottom}
-#lbox .moduletable{margin:0 0 20px;padding:0 8px 0 2px}
-#left .moduletable h3,.moduletable_pale h3,#newsflash .moduletable h3,.moduletable_red h3,#right .moduletable h3,.moduletable_green h3,#user1 .moduletable h3,.moduletable_blue h3,
-#user2 .moduletable h3,.moduletable_pink h3,#banner .moduletable h3,#user3 .moduletable h3,#user4 .moduletable h3,#bottom .moduletable h3,#mainbody .contentheading,#mainbody .componentheading{margin:0;background:url(../images/img04.gif) no-repeat 1px 3px;font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;color:#000;font-weight:bold;padding:20px 0 25px 40px;text-transform:lowercase;font-size:167%}
-#lbox .moduletable ul,#rbox .moduletable ul{margin:0;padding:0;list-style:none;}
-#lbox .moduletable a.sublevel{margin-left:-4px}
-#lbox .moduletable ul li,#rbox .moduletable ul li{padding:2px 10px;background:url(../images/img07.gif) no-repeat 0 10px;border-bottom:1px dotted #DCDCDC}
-#lbox .moduletable a.mainlevel,#lbox .moduletable a.sublevel{background:url(../images/img07.gif) no-repeat 0 10px;padding-left:15px;display:block}
-#rbox .moduletable ul li,#lbox .moduletable ul li a{border:none}
-#lbox .moduletable ul li a:hover{border-bottom:1px dotted #666}
-#lbox .moduletable a:hover.mainlevel,#lbox .moduletable a:hover.sublevel{border-bottom:1px dotted #CCC}
-#lbox .moduletable ul li a.mainlevel{display:inline;background:none;padding:0}
-#newsflash .moduletable h3,.moduletable_red h3,#banner .moduletable h3{margin:0;background:url(../images/img05.gif) no-repeat 1px 3px}
-#right .moduletable h3,.moduletable_green h3,#user4 .moduletable h3,#mainbody .contentheading,#mainbody .componentheading{margin:0;background:url(../images/img06.gif) no-repeat 1px 3px}
+#inset{width:67.2%}
+#buttons{width:150px;float:right}
 
-#rbox,#top,#box1,#user1,#user2,#banner,#mainbody,#box2,#user3,#user4,#bottom{margin:0;width:70%;float:right;overflow:hidden}
-#top,#box1,#banner,#mainbody,#box2,#bottom{width:100%}
-#user1,#user2,#user3,#user4{float:left}
-#top{margin:20px 0 0 0;background:url(../images/img11.gif) no-repeat right bottom}
-#rbox .moduletable{margin:0 0 15px;padding:0 0 0 14px}
-#top .moduletable h3{font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;color:#000000;font-weight:normal;font-size:237%;margin:9px 0 25px 0;padding:0}
-#user1 .moduletable h3,.moduletable_blue h3{margin:0;background:url(../images/img08.gif) no-repeat 1px 3px}
-#user2 .moduletable h3,.moduletable_pink h3{margin:0;background:url(../images/img09.gif) no-repeat 1px 3px}
-#mainbody .contentheading,#mainbody .componentheading{padding-bottom:0px}
-blockquote{border-left:4px solid #939A3C;padding:0 10px;text-align:justify;font-style:italic}
+#inset input.inputbox{border:1px solid #156DAC;color:#666;margin:8px 0 0 28px;padding-left:2px;height:14px;font-size:10px;width:107px}
+#inset input.button{width:40px;height:16px;border:none;margin:0 0 0 5px;padding:0;color:#fff;background:none;font-size:11px;font-family:Tahoma}
 
-#footer_container{width:100%;margin:20px 0 0;background:#000;overflow:hidden;text-align:left;padding:15px 0 20px;font-size:85%}
-#footer_container,#footer_container p,#footer_container div,#footer_container td{color:white}
-#footer_container a{border:none;color:#CCC}
-#footer_container a:hover{color:#fff}
-#box3,#user5,#user6,#user7,#user8,#user9{margin:0;width:100%;float:left}
-#box3{padding:0 0 20px}
+#button1,#button2,#button3,#spacer,#button4,#button5,#button6{margin:0;float:left;height:13px;width:14px}
+#button6{width:16px}
+#spacer{width:1px;background:#fff;margin:10px 0 0 10px;height:11px}
 
-#box3 .moduletable{padding:0 8px 0 20px;margin:0}
-#box3 .moduletable h3{font-size:1.2em;color:white;margin:0;padding:0 0 10px}
+#button1{margin:9px 0 0 2px}
+#button2,#button3{margin:9px 0 0 10px}
+#button4{margin:9px 0 0 10px}
+#button5{margin:9px 0 0 7px}
+#button6{margin:9px 0 0 6px}
 
-#footer{width:100%;margin:0;overflow:hidden;float:left;padding:0}
-#footer,#footer p,#footer div,#footer td{text-align:center}
-#bottom_left{float:left;margin:0;padding:0 0 0 8px;text-align:left}
-#bottom_left div{text-align:left}
-#bottom_right{float:right;margin:0;padding:0 8px 0 0;text-align:right}
-#bottom_right div{text-align:right}
+#nav{margin:15px 0 0;height:82px;width:100%;float:left}
+#nav ul{list-style:none;margin:0}
+#nav a span,.tips{display:none}
+/***SuckerFish menu***/
+#mainmenu{/*root list*/float:left}
+#mainmenu li{/*root list item*/position:relative;float:left;height:19px;text-align:center;padding:0 22px;font-size:12px;font-style:normal;margin:0;font-family:Arial;border-right:1px solid #fff}
+
+#mainmenu li a{text-decoration:none}
+#mainmenu li:hover,#mainmenu li.sfhover{/*hovered root list item*/}
+#mainmenu li.active{/*active root list item*/}
+#mainmenu li ul{/*child list*/position:absolute;top:27px;left:-999em;width:220px;height:auto}
+#mainmenu li:hover ul,#mainmenu li.sfhover ul{/*active dropdown list from root list item*/z-index:100;left:-15px;top:19px}
+#mainmenu li ul ul{/*margin for pullout list*/margin:-27px 0 0 215px}
+#mainmenu li:hover ul ul,#mainmenu li:hover ul ul ul,#mainmenu li:hover ul ul ul ul,#mainmenu li.sfhover ul ul,#mainmenu li.sfhover ul ul ul,#mainmenu li.sfhover ul ul ul ul{/*not-active pullout list*/left:-999em}
+#mainmenu li li:hover ul,#mainmenu li li li:hover ul,#mainmenu li li li li:hover ul,#mainmenu li li.sfhover ul,#mainmenu li li li.sfhover ul,#mainmenu li li li li.sfhover ul{/*active pullout list from child list item*/z-index:100;left:0;padding-top:5px}
+#mainmenu li li{/*child list item*/float:left;background:#F2F1F1;width:95px;height:18px;padding-top:3px;border-top:1px solid #0065CC}
+#mainmenu li li:hover,#mainmenu li li.sfhover{/*hovered child list item*/ background:#D7D3D3;display:block}
+#mainmenu li li.active{/*active child list item*/}
+#mainmenu a,#mainmenu li a,#mainmenu span.mainlevel,#mainmenu span.sublevel{/*list and root list item link and placeholder*/display:block;line-height:14px;padding:0;font-weight:bold;color:#FFF}
+#mainmenu a.topdaddy,#mainmenu li.active a.topdaddy,#mainmenu span.topdaddy,#mainmenu li.active span.topdaddy{/*root list item menu link and placeholder*/}
+#mainmenu a.daddy,#mainmenu li.active a.daddy,#mainmenu span.daddy,#mainmenu li.active span.daddy{/*child list item menu link and placeholder*/}
+#mainmenu li:hover a,#mainmenu li.sfhover a{/*link style of hovered root list item*/}
+#mainmenu li li a,#mainmenu li li span.sublevel{/*child list item link and placeholder*/width:111px;line-height:14px;text-align:left;color:#0065CC}
+#mainmenu li li:hover a,#mainmenu li li.sfhover a{/*link style of hovered child list item*/}
+
+#spacer1{width:8px;background:#0065CC;margin:15px 0 0 -10px;height:25px;float:left;position:relative}
+
+#content{margin:0;float:left;width:100%;overflow:hidden;background:url(../images/content.gif) repeat-y center}
+
+#lbox,#left,#user8,#right{margin:0;float:left;width:34.28%;overflow:hidden}
+#lbox{background:url(../images/img02.gif) top left no-repeat;padding-top:46px}
+#lbox a,#lbox a:hover{color:#fff}
+#left,#user8,#right{width:100%}
+
+#left .moduletable,#right .moduletable{margin:0;padding:0 20px 13px}
+#user8 .moduletable{background:#fff;margin:0 20px;padding:6px}
+#left .moduletable h3,#right .moduletable h3,#user8 .moduletable h3{margin:5px 0 17px;background:url(../images/img05.gif) repeat-x left bottom;font-size:2.2em;padding:13px 0px;text-transform:lowercase;font-family:Georgia,"Times New Roman",Times,serif;font-weight:normal}
+#user8 .moduletable h3{margin:0 -6px;background:url(../images/img08.gif) repeat-x left bottom;font-size:2.2em;padding:0 6px 11px}
+
+#rbox,#user9,#top,#box1,#banner,#mainbody,#bottom,#box2,#user1,#user2,#user3,#user4,#box3,#user6,#user5,#user7{margin:0;float:left;width:59.95%;overflow:hidden}
+#rbox{padding:20px 0 0 20px;background:white}
+#user9,#top,#box1,#banner,#mainbody,#bottom,#box2,#box3{width:100%}
+
+#box1,#box2{background:url(../images/img06.gif) bottom left repeat-x}
+
+#top .moduletable,#bottom .moduletable{margin:0;padding:20px 0 30px;background:url(../images/img06.gif) repeat-x left bottom}
+#top .moduletable h3,#bottom .moduletable h3,#user1 .moduletable h3,#user2 .moduletable h3,#user3 .moduletable h3,#user4 .moduletable h3,#mainbody .contentheading,#mainbody .componentheading{padding:0;margin:5px 0 25px;text-transform:lowercase;font-family:Georgia,"Times New Roman";font-weight:normal;color:#333333;font-size:2.2em}
+#user1 .moduletable,#user2 .moduletable,#user3 .moduletable,#user4 .moduletable{padding:10px 5px 15px;margin:0}
+#user1 .moduletable h3,#user2 .moduletable h3,#user3 .moduletable h3,#user4 .moduletable h3{margin:5px 0 10px;font-weight:bold;font-size:1.5em}
+
+#banner{padding:5px 0}
+
+#mainbody{margin:0;padding:5px 0 10px;background:url(../images/img06.gif) repeat-x left bottom}
+#mainbody .contentheading,#mainbody .componentheading{margin:0;padding:0}
+blockquote{padding-left:15px}
+
+#box3{margin-top:-4px;background:url(../images/img06.gif) top left repeat-x}
+#box3 .moduletable{padding:5px 20px}
+#box3 .moduletable,#box3 .moduletable p,#box3 .moduletable td{color:#999;font-size:0.9em}
+#box3 .moduletable h3{font-size:1.2em;color:#999;font-family:Arial;font-weight:bold;margin:5px 0}
+
+#footer{margin:-4px 0 0;float:left;width:100%;padding:8px 0;overflow:hidden;font-size:0.8em}
+#footer a,#footer,#footer td,#footer p{color:#999}
+#bottom_left{float:left;margin:0;padding:0;text-align:left}
+#bottom_left div{text-align:left;color:#999}
+#bottom_right{float:right;margin:0;padding:0;text-align:right}
+#bottom_right div{text-align:right;color:#999}
 
 /*joomla settings*/
-.small,span.small,#mainbody .createdate,#mainbody .modifydate,.pagenavcounter{font-size:0.9em;color:#aaa;line-height:100%}
+.small,span.small,#mainbody .createdate,#mainbody .modifydate,.pagenavcounter{font-size:0.9em;color:#aaa;font-style:italic}
 .back_button,.pagenav_prev,.pagenav_next{font-size:0.9em}
-.contentpane,.contentpaneopen{text-align:justify}
+.readon{float:right;font-style:italic}
 
-.contenttoc{margin:7px 0 7px 7px;padding:0 10px;border:1px dotted #666}
+.contenttoc{margin:7px;padding:0 10px;border:1px dotted #666}
 .contenttoc th{border-bottom:1px dotted #666;font-size:13px;color:#666;text-align:center}
 .contenttoc td{margin:5px 0 5px 14px;padding:2px 7px}
 .contenttoc a.toclink{text-decoration:none;font-weight:bold}
@@ -85,19 +120,16 @@ blockquote{border-left:4px solid #939A3C;padding:0 10px;text-align:justify;font-
 .blog_more{margin:0 3px 15px 13px;padding:3px 6px;border:1px dotted #666}
 .blog_more div{border-bottom:1px dotted #666}
 .blog_more ul{margin:2px 0 2px 34px}
-.blog_more ul li{margin:0px}
+.blog_more ul li a.blogsection{text-decoration:none}
 
 .syndicate div{text-align:center}
 select#mod_templatechooser_jos_change_template{width:142px}
-div.contact_email textarea#contact_text.inputbox{width:350px}
-.contentpane .inputbox{width:50%}
-.contentpane select.inputbox{width:55px}
 
 .pollstableborder td{line-height:25px;vertical-align:middle}
 .poll thead td{text-align:center}
 .poll .button{margin-top:5px}
 
-.sectiontableheader{color:#FFF;background:#99A34F;font-weight:bold;padding:0 5px;height:20px;border-bottom:1px dashed #222;font-size:12px}
+.sectiontableheader{color:#FFF;background:#CC0000;font-weight:bold;padding:0 5px;height:20px;border-bottom:1px dashed #222;font-size:12px}
 .sectiontablefooter{text-align:center}
 .sectiontableentry1 label{color:#333}
 .sectiontableentry2 label{color:#333}
@@ -107,7 +139,7 @@ div.contact_email textarea#contact_text.inputbox{width:350px}
 .pollstableborder input{margin:0}
 
 .sectiontableentry1,.sectiontableentry1 td{padding:2px;text-align:left;background:#F2F2F2;color:#333;line-height:25px}
-.sectiontableentry1 td a,.sectiontableentry2 td a{line-height:25px}
+.sectiontableentry1 td a,.sectiontableentry2 td a{color:#333;text-decoration:none;line-height:25px}
 .sectiontableentry2,.sectiontableentry2 td{padding:2px;text-align:left;background:#FFF;color:#333;line-height:25px}
 
 .tips{display:none}
