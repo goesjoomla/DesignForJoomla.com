@@ -1,0 +1,332 @@
+td,tr,p,div {
+  font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
+  font-size        : 11px;
+  color            : #000000;
+}
+
+ul {
+  margin           : 5px 5px 5px 5px;
+}
+
+li {
+  list-style       : inside url(../../../images/M_images/arrow.png);
+  list-style-image : url(../../../images/M_images/arrow.png);
+}
+
+hr {
+  background       : #C00000;
+  height           : 1px;
+  width            : 97%;
+}
+
+table.searchintro {
+  background-color : #FFFFFF;
+  border           : 1px solid #777777;
+}
+
+/* ###################### LINKS ###################### */
+a:link, a:visited {
+  font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
+  font-size        : 11px;
+  color            : #c00000;
+  text-decoration  : none;
+}a:hover {
+  color            : #0000ff;
+}
+
+a.category:link, a.category:visited {
+  font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
+  font-size        : 13px;
+  color            : #c00000;
+  font-weight      : bold;
+  border-bottom    : 1px dashed #c00000;
+  text-decoration  : none;
+}
+
+a.category:hover {
+  color            : #c00000;
+  border-bottom    : 1px solid #c00000;
+}
+
+a.buttonbar:link, a.buttonbar:visited {
+  font-family      : Trebuchet MS;
+  font-size        : 11px;
+  color            : #969696;
+  font-weight      : bold;
+  text-decoration  : none;
+  letter-spacing   : 1px;
+}
+
+a.buttonbar:hover {
+  color            : #c00000;
+}
+
+a.blogsection:link, a.blogsection:visited {
+  font-family      : Trebuchet MS;
+  font-size        : 11px;
+  color            : #c00000;
+  font-weight      : bold;
+  border-bottom    : 1px dashed #c00000;
+  text-decoration  : none;
+}
+a.blogsection:hover {
+  border-bottom    : 1px solid #c00000;
+}
+
+/* ###################### MAIN MENU SETTINGS ###################### */
+.mainlevel {
+  font-family      : Verdana, Geneva, Arial, Helvetica, serif;
+  font-size        : 12px;
+  font-weight      : bold;
+  text-align       : right;
+  padding-right    : 17px;
+  display: block;
+  line-height: 20px;
+}
+
+a.mainlevel:link, a.mainlevel:visited {
+  background-image: url(../images/butt_menu.jpg);
+  background-repeat: no-repeat;
+  color: #c00000;
+}
+
+a.mainlevel:hover {
+  background-image: url(../images/butt_menu_sel.jpg);
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+.sublevel {
+  font-family      : Arial, Helvetica, serif;
+  font-size        : 12px;
+  width            : 100%;
+  text-align       : right;
+  margin-bottom    : 3px;
+  padding-right    : 3px;
+}
+
+a.sublevel:link, a.sublevel:visited {
+  color            : #c00000;
+}
+
+a.sublevel:hover {
+  border-bottom: 1px dashed #C00000;
+}
+
+/* ###################### MODULE SETTINGS ###################### */
+table.moduletable {
+  width            : 100%;
+  padding          : 3px;
+}
+
+table.moduletable th {
+  font             : Trebuchet MS, Verdana, sans-serif;
+  font-size        : 13px;
+  font-weight      : bold;
+  color            : #969696;
+  text-align       : left;
+  padding-left     : 5px;
+  background-image : url(../images/tit_module.jpg);
+  background-repeat: no-repeat;
+  height           : 20px;
+}
+
+.newsflash {
+  font-family      : Arial, Helvetica, sans-serif;
+  font-size        : 10px;
+  color            : #27A19A;
+}
+
+.frameheader {
+  font             : Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 18px;
+  font-weight      : none;
+  color            : #808080;
+}
+
+.poll {
+  font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
+  font-size        : 10px;
+  color            : #666666;
+  line-height      : 15px
+}
+
+/* ###################### FORMULAR SETTINGS ###################### */
+.button {
+  font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
+  font-style       : normal;
+  font-weight      : bold;
+  font-size        : 10px;
+  color            : #000000;
+  border           : 1px solid;
+}
+
+.inputbox {
+  font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
+  font-size        : 10px;
+  font-weight      : bold;
+  color            : #000000;
+  background       : #FFFFFF;
+  border           : 1px solid;
+}
+
+/* ###################### CONTENT PAGE SETTINGS ###################### */
+a.contentpagetitle:link, a.contentpagetitle:visited {
+  font-family      : Arial;
+  font-size        : 15px;
+  font-weight      : bold;
+  color            : #333333;
+  padding          : 1px;
+  border-bottom    : none;
+}
+
+a.contentpagetitle:hover {
+  color            : #330000;
+}
+
+.contentpane {
+  text-align       : justify;
+}
+
+.contentpaneopen {
+  text-align       : justify;
+}
+
+.contentheading {
+  font-family      : Arial;
+  font-size        : 15px;
+  font-weight      : bold;
+  color            : #333333;
+  text-align       : left;
+  padding-top      : 7px;
+  border-bottom    : 1px solid #333333;
+}
+
+.componentheading {
+  font-family      : Trebuchet MS;
+  font-size        : 14px;
+  font-weight      : bold;
+  color            : #969696;
+  text-align       : left;
+  padding-left     : 5px;
+  border-bottom    : 1px solid #969696;
+}
+
+.contentdescription {
+  font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
+  font-size        : 11px;
+  color            : #333333;
+  text-align       : left;
+}
+
+.category {
+  color            : #C0C0C0;
+  font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
+  font-size        : 11px;
+  font-weight      : bold;
+  text-decoration  : none;
+}
+
+/* ###################### SECTION LISTING SETTINGS ###################### */
+.sectiontableentry1 {
+  background-color : #E4E7EC;
+  margin           : 3px;
+ }
+
+.sectiontableentry2 {
+  background-color : #ECEFF4;
+  margin           : 3px;
+ }
+
+.sectiontableheader {
+  background-color : #969696;
+  color            : #FFFFFF;
+  height           : 20px;
+  font-weight      : bold;
+  padding-left     : 5px;
+  padding-right    : 5px;
+  border-bottom    : 2px solid #FFFFFF;
+}
+
+/* ###################### SMALL FONT SETTINGS ###################### */
+.small {
+  font-family      : Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 9px;
+  color            : #CC6600;
+  text-decoration  : none;
+  font-weight      : normal;
+}
+
+.smalldark {
+  font-family      : Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 9px;
+  color            : #000000;
+  font-weight      : normal;
+}
+
+/* ###################### TABLE OF CONTENT SETTINGS ###################### */
+.contenttoc {
+  background-color : #f0f0f0;
+  border           : solid 1px #777777;
+  padding          : 3px;
+}
+
+a.toclink:link, a.toclink:visited {
+  color            : #707070;
+  font-weight      : bold;
+  border-bottom    : none;
+}
+
+a.toclink:hover {
+  color            : #ff3300;
+  border-bottom    : 1px dashed #ff3300;
+}
+
+/* ###################### PATH-WAY SETTINGS ###################### */
+.pathway {
+  font-family      : Arial;
+  font-size        : 11px;
+  font-weight      : bold;
+  color            : #ffffff;
+}
+
+a.pathway:link, a.pathway:visited {
+  font-family      : Arial;
+  font-size        : 11px;
+  font-weight      : bold;
+  color            : #ffffff;
+  border-bottom    : 1px dashed #ffffff;
+}
+
+a.pathway:hover {
+  color            : #ff3300;
+  border-bottom    : 1px solid #ff3300;
+}
+
+/* ###################### DATE TIME SETTINGS ###################### */
+.createdate {
+  font-style       : italic;
+}
+
+/* ###################### PAGE NAVIGATION SETTINGS ###################### */
+.pagenavbar {
+  text-align       : center;
+}
+
+/* ###################### OTHER SETTINGS ###################### */
+.blog_more {
+  font-size        : 14px;
+  font-weight      : bold;
+  font-style       : italic;
+  text-align       : left;
+  padding-top      : 10px;
+  padding-left     : 15px;
+}
+
+.readon {
+  font             : Arial, Verdana, Trebuchet MS;
+  font-size        : 13px;
+  font-weight      : bold;
+  text-align       : left;
+  padding-left     : 10px;
+}
