@@ -1,3 +1,10 @@
+body {
+  font-family: verdana, arial, helvetica, sans-serif; font-size: 10px; color: #000000; 
+  scrollbar-base-color: #A21711; 
+  scrollbar-arrow-color: #860000;
+  scrollbar-DarkShadow-Color: #860000;
+}
+
 td,tr,p,div {
   font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
   font-size        : 11px;
@@ -28,34 +35,36 @@ table.searchintro {
 a:link, a:visited {
   font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
   font-size        : 11px;
-  color            : #c00000;
+  color            : #000000;
+  border-bottom    : 1px dashed #000000;
   text-decoration  : none;
-}a:hover {
-  color            : #0000ff;
-  border-bottom    : 1px solid #c00000;
+}
+
+a:hover {
+  border-bottom    : 1px solid #000000;
 }
 
 a.category:link, a.category:visited {
   font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
   font-size        : 13px;
-  color            : #c00000;
+  color            : #C1291E;
   font-weight      : bold;
-  border-bottom    : 1px dashed #c00000;
+  border-bottom    : 1px dashed #C1291E;
   text-decoration  : none;
 }
 
 a.category:hover {
-  color            : #c00000;
-  border-bottom    : 1px solid #c00000;
+  color            : #C1291E;
+  border-bottom    : 1px solid #C1291E;
 }
 
 a.buttonbar:link, a.buttonbar:visited {
-  font-family      : Trebuchet MS;
+  font-family      : Trebuchet MS, Verdana, sans-serif;
   font-size        : 13px;
-  color            : #ffffff;
+  color            : #c00000;
   font-weight      : bold;
-  border-bottom    : 1px dashed #ffffff;
   text-decoration  : none;
+  border-bottom    : 0px;
 }
 
 a.buttonbar:hover {
@@ -64,16 +73,17 @@ a.buttonbar:hover {
 }
 
 a.blogsection:link, a.blogsection:visited {
-  font-family      : Trebuchet MS;
+  font-family      : Trebuchet MS, Verdana, sans-serif;
   font-size        : 11px;
   color            : #c00000;
   font-weight      : bold;
-  border-bottom    : 1px dashed #c00000;
   text-decoration  : none;
+  border-bottom    : 0px;
 }
+
 a.blogsection:hover {
-  color            : #c00000;
-  border-bottom    : 1px solid #c00000;
+  color            : #ff0000;
+  border-bottom    : 1px dashed #ff0000;
 }
 
 /* ###################### MAIN MENU SETTINGS ###################### */
@@ -81,61 +91,54 @@ a.blogsection:hover {
   font-family      : Verdana, Geneva, Arial, Helvetica, serif;
   font-size        : 12px;
   font-weight      : bold;
-  width            : 100%;
+  width            : 97%;
   text-align       : left;
   margin-bottom    : 3px;
   padding-left     : 3px;
 }
 
 a.mainlevel:link, a.mainlevel:visited {
-  display          : block;
-  line-height      : 14px;
-  background-color : #ffffff;
-  color            : #c00000;
+  color            : #ffffff;
+  border-bottom: 1px dashed #ffffff;
 }
 
 a.mainlevel:hover {
-  border-bottom: 1px solid #C00000;
+  border-bottom: 1px solid #ffffff;
 }
 
 .sublevel {
   font-family      : Arial, Helvetica, serif;
   font-size        : 12px;
-  width            : 100%;
+  width            : 97%;
   text-align       : right;
   margin-bottom    : 3px;
   padding-right    : 3px;
 }
 
 a.sublevel:link, a.sublevel:visited {
-  display          : block;
-  line-height      : 14px;
-  background-color : #ffffff;
-  color            : #c00000;
+  color            : #ffffff;
+  border-bottom: 0px;
 }
 
 a.sublevel:hover {
-  border-bottom: 1px solid #C00000;
+  border-bottom: 1px dashed #ffffff;
 }
 
 /* ###################### MODULE SETTINGS ###################### */
 table.moduletable {
-  width            : 100%;
-  margin-top       : 1px;
-  padding-left     : 3px;
-  padding-right    : 3px;
-  padding-top      : 3px;
-  padding-bottom   : 3px;
+  width           : 100%;
+  margin-top      : 3px;
+  margin-bottom   : 3px;
 }
 
 table.moduletable th {
   font             : Trebuchet MS, Verdana, sans-serif;
   font-size        : 13px;
   font-weight      : bold;
-  color            : #d00000;
+  color            : #aaaaaa;
   text-align       : center;
-  padding          : 1px;
-  background-color : #d0d0d0;
+  border-top       : 2px solid #aaaaaa;
+  border-bottom    : 2px solid #aaaaaa;
 }
 
 .newsflash {
@@ -154,7 +157,7 @@ table.moduletable th {
 .poll {
   font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
   font-size        : 10px;
-  color            : #666666;
+  color            : #ffffff;
   line-height      : 15px
 }
 
@@ -179,7 +182,7 @@ table.moduletable th {
 
 /* ###################### CONTENT PAGE SETTINGS ###################### */
 a.contentpagetitle:link, a.contentpagetitle:visited {
-  font-family      : Arial;
+  font-family      : Arial, Verdana, Trebuchet MS;
   font-size        : 15px;
   font-weight      : bold;
   color            : #333333;
@@ -200,7 +203,7 @@ a.contentpagetitle:hover {
 }
 
 .contentheading {
-  font-family      : Arial;
+  font-family      : Arial, Verdana, Trebuchet MS;
   font-size        : 15px;
   font-weight      : bold;
   color            : #333333;
@@ -210,13 +213,13 @@ a.contentpagetitle:hover {
 }
 
 .componentheading {
-  font-family      : Trebuchet MS;
+  font-family      : Trebuchet MS, Verdana, sans-serif;
   font-size        : 13px;
   font-weight      : bold;
-  color            : #333333;
+  color            : #C1291E;
   text-align       : center;
   padding          : 1px;
-  background-color : #d0d0d0;
+  background-color : #aaaaaa;
 }
 
 .contentdescription {
@@ -227,7 +230,7 @@ a.contentpagetitle:hover {
 }
 
 .category {
-  color            : #C0C0C0;
+  color            : #C1291E;
   font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
   font-size        : 11px;
   font-weight      : bold;
@@ -236,21 +239,17 @@ a.contentpagetitle:hover {
 
 /* ###################### SECTION LISTING SETTINGS ###################### */
 .sectiontableentry1 {
-  background-color : #c0c0c0;
-  margin-left      : 1px;
-  margin-right     : 1px;
-  border-top       : 1px dashed #ffffff;
- }
+  background-color : #dddddd;
+  padding: 2px;
+}
 
 .sectiontableentry2 {
-  background-color : #c0c0c0;
-  margin-left      : 1px;
-  margin-right     : 1px;
-  border-top       : 1px dashed #ffffff;
- }
+  background-color : #bbbbbb;
+  padding: 2px;
+}
 
 .sectiontableheader {
-  background-color : #a0a0a0;
+  background-color : #C1291E;
   color            : #FFFFFF;
   height           : 20px;
   font-weight      : bold;
@@ -295,7 +294,7 @@ a.toclink:hover {
 
 /* ###################### PATH-WAY SETTINGS ###################### */
 .pathway {
-  font-family      : Arial;
+  font-family      : Arial, Verdana, Trebuchet MS;
   font-size        : 13px;
   font-weight      : bold;
   color            : #909090;
@@ -303,18 +302,19 @@ a.toclink:hover {
 }
 
 a.pathway:link, a.pathway:visited {
-  font-family      : Arial;
+  font-family      : Arial, Verdana, Trebuchet MS;
   font-size        : 13px;
   font-weight      : bold;
-  color            : #909090;
-  border-bottom    : 1px dashed #909090;
+  color            : #000000;
+  border-bottom    : 0px;
 }
 
 a.pathway:hover {
-  font-family      : Arial;
+  font-family      : Arial, Verdana, Trebuchet MS;
   font-size        : 13px;
   font-weight      : bold;
-  color            : #ff3300;
+  color            : #000000;
+  border-bottom    : 1px dashed #000000;
 }
 
 /* ###################### DATE TIME SETTINGS ###################### */
