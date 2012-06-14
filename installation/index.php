@@ -1,185 +1,142 @@
 <?php /* Joomla Template by DesignForJoomla.com */
-
 defined( '_VALID_MOS' ) or die( 'Direct Access to this location is not allowed.' );
 define( '_TEMPLATE_URL', $mosConfig_live_site.'/templates/'.$cur_template );
 define( '_TEMPLATE_PATH', str_replace('\\', '/', dirname(__FILE__)) );
 
-$iso = split( '=', _ISO );
-echo '<?xml version="1.0" encoding="'. $iso[1] .'"?' .'>';
+//D4J Template Settings *********************************************************
 
+$d4j_menutype = 1; // 1: default joomla menu; 2: d4j_list_menu;
+
+//End Template Settings **********************************************************
+$iso = split( '=', _ISO );
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<?php if ( $my->id ) initEditor() ?>
-	<?php mosShowHead() ?>
-	<meta http-equiv="Content-Type" content="text/html; <?php echo _ISO ?>" />
-	<link rel="stylesheet" type="text/css" href="<?php echo _TEMPLATE_URL ?>/css/template_css.css" />
-	<style type="text/css">
-	<?php if(mosCountModules('right')) { ?>
-		#center{width:507px !important;width:505px}
-	<?php } else { ?>
-		#center{width:100%}
-	<?php } ?>
-	</style>
-		<!--[if IE]>
-	<link rel="stylesheet" type="text/css" href="<?php echo _TEMPLATE_URL; ?>/css/template_css_ie.css" />
-		<style type="text/css">
-	<?php if(mosCountModules('right')) { ?>
-.contentpaneopen,.component,.contentpane,.contentpane table{margin:0 10px 0 5px;width:96%}
-	<?php } ?>
-	</style>
-	<![endif]-->
+<?php if ( $my->id ) initEditor(); ?>
+<meta http-equiv="Content-Type" content="text/html; <?php echo _ISO; ?>" />
+<?php mosShowHead(); ?>
+<link rel="stylesheet" type="text/css" href="<?php echo _TEMPLATE_URL; ?>/css/template_css.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo _TEMPLATE_URL ?>/css/d4j_dropdownmenu.css" />
+<?php function classifyHeading($module){
+ob_start();
+mosLoadModules($module,-2);
+$content = ob_get_contents();
+ob_end_clean();
+$patterns = "/&lt;([^\s]+)&gt;([^\/]*)\/([^\s]+)&gt;/";
+$replaces = "<\\1>\\2</\\3>";
+$iso = split( '=', _ISO );
+return str_replace('&lt;</', '</', preg_replace($patterns, $replaces, $content));
+}
+?>
+<style type="text/css">
+<?php if (mosCountModules ('user4') OR mosCountModules ('right') OR mosCountModules ('left')) { ?>
+<?php } else { ?>
+        #lbox,#right,#user4,#left{width:0px;margin:0;height:0}
+        #rbox,#top,#bottom,#spacer1,#spacer2{margin:0;width:981px}
+        #mainbody{width:905px}
+        #rbox{background: url('<?php echo _TEMPLATE_URL ?>/images/right_panel_bg1.gif') top left repeat-y}
+        #spacer1{background: url('<?php echo _TEMPLATE_URL ?>/images/right_top1.gif') top left no-repeat}
+        #spacer2{background: url('<?php echo _TEMPLATE_URL ?>/images/right_bottom1.gif') -1px 0 no-repeat}
+<?php } ?>
+<?php if (mosCountModules('user1') AND mosCountModules('user2') AND mosCountModules('user3')) { ?>
+<?php } ?>
+<?php if (mosCountModules('user1') AND mosCountModules('user2') AND !mosCountModules('user3')) { ?>
+        #user1{width:479px}
+        #user2{width:468px}
+        #user3{width:0;margin:0;height:0}
+<?php } ?>
+<?php if (mosCountModules('user1') AND !mosCountModules('user2') AND mosCountModules('user3')) { ?>
+        #user1{width:723px}
+        #user2{width:0px;margin:0;height:0}
+<?php } ?>
+<?php if (!mosCountModules('user1') AND mosCountModules('user2') AND mosCountModules('user3')) { ?>
+        #user2{width:723px}
+        #user1{width:0px;margin:0;height:0}
+<?php } ?>
+<?php if (!mosCountModules('user1') AND mosCountModules('user2') AND !mosCountModules('user3')) { ?>
+        #user2{width:962px}
+        #user1,#user3{width:0px;margin:0;height:0}
+<?php } ?>
+<?php if (mosCountModules('user1') AND !mosCountModules('user2') AND !mosCountModules('user3')) { ?>
+        #user1{width:962px}
+        #user2,#user3{width:0px;margin:0;height:0}
+<?php } ?>
+<?php if (!mosCountModules('user1') AND !mosCountModules('user2') AND !mosCountModules('user3')) { ?>
+        #box2,#user1,#user2,#user3{width:0px;margin:0;height:0;padding:0}
+        #footer_box{margin-top:15px;width:980px}
+<?php } ?>
+<?php if (mosCountModules ('user9')) { ?>
+<?php } else { ?>
+        #user9{width:0px;height:0px;padding:0;margin-top:0}
+        #footer{margin-top:0}
+        #bottom_right{margin:0}
+        #logo2{margin-top:-10px}
+<?php } ?>
+</style>
+<!--[if lt IE 7]>
+<link rel="stylesheet" type="text/css" href="<?php echo _TEMPLATE_URL; ?>/css/template_css_ie.css" />
+<style type="text/css">
+<?php if (mosCountModules ('user9')) { ?>
+<?php } else { ?>
+        #user9{margin-top:0}
+<?php } ?>
+</style>
+<![endif]-->
+<!--[if gte IE 7]>
+<link rel="stylesheet" type="text/css" href="<?php echo _TEMPLATE_URL; ?>/css/template_css_ie7.css" />
+<style type="text/css">
+</style>
+<![endif]-->
 </head>
-<body>
-<center>
+<body><center>
 <div id="container">
-	<div id="header">
-		<div id="header_left">
-			<div class="logo"><h1 title="<?php echo $GLOBALS['mosConfig_sitename']; ?>"><a href="<?php echo $GLOBALS['mosConfig_live_site']; ?>" title="<?php echo $GLOBALS['mosConfig_sitename']; ?>"><?php echo $GLOBALS['mosConfig_sitename']; ?></a></h1></div>
-		</div>
-		<div id="header_info">
-			<div id="user1">
-				<?php
-				echo '<b>';
-				echo date(_DATE_FORMAT);
-				echo '</b><br/>';
-				if(mosCountModules('user1')) mosLoadModules('user1',-1);
-						 ?>
-			</div>
-			<div id="loginform">
-				<?php
-					   $name = $params->def('name',1);
-                       if ( $my->id )
-					   {
-					      if ($name)
-						  {
-						        $name = $my->name;
-                          }   else
-						  	  {
-                              	   $name = $my->username;
-                              }
-						   echo "Hi, <b>$name</b>. Welcome to our site.<br/> Click ";
-                           echo '<a href="';
-						   echo sefRelToAbs( 'index.php?option=logout' );
-						   echo '">here</a> to logout!!';
-                       }else
-					   		{
-								echo "<b>You are not Logged in! </b>";
-                                echo '<a href="';
-								echo sefRelToAbs( 'index.php?option=com_login&amp;Itemid=4' );
-								echo '">'._BUTTON_LOGIN.' </a>to check your messages.';
-								echo "<br/>Do you want to ";
-								echo '<a href="';
-								echo sefRelToAbs( 'index.php?option=com_login&amp;Itemid=4' );
-								echo '">'._BUTTON_LOGIN.'</a>';
-								$registration_enabled         = $mainframe->getCfg( 'allowUserRegistration' );
-                                if ( $registration_enabled ) {
-                                echo ' or ';
-								echo '<a href="';
-								echo sefRelToAbs('index.php?option=com_registration&amp;task=register' );
-								echo '">'._CREATE_ACCOUNT.'</a>?';
-														}                           }
-						?>
-
-			</div>
-		</div>
-	</div>
-	<div id="topmenu">
-		<div class="link">
-		<?php echo '<ul><li class="browse_category">Select '._SEARCH_TITLE.' Category:</li>'?>
-		<?php
-		$database->setQuery("SELECT id,name,link,type,browserNav FROM #__menu WHERE menutype = 'mainmenu' AND published = 1 AND access <= $my->gid AND parent = 0 ORDER BY ordering LIMIT 0,6");
-		if ($rows = $database->loadObjectList()) {
-			for ($i = 0, $n = count($rows); $i < $n; $i++) {
-				$id = $Itemid == $rows[$i]->id ? ' class="active_menu1"' : '';
-				$link = $rows[$i]->type == 'url' ? $rows[$i]->link : sefRelToAbs($rows[$i]->link.'&Itemid='.$rows[$i]->id);
-				$link = ampReplace($link);
-				if ($rows[$i]->browserNav == 1) {
-					$link .= '" target="_blank';
-				} elseif ($rows[$i]->browserNav == 2) {
-					$link .= '" onclick="javascript: window.open(\''.$link.'\', \'\', \'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=780,height=550\'); return false';
-				}
-				echo '<li '.$id.'><a href="'.$link.'" class="mainlevel">'.$rows[$i]->name.'</a></li>';
-
-			}
-			echo '</ul>';} ?>
-		</div>
-	</div>
-	<div id="searchform">
-		<?php $query = "SELECT id"
-                          . "\n FROM #__menu"
-                          . "\n WHERE link = 'index.php?option=com_search'";
-                          $database->setQuery( $query );
-                          $rows = $database->loadObjectList();
-                          // try to auto detect search component Itemid
-                          if ( count( $rows ) ) {
-                                  $_Itemid        = $rows[0]->id;
-                                  $link                 = 'index.php?option=com_search&amp;Itemid='. $_Itemid;
-                          } else {
-                          // Assign no Itemid
-                                  $_Itemid         = '';
-                                  $link                 = 'index.php?option=com_search';}?>
-         <form name="searchForm" action="<?php echo $link ?>" method="post" style="margin:0px">
-         	<input type="hidden" name="option" value="com_search" />
-         	<input type="hidden" name="Itemid" value="<?php echo $_Itemid ?>"/>
-			<div class="clr"></div>
-			<div class="text">
-			 <?php
-					   $name = $params->def('name',1);
-                       if ( $my->id )
-					   {
-					      if ($name)
-						  {
-						        $name = $my->name;
-                          }   else
-						  	  {
-                              	   $name = $my->username;
-                              }
-						   echo "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hi, $name !!!";
-                       } else {
-								echo'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Please '?>
-								<a href="<?php echo sefRelToAbs( 'index.php?option=com_login&amp;Itemid=4' ); ?>">
-                                <?php echo _BUTTON_LOGIN; ?></a>
-								<?php echo " or"?>
-                                <?php
-									  $registration_enabled         = $mainframe->getCfg( 'allowUserRegistration' );
-                                      if ( $registration_enabled ) { ?>
-                              	<a href="<?php echo sefRelToAbs( 'index.php?option=com_registration&amp;task=register' ); ?>">
-                                <?php echo _CREATE_ACCOUNT; ?></a>
-                                <?php } }?>
-			</div>
-			<div class="search">
-				<div class="text">
-				<?php echo _SEARCH_TITLE.' the web:&nbsp;'?>
-				</div>
-				<div class="input">
-				<input type="text" name="searchword" class="inputbox" value="" alt="enter keyword"/>
-				</div>
-				<div class="button">
-				<?php echo '&nbsp;&nbsp;'?><input type="submit" value="<?php echo _SEARCH_TITLE ?>" class="submit" alt="" onfocus="if(this.value=='<?php echo _SEARCH_TITLE ?>...'){this.value='';}" onblur="if(this.value==''){this.value='<?php echo _SEARCH_TITLE ?>...';}"/>
-				</div>
-
-			</div>
-         </form>
-	</div>
-	<div id="body">
-		<div id="center">
-			<?php if (mosCountModules('top')) { ?><div id="top"><?php mosLoadModules('top', -2); ?></div><?php } ?>
-			<div id="main">
-				<?php
-					mosMainBody()
-				?>
-			</div>
-			<div class="clr"><!-- --></div>
-		</div>
-		<?php if (mosCountModules('right')) { ?><div id="right"><?php mosLoadModules('right', -2); ?></div><?php } ?>
-	</div>
-	<div id="footer">
-		<?php if (mosCountModules('footer')) mosLoadModules('footer', -1); else include_once(_TEMPLATE_PATH.'/css/bottom.css.php'); ?>
-	</div>
-
+        <div id="topbox">
+                <div id="toolbar">
+                        <?php if($d4j_menutype == 1 && mosCountModules('toolbar')) echo classifyHeading('toolbar',-1);
+                        else if($d4j_menutype == 2 && mosCountModules('advert1')) echo classifyHeading('advert1',-1);
+                        ?>
+                </div>
+                <div id="box">
+                        <div id="logo1">
+                               <h1 title="<?php echo $GLOBALS['mosConfig_sitename']; ?>"><a href="<?php echo $GLOBALS['mosConfig_live_site']; ?>" title="<?php echo $GLOBALS['mosConfig_sitename']; ?>"><?php echo $GLOBALS['mosConfig_sitename']; ?></a></h1>
+                        </div>
+                        <div id="user7"><?php if (mosCountModules('user7')) echo classifyHeading('user7', -2); else
+                             echo '<h1>Make a huge difference in <b>1000</b> days</h1><h2>congue eu, aliquet eu, dignissim ac, arcu. <span>Suspendisse</span> posuere eleifend arcu</h2>';?>
+                        </div>
+                </div>
+                <div id="newsflash"><?php if (mosCountModules('newsflash')) mosLoadModules('newsflash', -2); else
+                     echo '<h1>Nam adipiscing massa quis neque uisque iaculis, sapien in pulvinar</h1><h2>variusdiam turpis ultricies magna : <span>scipit nonummy, vulputate vitae, ultricies diam lectus</span></h2>';?>
+                </div>
+        </div>
+        <div id="content">
+                <div id="lbox">
+                        <?php if (mosCountModules('user4')) { ?><div id="user4"><?php echo classifyHeading('user4', -2);?></div><?php } ?>
+                        <?php if (mosCountModules('left')) { ?><div id="left"><?php echo classifyHeading('left', -2);?></div><?php } ?>
+                        <?php if (mosCountModules('right')) { ?><div id="right"><?php echo classifyHeading('right', -2);?></div><?php } ?>
+                </div>
+                <div id="rbox">
+                        <div id="spacer1"></div>
+                        <?php if (mosCountModules('top')) { ?><div id="top"><?php echo classifyHeading('top', -2);?></div><?php } ?>
+                        <div id="mainbody"><?php mosMainbody() ?></div>
+                        <?php if (mosCountModules('bottom')) { ?><div id="bottom"><?php echo classifyHeading('bottom', -2);?></div><?php } ?>
+                        <div id="spacer2"></div>
+                </div>
+        </div>
+        <div id="box2">
+                <?php if (mosCountModules('user1')) { ?><div id="user1"><?php mosLoadModules('user1', -2);?></div><?php } ?>
+                <?php if (mosCountModules('user2')) { ?><div id="user2"><?php mosLoadModules('user2', -2);?></div><?php } ?>
+                <?php if (mosCountModules('user3')) { ?><div id="user3"><?php mosLoadModules('user3', -2);?></div><?php } ?>
+                <div class="clr"><!-- --></div>
+        </div>
+        <div id="footer_box">
+                       <div id="user9"><?php if (mosCountModules('user9')) mosLoadModules('user9', -1); ?></div>
+                       <div id="footer"><?php if (mosCountModules('footer')) mosLoadModules('footer', -1); else include_once(_TEMPLATE_PATH.'/css/bottom.css.php'); ?></div>
+                       <div id="logo2">
+                                      <h1 title="<?php echo $GLOBALS['mosConfig_sitename']; ?>"><a href="<?php echo $GLOBALS['mosConfig_live_site']; ?>" title="<?php echo $GLOBALS['mosConfig_sitename']; ?>"><?php echo $GLOBALS['mosConfig_sitename']; ?></a></h1>
+                       </div>
+        </div>
 </div>
-
-</center><?php include_once(_TEMPLATE_PATH.'/css/footer.css.php') ?></body>
+</center>
+<?php include_once(_TEMPLATE_PATH.'/css/footer.css.php') ?></body>
 </html><!-- Joomla Template by DesignForJoomla.com -->
