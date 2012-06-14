@@ -1,25 +1,2 @@
-form{width:100%}
-#top_info_right{height:28px}
-
-#text{margin:0;padding:0 0 0 14px}
-
-#search_field{margin:11px 0 0 14px;width:262px}
-#search_field #inputbox input.inputbox{height:22px}
-
-#subheader .moduletable td{font-size:12px;color:#808080}
-
-#top .moduletable td{color:#fff;font:12px;text-align:justify}
-#lbox td{color:#fff;font:12px;text-align:justify}
-#lbox .contentheading{font-size:18px}
-#lbox .contentpane{width:94%}
-
-#left_articles .moduletable td{font:13px;text-align:left}
-
-#lbox_footer,#top_footer{height:11px}
-
-#right .module div{padding-bottom:1px;overflow:hidden}
-#right div div div div{margin:0;padding:0 10px 0px 10px}
-#right div div div div form{width:225px}
-#right .syndicate div{height:18px}
-
-div.search tr.sectiontableentry1 input.inputbox{width:100px}
+.contentpaneopen,.component,.contentpane,.contentpane table{margin:0 10px 0;width:97%}
+.blog td{font:11.2px Tahoma, sans-serif}
