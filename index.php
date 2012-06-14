@@ -17,73 +17,44 @@ echo '<?xml version="1.0" encoding="'. $iso[1] .'"?' .'>';
 	<meta name="Publisher" content="Your Mambo Design">
 	<meta name="Language" content="en">
 	<link rel="shortcut icon" href="<?php echo $GLOBALS['mosConfig_live_site'];?>/images/favicon.ico" />
-	<link rel="stylesheet" type="text/css" href="<?php echo $GLOBALS['mosConfig_live_site']; ?>/templates/general_04/css/template_css.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo $GLOBALS['mosConfig_live_site']; ?>/templates/general_05/css/template_css.css" />
 </head>
 
-<body>
-<table width="760" height="100%" border="0" cellpadding="0" cellspacing="0" background="templates/general_04/images/bg_main.gif">
-  <tr>
-    <td background="templates/general_04/images/head.gif" width="760" height="65">
-    	<table width="100%" border="0" cellspacing="0" cellpadding="0">
-    		<tr><td width="100%" height="10" nowrap></td></tr>
-    		<tr><td width="100%" valign="middle">
-<!-- Show Logo, Site's Title & Slogan - Begin -->
-<table border="0" cellpadding="0" cellspacing="0" width="100%"><tr>
-	<td align="center" width="25%">
-		<a href="<?php echo $GLOBALS['mosConfig_live_site']; ?>" title="<?php echo strtoupper($GLOBALS['mosConfig_sitename']); ?>">
-			<IMG border="0" align="absmiddle" SRC="<?php echo $GLOBALS['mosConfig_live_site']; ?>/templates/general_04/images/logo.gif" alt="<?php echo $GLOBALS['mosConfig_sitename']; ?> - <?php echo $mosConfig_MetaDesc; ?>"/>
-		</a>
-	</td>
-	<td valign="middle" width="75%">
-		<?php $site_title = explode(' - ', $GLOBALS['mosConfig_sitename']); ?>
-		<font face="Arial" size="4" color="#ff3300" style="letter-spacing: 3px;"><?php echo strtoupper($site_title[0]); ?></font><br/>
-		<font face="Arial" size="3" color="#ff6600"><?php echo $site_title[1]; ?></font>
-	</td>
-</tr></table>
-<!-- Show Logo, Site's Title & Slogan - End -->
-    		</td></tr>
-    	</table>
-    </td>
-  </tr>
-  <tr>
-    <td height="37" background="templates/general_04/images/menu_bg.gif" align="center" valign="middle">
-<!-- Top Menu - Begin -->
-<?php
-	$database->setQuery("SELECT id, name, link FROM #__menu WHERE menutype='mainmenu' and parent='0' AND access<='$gid' AND sublevel='0' AND published='1' ORDER BY ordering");
-	$rows = $database->loadObjectList();
-	foreach($rows as $row) {
-		echo "<a class='buttonbar' href='$row->link&Itemid=$row->id'>$row->name</a>";
-	}
-?>
-<!-- Top Menu - End -->
-    </td>
-  </tr>
-  <tr>
-    <td valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
-      <tr valign="top">
-        <td width="170"><table width="98%"  border="0" align="center" cellpadding="5" cellspacing="0">
-            <tr>
-              <td><table width="100%"  border="0" cellpadding="0" cellspacing="0" bgcolor="#AD9C80">
-                <tr>
-                  <td>
-<!-- Load Left & Right Module - Begin -->
-	<?php mosLoadModules("left"); ?>
-	<?php if (mosCountModules('right') > 0) mosLoadModules("right"); ?>
-<!-- Load Left & Right Module - End -->
-                  </td>
-                </tr>
-              </table></td>
-            </tr>
-        </table></td>
-        <td><table width="100%"  border="0" cellspacing="0" cellpadding="15">
-            <tr>
-              <td class="forTexts">
-<!-- Load Top Module, Main Content & Bottom Module - Begin -->
+<body bgcolor="#5f9ea0" topmargin="0" marginheight="0">
+	<div align="center">
+		<table border="0" cellpadding="0" cellspacing="0" width="758" background="templates/general_05/images/bg.jpg">
+			<tr>
+				<td>
+					<div align="center">
+						<table border="0" cellpadding="0" cellspacing="0" width="750">
+							<tr>
+								<td>
+									<table border="0" cellpadding="0" cellspacing="0" width="100%">
+										<tr>
+											<td valign="top">
+												<table border="0" cellpadding="0" cellspacing="0" width="573">
+													<tr>
+														<td><img src="templates/general_05/images/t1.jpg" width="293" height="153" border="0"></td>
+														<td background="templates/general_05/images/t2.jpg" width="280" height="153" align="right" valign="top" style="padding: 5px; padding-top: 65px;">
+<!-- Show Site's Title & Slogan - Begin -->
+	<?php $site_title = explode(' - ', $GLOBALS['mosConfig_sitename']); ?>
+	<font face="impact" size="5" color="#ABD5D4" style="letter-spacing: 3px;"><?php echo strtoupper($site_title[0]); ?></font><br/>
+	<font face="impact" size="3" color="#f0f0f0"><?php echo $site_title[1]; ?></font>
+<!-- Show Site's Title & Slogan - End -->
+														</td>
+													</tr>
+													<tr>
+														<td colspan="2">
+															<div align="center">
+																<table border="0" cellpadding="0" cellspacing="0" width="561">
+																	<tr>
+																		<td>
+<!-- Load User1, User2, Top Module, Main Content & Bottom Module - Begin -->
 <?php if ( (mosCountModules('user1') > 0) OR (mosCountModules('user2') > 0) ) { ?>
 	<table width='100%' border='0' cellspacing='0' cellpadding='0'><tr>
 <?php if ( (mosCountModules('user1') > 0) AND (mosCountModules('user2') > 0) ) { ?>
 	<td width='50%' align='center' valign='top'><?php mosLoadModules("user1"); ?></td>
-	<td width="3" height="100%" bgcolor="#FEF1D7" nowrap></td>
+	<td width="3" height="100%" nowrap></td>
 	<td width='50%' align='center' valign='top'><?php mosLoadModules("user2"); ?></td>
 <?php } elseif (mosCountModules('user1') > 0) { ?>
 	<td width='100%' align='center' valign='top'><?php mosLoadModules("user1"); ?></td>
@@ -96,30 +67,68 @@ echo '<?xml version="1.0" encoding="'. $iso[1] .'"?' .'>';
 	mosMainBody();
 	if (mosCountModules('bottom') > 0) { echo '<hr/>'; mosLoadModules ( "bottom" ); }
 ?>
-<!-- Load Top Module, Main Content & Bottom Module - End -->
-              </td>
-            </tr>
-        </table></td>
-      </tr>
-    </table></td>
-  </tr>
-  <tr>
-    <td width="100%" valign="top">
-    	<table width="100%" border="0" cellspacing="0" cellpadding="0">
-    		<tr><td width="100%" height="6" background="templates/general_04/images/down_bg1.gif" nowrap></td></tr>
-    		<tr><td width="100%" bgcolor="#21665E" style="padding: 7px;">
+<!-- Load User1, User2, Top Module, Main Content & Bottom Module - End -->
+																		</td>
+																	</tr>
+																</table>
+															</div>
+														</td>
+													</tr>
+												</table>
+											</td>
+											<td width="177" valign="top">
+												<div align="center">
+													<table border="0" cellpadding="0" cellspacing="0" width="177">
+														<tr>
+															<td><img src="templates/general_05/images/tr.jpg" width="177" height="65" border="0"></td>
+														</tr>
+														<tr>
+															<td style="padding-left: 17px; padding-right: 3px;">
+<!-- Load Left & Right Module - Begin -->
+	<?php mosLoadModules("left"); ?>
+	<?php if (mosCountModules('right') > 0) mosLoadModules("right"); ?>
+<!-- Load Left & Right Module - End -->
+															</td>
+														</tr>
+													</table>
+												</div>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr height="34">
+								<td height="34" background="templates/general_05/images/bottom.jpg">
+									<table border="0" cellpadding="0" cellspacing="0" width="100%">
+										<tr>
+											<td align="center">
+<!-- Bottom Menu - Begin -->
+<?php
+	$database->setQuery("SELECT id, name, link FROM #__menu WHERE menutype='mainmenu' and parent='0' AND access<='$gid' AND sublevel='0' AND published='1' ORDER BY ordering LIMIT 0, 7");
+	$rows = $database->loadObjectList();
+	foreach($rows as $row) {
+		echo "<a class='buttonbar' href='$row->link&Itemid=$row->id'>$row->name</a>";
+	}
+?>
+<!-- Bottom Menu - End -->
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+		</table>
+		<p></p>
+	</div>
 <!-- Credit Line - Begin -->
 <div align="center" class="style1">
-	Template source by <a href="http://www.adesdesign.net" target="_blank" class="style11">AdesDesign.net</a>. <a href="http://designforjoomla.com" target="_blank" title="Joomla template by DesignForJoomla.com">Joomla template by DesignForJoomla.com</a>.
+	Template source from <a href="http://www.royalty-free.org" target="_blank">ROYALTY-FREE.ORG</a>. <a href="http://designforjoomla.com" target="_blank" title="Joomla template by DesignForJoomla.com">Joomla template by DesignForJoomla.com</a>.
 </div>
 <?php include_once( $GLOBALS['mosConfig_absolute_path'] . '/includes/footer.php' ); ?>
 <!-- Credit Line - End -->
-    		</td></tr>
-    		<tr><td width="100%" height="6" background="templates/general_04/images/down_bg2.gif" nowrap></td></tr>
-    	</table>
-	</td>
-  </tr>
-</table>
 </body>
 <!-- /* Joomla Template by DesignForJoomla.com */ -->
 </html>
