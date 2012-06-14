@@ -1,10 +1,115 @@
-/* JOOMLA 1.0.X TEMPLATE CSS FILE */
+/*document settings*/
+body{background:#fff url(../images/header.gif) repeat-x top left;color:#000;margin:0;padding:0;font:11px "Arial",Helvetica,Sans-Serif}
+th,td,form,div,p{font:11px "Arial",Helvetica,Sans-Serif;color:#000;margin:0;padding:0}
+a{color:#3C6491;background-color:inherit;text-decoration:none}
+a:hover{color:#BF3E17;background-color:inherit}
+ul{list-style:none;margin:0 0 0 10px;padding:0}
+li{padding-left:15px;background:url(../images/li.gif) no-repeat 3px 3px}
+label{vertical-align:baseline}
 
-/* Main css file with standard css selectors */
-@import url("base.css");
+/* position setting (tableless)*/
+.clr{clear:both}
+#container{width:756px;text-align:left;margin:0 auto;overflow:hidden}
 
-/* Css file with css selectors for layout */
-@import url("layout.css");
+#header{margin:2px 0 0;width:753px;height:45px;float:left;overflow:hidden}
 
-/* Css file with css selectors for custom modules and menus */
-@import url("custom.css");
+#logo{float:left;width:120px;overflow:hidden}
+#logo h1,#logo h1 a{width:120px;height:43px}
+#logo h1{background:url(../images/logo.jpg) left top no-repeat;margin:0}
+#logo h1 a{display:block;text-indent:-5000px}
+
+#slogan{margin:8px 0 0 20px;height:28px;width:210px;border-left:1px solid #ccc;float:left;overflow:hidden}
+#slogan .moduletable h3,#slogan h1{font-weight:bold;font-size:11px;margin:0}
+#slogan h1{margin:0 0 0 20px}
+#slogan .moduletable,#slogan h2{margin:0;padding-left:20px;font-size:11px}
+#slogan h2{margin:0;font-weight:normal}
+
+#menu{padding:11px 0 5px 0;float:right}
+#menu li{display:inline;margin:0;padding:0;background:none}
+#menu a{display:inline;padding:12px 13px 2px 11px;text-decoration:none;color:#414141;background:#ccc url(../images/hmenuarrow.gif) no-repeat top center;margin:0 0 3px 1px;border-bottom:4px solid #BCBCBC}
+#menu a:hover{background:#3C6491 url(../images/hmenuarrowhover.gif) no-repeat top center;color:#FFFFFF;border-bottom:4px solid #2F4A6C}
+
+#content{float:left;margin:0 0 2px;width:756px;overflow:hidden}
+
+#lbox{float:left;margin:0 0 0 1px;width:530px;overflow:hidden}
+
+#top,#mainbody{margin:0 0 0 12px;width:508px;float:left;overflow:hidden}
+#top .moduletable{padding:10px 0 8px 0;background:url(../images/horizontaldotted.gif) repeat-x bottom left}
+#top .moduletable h3,.contentheading,.componentheading{font-size:16px;margin:0;background:url(../images/h2bg.gif) no-repeat 0px 3px;font-weight:bold;padding:0 0 5px 20px;letter-spacing:-1px}
+.componentheading{background:url(../images/h2bghover.gif) no-repeat 0px 3px}
+#top .moduletable thead,#bottom .moduletable thead{text-align:center}
+
+#mainbody{margin:10px 0 10px 12px;border-bottom:1px solid #C5C5C5;padding-bottom:5px}
+#mainbody a,#mainbody a:hover,#top .moduletable a,#top .moduletable a:hover{color:#808080;text-decoration:underline}
+
+#rbox{float:left;margin:0;width:225px;overflow:hidden}
+
+#left,#right{float:left;margin:0 0 0 2px;width:220px;overflow:hidden;background:#eee}
+#left{background:#BF3E18}
+#left .moduletable,#right .moduletable{padding:12px 8px 8px;color:#808080;margin:2px 0 0;line-height:1.4em;border-bottom:2px solid white}
+#left .moduletable{color:white;border-bottom:3px solid white}
+#left .moduletable td,#right .moduletable td,#left .moduletable p,#right .moduletable p{color:#808080}
+#left .moduletable td{color:white}
+#left .moduletable h3,#right .moduletable h3{font-size:17px;margin:0 0 8px;font-weight:bold;color:#3C6491}
+#left .moduletable h3{color:white}
+#left .moduletable ul,#right .moduletable ul{margin:-8px;padding:0}
+#left .moduletable ul li,#right .moduletable ul li{padding:0;margin:0}
+#left .moduletable ul li a,#right .moduletable ul li a{display:block;background:#BF3E18 url(../images/link.gif) no-repeat center left;color:#FFFFFF;padding:5px 0 4px 19px;height:16px;text-decoration:none}
+#left .moduletable ul li a:hover,#right .moduletable ul li a:hover{color:#FFF;display:block;height:16px;background:url(../images/hover.gif) no-repeat top left}
+
+#search_field{float:left;margin:-1px 0 0 2px;width:220px;overflow:hidden;height:28px;background:#808080}
+#search_field #search{float:left;margin:0;width:220px}
+#search_field #inputbox{float:left;margin:0}
+#search_field #inputbox input.inputbox{float:left;background:#D8D8D8;color:#822C0F;height:14px;margin:5px 0 0 18px;width:128px;padding-left:1px;border:1px solid #EEE}
+#search_field #button{float:left;margin:0}
+#search_field #button input.button{margin:5px 0 0 3px;width:45px;height:18px;border:none;background:none;float:left}
+
+#bottom{margin:0;overflow:hidden;background:#3C6491 url(../images/linksbg.gif) repeat-x top left;width:754px;float:left}
+#bottom .moduletable{padding:10px;color:#FFF}
+#bottom .moduletable p,#bottom .moduletable td,#bottom .moduletable a{color:#FFF}
+#bottom .moduletable h3{margin:0 0 7px;font-size:16px}
+
+#footer_container{margin:0;float:left;background:#EEE;overflow:hidden;width:100%;;padding:0}
+#user9{margin:0 auto 10px;width:736px;text-align:left;overflow:hidden;background:#fff;padding:10px}
+#user9 li{list-style:none;display:inline}
+
+#fbox{margin:0;border-top:3px solid #fff}
+#footer{margin:0 auto;width:736px;text-align:left;overflow:hidden;padding:15px 0}
+#footer a{color:#808080}
+
+#bottom_left{float:left;margin:0;padding:0}
+#bottom_left div{font-size:11px;text-align:left}
+#bottom_right{float:right;margin:0;padding:0}
+#bottom_right div{font-size:11px;text-align:right}
+
+/*joomla settings*/
+.contentpane,.contentpaneopen{text-align:justify}
+.small,span.small,#mainbody .createdate,#mainbody .modifydate,.pagenavcounter{font-size:10px;color:#808080}
+.back_button,.pagenav_prev,.pagenav_next{font-size:11px}
+.readon{float:right;background:url(../images/more.gif) no-repeat 0 6px;padding-left:12px}
+
+.contenttoc{margin:7px;padding:0 10px;border:1px dotted #808080}
+.contenttoc th{border-bottom:1px dotted #808080;font-size:13px;color:#808080}
+.contenttoc td{margin:5px 0 5px 14px;padding:2px 7px}
+.contenttoc a.toclink{text-decoration:none;font-weight:bold}
+
+.blog_more{margin:0 3px 15px 13px;padding:3px 6px;border:1px dotted #808080}
+.blog_more div{border-bottom:1px dotted #808080}
+.blog_more ul{margin:2px 0 2px 34px}
+.blog_more ul li a.blogsection{text-decoration:none}
+
+.syndicate div{text-align:center}
+select#mod_templatechooser_jos_change_template{width:90px}
+input.button{margin:0;padding:2px 3px;font-size:9px;border:none;color:#FFF;background:#808080;font-weight:bold}
+
+.pollstableborder td{line-height:25px;vertical-align:middle}
+.poll thead td{text-align:center}
+.poll .button{margin-top:5px}
+
+.sectiontableheader{background:#C85E35;color:#FFF;height:20px;font-weight:bold;padding:0 5px;border-bottom:2px solid #FFFFFF;line-height:25px}
+.sectiontablefooter{text-align:center}
+.sectiontableentry1,.sectiontableentry1 td{padding:2px;text-align:left;background:#F2F2F2;line-height:25px}
+#bottom .moduletable .sectiontableentry1,#left .moduletable .sectiontableentry1{background:none}
+.sectiontableentry2,.sectiontableentry2 td{padding:2px;text-align:left;line-height:25px}
+
+.tips{display:none}
