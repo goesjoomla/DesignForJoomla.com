@@ -1,4 +1,4 @@
-D4J Business 02 template for Joomla! 1.0 series
+D4J Business 03 template for Joomla! 1.0 series
 ===============================================
 
 Install Git client by following the guide at the URL below:
@@ -9,7 +9,7 @@ Then, clone the repository at following URL:
 
 https://github.com/goesjoomla/DesignForJoomla.com.git
 
-Finally, checkout templates/business_02 branch to get D4J Business 02.
+Finally, checkout templates/business_03 branch to get D4J Business 03.
 
 --
 Manh-Cuong Nguyen

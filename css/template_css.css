@@ -1,7 +1,7 @@
 td,tr,p,div {
   font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
   font-size        : 11px;
-  color            : #ffffff;
+  color            : #101010;
 }
 
 ul {
@@ -14,54 +14,63 @@ li {
 }
 
 hr {
-  background       : #ffffff;
+  background       : #4A6080;
   height           : 1px;
-  width            : 95%;
+  width            : 97%;
 }
 
 table.searchintro {
   background-color : #FFFFFF;
-  border           : 1px solid #FF8000;
+  border           : 1px solid #777777;
 }
 
 /* ###################### LINKS ###################### */
 a:link, a:visited {
   font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
   font-size        : 11px;
-  color            : #FF6600;
+  color            : #4A6080;
   text-decoration  : none;
 }
 
 a:hover {
-  color            : #ffff00;
+  border-bottom    : 1px solid #4A6080;
 }
 
 a.category:link, a.category:visited {
   font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
   font-size        : 13px;
-  color            : #FF6600;
-  font-weight      : bold;
-  border-bottom    : 1px dashed #FF6600;
+  color            : #4A6080;
   text-decoration  : none;
+  font-weight      : bold;
 }
 
 a.category:hover {
+  border-bottom    : 1px solid #4A6080;
+}
+
+a.buttonbar:link, a.buttonbar:visited {
+  font-family      : Trebuchet MS, Verdana, sans-serif;
+  font-size        : 13px;
+  color            : #ff9900;
+  text-decoration  : none;
+  font-weight      : bold;
+  border           : none;
+}
+
+a.buttonbar:hover {
   color            : #ffff00;
-  border-bottom    : 1px solid #ffff00;
+  border           : none;
 }
 
 a.blogsection:link, a.blogsection:visited {
   font-family      : Trebuchet MS, Verdana, sans-serif;
   font-size        : 11px;
-  color            : #FF6600;
-  font-weight      : bold;
-  border-bottom    : 1px dashed #FF6600;
+  color            : #4A6080;
   text-decoration  : none;
+  font-weight      : bold;
 }
-
 a.blogsection:hover {
-  color            : #ffff00;
-  border-bottom    : 1px solid #ffff00;
+  border-bottom    : 1px solid #4A6080;
 }
 
 /* ###################### MAIN MENU SETTINGS ###################### */
@@ -69,95 +78,63 @@ a.blogsection:hover {
   font-family      : Verdana, Geneva, Arial, Helvetica, serif;
   font-size        : 12px;
   font-weight      : bold;
+  text-decoration  : none;
   text-align       : left;
-  padding-left     : 5px;
-  display          : block;
-  line-height      : 20px;
+  margin-bottom    : 3px;
+  padding-left     : 3px;
 }
 
 a.mainlevel:link, a.mainlevel:visited {
-  color            : #ffffff;
-  border-bottom    : 1px dashed #ffffff;
+  color            : #4A6080;
 }
 
 a.mainlevel:hover {
-  color            : #FEC722;
-  border-bottom    : 1px solid #FEC722;
+  border-bottom    : 1px solid #4A6080;
 }
 
 .sublevel {
-  font-family      : Verdana, Geneva, Arial, Helvetica, serif;
-  font-size        : 11px;
-  font-weight      : bold;
+  font-family      : Arial, Helvetica, serif;
+  font-size        : 12px;
+  text-decoration  : none;
   text-align       : right;
-  padding-right    : 5px;
-  display          : block;
-  line-height      : 20px;
+  margin-bottom    : 3px;
+  padding-right    : 3px;
 }
 
 a.sublevel:link, a.sublevel:visited {
-  color            : #FEC722;
-  border-bottom    : 1px solid #FEC722;
+  color            : #4A6080;
 }
 
 a.sublevel:hover {
-  color            : #ffffff;
-  border-bottom    : 1px solid #ffffff;
-}
-
-a.buttonbar:link, a.buttonbar:visited {
-  font-family      : Trebuchet MS, Verdana, sans-serif;
-  font-size        : 10px;
-  color            : #ffffff;
-  font-weight      : bold;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  border-bottom: 1px dashed #ffffff;
-  padding: 1px;
-}
-
-a.buttonbar:hover {
-  color            : #FEC722;
-  border-bottom: 1px dashed #FEC722;
+  border-bottom    : 1px solid #4A6080;
 }
 
 /* ###################### MODULE SETTINGS ###################### */
 table.moduletable {
   width            : 100%;
-  padding-top      : 1px;
   padding-bottom   : 7px;
-  padding-left     : 3px;
-  padding-right    : 3px;
 }
 
 table.moduletable th {
   font             : Trebuchet MS, Verdana, sans-serif;
   font-size        : 13px;
   font-weight      : bold;
-  color            : #ff6600;
+  color            : #ffffff;
   text-align       : center;
-  padding          : 2px;
-  border-top       : 2px solid #ff6600;
-  border-bottom    : 2px solid #ff6600;
+  padding          : 1px;
+  background-color : #4A6080;
 }
 
 .newsflash {
   font-family      : Arial, Helvetica, sans-serif;
   font-size        : 10px;
-  color            : #000000;
-}
-
-.frameheader {
-  font             : Verdana, Arial, Helvetica, sans-serif;
-  font-size        : 18px;
-  font-weight      : none;
-  color            : #808080;
+  color            : #010101;
 }
 
 .poll {
   font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
-  font-size        : 11px;
-  color            : #ffffff;
+  font-size        : 10px;
+  color            : #010101;
   line-height      : 15px
 }
 
@@ -182,83 +159,88 @@ table.moduletable th {
 
 /* ###################### CONTENT PAGE SETTINGS ###################### */
 a.contentpagetitle:link, a.contentpagetitle:visited {
-  font-family      : Arial, Helvetica, sans-serif;
+  font-family      : Arial;
   font-size        : 15px;
   font-weight      : bold;
-  color            : #ffffff;
-  padding          : 1px;
+  color            : #4A6080;
+  text-align       : left;
+  padding-top      : 7px;
   text-decoration  : none;
   border-bottom    : none;
 }
 
 a.contentpagetitle:hover {
-  color            : #ffff00;
+  color            : #333333;
 }
 
 .contentpane {
   text-align       : justify;
-  padding          : 3px;
+  width            : 100%;
+  margin-top       : 1px;
 }
 
 .contentpaneopen {
   text-align       : justify;
-  padding          : 3px;
+  width            : 100%;
+  margin-top       : 1px;
 }
 
 .contentheading {
-  font-family      : Arial, Helvetica, sans-serif;
+  font-family      : Arial;
   font-size        : 15px;
   font-weight      : bold;
-  color            : #ffffff;
+  color            : #4A6080;
   text-align       : left;
   padding-top      : 7px;
-  border-bottom    : 1px solid #ffffff;
+  border-bottom    : 1px solid #4A6080;
 }
 
 .componentheading {
   font-family      : Trebuchet MS, Verdana, sans-serif;
-  font-size        : 14px;
+  font-size        : 13px;
   font-weight      : bold;
-  color            : #FF8000;
-  text-align       : left;
-  padding-left     : 5px;
-  border-bottom    : 1px solid #FF8000;
+  color            : #333333;
+  text-align       : center;
+  padding          : 1px;
+  border           : 1px solid #4A6080;
 }
 
 .contentdescription {
   font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
   font-size        : 11px;
-  color            : #f0f0f0;
+  color            : #333333;
   text-align       : left;
 }
 
 .category {
-  color            : #f0f0f0;
   font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
-  font-size        : 11px;
-  font-weight      : bold;
+  font-size        : 13px;
+  color            : #4A6080;
   text-decoration  : none;
+  font-weight      : bold;
 }
 
 /* ###################### SECTION LISTING SETTINGS ###################### */
 .sectiontableentry1 {
-  background-color : #666666;
-  margin           : 3px;
+  background-color : #d0d0d0;
+  padding-left     : 3px;
+  padding-right    : 3px;
  }
 
 .sectiontableentry2 {
-  background-color : #737373;
-  margin           : 3px;
+  background-color : #c0c0c0;
+  padding-left     : 3px;
+  padding-right    : 3px;
  }
 
 .sectiontableheader {
-  background-color : #5F5F5F;
+  background-color : #b0b0b0;
   color            : #FFFFFF;
   height           : 20px;
   font-weight      : bold;
-  padding-left     : 5px;
-  padding-right    : 5px;
-  border-bottom    : 2px solid #004857;
+  padding-left     : 3px;
+  padding-right    : 3px;
+  border-bottom    : 2px solid #FFFFFF;
 }
 
 /* ###################### SMALL FONT SETTINGS ###################### */
@@ -266,47 +248,31 @@ a.contentpagetitle:hover {
   font-family      : Verdana, Arial, Helvetica, sans-serif;
   font-size        : 9px;
   color            : #CC6600;
+  font-weight      : normal;
 }
 
 .smalldark {
   font-family      : Verdana, Arial, Helvetica, sans-serif;
   font-size        : 9px;
   color            : #000000;
+  font-weight      : normal;
 }
 
 /* ###################### TABLE OF CONTENT SETTINGS ###################### */
 .contenttoc {
-  background-color : #e0e0e0;
-  border           : solid 1px #000000;
+  background-color : #f0f0f0;
+  border           : solid 1px #777777;
   padding          : 3px;
 }
 
 a.toclink:link, a.toclink:visited {
-  color            : #FF8000;
+  color            : #707070;
+  font-weight      : bold;
+  border-bottom    : none;
 }
 
 a.toclink:hover {
-  color            : #0000ff;
-}
-
-/* ###################### PATH-WAY SETTINGS ###################### */
-.pathway {
-  font-family      : Arial, Helvetica, sans-serif;
-  font-size        : 11px;
-  font-weight      : bold;
-  color            : #000000;
-}
-
-a.pathway:link, a.pathway:visited {
-  font-family      : Arial, Helvetica, sans-serif;
-  font-size        : 11px;
-  font-weight      : bold;
-  color            : #000000;
-}
-
-a.pathway:hover {
-  color            : #FF8000;
-  border-bottom    : 1px solid #FF8000;
+  border-bottom    : 1px dashed #707070;
 }
 
 /* ###################### DATE TIME SETTINGS ###################### */
