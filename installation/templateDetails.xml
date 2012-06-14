@@ -1,64 +1,35 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <mosinstall type="template">
 
-<name>jet_30</name>
-<creationDate>April 2008</creationDate>
+<name>lazydays</name>
+<creationDate>November 2006</creationDate>
 <author>DesignForJoomla.com</author>
 <copyright>DesignForJoomla.com</copyright>
 <authorEmail>cuongnm@designforjoomla.com</authorEmail>
 <authorUrl>designforjoomla.com</authorUrl>
 <version>1.0</version>
-<description>Jet 30 - Joomla template by DesignForJoomla.com</description>
+<description>Lazydays - Joomla template by DesignForJoomla.com</description>
 
 <files>
-        <filename>index.php</filename>
-        <filename>template_thumbnail.png</filename>
+    <filename>index.php</filename>
+    <filename>template_thumbnail.png</filename>
 </files>
 
 <images>
-        <filename>images/arrow_red.gif</filename>
-        <filename>images/arrow_white.gif</filename>
-        <filename>images/arrow_white_hover.gif</filename>
-        <filename>images/body_bottom_bg.gif</filename>
-        <filename>images/btn_go.gif</filename>
-        <filename>images/date_bg.gif</filename>
-        <filename>images/footer_bg.gif</filename>
-        <filename>images/header.gif</filename>
-        <filename>images/html.gif</filename>
-        <filename>images/htmlh.gif</filename>
-        <filename>images/lft_pic1.gif</filename>
-        <filename>images/lft_pic2.gif</filename>
-        <filename>images/lft_pic3.gif</filename>
-        <filename>images/logo.gif</filename>
-        <filename>images/logo1.gif</filename>
-        <filename>images/member_form_bg.gif</filename>
-        <filename>images/member_login_bg.gif</filename>
-        <filename>images/nav_bar.gif</filename>
-        <filename>images/nav_bg.gif</filename>
-        <filename>images/nav_d.gif</filename>
-        <filename>images/nav_div.gif</filename>
-        <filename>images/nav_h.gif</filename>
-        <filename>images/one.gif</filename>
-        <filename>images/register_member_icon.gif</filename>
-        <filename>images/right_bottom.gif</filename>
-        <filename>images/right_bottom1.gif</filename>
-        <filename>images/right_panel_bg.gif</filename>
-        <filename>images/right_panel_bg1.gif</filename>
-        <filename>images/right_top.gif</filename>
-        <filename>images/right_top1.gif</filename>
-        <filename>images/three.gif</filename>
-        <filename>images/top_icon.gif</filename>
-        <filename>images/two.gif</filename>
+        <filename>images/bullet.gif</filename>
+        <filename>images/footer.jpg</filename>
+        <filename>images/go.gif</filename>
+        <filename>images/gradient.jpg</filename>
+        <filename>images/hd.jpg</filename>
 </images>
 
 <css>
         <filename>css/bottom.css.php</filename>
         <filename>css/footer.css.php</filename>
         <filename>css/template.css</filename>
-        <filename>css/d4j_dropdownmenu.css</filename>
         <filename>css/template_css.css</filename>
         <filename>css/template_css_ie.css</filename>
-        <filename>css/template_css_ie7.css</filename>
+
 </css>
 
 </mosinstall>
