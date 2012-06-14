@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="template">
+  <name>car-motor_01</name>
+  <creationDate>January 2005</creationDate>
+ <author>DesignForJoomla.com</author>
+  <copyright>Converted to Joomla template by DesignForJoomla.com.</copyright>
+  <authorEmail>design@designforjoomla.com</authorEmail>
+  <authorUrl>www.designforjoomla.com</authorUrl>
+  <version>1.0</version>
+  <description>Converted to Joomla template by DesignForJoomla.com.</description>
+  <files>
+    <filename>index.php</filename>
+    <filename>template_thumbnail.png</filename>
+  </files>
+  <images>
+    <filename>images/6.jpg</filename>
+    <filename>images/7.jpg</filename>
+    
+    <filename>images/header-left_04.jpg</filename>
+    <filename>images/header-right_02.gif</filename>
+    <filename>images/header-right_03.jpg</filename>
+    <filename>images/logo.gif</filename>
+  </images>
+  <css>
+    <filename>css/template_css.css</filename>
+  </css>
+</mosinstall>
