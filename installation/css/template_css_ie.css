@@ -1,0 +1,9 @@
+table{font-size:1em;line-height:1.3em;letter-spacing:1px}
+#button1{margin:5px 0 0 4px}
+#toolbar .moduletable li a,#toolbar .moduletable li a:visited,#toolbar .moduletable a.mainlevel,#toolbar .moduletable a.sublevel,#user3 .moduletable li a,#user3 .moduletable li a:visited,#user3 .moduletable a.mainlevel,#user3 .moduletable a.sublevel{width:100%}
+#toolbar .moduletable h3{margin-top:-5px}
+#toolbar .moduletable{margin-top:0px}
+#top,#user4{width:100%}
+#left .moduletable h3,#right .moduletable h3{margin:14px 0 20px}
+#cbox{width:60.7%}
+#mainbody{width:100%}

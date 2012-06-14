@@ -1,4 +1,4 @@
-D4J Merry Christmas template for Joomla! 1.0 series
+D4J Midnight Rain Forest template for Joomla! 1.0 series
 ===============================================
 
 Install Git client by following the guide at the URL below:
@@ -9,7 +9,7 @@ Then, clone the repository at following URL:
 
 https://github.com/goesjoomla/DesignForJoomla.com.git
 
-Finally, checkout templates/merry_christmas branch to get D4J Merry Christmas.
+Finally, checkout templates/midnight_rainforest branch to get D4J Midnight Rain Forest.
 
 --
 Manh-Cuong Nguyen
