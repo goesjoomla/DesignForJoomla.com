@@ -1,84 +1,10 @@
-/* document setting */
-body{background-color:#ddd}
-form{margin:0;padding:0;width:auto !important;width:100%}
-body,form,div,p,table,tr,td{margin:0;font-family:"Tahoma",verdana,arial,sans-serif;font-size:11px;color:#666}
-a:link,a:visited,a:active{color:#8CD749;text-decoration:none;font-weight:normal}
-a:hover{color:#3B4471;text-decoration:none}
-blockquote{border-left:4px solid #8CD749;font-size:10px;margin:12px 0 16px 5px;padding-left:12px}
+/* JOOMLA 1.0.X TEMPLATE CSS FILE */
 
-/* position setting (tableless)*/
-.clearer{clear:both;margin:0;padding:0}
-#container{background-color:#fff;width:653px;height:auto;margin-bottom:5px}
+/* Main css file with standard css selectors */
+@import url("base.css");
 
-#header{width:653px;height:172px;background:url(../images/leaf.jpg) right top no-repeat}
-#headlink{height:132px;overflow:hidden;float:left}
-#headlink h1{padding:0 0 0 25px;font-size:29px;margin-top:32px;font-weight:normal;color:#8CD749;line-height:0.5em}
-#headlink h2{padding-left:80px;font-size:13px;font-weight:normal;line-height:50%}
-#headlink div.moduletable{float:left;line-height:100%;padding-left:80px}
-#headlink div.moduletable h3{font-size:29px;font-weight:normal;color:#8CD749;text-indent:-55px;margin-top:32px}
+/* Css file with css selectors for layout */
+@import url("layout.css");
 
-#navbar{height:30px;float:left;width:100%;background:#999;overflow:hidden}
-#navbar a{font-size:13px;float:left;height:30px;width:19.95%;background:#999 left top no-repeat;text-decoration:none;color:#fff}
-#navbar a span{display:inline;line-height:30px}
-#navbar a:hover{background-color:#8CD749;height:30px}
-
-#body{width:653px}
-
-#main{width:640px;float:left}
-#inner_main{width:628px;margin:8px 0 20px 12px}
-#inner_main .contentheading{width:100%;padding-left:7px;font-size:12px;color:#3e3d4b;background:#ddd;text-indent:30px;line-height:20px}
-#inner_main .contentpaneopen,#inner_main .contentpane{padding-top:10px;width:100%}
-
-#rightcontainer{width:179px;float:right;margin:19px 0;text-align:justify}
-#rightcontainer .moduletable{text-align:justify;margin:0 13px 7px 0px;border:1px solid #999;width:151px;float:right;padding:10px 5px}
-#rightcontainer .moduletable h3{font-size:13px;font-weight:normal;color:#3e3d4b;background:#ddd;width:139px;padding:1px 2px 1px 10px;margin:0}
-#rightcontainer .moduletable ul{list-style:none;margin-left:0}
-#rightcontainer .moduletable .contentheading{padding:1px;padding-left:5px;font-weight:bold}
-
-#bottom_left{float:left}
-#bottom_left div{font-size:8px;text-align:left}
-#bottom_right{float:right}
-#bottom_right div{font-size:8px;text-align:right}
-
-#footer{margin:0 5px;overflow:hidden;border-top:1px solid #999;padding:11px 10px 11px 10px;text-align:left}
-#footer .moduletable{font-size:10px}
-
-/* Joomla's setting */
-.moduletable *{padding:4px}
-.moduletable * *{padding:0}
-
-.blog td{padding-left:3px}
-
-.mainlevel{line-height:20px;padding-left:10px}
-.sublevel{margin:0 0 3px 13px;line-height:16px}
-
-.componentheading{padding:8px 0 2px;font-weight:bold;text-align:left;padding-left:13px}
-.back_button{float:left;padding-left:13px;padding-bottom:13px}
-
-.small,.smalldark,span.small,.createdate{font-size:11px}
-
-.contentpaneopen{text-align:justify}
-.contentpane .inputbox{width:50%}
-.contentpane select.inputbox{width:55px}
-.readon{float:right;color:#88abf2;font-weight:bold;padding:5px 1px 1px 5px}
-
-.contenttoc{margin:0 3px 15px 13px;padding:0 10px;border:1px dotted #bbb;background:#eee}
-.contenttoc th{border-bottom:1px dotted #bbb;font-size:13px}
-.contenttoc td{margin:2px 0 2px 14px}
-.contenttoc a.toclink{text-decoration:none}
-
-.blog_more{margin:0 3px 15px 13px;padding:3px 6px;border:1px dotted #bbb;background:#fafafa;text-align:left}
-.blog_more div{border-bottom:1px dotted #bbb}
-.blog_more ul{margin:2px 0 2px 14px;padding-left:24px}
-.blog_more ul li a.blogsection{text-decoration:none}
-
-.sectiontableheader{background:#b5fd8a;font-weight:bold;line-height:25px}
-.sectiontableentry1{background:white;line-height:25px}
-.sectiontableentry2{background:#f9f9f9;line-height:25px}
-.sectiontableentry1 a,.sectiontableentry2 a{text-decoration:none;color:#666}
-
-select#mod_templatechooser_jos_change_template{width:144px}
-
-.pollstableborder{text-align:left}
-.poll .button{margin-top:10px}
-.tips{display:none}
+/* Css file with css selectors for custom modules and menus */
+@import url("custom.css");

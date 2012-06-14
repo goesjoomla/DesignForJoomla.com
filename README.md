@@ -1,4 +1,4 @@
-D4J Localize template for Joomla! 1.0 series
+D4J Logistix template for Joomla! 1.0 series
 ===============================================
 
 Install Git client by following the guide at the URL below:
@@ -9,7 +9,7 @@ Then, clone the repository at following URL:
 
 https://github.com/goesjoomla/DesignForJoomla.com.git
 
-Finally, checkout templates/localize branch to get D4J Localize.
+Finally, checkout templates/logistix branch to get D4J Logistix.
 
 --
 Manh-Cuong Nguyen

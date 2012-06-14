@@ -1,0 +1,32 @@
+/* CSS SELECTORS FOR CUSTOMIZATION */
+
+/* ======================== HEADER ======================== */
+#D4J_Title{color:#ffffff;font-size:1.65em;line-height:60px;font-family:Trebuchet MS, Arial, Helvetica, sans-serif;text-transform:lowercase}
+#D4J_Title a{color:#ffffff;text-decoration:none;font-size:1em;font-weight:500}
+#D4J_Title .moduletable h3{font-size:2.27em;font-weight:500;margin-bottom:100px;padding-top:10px}
+
+#D4J_Slogan{color:#ffffff;font-size:2em;text-align:right;line-height:36px}
+
+/* ======================== MAIN MENU ===================== */
+#D4J_MainMenu ul#mainlevel{list-style:none;height:50px}
+#D4J_MainMenu ul#mainlevel li{height:50px;display:inline}
+#D4J_MainMenu ul#mainlevel li a.mainlevel{padding:17px 20px 0 20px;display:block;float:left;text-transform:uppercase;text-decoration:none;font: bold 1.1em "Trebuchet MS", Arial, Helvetica, sans-serif;color:#D8D8D8;background:url(../images/img03.gif) no-repeat}
+#D4J_MainMenu ul#mainlevel li a.mainlevel:hover,#D4J_MainMenu ul#mainlevel li a#active_menu{color:#ffffff}
+
+/* ======================== LEFT SIDE ===================== */
+#D4J_Top .moduletable h3,#D4J_Banner .moduletable h3,#D4J_Bottom .moduletable h3{color:#F49500;font-size:1.63em;text-transform:uppercase;margin-bottom:16px}
+#D4J_User1 .moduletable h3,#D4J_User2 .moduletable h3,#D4J_User3 .moduletable h3,#D4J_User4 .moduletable h3,#D4J_User5 .moduletable h3,#D4J_User6 .moduletable h3,#D4J_User7 .moduletable h3,#D4J_User8 .moduletable h3{color:#F49500;font-size:1em;text-transform:uppercase;margin-bottom:16px}
+
+/* ======================== RIGHT SIDE ===================== */
+#D4J_RightSide .moduletable,#D4J_RightSide .moduletable-nav{margin-bottom:30px}
+#D4J_RightSide .moduletable h3,#D4J_RightSide .moduletable-nav h3{color:#F49500;font-size:1.27em;text-transform:uppercase;margin-bottom:16px;padding:0}
+#D4J_RightSide ul#mainlevel{list-style:none;margin:0}
+#D4J_RightSide ul#mainlevel li,#D4J_RightSide .moduletable-nav .mainlevel,#D4J_RightSide .moduletable-nav .sublevel{display:block;background:url(../images/img06.gif) repeat-x left bottom;padding:7px 10px}
+#D4J_RightSide ul#mainlevel li a,#D4J_RightSide .moduletable-nav a{text-decoration:none}
+#D4J_RightSide ul#mainlevel li a:hover,#D4J_RightSide .moduletable-nav a:hover{text-decoration:underline}
+#D4J_RightSide .moduletable-nav table{width:100%}
+#D4J_RightSide .moduletable-nav a.sublevel{background:none}
+
+/* ======================== FOOTER ========================== */
+#D4J_Footer{color:#999999;text-align:center}
+#D4J_Footer_Left div{text-align:left}
