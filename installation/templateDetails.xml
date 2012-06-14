@@ -1,37 +1,76 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <mosinstall type="template">
 
-<name>indigo</name>
-<creationDate>2nd NOvember 2006</creationDate>
+<name>individual</name>
+<creationDate>December 2007</creationDate>
 <author>DesignForJoomla.com</author>
 <copyright>DesignForJoomla.com</copyright>
-<authorEmail>support@designforjoomla.com</authorEmail>
+<authorEmail>cuongnm@designforjoomla.com</authorEmail>
 <authorUrl>designforjoomla.com</authorUrl>
 <version>1.0</version>
-<description>Indigo- Joomla template by DesignForJoomla.com</description>
+<description>Individual - Joomla template by DesignForJoomla.com</description>
 
 <files>
-    <filename>index.php</filename>    
-	<filename>template_thumbnail.png</filename>
+    <filename>index.php</filename>
+    <filename>template_thumbnail.png</filename>
 </files>
 
 <images>
-	<filename>images/bg.gif</filename>
-	<filename>images/bgcode.gif</filename>
-	<filename>images/bgfooter.gif</filename>
-	<filename>images/bgmain.gif</filename>
-	<filename>images/li.gif</filename>
-	<filename>images/nav_li.gif</filename>
-	<filename>images/quote.gif</filename>
-	<filename>images/topleft.gif</filename>
-	<filename>images/logo.gif</filename>
+        <filename>images/arrow.gif</filename>
+        <filename>images/box2.gif</filename>
+        <filename>images/box2_1.gif</filename>
+        <filename>images/box2_2.gif</filename>
+        <filename>images/bt_bottom.gif</filename>
+        <filename>images/bt_bottom1.gif</filename>
+        <filename>images/bt_bottom2.gif</filename>
+        <filename>images/bt_h3.gif</filename>
+        <filename>images/bt_mid.gif</filename>
+        <filename>images/bt_mid1.gif</filename>
+        <filename>images/bt_mid2.gif</filename>
+        <filename>images/bt_top.gif</filename>
+        <filename>images/bt_top1.gif</filename>
+        <filename>images/bt_top2.gif</filename>
+        <filename>images/btn_login.gif</filename>
+        <filename>images/cbox.gif</filename>
+        <filename>images/content1.gif</filename>
+        <filename>images/content2.gif</filename>
+        <filename>images/dot.gif</filename>
+        <filename>images/dot.png</filename>
+        <filename>images/footer_bg.gif</filename>
+        <filename>images/green_part_div.gif</filename>
+        <filename>images/h2p.gif</filename>
+        <filename>images/line.gif</filename>
+        <filename>images/logo.gif</filename>
+        <filename>images/member_login.gif</filename>
+        <filename>images/memberlogin_bg.gif</filename>
+        <filename>images/mh.gif</filename>
+        <filename>images/nav_bg.gif</filename>
+        <filename>images/nav_hover.gif</filename>
+        <filename>images/p1.gif</filename>
+        <filename>images/p1h.gif</filename>
+        <filename>images/p2.gif</filename>
+        <filename>images/p2h.gif</filename>
+        <filename>images/p3.gif</filename>
+        <filename>images/p3h.gif</filename>
+        <filename>images/p4.gif</filename>
+        <filename>images/p5.gif</filename>
+        <filename>images/p5h.gif</filename>
+        <filename>images/solution_div.gif</filename>
+        <filename>images/top_green_bg.gif</filename>
+        <filename>images/top_part.gif</filename>
+        <filename>images/xhtml_bg.gif</filename>
+        <filename>images/xhtml_bg_hover.gif</filename>
 </images>
 
 <css>
-	<filename>css/template.css</filename>
-	<filename>css/template_css.css</filename>	
-	<filename>css/bottom.css.php</filename>
-	<filename>css/footer.css.php</filename>
+        <filename>css/bottom.css.php</filename>
+        <filename>css/footer.css.php</filename>
+        <filename>css/template.css</filename>
+        <filename>css/d4j_dropdownmenu.css</filename>
+        <filename>css/d4j_transmenu.css</filename>
+        <filename>css/template_css.css</filename>
+        <filename>css/template_css_ie.css</filename>
+        <filename>css/template_css_ie7.css</filename>
 </css>
 
 </mosinstall>
