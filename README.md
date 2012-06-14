@@ -1,4 +1,4 @@
-D4J Guideline template for Joomla! 1.0 series
+D4J Harbour template for Joomla! 1.0 series
 ===============================================
 
 Install Git client by following the guide at the URL below:
@@ -9,7 +9,7 @@ Then, clone the repository at following URL:
 
 https://github.com/goesjoomla/DesignForJoomla.com.git
 
-Finally, checkout templates/guideline branch to get D4J Guideline.
+Finally, checkout templates/harbour branch to get D4J Harbour.
 
 --
 Manh-Cuong Nguyen

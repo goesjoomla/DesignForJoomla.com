@@ -1,23 +1,5 @@
-#user7 .moduletable,#user7 h2{padding:14px 0 0 10px}
-#user7 h1{padding:14px 0 0 10px}
-#user7 h2{padding-top:0px}
-#toolbar1{margin:16px 64px 0 0}
-#toolbar{margin:17px 0 17px 11px}
-#newsflash .moduletable h3{margin:2px 0 3px}
-#user3{margin:23px 0 0 62px}
-#main .moduletable a{margin:0 10px 0 0}
-#toolbar ul.list_menu li li:hover .sublevel,
-#toolbar ul.list_menu li li li:hover .sublevel,
-#toolbar ul.list_menu li li li li:hover .sublevel,
-#toolbar ul.list_menu li li li li li:hover .sublevel,
-#toolbar ul.list_menu li li li li li li:hover .sublevel,
-#toolbar ul.list_menu li li.sfhover .sublevel,
-#toolbar ul.list_menu li li li.sfhover .sublevel,
-#toolbar ul.list_menu li li li li.sfhover .sublevel,
-#toolbar ul.list_menu li li li li li.sfhover .sublevel,
-#toolbar ul.list_menu li li li li li li.sfhover .sublevel,
-#toolbar ul.list_menu li li.active_mitem .sublevel,
-#toolbar ul.list_menu li li li.active_mitem .sublevel,
-#toolbar ul.list_menu li li li li.active_mitem .sublevel,
-#toolbar ul.list_menu li li li li li.active_mitem .sublevel,
-#toolbar ul.list_menu li li li li li li.active_mitem .sublevel{width:133px}
+div.moduletable{margin:0 0 20px 0}
+div.moduletable *{margin-top:0;padding:5px 0 0 10px;width:auto}
+div.moduletable * *{padding:0}
+div.moduletable h3{margin-left:10px}
+#bottom_left{margin-left:0px}
