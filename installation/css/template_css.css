@@ -1,10 +1,104 @@
-/* JOOMLA 1.0.X TEMPLATE CSS FILE */
+/*document settings*/
+body{margin:0;padding:0;font:12px tahoma,verdana,sans-serif;background:#e6e6e6 url(../images/bodybg.png) repeat-x;color:#333;text-align:center}
+a{text-decoration:none;color:#269;font-weight:bold}
+a:hover{text-decoration:underline}
+th,td,form,div,p{margin:0;padding:0;font-size:12px;line-height:1.5em}
+ul{margin:0}
+li{list-style:none}
 
-/* Main css file with standard css selectors */
-@import url("base.css");
+/* position setting (tableless)*/
+.clr{clear:both}
 
-/* Css file with css selectors for layout */
-@import url("layout.css");
+#container{width:967px;padding:0;margin:0 auto;background:#f0f0f0 url(../images/contentbg.png) repeat-x;color:#333;text-align:left;overflow:hidden;border-left:1px solid #eef;border-right:1px solid #eef}
+#top_main{width:976px;margin:0 0 0 20px;float:left;overflow:hidden;float:left;height:100px;background:url(../images/globe.gif) no-repeat}
 
-/* Css file with css selectors for custom modules and menus */
-@import url("custom.css");
+#sitetitle{width:450px;height:100px;float:left;color:#333;overflow:hidden}
+#sitetitle .moduletable,#sitetitle h2{font-size:22px;text-align:left;font-weight:normal;letter-spacing:-1px;margin:19px 0 0 50px;color:#888;line-height:32.5px}
+#sitetitle .moduletable h3,#sitetitle h1{font-size:39px;letter-spacing:-3px;color:#567;margin:0 0 0 -30px;text-align:left;font-weight:normal}
+#sitetitle h1{margin:26px 0 0 20px}
+#sitetitle h2{margin:15px 0 0 50px;line-height:16px}
+#sitetitle a{color:#567;font-weight:normal}
+#sitetitle a:hover{color:#269;text-decoration:none}
+
+#menu{margin:0 0 0 60px;width:465px;height:100px;float:left;overflow:hidden}
+#menu ul{margin:0;padding:37px 0 0}
+#menu ul li{margin:0;display:inline;text-transform:lowercase}
+#menu ul li a{margin:0;height:100px;padding:34px 6px 41px;font-size:1.6em;font-weight:normal;letter-spacing:-1px;color:#888}
+#menu ul li a:hover{color:#269;text-decoration:none;background:#fff url(../images/menuhover.png) top left repeat-x;padding:34px 5px 41px;border-left:1px solid #eee;border-right:1px solid #eee;height:100px}
+
+#content{margin:0;width:967px;float:left;overflow:hidden}
+
+#lbox,#rbox{margin:0;float:left;overflow:hidden}
+
+#top,#bottom{width:575px;margin:0 0 0 20px;float:left;overflow:hidden}
+#top .moduletable,#bottom .moduletable,#top .moduletable_banner,#bottom .moduletable_banner{position:relative;margin:21px 0 0;border:2px solid #fff;background:#E6E6E6 url(../images/h3.gif) repeat-x;color:#333;padding:10px 20px 10px;line-height:1.5em}
+#top .moduletable h3,#bottom .moduletable h3,#top .moduletable_banner h3,#bottom .moduletable_banner h3,#mainbody .contentheading,#mainbody .componentheading,#left .moduletable h3,#right .moduletable h3,#left .moduletable_banner h3,#right .moduletable_banner h3,#user3 .moduletable h3,#user4 .moduletable h3{line-height:27px;margin:0 -10px 10px;color:#555;border-bottom:2px solid #abb;font-size:22px;letter-spacing:-1px;color:#555;font-weight:normal}
+#top .moduletable h3 a,#bottom .moduletable h3 a,#top .moduletable_banner h3 a,#bottom .moduletable_banner h3 a{color:#555;font-weight:normal}
+#top .moduletable h3 a:hover,#bottom .moduletable h3 a:hover{color:#269;text-decoration:none;background:none}
+#top .moduletable a,#bottom .moduletable a,#mainbody a,#left .moduletable a,#right .moduletable a{text-decoration:none;line-height:18px;padding-bottom:2px}
+#top .moduletable a.mainlevel,#bottom .moduletable a.mainlevel{line-height:18px}
+#top .moduletable a:hover,#bottom .moduletable a:hover,#top .moduletable a:hover.mainlevel,#bottom .moduletable a:hover.mainlevel,#mainbody a:hover,#left .moduletable a:hover,#right .moduletable a:hover{text-decoration:none;padding-bottom:2px;background:url(../images/flash2.gif) left bottom repeat-x}
+#top .moduletable ul,#bottom .moduletable ul,#left .moduletable ul,#left .moduletable ul{margin:0;padding:0}
+#top .moduletable thead,#bottom .moduletable thead,#top .moduletable_banner,#bottom .moduletable_banner,#left .moduletable_banner,#right .moduletable_banner{text-align:center}
+
+#mainbody{width:550px;margin:19px 0 0 20px;float:left;border:2px solid #fff;background:#E6E6E6 url(../images/h3.gif) repeat-x;color:#333;padding:10px;line-height:1.5em}
+#mainbody .contentheading,#mainbody .componentheading{margin:0 0 10px}
+#mainbody .contentheading,#mainbody .componentheading,#mainbody .contentpaneopen,#mainbody .contentpane{width:100%}
+#mainbody img{margin:5px 10px 0;padding:3px;border:1px solid #fff;background:#ddd;color:#333}
+#mainbody img:hover{background: url(../images/flash.gif)}
+#mainbody .buttonheading img{border:0px;margin:0px;padding:0}
+
+#left,#right,#rsbox{width:325px;margin:21px 0 0 13px;float:left;overflow:hidden}
+#left .moduletable,#right .moduletable,#left .moduletable_banner,#right .moduletable_banner,#user3 .moduletable,#user4 .moduletable{margin:0 0 10px;padding:0 0 0 12px;line-height:18px;font-size:12px}
+#left .moduletable h3,#right .moduletable h3,#left .moduletable_banner h3,#right .moduletable_banner h3,#user3 .moduletable h3,#user4 .moduletable h3{text-align:left;line-height:23px;margin:0 0 6px -12px;font-size:19px}
+#left .moduletable a.mainlevel,#right .moduletable a.mainlevel,#user3 .moduletable a.mainlevel,#user4 .moduletable a.mainlevel{display:block;line-height:18px}
+#left .moduletable a.mainlevel,#left .moduletable ul li a,#right .moduletable a.mainlevel,#right .moduletable ul li a,#user3 .moduletable a.mainlevel,#user3 .moduletable ul li a,#user4 .moduletable a.mainlevel,#user4 .moduletable ul li a{color:#269;background:url(../images/linkarrow1.gif) left no-repeat;margin:0;padding:2px 1em 2px 18px}
+#left .moduletable a:hover.mainlevel,#left .moduletable ul li a:hover,#right .moduletable a:hover.mainlevel,#right .moduletable ul li a:hover,#user3 .moduletable a:hover.mainlevel,#user3 .moduletable ul li a:hover,#user4 .moduletable a:hover.mainlevel,#user4 .moduletable ul li a:hover{color:#48b;background:url(../images/blinkarrow.gif) left no-repeat;text-decoration:none}
+
+#user3,#user4{margin:0;float:left;width:150px;overflow:hidden}
+#user3 .moduletable,#user4 .moduletable{padding:0}
+#user3 .moduletable h3,#user4 .moduletable h3{padding-left:12px}
+#user4{margin-left:25px}
+#user3 .moduletable ul,#user4 .moduletable ul{margin:0;padding:0;text-align:left}
+#user3 .moduletable a.mainlevel,#user3 .moduletable ul li a,#user4 .moduletable a.mainlevel,#user4 .moduletable ul li a{background:url(../images/linkarrow1.gif) no-repeat 0 4px}
+#user3 .moduletable a:hover.mainlevel,#user3 .moduletable ul li a:hover,#user4 .moduletable a:hover.mainlevel,#user4 .moduletable ul li a:hover{background:url(../images/blinkarrow.gif) no-repeat 0 2px}
+
+#footer_container{width:957px;float:left;margin:20px 0 0 20px;background:url(../images/globebottom.gif) bottom left no-repeat}
+#footer{color:#888;padding:26px 0 0 24px;width:905px;text-align:left}
+#footer .moduletable h3{color:#aaa;font-size:24px;letter-spacing:-2px;font-weight:normal;padding-bottom:2px}
+#footer a{color:#888;font-weight:normal}
+
+#bottom_left{float:left;margin:0 0 0 -10px;padding:0;text-align:left}
+#bottom_left div{font-size:12px;text-align:left;color:#888}
+#bottom_right{float:right;margin:0;padding:0 15px 0;text-align:right}
+#bottom_right div{font-size:12px;color:#888;text-align:right}
+
+/*joomla settings*/
+.contentpane,.contentpaneopen{text-align:justify}
+
+.small,span.small,#mainbody .createdate,#mainbody .modifydate,.pagenavcounter{font-size:10px;color:#567}
+.pagenav{color:#888}
+.back_button,.pagenav_prev,.pagenav_next{font-size:11px}
+
+.contenttoc{margin:5px 4px 5px;padding:0 10px;border:1px dotted #000}
+.contenttoc th{border-bottom:1px dotted #000;font-size:13px;color:#0080DD}
+.contenttoc td{margin:5px 0 5px 14px}
+.contenttoc a.toclink{text-decoration:none;color:#C3593C}
+.contenttoc a:hover.toclink{color:#0080DD}
+
+.blog td{padding:2px}
+.blog_more{margin:0 3px 15px 13px;padding:3px 6px;border:1px dotted #666}
+.blog_more div{border-bottom:1px dotted #666}
+.blog_more ul{margin:2px 0 2px 14px}
+.blog_more ul li a.blogsection{text-decoration:none}
+
+.syndicate div{text-align:center}
+select#mod_templatechooser_jos_change_template{width:82px}
+
+.pollstableborder input{margin:0}
+.sectiontableheader{background:#88ABF2;color:#FFFFFF;height:20px;font-weight:bold;padding:0 5px;border-bottom:2px solid #FFFFFF}
+.sectiontablefooter{text-align:center}
+.sectiontableentry1,.sectiontableentry1 td{background:#c9d8fb;padding:5px;text-align:left}
+.sectiontableentry2,.sectiontableentry2 td{background:#ececec;padding:5px;text-align:left}
+
+.tips{display:none}
