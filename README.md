@@ -1,4 +1,4 @@
-D4J Falling Leaves template for Joomla! 1.0 series
+D4J Fantasia template for Joomla! 1.0 series
 ===============================================
 
 Install Git client by following the guide at the URL below:
@@ -9,7 +9,7 @@ Then, clone the repository at following URL:
 
 https://github.com/goesjoomla/DesignForJoomla.com.git
 
-Finally, checkout templates/falling_leaves branch to get D4J Falling Leaves.
+Finally, checkout templates/fantasia branch to get D4J Fantasia.
 
 --
 Manh-Cuong Nguyen

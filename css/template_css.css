@@ -1,0 +1,87 @@
+/*document settings*/
+body{margin:0;background:black url(../images/bg.jpg) top center no-repeat}
+body,table,form,div,p{font-family:arial,helvetica,"Trebuchet MS",verdana,sans-serif;font-size:11px;color:white}
+form{margin:0;padding:0;width:auto !important;width:100%}
+h1,h2,h3{margin:0}
+ul{margin:0;list-style:none}
+li{background:url(../../../images/M_images/arrow.png) 0 1px no-repeat;padding-left:16px}
+hr{background:white;height:1px;width:95%}
+a{color:#FF8000;text-decoration:none}
+a:hover,a:active{color:#ffff00}
+
+/*positions settings (tableless)*/
+.clr{clear:both;height:0px;overflow:hidden}
+#farouter{width:780px}
+
+#sleft{float:left;width:177px;padding-top:10px}
+#logo{width:177px;height:90px}
+#logo h1,#logo h1 a{width:130px;height:65px}
+#logo h1{background:url(../images/logo.png) center top no-repeat}
+#logo h1 a{display:block;text-indent:-5000px}
+#mleft{padding-right:10px}
+
+#container{float:left;width:453px;padding-top:22px}
+#slogan{height:78px;padding:0 8px}
+#slogan div.moduletable{text-align:left;font-weight:normal;font-size:12px}
+#slogan div.moduletable *{padding:0}
+#slogan div.moduletable h3{font-size:18px;color:#ff0000;text-align:left;border:none;font-weight:normal;text-transform:uppercase}
+#main{padding:0 8px;text-align:left}
+#main table{width:auto}
+#bottom{margin-top:14px;overflow:hidden}
+
+
+#sright{float:left;width:145px;padding-top:10px}
+#mright img{margin-left:0px}
+#mright{padding-left:12px}
+
+#footer{width:780px;margin-top:14px;border-top:2px solid #ff6600}
+#footer div.moduletable{text-align:center}
+#footer div.moduletable h3{text-align:left;padding-left:7px;border-top:none}
+#bottom_left{float:left}
+#bottom_left div{text-align:left}
+#bottom_right{float:right}
+#bottom_right div{text-align:right}
+
+/*joomla settings*/
+.componentheading{font-size:14px;font-weight:bold;color:#FF8000;text-align:left;padding-left:5px;margin-bottom:12px;border-bottom:1px solid #FF8000}
+.pagenavbar{text-align:center}
+
+.inputbox,.button{font-style:normal;font-weight:bold;font-size:10px;color:black;border:1px solid}
+.inputbox{background:white}
+
+.mainlevel{font-size:12px;font-weight:bold;text-align:left;padding-left:5px;display:block;line-height:20px}
+a.mainlevel:link,a.mainlevel:visited{color:white;border-bottom:1px dashed white}
+a.mainlevel:hover{color:#FF8000;border-bottom:1px solid #FF8000}
+.sublevel{font-size:11px;font-weight:bold;text-align:right;padding-right:5px;display:block;line-height:20px}
+
+div.moduletable{width:auto !important;width:100%;margin-bottom:14px;text-align:left}
+div.moduletable *{padding:4px}
+div.moduletable * *{padding:0px}
+div.moduletable img{margin:12px 0 0 24px}
+div.moduletable ul li{padding-left:16px}
+div.moduletable h3{font-size:13px;font-weight:bold;color:#ff6600;text-align:center;padding:2px;border-top:2px solid #ff6600;border-bottom:2px solid #ff6600}
+.pollstableborder{margin:4px 0 6px 0}
+
+.blog td{padding:0 1px}
+.contentpaneopen{text-align:justify}
+.contentheading{font-size:15px;font-weight:bold;color:white;text-align:left;padding-top:7px;border-bottom:1px solid white}
+.contenttoc{background-color:#e0e0e0;border:solid 1px black;padding:3px}
+.readon{font-size:13px;font-weight:bold;text-align:left;padding-left:10px}
+
+.small,.smalldark{font-size:9px;color:#CC6600}
+.smalldark{color:white}
+.createdate,.modifydate{font-style:italic}
+
+.sectiontableheader{background-color:#ff3300;color:white;height:20px;font-weight:bold;padding:0 5px;border-bottom:2px solid black}
+tr.sectiontableentry1 td,td.sectiontableentry1{background-color:#333300;padding:3px}
+tr.sectiontableentry2 td,td.sectiontableentry2{background-color:#555500;padding:3px}
+
+.blog_more{margin-bottom:15px}
+.blog_more div{margin-bottom:5px}
+.blog_more strong{font-size:14px;font-weight:bold;font-style:italic;text-align:left;padding:10px 0 0 15px}
+.blog_more ul{margin-left:20px}
+.blog_more a{font-size:11px}
+
+.back_button{text-align:right;margin-top:8px}
+select#mod_templatechooser_jos_change_template{width:120px}
+.tips{display:none}
