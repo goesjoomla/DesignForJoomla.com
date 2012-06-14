@@ -1,3 +1,28 @@
+.forCopyright {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #EDD1D7;
+}
+.forTexts {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+}
+.forForms {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	background-color: #FFFFF2;
+	border: 1px inset #FEE498;
+}
+.forButton {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	background-color: #FFECB0;
+	border: 1px outset #FFFFE1;
+}
+
 td,tr,p,div {
   font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
   font-size        : 11px;
@@ -51,23 +76,20 @@ a.category:hover {
 }
 
 a.buttonbar:link, a.buttonbar:visited {
-	display: block;
-	width: 156px;
-	height: 30px;
-	background-image: url(../images/fon_menu.gif);
+	display: table-cell;
+	width: 86px;
+	height: 25px;
+	background-image: url(../images/menu_bg.gif);
+	background-repeat: no-repeat;
 	color: #FFFFFF;
-	font-size: 12px;
-	font-family: Tahoma,Verdana,Arial;
-	font-weight: bold;
-	color: #FFFFFF;
-	text-decoration: none;
+	font-size: 11px;
+	font-family: Arial,Tahoma,Verdana;
 	text-align: center;
 	vertical-align: middle;
 }
 
 a.buttonbar:hover {
-	color : #FF0000;
-	color : #EEEEEE;
+	background-image: url(../images/menu_bg_hover.gif);
 	border-bottom: none;
 }
 
@@ -119,22 +141,24 @@ a.sublevel:hover {
 
 /* ###################### MODULE SETTINGS ###################### */
 table.moduletable {
-  width            : 100%;
-  padding : 5px;
-  padding-bottom : 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	background-color: #FFFFE1;
+	width: 100%;
+	margin-top: 5px;
+	border-bottom: 5px solid #FFCC33;
 }
 
 table.moduletable th {
-	background-image: url(../images/e06.gif);
-	background-repeat: no-repeat;
-	background-position: left center;
   font             : Trebuchet MS, Verdana, sans-serif;
   font-size        : 13px;
   font-weight      : bold;
-  color            : #ffffff;
+  color            : #000000;
   text-align       : center;
   padding          : 1px;
-  background-color : #4A6080;
+  background-color : #FFFFC6;
+  border-bottom    : 3px solid #FFCC33;
 }
 
 .newsflash {
@@ -208,16 +232,13 @@ a.contentpagetitle:hover {
 }
 
 .componentheading {
-	background-image: url(../images/e05.gif);
-	background-repeat: no-repeat;
-	background-position: 17px center;
   font-family      : Trebuchet MS, Verdana, sans-serif;
   font-size        : 13px;
   font-weight      : bold;
-  color            : #4A6080;
+  color            : #FF6600;
   text-align       : center;
   padding          : 1px;
-  border           : 1px solid #4A6080;
+  border           : 1px solid #FFCC33;
 }
 
 .contentdescription {
@@ -257,7 +278,7 @@ a.contentpagetitle:hover {
   font-weight      : bold;
   padding-left     : 3px;
   padding-right    : 3px;
-  border-bottom    : 3px solid #AFC0D0;
+  border-bottom    : 3px solid #FFFFFF;
 }
 
 /* ###################### SMALL FONT SETTINGS ###################### */
@@ -320,21 +341,9 @@ a.toclink:hover {
   padding-left     : 10px;
 }
 
-.menu01 {
-	color : #FFFFFF;
-	margin-top : 0px;
-	padding-bottom : 0px;
-	margin-bottom : 0px;
-	margin-left : 45px;
-	margin-right : 0px;
-	font-size : 12px;
-	font-family : Tahoma,Verdana,Arial;
+.pathway {
+	color: #FCFF00;
+	font-size: 11px;
 	font-weight: bold;
-}
-.menu01 a {
-	color : #FFFFFF;
-	text-decoration: none;
-}
-.menu01 a:hover {
-	color : #EEEEEE;
+	font-style: italic;
 }
