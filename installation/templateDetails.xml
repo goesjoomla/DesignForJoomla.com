@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="template">
+
+<name>hyperglass</name>
+<creationDate>16th August 2007</creationDate>
+<author>DesignForJoomla.com</author>
+<copyright>DesignForJoomla.com</copyright>
+<authorEmail>support@designforjoomla.com</authorEmail>
+<authorUrl>designforjoomla.com</authorUrl>
+<version>1.0</version>
+<description>Hyperglass - Joomla template by DesignForJoomla.com</description>
+
+<files>
+    <filename>index.php</filename>
+    <filename>template_thumbnail.png</filename>
+	<filename>func/style/d4j_sitetools.php</filename>
+	<filename>func/style/d4j_stylechanger.js</filename>
+	<filename>func/style/d4j_stylechanger.php</filename>
+</files>
+
+<images>
+	<filename>images/img01.jpg</filename>
+	<filename>images/img02.jpg</filename>
+	<filename>images/img03.jpg</filename>
+	<filename>images/img04.jpg</filename>
+	<filename>images/img05.jpg</filename>
+	<filename>images/img06.jpg</filename>
+	<filename>images/img07.jpg</filename>
+	<filename>images/img08.jpg</filename>
+	<filename>images/img09.gif</filename>
+	<filename>images/img10.gif</filename>
+	<filename>images/img11.jpg</filename>
+	<filename>images/img12.jpg</filename>
+	<filename>images/img13.gif</filename>
+	<filename>images/img15.jpg</filename>
+	<filename>images/img16.jpg</filename>
+	<filename>images/img17.jpg</filename>
+	<filename>images/img18.jpg</filename>
+	<filename>images/img19.jpg</filename>
+	<filename>images/sitetools.gif</filename>
+
+	<filename>images/site_tools/normalFont.gif</filename>
+	<filename>images/site_tools/smallerFont.gif</filename>
+	<filename>images/site_tools/biggerFont.gif</filename>
+</images>
+
+<css>
+	<filename>css/template_css.css</filename>
+	<filename>css/template.css</filename>
+	<filename>css/d4j_transmenu.css</filename>	
+	<filename>css/d4j_dropdownmenu.css</filename>
+	<filename>css/bottom.css.php</filename>	
+	<filename>css/footer.css.php</filename>
+	<filename>css/base.css</filename>
+	<filename>css/layout.css</filename>
+	<filename>css/custom.css</filename>
+	<filename>css/D4J_sitetools/site_tools.css</filename>
+</css>
+
+</mosinstall>

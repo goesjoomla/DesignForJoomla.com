@@ -1,0 +1,176 @@
+/* STANDARD CSS SELECTORS OF JOOMLA 1.0.X TEMPLATE SYSTEM */
+
+/* ======================== COMMON ======================== */
+
+/* standard */
+*{padding:0;margin:0}
+body,form,div,p,table{width:auto}
+body{background:#F4FBFF url(../images/img01.jpg) repeat-x;font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;font-size:14px;color:#405A67}
+p,ul,ol{margin:0 0 1.5em 0;line-height:1.5em;text-align:justify}
+p{}
+blockquote{font-style:italic;display:block;margin:10px;border:1px solid #999;padding:10px}
+ul{margin-left:20px}
+ol{}
+a{color:#38B5F1}
+a:hover{text-decoration:none}
+
+/* ======================== PATHWAY ======================== */
+span.pathway,a.pathway{}
+a.pathway:hover{}
+span.pathway img{}
+
+/* ======================== CONTENT ======================== */
+
+/* page title */
+.componentheading{font-size:2em;color:#4F6977;font-weight:normal;padding:0 0 0 12px;margin:0px 0 35px 0}
+
+/*module title*/
+div.moduletable h3{}
+
+/* blog page main wrapper */
+table.blog{}
+table.blog td{padding:0 0.1em}
+
+/* component & content container */
+table.contentpane,table.contentpaneopen{width:auto}
+
+/* moduletable */
+.moduletable{margin-bottom:17px}
+
+/* separator after each content item */
+span.article_seperator{}
+
+/* content title */
+td.contentheading{font-size:1.28em;color:#4F6977;font-weight:normal;padding:0 0 0 12px;margin:0px 0 35px 0}
+a.contentpagetitle{}
+
+/* 3 buttons */
+td.buttonheading{}
+
+/* date & author */
+span.small,td.createdate,td.modifydate{font-size:0.8em}
+.smalldark{}
+
+/* page counter */
+div.pagenavcounter{}
+
+/* table of content */
+table.contenttoc{padding:4px;margin:4px}
+table.contenttoc th{}
+table.contenttoc td{}
+a.toclink{}
+
+/* content image */
+div.mosimage{}
+div.mosimage_caption{font-size:0.9em;margin:2px}
+
+/* read more */
+a.readon{}
+
+/* ======================== MORE ======================== */
+
+/* panel */
+div.blog_more{}
+
+/* panel heading */
+div.blog_more div{}
+
+/* block list */
+div.blog_more ul{}
+div.blog_more ul li{}
+
+/* list link */
+a.blogsection{}
+
+/* ======================== TABLE ======================== */
+
+/* description */
+td.contentdescription{font-weight:bold}
+
+/* category link */
+a.category{}
+
+/* listing */
+td.sectiontableheader{padding:0.5em;background:#83acca;color:white;text-transform:uppercase;font-weight:bold}
+tr.sectiontableentry1 td{padding:0.4em 0.5em;background:#d9d9d9;color:black}
+tr.sectiontableentry2 td{padding:0.4em 0.5em;background:#f5f5f5;color:black}
+
+/* ======================== NAVIGATION ======================== */
+
+/* multi-page content nav */
+div.pagenavbar{}
+div.pagenavbar div{}
+div.pagenavbar div a{}
+
+/* content item nav */
+th.pagenav_prev,th.pagenav_next{}
+th.pagenav_prev a,th.pagenav_next a{}
+
+/* blog page nav */
+.pagenav{}
+a.pagenav{}
+
+/* back button */
+div.back_button{margin:1em 0}
+div.back_button a{}
+
+/* ======================== FORM ======================== */
+form{}
+input,textarea{padding:2px;border:1px solid #eee;font:normal 1em Verdana, sans-serif;color:#777;margin:4px 0}
+input.button{margin:5px 0;font:bold 1em Arial, Sans-serif;border:1px solid #CCC;background:#FFF;padding:2px 3px;color:#4284B0}
+.contentpane .inputbox{}
+.contentpane select.inputbox{}
+
+select#mod_templatechooser_jos_change_template{width:142px;margin-top:3px}
+textarea#contact_text.inputbox{width:90%}
+/* ======================== POPUP ======================== */
+body.contentpane{}
+
+/* ======================== MENU ======================== */
+
+
+/* ======================== SEARCH ======================== */
+
+/* search wrapper */
+div.search{}
+
+/* keyword input field */
+input#mod_search_searchword{}
+
+/* keyword high-light */
+span.highlight{}
+
+/* ======================== LOGIN ======================== */
+input#mod_login_username{}
+input#mod_login_password{}
+input#mod_login_remember{}
+
+/* ======================== LATEST ARTICLE ======================== */
+ul.latestnews{}
+li.latestnews{}
+a.latestnews{}
+
+/* ======================== POPULAR ARTICLE ======================== */
+ul.mostread{}
+li.mostread{}
+a.mostread{}
+
+/* ======================== POLL ======================== */
+
+/* wrapper table */
+table.poll{margin-bottom:0.25em}
+
+/* question cell */
+table.poll thead td{font-size:0.9em}
+
+/* answers cell */
+table.poll td{text-align:left}
+
+/* answers table */
+table.pollstableborder{margin:0.25em 0}
+table.pollstableborder td{font-size:0.9em;vertical-align:middle}
+td.sectiontableentry1,td.sectiontableentry2{padding:0.5em}
+
+/* ======================== SYNDICATE ======================== */
+div.syndicate{}
+div.syndicate div{}
