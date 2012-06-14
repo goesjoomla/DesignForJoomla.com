@@ -1,278 +1,145 @@
 /* CSS Document */
-/* CSS Document */
-body{
-	background:url(images/bg.gif) repeat-x 0 0 #FDF9EE; color:#4E4628;
-	font:normal 14px/19px Arial, Helvetica, sans-serif;
-	margin:0; padding:0;}
-div, h1, h2, h3, h4, h5, h6, form, label, input, span, ul, li, p, a{
-	margin:0; padding:0;}
-ul{
-	list-style:none;}
-.spacer{
-	font-size:0; line-height:0; clear:both;}
+body{padding:0px; margin:0px; background:url(images/main-bg.gif) 0 0 repeat-x #fff; color:#7D7D7D; font:14px/20px "Trebuchet MS", Arial, Helvetica, sans-serif;}
+div, p, ul, form, label, h2, h3, h4, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+/*----TOP PANEL----*/
+#topPan{width:778px; height:184px; background:url(images/header.jpg) 0 0 no-repeat; position:relative;}
+#topPan img.logo{width:448px; height:45px; position:absolute; top:139px; right:0px;}
 
+#topPan ul{width:140px; height:29px; background:url(images/top-nav.gif) 0 0 no-repeat; position:absolute; top:23px; left:195px;}
+#topPan ul li{float:left;}
 
-/* ----------------- top navigation start --------------------- */
-#topNav{
-	width:728px; position:relative;
-	margin:0 auto; padding:8px 0 0 50px;}
-#topNav img{
-	border:none; float:left; margin:0 34px 0 0;}
-#topNav ul{
-	background:url(images/top_ul_bg.gif) no-repeat 0 8px;
-	width:503px; height:23px; padding:8px 0 0 8px; margin:0 0 0 217px;}
-#topNav ul li{
-	background-color:#E1DBC7; color:#0B0B0B; float:left;
-	font:bold 11px/23px "Trebuchet MS", Arial, Helvetica, sans-serif; text-transform:uppercase;}
-#topNav ul li a{
-	background-color:#E1DBC7; color:#0B0B0B;
-	font:bold 11px/23px "Trebuchet MS", Arial, Helvetica, sans-serif;
-	text-transform:uppercase; text-align:center; text-decoration:none;
-	width:65px; height:23px; display:block;}
-#topNav ul li a.hover{
-	background:url(images/top_btn_h.gif) no-repeat 0 0 #E1DBC7; color:#FFFFFF;
-	font:bold 11px/23px "Trebuchet MS", Arial, Helvetica, sans-serif;
-	text-transform:uppercase; text-align:center; text-decoration:none;
-	width:65px; height:23px; display:block;}
-#topNav ul li a:hover{
-	background:url(images/top_btn_h.gif) no-repeat 0 0 #E1DBC7; color:#FFFFFF;
-	font:bold 11px/23px "Trebuchet MS", Arial, Helvetica, sans-serif;
-	text-transform:uppercase; text-align:center; text-decoration:none;
-	width:65px; height:23px; display:block;}
+#topPan ul li.home{width:47px; height:29px; float:left;}
+#topPan ul li.home a{width:18px; height:16px; display:block; background:url(images/home-hover.gif) 0 0 no-repeat; margin:3px 0 0 16px;  text-indent:-20000px;}
+#topPan ul li.home a:hover{background:url(images/home-hover.gif) 0 0 no-repeat;}
 
-/* ----------------- top navigation end --------------------- */
-/* ----------------- shadow start --------------------------- */
-#topShadow{
-	background:url(images/top_shadow.gif) no-repeat 0 0 #FDF9EE; color:#4E4628;
-	width:778px; height:34px; margin:9px 0 0; float:left;}
-#bottomShadow{
-	background:url(images/bottom_shadow.gif) no-repeat 0 0 #FDF9EE; color:#4E4628;
-	width:778px; height:24px; float:left;}
-/* ----------------- shadow end --------------------------- */
-/* ----------------- body start --------------------------- */
-#body{
-	width:778px; margin:0 auto; position:relative;}
-#bodyPannel{
-	background:url(images/midle_bg.gif) repeat-y 0 0 #FDF9EE; color:#4E4628;
-	width:722px; padding:0 28px; float:left;}
-#bodyPannel form.search{
-	background-color:#FFFFFF; color:#000000; border:#ECE8DB 1px solid;
-	width:248px; padding:7px 17px 27px 17px; float:left;}
-#bodyPannel form.search h2{
-	background:url(images/search_h2_bg.gif) no-repeat 0 0 #FFFFFF; color:#786E4E;
-	width:197px; padding:0 0 10px 50px; float:left;
-	font:normal 24px/42px Georgia, "Times New Roman", Times, serif;}
-#bodyPannel form.search h2 span{
-	background-color:#FFFFFF; color:#0B0B0B;
-	font:normal 24px/42px Georgia, "Times New Roman", Times, serif;}
-#bodyPannel form.search label{
-	background-color:#FFFFFF; color:#0B0B0B; margin:0 0 8px 0; float:left;
-	font:bold 10px/28px Arial, Helvetica, sans-serif; text-transform:uppercase;}
-#bodyPannel form.search input{
-	background-color:#EFEBDE; color:#0B0B0B; border:#C3BCA4 1px solid;
-	width:158px; height:22px; padding:2px; margin:0 0 8px 0; float:right;
-	font:normal 14px/20px Arial, Helvetica, sans-serif;}
-#bodyPannel form.search p{
-	background-color:#FFFFFF; color:#CC0000; float:left; margin:6px 0 0 0;
-	font:normal 13px/15px Arial, Helvetica, sans-serif;}
-#bodyPannel form.search input.check{
-	background-color:#EFEBDE; color:#0B0B0B; border:#C3BCA4 1px solid;
-	width:15px; height:15px; float:left; margin:6px 0 0 9px;}
-#bodyPannel form.search input.submit{
-	background:url(images/submit_bg.gif) no-repeat 37px 0 #FFFFFF; color:#0B0B0B; border:none;
-	width:53px; height:13px; float:right; margin:7px 0 0 0; padding:0 23px 0 0; cursor:pointer;
-	font:normal 10px/13px Arial, Helvetica, sans-serif; text-transform:uppercase;}
-#eventLink{
-	width:345px; padding:0 0 0 70px; float:left;}
-#eventLink h2{
-	background:url(images/event_link_bg.gif) no-repeat 0 7px #FFFFFF; color:#786E4E;
-	padding:6px 0 10px 48px;
-	font:normal 28px/42px Georgia, "Times New Roman", Times, serif;}
-#eventLink h2 span{
-	background-color:#FFFFFF; color:#0B0B0B;
-	font:normal 28px/42px Georgia, "Times New Roman", Times, serif;}
-#eventLink ul{
-	float:left; padding:0 0 0 5px;}
-#eventLink ul li{
-	font:normal 13px/19px Arial, Helvetica, sans-serif; 
-	background:url(images/red_arrow.gif) no-repeat 0 7px #FFFFFF; color:#4E4628;
-	padding:0 0 0 6px;}
-#eventLink ul li a{
-	font:normal 13px/19px Arial, Helvetica, sans-serif; text-decoration:none; 
-	background-color:#FFFFFF; color:#4E4628;
-	padding:0 4px; display:block;}
-#eventLink ul li a:hover{
-	font:normal 13px/19px Arial, Helvetica, sans-serif; text-decoration:none; 
-	background-color:#F4EFDF; color:#4E4628;
-	padding:0 4px; display:block;}
-#eventLink a.more{
-	background:url(images/more_bg.gif) no-repeat 66px 0 #FFFFFF; color:#0B0B0B; float:right;
-	font:bold 10px/13px Arial, Helvetica, sans-serif; text-decoration:none; text-transform:uppercase;
-	padding:0 20px 0 0; margin:5px 10px 0 0;}
-#eventLink a.more:hover{
-	background:url(images/more_bg_h.gif) no-repeat 66px 0 #FFFFFF; color:#0B0B0B; float:right;
-	font:bold 10px/13px Arial, Helvetica, sans-serif; text-decoration:none; text-transform:uppercase;
-	padding:0 20px 0 0; margin:5px 10px 0 0;}
-#midle{
-	background:url(images/picture.gif) no-repeat 0 0 #FFFFFF; color:#4E4628;
-	padding:270px 0 0 0;}
-#midle h2{
-	background-color:#FFFFFF; color:#0B0B0B;
-	font:normal 28px/46px Georgia, "Times New Roman", Times, serif;}
-#midle h2 span{
-	background-color:#FFFFFF; color:#A60101;
-	font:normal 28px/46px Georgia, "Times New Roman", Times, serif;}
-#midle p{
-	font:normal 14px/19px Arial, Helvetica, sans-serif; background-color:#FFFFFF; color:#4E4628;}
-#midle a.more{
-	background:url(images/more_bg.gif) no-repeat 66px 0 #FFFFFF; color:#0B0B0B; float:right;
-	font:bold 10px/13px Arial, Helvetica, sans-serif; text-decoration:none; text-transform:uppercase;
-	padding:0 20px 0 0; margin:5px 35px 0 0;}
-#midle a.more:hover{
-	background:url(images/more_bg_h.gif) no-repeat 66px 0 #FFFFFF; color:#0B0B0B; float:right;
-	font:bold 10px/13px Arial, Helvetica, sans-serif; text-decoration:none; text-transform:uppercase;
-	padding:0 20px 0 0; margin:5px 35px 0 0;}
-#colorBg{
-	background-color:#FCFAF3; float:left; color:#0B0B0B;
-	margin:18px 0 0 0; padding:18px 40px 18px 38px; width:642px;}
-#futurePlans{
-	width:298px; float:left;}
-#futurePlans h2.text1{
-	background-color:#FCFAF3; color:#0B0B0B;
-	font:normal 28px/40px Georgia, "Times New Roman", Times, serif;}
-#futurePlans h2.text1 span{
-	background-color:#FCFAF3; color:#A60101;
-	font:normal 28px/40px Georgia, "Times New Roman", Times, serif;}
-#futurePlans ul{ float:left;}
-#futurePlans ul li{
-	font:normal 13px/19px Arial, Helvetica, sans-serif; color:#4E4628;
-	background:url(images/red_bullet.gif) no-repeat 0 6px #FCFAF3; padding:0 0 0 10px;}
-#futurePlans ul li a{
-	font:bold 13px/19px Arial, Helvetica, sans-serif; text-decoration:none;
-	background-color:#FCFAF3; color:#4E4628; display:block;}
-#futurePlans ul li a:hover{
-	font:bold 13px/19px Arial, Helvetica, sans-serif; text-decoration:none;
-	background-color:#EAE6D9; color:#4E4628; display:block;}
-#futurePlans p{
-	background:url(images/boeder.gif) repeat-x 0 14px #FCFAF3; color:#0B0B0B;
-	height:13px; line-height:13px; padding:14px 0 19px 0;}
-#futurePlans p a.more{
-	background:url(images/more_bg.gif) no-repeat 76px 0 #FCFAF3; color:#0B0B0B; float:right;
-	font:bold 10px/13px Arial, Helvetica, sans-serif; text-decoration:none; text-transform:uppercase;
-	padding:0 20px 0 10px; margin:0;}
-#futurePlans p a.more:hover{
-	background:url(images/more_bg_h.gif) no-repeat 76px 0 #FCFAF3; color:#0B0B0B; float:right;
-	font:bold 10px/13px Arial, Helvetica, sans-serif; text-decoration:none; text-transform:uppercase;
-	padding:0 20px 0 10px; margin:0;}
-#newsLetter{
-	margin:0 auto;}
-#newsLetter span.nltop{
-	background:url(images/newsletter_top.gif) no-repeat 0 0 #FCFAF3; color:#000000;
-	line-height:0; font-size:0; height:15px; display:block;}
-#newsLetter span.nlbottom{
-	background:url(images/newsletter_bottom.gif) no-repeat 0 0 #FCFAF3; color:#000000;
-	line-height:0; font-size:0; height:14px; display:block;}
-#newsLetter form.newsLetter{
-	background:url(images/newsletter_midle.gif) repeat-y 0 0 #FCFAF3; color:#000000;
-	width:298px; padding:0 16px; float:left;}
-#newsLetter form.newsLetter h2.text2{
-	background:url(images/newsletter_h2_bg.gif) no-repeat 0 0; color:#786E4E;
-	padding:0 0 10px 55px; float:left; width:228px; height:37px;
-	font:normal 24px/30px Georgia, "Times New Roman", Times, serif;}
-#newsLetter form.newsLetter h2.text2 span{
-	background-color:#FFFFFF; color:#0B0B0B;
-	font:normal 24px/30px Georgia, "Times New Roman", Times, serif;}
-#newsLetter form.newsLetter label{
-	background-color:#FFFFFF; color:#0B0B0B; margin:0 0 8px 0; float:left;
-	font:bold 10px/28px Arial, Helvetica, sans-serif; text-transform:uppercase;}
-#newsLetter form.newsLetter input{
-	background-color:#EFEBDE; color:#0B0B0B; border:#C3BCA4 1px solid;
-	width:168px; height:22px; padding:2px; margin:0 0 8px 15px; float:left;
-	font:normal 14px/20px Arial, Helvetica, sans-serif;}
-#newsLetter form.newsLetter input.submit{
-	background:url(images/submit_bg.gif) no-repeat 45px 0 #FFFFFF; color:#0B0B0B; border:none;
-	width:60px; height:13px; float:right; margin:7px 34px 0 0; padding:0 30px 0 0; cursor:pointer;
-	font:normal 10px/13px Arial, Helvetica, sans-serif; text-transform:uppercase;}
-#contact{
-	width:312px; float:right;}
-#contact span.ctop{
-	background:url(images/contact_top.gif) no-repeat 0 0 #FCFAF3; color:#000000;
-	line-height:0; font-size:0; height:14px; display:block;}
-#contact span.cbottom{
-	background:url(images/contact_bottom.gif) no-repeat 0 0 #FCFAF3; color:#000000;
-	line-height:0; font-size:0; height:25px; display:block;}
-#contact form.contact{
-	background:url(images/contact_midle.gif) repeat-y 0 0 #FCFAF3; color:#000000;
-	width:272px; padding:0 20px; float:left;}
-#contact form.contact h2.text3{
-	background:url(images/contact_h2_bg.gif) no-repeat 0 0 #FFFFFF; color:#0B0B0B;
-	padding:0 0 10px 55px; float:left; width:228px; height:37px;
-	font:normal 24px/30px Georgia, "Times New Roman", Times, serif;}
-#contact form.contact h2.text3 span{
-	background-color:#FFFFFF; color:#A60101;
-	font:normal 24px/30px Georgia, "Times New Roman", Times, serif;}
-#contact form.contact label{
-	background-color:#FFFFFF; color:#0B0B0B; margin:0 0 8px 0; float:left;
-	font:bold 10px/28px Arial, Helvetica, sans-serif; text-transform:uppercase;}
-#contact form.contact input{
-	background-color:#EFEBDE; color:#0B0B0B; border:#C3BCA4 1px solid;
-	width:168px; height:22px; padding:2px; margin:0 0 8px 15px; float:right;
-	font:normal 14px/20px Arial, Helvetica, sans-serif;}
-#contact form.contact textarea{
-	background-color:#EFEBDE; color:#0B0B0B; border:#C3BCA4 1px solid;
-	width:168px; height:66px; padding:2px; margin:0 0 13px 15px; float:right;
-	font:normal 14px/20px Arial, Helvetica, sans-serif;}
-#contact form.contact input.submit{
-	background:url(images/submit_bg.gif) no-repeat 45px 0 #FFFFFF; color:#0B0B0B; border:none;
-	width:60px; height:13px; float:right; margin:0 0 0 10px; padding:0 20px 0 0; cursor:pointer;
-	font:normal 10px/13px Arial, Helvetica, sans-serif; text-transform:uppercase;}
-#contact form.contact input.reset{
-	background:url(images/more_bg.gif) no-repeat 45px 0 #FFFFFF; color:#0B0B0B; border:none;
-	width:60px; height:13px; float:right; margin:0; padding:0 15px 0 0; cursor:pointer;
-	font:normal 10px/13px Arial, Helvetica, sans-serif; text-transform:uppercase;}
-/* ----------------- body end --------------------------- */
-/* ----------------- footer start --------------------------- */
-#footer{
-	position:relative; margin:0 auto; width:678px; padding:12px 0 50px;}
-#footer a.xhtml{
-	background-color:#CC0000; color:#FFFFFF; width:49px; height:16px; margin:0 6px 0 0;
-	font:bold 13px/16px "Trebuchet MS", Arial, Helvetica, sans-serif; 
-	display:block; text-align:center; text-decoration:none; float:left;}
-#footer a.xhtml:hover{
-	background-color:#0B0B0B; color:#FFFFFF; width:49px; height:16px; margin:0 6px 0 0;
-	font:bold 13px/16px "Trebuchet MS", Arial, Helvetica, sans-serif; 
-	display:block; text-align:center; text-decoration:none; float:left;}
-#footer a.css{
-	background-color:#0B0B0B; color:#FFFFFF; width:38px; height:16px;
-	font:bold 13px/16px "Trebuchet MS", Arial, Helvetica, sans-serif;
-	display:block; text-align:center; text-decoration:none; float:left;}
-#footer a.css:hover{
-	background-color:#CC0000; color:#FFFFFF; width:38px; height:16px;
-	font:bold 13px/16px "Trebuchet MS", Arial, Helvetica, sans-serif;
-	display:block; text-align:center; text-decoration:none; float:left;}
-#footer ul{
-	float:right;}
-#footer ul li{
-	float:left; color:#0B0B0B; background-color:#FDF9EE;
-	font:normal 12px/16px "Trebuchet MS", Arial, Helvetica, sans-serif;}
-#footer ul li a{
-	color:#0B0B0B; background-color:#FDF9EE; padding:0 8px; text-decoration:none;
-	font:normal 12px/16px "Trebuchet MS", Arial, Helvetica, sans-serif;}
-#footer ul li a:hover{
-	color:#0B0B0B; background-color:#EFEBDE; padding:0 8px; text-decoration:none;
-	font:normal 12px/16px "Trebuchet MS", Arial, Helvetica, sans-serif;}
-#footer p{
-	color:#A90000; background-color:#FDF9EE; padding:0 8px; float:right;
-	font:normal 12px/22px "Trebuchet MS", Arial, Helvetica, sans-serif;}
-#footer p.tworld{
-	color:#0B0B0B; background-color:#FDF9EE; padding:0 8px; float:right;
-	font:normal 12px/19px "Trebuchet MS", Arial, Helvetica, sans-serif;}
-#footer p.tworld a{
-	color:#0B0B0B; background-color:#FDF9EE; text-decoration:none;
-	font:normal 12px/19px "Trebuchet MS", Arial, Helvetica, sans-serif;}
-#footer p.tworld a:hover{
-	color:#0B0B0B; background-color:#EFEBDE; text-decoration:none;
-	font:normal 12px/19px "Trebuchet MS", Arial, Helvetica, sans-serif;}
+#topPan ul li.sitemap{width:43px; height:29px; float:left;}
+#topPan ul li.sitemap a{width:18px; height:16px; display:block; background:url(images/sitemap-nor.gif) 0 0 no-repeat; margin:3px 0 0 15px;  text-indent:-20000px;}
+#topPan ul li.sitemap a:hover{background:url(images/sitemap-hover.gif) 0 0 no-repeat;}
 
+#topPan ul li.contact{width:43px; height:29px; float:left;}
+#topPan ul li.contact a{width:18px; height:16px; display:block; background:url(images/contact-nor.gif) 0 0 no-repeat; margin:3px 0 0 15px;  text-indent:-20000px;}
+#topPan ul li.contact a:hover{background:url(images/contact-hover.gif) 0 0 no-repeat;}
+/*----/TOP PANEL----*/
 
+/*----BODY TOP PANEL----*/
+#bodytopPan{width:778px; position:relative; padding:13px 0 0;}
+/*----Body Top Left Panel----*/
+#btleftPan{width:490px; float:left; padding:0 36px;}
+#btleftPan h2{width:290px; height:53px; background:#fff; color:#FF9209; font:30px/53px Georgia, "Times New Roman", Times, serif;}
 
+#btleftPan p span{font-weight:bold;}
+
+#btleftPan p.more{width:73px; height:25px; margin:0 0 0 417px; font:12px/24px Arial, Helvetica, sans-serif; font-weight:bold; text-transform:uppercase;}
+#btleftPan p.more a{width:53px; height:25px; display:block; background:url(images/rollover-nor.gif) 0 0 no-repeat #FAFAFA; color:#fff; padding:0 0 0 20px; text-decoration:none;}
+#btleftPan p.more a:hover{background:url(images/rollover-hover.gif) 0 0 no-repeat #FAFAFA; color:#A67B03; text-decoration:none;}
+/*----/Body Top Left Panel----*/
+
+/*----Body Top Right Panel----*/
+#btrightPan{width:203px; float:left; font-family:Arial, Helvetica, sans-serif;}
+
+#btrightPan #graph{width:203px; height:58px; display:block; background:url(images/side-frame.jpg) 0 0 no-repeat; font-size:18px; line-height:18px; position:relative; margin:0 auto;}
+#btrightPan #graph h2{width:60px; height:22px; display:block; background:#fff; color:#FF8700; font-size:18px; position:absolute; top:7px; left:86px;}
+#btrightPan #graph p{font-size:14px; position:absolute; top:30px; left:86px;}
+#btrightPan #graph a{width:202px; height:58px; display:block; background:url(images/graph-nor.jpg) 13px 0 no-repeat; font-size:0px; text-decoration:none; margin:0 0 0 1px; text-indent:-2000px}
+#btrightPan #graph a:hover{background:url(images/graph-hover.jpg) 13px 0 no-repeat; text-decoration:none;}
+
+#btrightPan #planning{width:203px; height:58px; display:block; background:url(images/side-frame.jpg) 0 0 no-repeat;  line-height:18px; position:relative; margin:0 auto;}
+#btrightPan #planning h2{width:60px; height:22px; display:block; background:#fff; color:#FF8700; font-size:18px; position:absolute; top:7px; left:86px;}
+#btrightPan #planning p{font-size:14px; position:absolute; top:30px; left:86px;}
+#btrightPan #planning a{width:202px; height:58px; display:block; background:url(images/planning-nor.jpg) 13px 1px no-repeat; font-size:0px; text-decoration:none; margin:0 0 0 1px; text-indent:-2000px}
+#btrightPan #planning a:hover{background:url(images/planning-hover.jpg) 13px 1px no-repeat; text-decoration:none;}
+
+#btrightPan #services{width:203px; height:58px; display:block; background:url(images/side-frame.jpg) 0 0 no-repeat;  line-height:18px; position:relative; margin:0 auto;}
+#btrightPan #services h2{width:60px; height:22px; display:block; background:#fff; color:#FF8700; font-size:18px; position:absolute; top:7px; left:86px;}
+#btrightPan #services p{font-size:14px; position:absolute; top:30px; left:86px;}
+#btrightPan #services a{width:202px; height:58px; display:block; background:url(images/services-nor.jpg) 13px 1px no-repeat; font-size:0px; text-decoration:none; margin:0 0 0 1px; text-indent:-2000px}
+#btrightPan #services a:hover{background:url(images/services-hover.jpg) 13px 1px no-repeat; text-decoration:none;}
+
+#btrightPan #projects{width:203px; height:58px; display:block; background:url(images/side-frame.jpg) 0 0 no-repeat;  line-height:18px; position:relative; margin:0 auto;}
+#btrightPan #projects h2{width:60px; height:22px; display:block; background:#fff; color:#FF8700; font-size:18px; position:absolute; top:7px; left:86px;}
+#btrightPan #projects p{font-size:14px; position:absolute; top:30px; left:86px;}
+#btrightPan #projects a{width:202px; height:58px; display:block; background:url(images/projects-nor.jpg) 13px 1px no-repeat; font-size:0px; text-decoration:none; margin:0 0 0 1px; text-indent:-2000px}
+#btrightPan #projects a:hover{background:url(images/projects-hover.jpg) 13px 1px no-repeat; text-decoration:none;}
+
+/*----/Body Top Right Panel----*/
+
+/*----Body Middle Panel----*/
+#bodymiddlePan{width:708px; padding:0 34px 0 36px; clear:both;}
+
+#bodymiddlePan h3{width:300px; height:65px; background:#fff; color:#7D7D7D; font:30px/65px Georgia, "Times New Roman", Times, serif;}
+#bodymiddlePan ul{width:707px; height:100px; margin:0px;}
+#bodymiddlePan ul li{width:707px; height:28px;}
+#bodymiddlePan ul li a{width:688px; height:20px; display:block; background:url(images/bullet.gif) 0 6px no-repeat #fff; color:#7D7D7D; font-size:16px; line-height:20px; text-decoration:none; padding:0 0 0 20px;}
+#bodymiddlePan ul li a:hover{background:url(images/bullet.gif) 0 6px no-repeat #fff; color:#5C5C5C; text-decoration:none;}
+
+#bodymiddlePan h4{width:628px; height:24px; display:block; float:left; background:url(images/border-line.jpg) 100% 100% no-repeat #fff; color:#CCC502; font-size:30px; line-height:24px; padding:0px; margin:0px;}
+
+#bodymiddlePan p.more{width:73px; height:25px; display:block; float:left; font:12px/24px Arial, Helvetica, sans-serif; font-weight:bold; text-transform:uppercase; margin:0 0 0 6px;}
+#bodymiddlePan p.more a{width:53px; height:25px; display:block; background:url(images/rollover-nor.gif) 0 0 no-repeat #FAFAFA; color:#fff; padding:0 0 0 20px; text-decoration:none;}
+#bodymiddlePan p.more a:hover{background:url(images/rollover-hover.gif) 0 0 no-repeat #FAFAFA; color:#A67B03; text-decoration:none;}
+/*----/Body Middle Panel----*/
+
+/*----Body Bottom Panel----*/
+#bodybottomPan{width:706px; padding:0px 36px; clear:both;}
+/*----Bottom Left Panel----*/
+#bottomleftPan{width:250px; float:left; padding:27px 0 0;}
+
+#bottomleftPan p.online{width:250px; height:107px;}
+#bottomleftPan p.online a{width:250px; height:107px; display:block; background:url(images/online-chat.jpg) 0 0 no-repeat; text-indent:-20000px;}
+#bottomleftPan p.online a:hover{background:url(images/online-chat.jpg) 0 0 no-repeat; text-indent:-20000px;}
+
+#bottomleftPan form{width:250px; height:137px; background:url(images/form.gif) 0 100% no-repeat; position:relative;}
+#bottomleftPan form h2{width:224px; height:38px; display:block; background:url(images/form-h2-bg.gif) 0 0 no-repeat #fff; color:#716D12; font:20px/40px Georgia, "Times New Roman", Times, serif; padding:7px 0 0 26px;}
+#bottomleftPan form label{width:150px; height:18px; display:block; background:#fff; color:#7D7D7D; font:13px/18px Arial, Helvetica, sans-serif; font-weight:bold;}
+#bottomleftPan form label.labeltopmarginone{position:absolute; top:49px; left:26px;}
+#bottomleftPan form label.labeltopmargintwo{position:absolute; top:92px; left:26px;}
+
+#bottomleftPan form input{width:135px; height:17px; font-size:14px;}
+#bottomleftPan form input.inputtopmarginone{position:absolute; top:69px; left:26px;}
+#bottomleftPan form input.inputtopmargintwo{position:absolute; top:110px; left:26px;}
+#bottomleftPan form input.botton{width:60px; height:23px; display:block; background:#fff; color:#7D7D7D; border:none; position:absolute; top:110px; right:20px; font:16px/23px Georgia, "Times New Roman", Times, serif; font-weight:bold;}
+
+#bottomleftPan h3{width:250px; height:28px; background:#fff; color:#7D7D7D; font:22px/23px Arial, Helvetica, sans-serif; padding:11px 0 0;}
+
+#bottomleftPan p.resistred{width:250px; height:22px; font:18px/22px Arial, Helvetica, sans-serif;}
+#bottomleftPan p.resistred a{width:250px; height:22px; display:block; background:url(images/registernow-bg.gif) 116px 6px no-repeat #fff; color:#FEA905; text-decoration:none; }
+#bottomleftPan p.resistred a:hover{background:url(images/registernow-bg.gif) 116px 6px no-repeat #fff; color:#C98703; text-decoration:none; }
+
+/*----/Bottom Left Panel----*/
+
+/*----Bottom Right Panel----*/
+#bottomrightPan{width:407px; float:left; padding:42px 0 0 49px;}
+#bottomrightPan h2{width:350px; height:33px; font:30px/33px Georgia, "Times New Roman", Times, serif; background:#fff; color:#FF8500;}
+#bottomrightPan h3{width:115px; height:40px; font:18px/40px Georgia, "Times New Roman", Times, serif; background:url(images/athorname-border.gif) 0 15px no-repeat #fff; color:#FF8500; padding:0 0 0 291px;}
+
+#bottomrightPan p{padding:6px 0;}
+#bottomrightPan p span{font-weight:bold;}
+
+#bottomrightPan p.greencaptiontext{background:#fff; height:72px; color:#ABA501; font:18px/24px Georgia, "Times New Roman", Times, serif; font-style:italic; padding:10px 0 0;}
+/*----/Bottom Right Panel----*/
+
+/*----FOOTER PANEL----*/
+#footermainPan{height:126px; background:url(images/footerbg.gif) 0 0 repeat-x #F1F1F1; color:#585858; font:13px/20px "Trebuchet MS",Arial, Helvetica, sans-serif; clear:both; padding:68px 0 0;}
+
+#footerPan{width:706px; position:relative; padding:0 0 0 36px;}
+
+#footerPan ul{width:480px; height:20px; position:relative; margin:0 auto;}
+#footerPan li{float:left; }
+#footerPan ul li a{padding:0 10px 0; color:#585858; background:#F1F1F1; text-decoration:none; font-size:12px;}
+#footerPan ul li a:hover{text-decoration:underline;}
+
+#footerPan p.copyright{width:260px; position:relative; margin:0 auto; background:#F1F1F1; color:#9F5300;  font-size:13px;}
+
+#footerPan ul.templateworld{width:250px; background:#F1F1F1; color:#585858; display:block; position:absolute; top:70px; left:285px; font-size:10px;}
+#footerPan ul.templateworld li{height:20px;}
+#footerPan ul.templateworld li a{background:#F1F1F1; display:block; color:#585858; text-decoration:none; padding:0px;}
+#footerPan ul.templateworld li a:hover{text-decoration:underline;}
+
+#footerPanhtml{width:70px; height:24px; display:block; position:absolute; top:45px; left:285px;}
+#footerPanhtml a{width:66px; height:24px; display:block; background:url(images/html-nor.gif) 0 0 no-repeat #F1F1F1; color:#fff; font-size:14px; line-height:24px; font-weight:bold; text-decoration:none;text-transform:uppercase; padding:0 0 0 4px;}
+#footerPanhtml a:hover{background:url(images/html-hover.gif) 0 0 no-repeat #3B3B3B; color:#fff;}
+#footerPancss{width:58px; height:24px; display:block; position:absolute; top:45px; left:360px;}
+#footerPancss a{width:50px; height:24px; display:block; background:url(images/css-nor.gif) 0 0 no-repeat #F1F1F1; color:#fff; font-size:14px; line-height:24px; font-weight:bold; text-decoration:none; text-transform:uppercase; padding:0 0 0 8px;}
+#footerPancss a:hover{background:url(images/css-hover.gif) 0 0 no-repeat #3B3B3B; color:#fff; text-decoration:none;}
+/*----/FOOTER PANEL----*/

@@ -1,4 +1,4 @@
-D4J Flash Web template for Joomla! 1.0 series
+D4J Floral Impact template for Joomla! 1.0 series
 ===============================================
 
 Install Git client by following the guide at the URL below:
@@ -9,7 +9,7 @@ Then, clone the repository at following URL:
 
 https://github.com/goesjoomla/DesignForJoomla.com.git
 
-Finally, checkout templates/flash_web branch to get D4J Flash Web.
+Finally, checkout templates/floralimpact branch to get D4J Floral Impact.
 
 --
 Manh-Cuong Nguyen
