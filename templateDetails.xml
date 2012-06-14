@@ -1,26 +1,45 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <mosinstall type="template">
-  <name>business_03</name>
-  <creationDate>April 2005</creationDate>
- <author>DesignForJoomla.com</author>
-  <copyright>Converted to Joomla template by DesignForJoomla.com.</copyright>
-  <authorEmail>design@designforjoomla.com</authorEmail>
-  <authorUrl>www.designforjoomla.com</authorUrl>
-  <version>1.0</version>
-  <description>Converted to Joomla template by DesignForJoomla.com.</description>
+  <name>business_04</name>
+  <creationDate>14th April 2005</creationDate>
+  <author>Your Mambo Design</author>
+  <copyright>Converted to Mambo template by Your Mambo Design.</copyright>
+  <authorEmail>convert@your-mambo-design.com</authorEmail>
+  <authorUrl>www.your-mambo-design.com</authorUrl>
+  <version>0.1</version>
+  <description>Available Module Positions: left, right, top, bottom, advert1, advert2 and advert3.</description>
   <files>
     <filename>index.php</filename>
     <filename>template_thumbnail.png</filename>
   </files>
   <images>
-    
-    <filename>images/Bannert.jpg</filename>
-    <filename>images/bar1.jpg</filename>
-    <filename>images/bar2.jpg</filename>
-    <filename>images/LeftTab.jpg</filename>
-    <filename>images/logo.gif</filename>
-    <filename>images/STL1.jpg</filename>
-    <filename>images/transparent.gif</filename>
+    <filename>images/b_go.gif</filename>
+    <filename>images/bg.gif</filename>
+    <filename>images/bg_left.gif</filename>
+    <filename>images/bg_right.gif</filename>
+    <filename>images/but01.gif</filename>
+    <filename>images/but02.gif</filename>
+    <filename>images/but03.gif</filename>
+    <filename>images/e01.gif</filename>
+    <filename>images/e02.gif</filename>
+    <filename>images/e03.gif</filename>
+    <filename>images/e04.gif</filename>
+    <filename>images/e05.gif</filename>
+    <filename>images/e06.gif</filename>
+    <filename>images/fon_menu.gif</filename>
+    <filename>images/fon_menu02.gif</filename>
+    <filename>images/fon01.gif</filename>
+    <filename>images/fon01.jpg</filename>
+    <filename>images/fon02.gif</filename>
+    <filename>images/fon03.gif</filename>
+    <filename>images/fon04.gif</filename>
+    <filename>images/main_logo.jpg</filename>
+    <filename>images/main01.jpg</filename>
+    <filename>images/px1.gif</filename>
+    <filename>images/top01.gif</filename>
+    <filename>images/top01.jpg</filename>
+    <filename>images/top02.jpg</filename>
+    <filename>images/top03.jpg</filename>
   </images>
   <css>
     <filename>css/template_css.css</filename>
