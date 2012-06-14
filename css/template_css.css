@@ -1,7 +1,7 @@
 td,tr,p,div {
   font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
   font-size        : 11px;
-  color            : #000000;
+  color            : #436CA8;
 }
 
 ul {
@@ -14,7 +14,7 @@ li {
 }
 
 hr {
-  background       : #AA94FF;
+  background       : #436CA8;
   height           : 1px;
   width            : 97%;
 }
@@ -28,57 +28,49 @@ table.searchintro {
 a:link, a:visited {
   font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
   font-size        : 11px;
-  color            : #303030;
+  color            : #436CA8;
   text-decoration  : none;
-}
-
-a:hover {
-  color            : #ff0000;
-  border-bottom    : 1px solid #ff0000;
+  border-bottom    : 1px dashed #436CA8;}a:hover {
+  border-bottom    : 1px solid #436CA8;
 }
 
 a.category:link, a.category:visited {
   font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
-  font-size        : 12px;
-  color            : #303030;
-  font-weight      : bold;
-  border-bottom    : 1px dashed #303030;
+  font-size        : 13px;
+  color            : #436CA8;
   text-decoration  : none;
+  font-weight      : bold;
+  border-bottom    : 1px dashed #436CA8;
 }
 
 a.category:hover {
-  color            : #ff0000;
-  border-bottom    : 1px solid #ff0000;
+  border-bottom    : 1px solid #436CA8;
 }
 
 a.buttonbar:link, a.buttonbar:visited {
-  font-family      : Trebuchet MS;
+  font-family      : Trebuchet MS, Verdana, sans-serif;
   font-size        : 13px;
-  color            : #c0c0c0;
-  border-bottom    : none;
+  color            : #000000;
+  text-decoration  : none;
   font-weight      : bold;
-  padding-left     : 10px;
-  padding-right    : 10px;
-  line-height      : 21px;
+  border-bottom    : 1px dashed #000000;
 }
 
 a.buttonbar:hover {
-  background-image : url(../images/over_bg.gif);
-  background-repeat: repeat-x;
-  background-position: bottom;
+  color            : #000000;
+  border-bottom    : 1px solid #000000;
 }
 
 a.blogsection:link, a.blogsection:visited {
-  font-family      : Trebuchet MS;
+  font-family      : Trebuchet MS, Verdana, sans-serif;
   font-size        : 11px;
-  color            : #303030;
-  font-weight      : bold;
-  border-bottom    : 1px dashed #303030;
+  color            : #436CA8;
   text-decoration  : none;
+  font-weight      : bold;
+  border-bottom    : 1px dashed #436CA8;
 }
 a.blogsection:hover {
-  color            : #ff0000;
-  border-bottom    : 1px solid #ff0000;
+  border-bottom    : 1px solid #436CA8;
 }
 
 /* ###################### MAIN MENU SETTINGS ###################### */
@@ -86,94 +78,85 @@ a.blogsection:hover {
   font-family      : Verdana, Geneva, Arial, Helvetica, serif;
   font-size        : 12px;
   font-weight      : bold;
+  text-decoration  : none;
   text-align       : left;
   margin-bottom    : 3px;
   padding-left     : 3px;
-  line-height      : 17px;
+  background-color : #ffffff;
+  width            : 100%;
+  display          : block;
+  line-height      : 14px;
 }
 
 a.mainlevel:link, a.mainlevel:visited {
-  color            : #303030;
-  border-bottom    : 1px solid #c0c0c0;
+  color            : #436CA8;
+  border-bottom    : 1px dashed #436CA8;
 }
 
 a.mainlevel:hover {
-  color            : #ff0000;
-  border-bottom    : 1px solid #c0c0c0;
+  border-bottom    : 1px solid #436CA8;
 }
 
 .sublevel {
   font-family      : Arial, Helvetica, serif;
   font-size        : 12px;
+  text-decoration  : none;
   text-align       : right;
   margin-bottom    : 3px;
   padding-right    : 3px;
-  line-height      : 17px;
+  background-color : #ffffff;
+  width            : 100%;
+  display          : block;
+  line-height      : 14px;
 }
 
 a.sublevel:link, a.sublevel:visited {
-  color            : #303030;
-  border-bottom    : 1px dashed #c0c0c0;
+  color            : #436CA8;
+  border-bottom    : 1px dashed #436CA8;
 }
 
 a.sublevel:hover {
-  color            : #ff0000;
-  border-bottom    : 1px solid #c0c0c0;
+  border-bottom    : 1px solid #436CA8;
 }
 
 /* ###################### MODULE SETTINGS ###################### */
 table.moduletable {
-  width            : 153px;
-  table-layout	   : auto;
-  margin-bottom    : 7px;
-  padding-bottom   : 25px;
-  background-color : #EAEAEA;
-  background-image : url(../images/img_08.jpg);
-  background-position: bottom;
-  background-repeat: no-repeat;
-}
-
-table.moduletable th {
-  font             : Arial, Verdana, Geneva, Helvetica, sans-serif;
-  font-size        : 11px;
-  font-weight      : bold;
-  text-transform   : uppercase;
-  letter-spacing   : 1px;
-  text-align       : left;
-  padding-left     : 9px;
-  padding-bottom   : 3px;
-  height           : 21px;
-  line-height      : 21px;
-  background-image : url(../images/img_06.jpg);
-  background-position: top;
-  background-repeat: no-repeat;
-}
-
-table.moduletable td, table.moduletable_center td {
-  font             : Arial, Verdana, Geneva, Helvetica, sans-serif;
-  font-size        : 11px;
-  text-align       : justify;
-  padding-left     : 3px;
-  padding-right    : 3px;
-}
-
-table.moduletable_center {
   width            : 100%;
+  margin-top       : 1px;
   padding-left     : 3px;
   padding-right    : 3px;
   padding-top      : 3px;
-  padding-bottom   : 7px;
+  padding-bottom   : 3px;
 }
 
-table.moduletable_center th {
+table.moduletable th {
   font             : Trebuchet MS, Verdana, sans-serif;
   font-size        : 13px;
   font-weight      : bold;
-  color            : #AA94FF;
+  color            : #ffffff;
   text-align       : center;
   padding          : 1px;
-  margin-bottom    : 4px;
-  background-color : #e0e0e0;
+  background-color : #717171;
+}
+
+.newsflash {
+  font-family      : Arial, Helvetica, sans-serif;
+  font-size        : 10px;
+  color            : #436CA8;
+}
+
+.frameheader {
+  font             : Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 18px;
+  font-weight      : none;
+  color            : #436CA8;
+}
+
+.poll {
+  font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
+  font-size        : 10px;
+  color            : #436CA8;
+  line-height      : 15px
 }
 
 /* ###################### FORMULAR SETTINGS ###################### */
@@ -200,41 +183,51 @@ a.contentpagetitle:link, a.contentpagetitle:visited {
   font-family      : Arial;
   font-size        : 15px;
   font-weight      : bold;
-  color            : #333333;
-  padding          : 1px;
-  border-bottom    : none;
+  color            : #436CA8;
+  text-align       : left;
+  padding-top      : 7px;
+  text-decoration  : none;
+  border-bottom    : 0px;
 }
 
 a.contentpagetitle:hover {
-  color            : #330000;
+  color            : #333333;
 }
 
 .contentpane {
   text-align       : justify;
+  width            : 100%;
+  margin-top       : 1px;
+  padding-left     : 3px;
+  padding-right    : 3px;
 }
 
 .contentpaneopen {
   text-align       : justify;
+  width            : 100%;
+  margin-top       : 1px;
+  padding-left     : 3px;
+  padding-right    : 3px;
 }
 
 .contentheading {
   font-family      : Arial;
   font-size        : 15px;
   font-weight      : bold;
-  color            : #333333;
+  color            : #436CA8;
   text-align       : left;
   padding-top      : 7px;
-  border-bottom    : 1px solid #333333;
+  border-bottom    : 1px solid #436CA8;
 }
 
 .componentheading {
-  font-family      : Trebuchet MS;
+  font-family      : Trebuchet MS, Verdana, sans-serif;
   font-size        : 13px;
   font-weight      : bold;
-  color            : #AA94FF;
+  color            : #ffffff;
   text-align       : center;
   padding          : 1px;
-  border           : 1px solid #AA94FF;
+  background-color : #717171;
 }
 
 .contentdescription {
@@ -245,28 +238,30 @@ a.contentpagetitle:hover {
 }
 
 .category {
-  color            : #C0C0C0;
   font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
-  font-size        : 11px;
-  font-weight      : bold;
+  font-size        : 13px;
+  color            : #436CA8;
   text-decoration  : none;
+  font-weight      : bold;
 }
 
 /* ###################### SECTION LISTING SETTINGS ###################### */
 .sectiontableentry1 {
-  background-color : #D4DFF7;
+  background-color : #d0d0d0;
   margin-left      : 1px;
   margin-right     : 1px;
+  border-top       : 1px dashed #ffffff;
  }
 
 .sectiontableentry2 {
-  background-color : #F0F3F9;
+  background-color : #d0d0d0;
   margin-left      : 1px;
   margin-right     : 1px;
+  border-top       : 1px dashed #ffffff;
  }
 
 .sectiontableheader {
-  background-color : #88ABF2;
+  background-color : #b0b0b0;
   color            : #FFFFFF;
   height           : 20px;
   font-weight      : bold;
@@ -279,7 +274,7 @@ a.contentpagetitle:hover {
 .small {
   font-family      : Verdana, Arial, Helvetica, sans-serif;
   font-size        : 9px;
-  color            : #000000;
+  color            : #CC6600;
   text-decoration  : none;
   font-weight      : normal;
 }
@@ -296,41 +291,41 @@ a.contentpagetitle:hover {
   background-color : #f0f0f0;
   border           : solid 1px #777777;
   padding          : 3px;
-  margin           : 3px;
 }
 
 a.toclink:link, a.toclink:visited {
   color            : #707070;
+  font-weight      : bold;
   border-bottom    : none;
 }
 
 a.toclink:hover {
-  color            : #ff6633;
-  border-bottom    : 1px dashed #ff6633;
+  color            : #ff3300;
+  border-bottom    : 1px dashed #ff3300;
 }
 
 /* ###################### PATH-WAY SETTINGS ###################### */
 .pathway {
   font-family      : Arial;
-  font-size        : 11px;
+  font-size        : 13px;
   font-weight      : bold;
-  color            : #000000;
+  color            : #909090;
+  padding          : 1px;
 }
 
 a.pathway:link, a.pathway:visited {
   font-family      : Arial;
-  font-size        : 11px;
+  font-size        : 13px;
   font-weight      : bold;
-  color            : #000000;
-  border-bottom    : none;
+  color            : #909090;
+  border-bottom    : 1px dashed #909090;
 }
 
 a.pathway:hover {
   font-family      : Arial;
-  font-size        : 11px;
+  font-size        : 13px;
   font-weight      : bold;
-  color            : #88ABF2;
-  border-bottom    : none;
+  color            : #ff3300;
 }
 
 /* ###################### DATE TIME SETTINGS ###################### */
@@ -354,11 +349,9 @@ a.pathway:hover {
 }
 
 .readon {
-  font             : Arial, Verdana, Trebuchet MS;
-  font-size        : 11px;
+  font             : Arial, Verdana, Trebuchet MS, Verdana, sans-serif;
+  font-size        : 13px;
   font-weight      : bold;
   text-align       : left;
   padding-left     : 10px;
-  padding-top      : 5px;
-  border-bottom    : 1px solid;
 }

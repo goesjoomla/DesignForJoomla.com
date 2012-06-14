@@ -17,130 +17,136 @@ echo '<?xml version="1.0" encoding="'. $iso[1] .'"?' .'>';
 	<meta name="Publisher" content="Your Mambo Design">
 	<meta name="Language" content="en">
 	<link rel="shortcut icon" href="<?php echo $GLOBALS['mosConfig_live_site'];?>/images/favicon.ico" />
-	<link rel="stylesheet" type="text/css" href="<?php echo $GLOBALS['mosConfig_live_site']; ?>/templates/hi-tech_01se/css/template_css.css" />
-<script language="JavaScript">
-<!--
-function MM_reloadPage(init) {  //reloads the window if Nav4 resized
-  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
-    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
-  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
-}
-MM_reloadPage(true);
-// -->
-</script>
+	<link rel="stylesheet" type="text/css" href="<?php echo $GLOBALS['mosConfig_live_site']; ?>/templates/hosting_01/css/template_css.css" />
 </head>
 
-<body BgColor="#FFFFFF" LeftMargin="3" TopMargin="3" MarginWidth="3" MarginHeight="3">
-<a name="up" id="up"></a>
-<center>
-<table Width="800" Border="0" CellPadding="0" CellSpacing="0">
+<body bgcolor="silver" leftmargin="0" marginheight="0" marginwidth="0" topmargin="0">
+<div align="center">
+<table width="750" border="0" cellspacing="0" cellpadding="0">
 	<tr>
-		<td ColSpan="<?php echo (mosCountModules('right') > 0) ? 5 : 3; ?>">
-			<table Width="800" Height="110" Border="0" CellPadding="0" CellSpacing="0">
-				<tr>
-					<td BackGround="templates/hi-tech_01se/images/img_01.gif" Style="background-repeat: no-repeat;" Width="800" Height="21">
-<!-- Load Pathway - Begin -->
-<div style="padding-left: 10px;">
-	<?php include $GLOBALS['mosConfig_absolute_path'] . '/pathway.php'; ?>
-</div>
-<!-- Load Pathway - End -->
-					</td>
-				</tr>
-				<tr>
-					<td BackGround="templates/hi-tech_01se/images/img_02.gif" Style="background-repeat: no-repeat;" Width="800" Height="48">
+		<td bgcolor="#4d4d4d" width="100%" height="81">
 <!-- Show Logo, Site's Title & Slogan - Begin -->
-	<?php $site_title = explode(' - ', $GLOBALS['mosConfig_sitename']); ?>
-	<div align="left" style="padding-left: 10px; letter-spacing: 3px;"><font face="Arial" size="4" color="#ff0000"><strong><?php echo strtoupper($site_title[0]); ?></strong></font></div>
-	<div align="right" style="padding-right: 10px;"><font face="Arial" size="3" color="#ffffff"><strong><?php echo $site_title[1]; ?></strong></font></div>
+<table border="0" cellpadding="0" cellspacing="0"><tr>
+	<td width="30%" align="center">
+		<a href="<?php echo $GLOBALS['mosConfig_live_site']; ?>" title="<?php echo strtoupper($GLOBALS['mosConfig_sitename']); ?>">
+			<IMG border="0" align="absmiddle" SRC="<?php echo $GLOBALS['mosConfig_live_site']; ?>/templates/hosting_01/images/logo.gif" alt="<?php echo $GLOBALS['mosConfig_sitename']; ?> - <?php echo $mosConfig_MetaDesc; ?>"/>
+		</a>
+	</td>
+	<td width="70%" valign="middle">
+<?php $site_title = explode(' - ', $GLOBALS['mosConfig_sitename']); ?>
+		<font face="Arial" size="3" color="#ff0000"><?php echo strtoupper($site_title[0]); ?></font><br/>
+		<font face="Arial" size="2" color="#ff6600"><?php echo $site_title[1]; ?></font>
+	</td>
+</tr></table>
 <!-- Show Logo, Site's Title & Slogan - End -->
-					</td>
-				</tr>
-				<tr>
-					<td BackGround="templates/hi-tech_01se/images/img_03.gif" Style="background-repeat: no-repeat;" Width="800" Height="21" align="center">
+		</td>
+	</tr>
+	<tr>
+		<td width="750" height="30" align="left" valign="middle" background="templates/hosting_01/images/orange_but_spacer.gif" style="background-repeat: repeat-x;">
 <!-- Top Menu - Start -->
 <?php
 	$database->setQuery("SELECT id, name, link FROM #__menu WHERE menutype='mainmenu' and parent='0' AND access<='$gid' AND sublevel='0' AND published='1' ORDER BY ordering");
 	$rows = $database->loadObjectList();
+	$i = 0;
+	echo '&nbsp;&nbsp;&nbsp;';
 	foreach($rows as $row) {
-		echo "<a class='buttonbar' href='$row->link&Itemid=$row->id'>$row->name</a>";
+		$i += 1;
+		if ($i == 1) {
+			echo "<a class='buttonbar' href='$row->link&Itemid=$row->id'>$row->name</a>";
+		} else {
+			echo "&nbsp;&nbsp;&nbsp;<a class='buttonbar' href='$row->link&Itemid=$row->id'>$row->name</a>";
+		}
 	}
+	echo '&nbsp;&nbsp;&nbsp;';
 ?>
 <!-- Top Menu - End -->
-					</td>
-				</tr>
-				<tr>
-					<td BackGround="templates/hi-tech_01se/images/img_04.gif" Style="background-repeat: no-repeat;" Width="800" Height="20" align="right">
-<!-- Show Current Date - Begin -->
-<div style="padding-right: 10px; font-weight: bold; font-style: italic;">
-	<?php echo (date(_DATE_FORMAT)); ?>
-</div>
-<!-- Show Current Date - End -->
-					</td>
-				</tr>
-			</table></td>
-	</tr>
-	<tr>
-		<td ColSpan="<?php echo (mosCountModules('right') > 0) ? 5 : 3; ?>" BackGround="templates/hi-tech_01se/images/img_05.gif" Style="background-repeat: repeat-x;" Width="800" Height="3" nowrap></td>
-	</tr>
-	<tr>
-		<td vAlign="top">
-<!-- Load Left Module - Begin -->
-	<?php mosLoadModules("left"); ?>
-<!-- Load Left Module - End -->
 		</td>
-		<td BackGround="templates/hi-tech_01se/images/img_21.gif" Style="background-repeat: repeat-y;" Width="6" Height="100%" nowrap></td>
-		<td vAlign="top">
-			<table Width="<?php echo (mosCountModules('right') > 0) ? 482 : 641; ?>" Border="0" CellPadding="0" CellSpacing="0">
+	</tr>
+	<tr>
+		<td width="100%" bgcolor="white">
+			<table border="0" cellspacing="0" cellpadding="0">
 				<tr>
-					<td>
-						<img Src="templates/hi-tech_01se/images/<?php echo (mosCountModules('right') > 0) ? 'img_22s.gif' : 'img_22.gif'; ?>" Width="<?php echo (mosCountModules('right') > 0) ? 482 : 641; ?>" Height="21" /></td>
-				</tr>
-				<tr>
-					<td BackGround="templates/hi-tech_01se/images/<?php echo (mosCountModules('right') > 0) ? 'img_23s.gif' : 'img_23.gif'; ?>" Style="background-repeat: repeat-y; padding: 3px;" Width="<?php echo (mosCountModules('right') > 0) ? 482 : 641; ?>">
-<!-- Load Top Module, Main Content & Bottom Module - Begin -->
-<?php
-	if (mosCountModules('top') > 0) { mosLoadModules ( "top" ); echo '<br/>'; }
-	mosMainBody();
-	if (mosCountModules('bottom') > 0) { echo '<br/>'; mosLoadModules ( "bottom" ); }
-?>
-<!-- Load Top Module, Main Content & Bottom Module - End -->
+					<td width="410" height="242" background="templates/hosting_01/images/server.jpg" border="0" style="background-repeat: no-repeat; padding: 5px;" nowrap>
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="190" height="232" nowrap></td>
+    <td width="210" height="232" valign="top" nowrap>
+<!-- Load User1 Module - Begin -->
+<?php if (mosCountModules('user1') > 0) { mosLoadModules ( "user1" ); } else { ?>
+	<div align="center">
+		<img src="templates/hosting_01/images/demo1.gif" align="absmiddle" border="0" />
+	</div>
+<?php } ?>
+<!-- Load User1 Module - End -->
+    </td>
+  </tr>
+</table>
 					</td>
-				</tr>
-				<tr>
-					<td BackGround="templates/hi-tech_01se/images/<?php echo (mosCountModules('right') > 0) ? 'img_24s.gif' : 'img_24.gif'; ?>" Width="<?php echo (mosCountModules('right') > 0) ? 482 : 641; ?>" Height="21">
-						<div align="center"><a href='<?php echo sefRelToAbs($_SERVER['REQUEST_URI']); ?>#up'><strong>Top of Page</strong></a></div>
+					<td width="340" height="242" style="padding: 5px;" nowrap>
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="330" height="232" valign="top" style="border: 1px solid #4d4d4d;" nowrap>
+<!-- Load User2 Module - Begin -->
+<?php if (mosCountModules('user2') > 0) { mosLoadModules ( "user2" ); } else { ?>
+	<div align="center">
+		<img src="templates/hosting_01/images/demo2.gif" align="absmiddle" border="0" />
+	</div>
+<?php } ?>
+<!-- Load User2 Module - End -->
+    </td>
+  </tr>
+</table>
 					</td>
 				</tr>
 			</table>
 		</td>
-<!-- Load Right Module - Begin -->
-<?php
-	if (mosCountModules('right') > 0) {
-		echo '<td BackGround="templates/hi-tech_01se/images/img_21.gif" Style="background-repeat: repeat-y;" Width="6" Height="100%" nowrap></td>';
-		echo '<td vAlign="top">';
-		mosLoadModules("right");
-		echo '</td>';
-	}
-?>
-<!-- Load Right Module - End -->
 	</tr>
 	<tr>
-		<td ColSpan="<?php echo (mosCountModules('right') > 0) ? 5 : 3; ?>">
+		<td width="100%" valign="top" bgcolor="white" style="padding: 3px;">
+<!-- Load Top Banner, Top Module, Main Content, Bottom Module & Bottom Banner - Begin -->
+<table border="0" cellpadding="0" cellspacing="0"><tr><td width="100%" valign="top">
+	<?php
+		if (mosCountModules('advert1') > 0) { mosLoadModules ( "advert1" ); echo '<hr/>'; }
+		if (mosCountModules('top') > 0) { mosLoadModules ( "top" ); echo '<hr/>'; }
+		mosMainBody();
+		if (mosCountModules('bottom') > 0) { echo '<hr/>'; mosLoadModules ( "bottom" ); }
+		if (mosCountModules('advert2') > 0) { echo '<hr/>'; mosLoadModules ( "advert2" ); }
+	?>
+</td></tr></table>
+<!-- Load Top Banner, Top Module, Main Content, Bottom Module & Bottom Banner - End -->
+		</td>
+	</tr>
+	<tr>
+		<td width="750" height="30" align="right" valign="middle" background="templates/hosting_01/images/gray_but_spacer.gif" style="background-repeat: repeat-x;">
+<!-- Bottom Menu - Start -->
+<?php
+	$database->setQuery("SELECT id, name, link FROM #__menu WHERE menutype='mainmenu' and parent='0' AND access<='$gid' AND sublevel='0' AND published='1' ORDER BY ordering");
+	$rows = $database->loadObjectList();
+	$i = 0;
+	echo '&nbsp;&nbsp;&nbsp;';
+	foreach($rows as $row) {
+		$i += 1;
+		if ($i == 1) {
+			echo "<a class='buttonbar' href='$row->link&Itemid=$row->id'>$row->name</a>";
+		} else {
+			echo "&nbsp;&nbsp;&nbsp;<a class='buttonbar' href='$row->link&Itemid=$row->id'>$row->name</a>";
+		}
+	}
+	echo '&nbsp;&nbsp;&nbsp;';
+?>
+<!-- Bottom Menu - End -->
+		</td>
+	</tr>
+	<tr>
+		<td width="100%" align="center" valign="middle" bgcolor="#4d4d4d" height="60">
 <!-- Credit Line - Begin -->
-<div align="center" style="padding-top: 15px; padding-bottom: 5px;">
-<a href="<?php echo $GLOBALS['mosConfig_live_site']; ?>" title="<?php echo strtoupper($GLOBALS['mosConfig_sitename']); ?>" style="border: none;">
-	<img border="0" src="templates/hi-tech_01se/images/logo.gif" alt="<?php echo $GLOBALS['mosConfig_sitename']; ?> - <?php echo $mosConfig_MetaDesc; ?>" />
-</a>
-</div>
-<div align="center">
-Template source from <a href="mailto:tarasbuljba@gmail.com" target="_blank">TARASBULJBA</a>. <a href="http://designforjoomla.com" target="_blank" title="Joomla template by DesignForJoomla.com">Joomla template by DesignForJoomla.com</a>.
-</div>
+Template designed by <a href="http://www.templatehunter.com/" target="_blank">templateHunter.com</a>. <a href="http://designforjoomla.com" target="_blank" title="Joomla template by DesignForJoomla.com">Joomla template by DesignForJoomla.com</a>.
 <?php include_once( $GLOBALS['mosConfig_absolute_path'] . '/includes/footer.php' ); ?>
 <!-- Credit Line - End -->
 		</td>
 	</tr>
 </table>
-</center>
+</div>
 </body>
-<!-- /* Joomla Template by DesignForJoomla.com */	-->
+<!--/* Joomla Template by DesignForJoomla.com */ -->
 </html>

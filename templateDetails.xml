@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <mosinstall type="template">
-  <name>hi-tech_01se</name>
-  <creationDate>26th May 2005</creationDate>
+  <name>hosting_01</name>
+  <creationDate>March 2005</creationDate>
  <author>DesignForJoomla.com</author>
   <copyright>Converted to Joomla template by DesignForJoomla.com.</copyright>
   <authorEmail>design@designforjoomla.com</authorEmail>
@@ -13,22 +13,13 @@
     <filename>template_thumbnail.png</filename>
   </files>
   <images>
-    <filename>images/img_01.gif</filename>
-    <filename>images/img_02.gif</filename>
-    <filename>images/img_03.gif</filename>
-    <filename>images/img_04.gif</filename>
-    <filename>images/img_22.gif</filename>
-    <filename>images/img_24.gif</filename>
-    <filename>images/img_05.gif</filename>
-    <filename>images/img_21.gif</filename>
-    <filename>images/over_bg.gif</filename>
+    
+    <filename>images/demo1.gif</filename>
+    <filename>images/demo2.gif</filename>
+    <filename>images/gray_but_spacer.gif</filename>
     <filename>images/logo.gif</filename>
-    <filename>images/img_23.gif</filename>
-    <filename>images/img_06.jpg</filename>
-    <filename>images/img_08.jpg</filename>
-    <filename>images/img_22s.gif</filename>
-    <filename>images/img_23s.gif</filename>
-    <filename>images/img_24s.gif</filename>
+    <filename>images/orange_but_spacer.gif</filename>
+    <filename>images/server.jpg</filename>
   </images>
   <css>
     <filename>css/template_css.css</filename>
