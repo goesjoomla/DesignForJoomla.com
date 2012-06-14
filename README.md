@@ -1,4 +1,4 @@
-D4J General 03 template for Joomla! 1.0 series
+D4J General 04 template for Joomla! 1.0 series
 ===============================================
 
 Install Git client by following the guide at the URL below:
@@ -9,7 +9,7 @@ Then, clone the repository at following URL:
 
 https://github.com/goesjoomla/DesignForJoomla.com.git
 
-Finally, checkout templates/general_03 branch to get D4J General 03.
+Finally, checkout templates/general_04 branch to get D4J General 04.
 
 --
 Manh-Cuong Nguyen

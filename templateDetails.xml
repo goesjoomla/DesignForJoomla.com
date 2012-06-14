@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <mosinstall type="template">
-  <name>general_03</name>
-  <creationDate>7th April 2005</creationDate>
+  <name>general_04</name>
+  <creationDate>19th April 2005</creationDate>
  <author>DesignForJoomla.com</author>
   <copyright>Converted to Joomla template by DesignForJoomla.com.</copyright>
   <authorEmail>design@designforjoomla.com</authorEmail>
@@ -13,11 +13,13 @@
     <filename>template_thumbnail.png</filename>
   </files>
   <images>
-    <filename>images/back.jpg</filename>
+    <filename>images/bg.gif</filename>
+    <filename>images/bg_main.gif</filename>
+    <filename>images/down_bg1.gif</filename>
+    <filename>images/down_bg2.gif</filename>
+    <filename>images/head.gif</filename>
     <filename>images/logo.gif</filename>
-    <filename>images/separator1.gif</filename>
-    <filename>images/separator2.gif</filename>
-    <filename>images/single_pixel.gif</filename>
+    <filename>images/menu_bg.gif</filename>
   </images>
   <css>
     <filename>css/template_css.css</filename>
