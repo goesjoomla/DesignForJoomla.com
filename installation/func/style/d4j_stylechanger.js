@@ -3,26 +3,26 @@ var defaultFontSize = 13;
 var currentFontSize = defaultFontSize;
 
 function revertStyles(){
-	currentFontSize = defaultFontSize;
-	changeFontSize(0);
+        currentFontSize = defaultFontSize;
+        changeFontSize(0);
 }
 
 function changeFontSize(sizeDifference){
-	currentFontSize = parseInt(currentFontSize) + parseInt(sizeDifference);
+        currentFontSize = parseInt(currentFontSize) + parseInt(sizeDifference);
 
-	if(currentFontSize > 17){
-		currentFontSize = 17;
-	}else if(currentFontSize < 12){
-		currentFontSize = 12;
-	}
+        if(currentFontSize > 14){
+                currentFontSize = 14;
+        }else if(currentFontSize < 9){
+                currentFontSize = 9;
+        }
 
-	setFontSize(currentFontSize);
-	createCookie("fontSize", currentFontSize, 30);
+        setFontSize(currentFontSize);
 };
 
-function setFontSize(fontSize){	
-	document.body.style.fontSize = fontSize + 'px';
+function setFontSize(fontSize){
+        document.body.style.fontSize = fontSize + 'px';
 };
+
 
 
 function createCookie(name,value,days) {
@@ -49,15 +49,20 @@ function readCookie(name) {
 window.onload = setUserOptions;
 
 function setUserOptions(){
-	if(!prefsLoaded){
+        if(!prefsLoaded){
+                userFontSize = readCookie("fontSize");
+                currentFontSize = userFontSize ? userFontSize : defaultFontSize;
+                setFontSize(currentFontSize);
 
-		userFontSize = readCookie("fontSize");
-		
-		currentFontSize = userFontSize ? userFontSize : defaultFontSize;
-		setFontSize(currentFontSize);
-		
-		
-		prefsLoaded = true;
-	}
 
+                prefsLoaded = true;
+        }
+
+}
+
+window.onunload = saveUserOptions;
+
+function saveUserOptions()
+{
+        createCookie("fontSize", currentFontSize, 30);
 }

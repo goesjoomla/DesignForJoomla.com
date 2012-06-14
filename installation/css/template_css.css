@@ -1,10 +1,131 @@
-/* JOOMLA 1.0.X TEMPLATE CSS FILE */
+/*document settings*/
+body{margin:0;padding:0;background:#FFF;font-family:Arial,Helvetica,sans-serif;line-height:2em;color:#999}
+th,td,form,div,p{margin:0;padding:0;font-family:Arial;line-height:2em;color:#999}
+ul{margin:0;padding:0;list-style:none}
+li{margin:0;padding:0 0 0 15px}
+a{color:#333}
+a:hover{text-decoration:none;color:#000}
 
-/* Main css file with standard css selectors */
-@import url("base.css");
+/* position setting (tableless)*/
+.clr{clear:both}
 
-/* Css file with css selectors for layout */
-@import url("layout.css");
+#sitetools{position:fixed;bottom:10px;right:10px}
+#tools{margin-top:-4px;display:none;position:fixed;bottom:10px;right:10px}
 
-/* Css file with css selectors for custom modules and menus */
-@import url("custom.css");
+#container{width:704px;margin:0 auto;text-align:left;overflow:hidden}
+
+#header{margin:0;width:704px;float:left;height:233px;overflow:hidden}
+
+#nav{margin:0;width:705px;float:left;height:62px;background:url(../images/header.jpg) left top no-repeat}
+#nav ul{list-style:none;margin:0;padding:0}
+#nav a span,.tips{display:none}
+
+/***SuckerFish menu***/
+#mainmenu{/*root list*/float:left}
+#mainmenu li{/*root list item*/padding:0;margin:0;width:141px;height:41px;float:left;text-transform:lowercase;text-decoration:none;display:inline;font-family:Georgia,"Times New Roman",Times,serif;padding:23px 0 13px 0;display:block;float:left;position:relative}
+#mainmenu li a{text-decoration:none;}
+#mainmenu li:hover{/*hovered root list item*/padding:23px 0 13px 0}
+#mainmenu li.active{/*active root list item*/padding:23px 0 13px 0}
+#mainmenu li.active li a{color:#888}
+#mainmenu li ul{/*child list*/position:absolute;top:24px;left:-999em;height:auto;border-bottom:1px solid #181818;width:auto}
+#mainmenu li:hover ul,#mainmenu li.sfhover ul{/*active dropdown list from root list item*/z-index:100;left:0px;top:60px}
+#mainmenu li ul ul{/*margin for pullout list*/margin:-27px 0 0 215px}
+#mainmenu li:hover ul ul,#mainmenu li:hover ul ul ul,#mainmenu li:hover ul ul ul ul,#mainmenu li.sfhover ul ul,#mainmenu li.sfhover ul ul ul,#mainmenu li.sfhover ul ul ul ul{/*not-active pullout list*/left:-999em}
+#mainmenu li li:hover ul,#mainmenu li li li:hover ul,#mainmenu li li li li:hover ul,#mainmenu li li.sfhover ul,#mainmenu li li li.sfhover ul,#mainmenu li li li li.sfhover ul{/*active pullout list from child list item*/z-index:100;left:0;padding-top:5px}
+#mainmenu li li{/*child list item*/float:left;background:#FFF;width:119px;height:18px;border:1px solid #181818;border-bottom:none;margin:0;padding:3px 0 0 20px}
+#mainmenu li li:hover,#mainmenu li li.sfhover{/*hovered child list item*/background:#eee;display:block;;padding:3px 0 0 20px;border-bottom:none}
+#mainmenu li li.active{/*active child list item*/display:block;;padding:3px 0 0 20px;border-bottom:none}
+#mainmenu a,#mainmenu li a,#mainmenu span.mainlevel,#mainmenu span.sublevel{/*list and root list item link and placeholder*/display:block;margin:0;padding:0;text-decoration:none;font-size:1.8em;letter-spacing:-1px;color:#888;text-align:center}
+#mainmenu a.topdaddy,#mainmenu span.topdaddy,#mainmenu li.active span.topdaddy,#mainmenu li.active a.topdaddy{/*root list item menu link and placeholder*/}
+#mainmenu a.daddy,#mainmenu li.active a.daddy,#mainmenu span.daddy,#mainmenu li.active span.daddy{/*child list item menu link and placeholder*/}
+#mainmenu li li a,#mainmenu li li span.sublevel{/*child list item link and placeholder*/width:119px;line-height:14px;text-align:left;color:#666;border:none;font-size:11px}
+#mainmenu li li:hover a,#mainmenu li li.sfhover a{/*link style of hovered child list item*/color:#000}
+#mainmenu li:hover li a{color:#888}
+#mainmenu li:hover li:hover a{color:#000}
+#mainmenu li:hover ul li a{color:#888}
+#mainmenu a:hover{color:#000}
+
+#advert1{margin:0;width:704px;float:left;height:160px;overflow:hidden;border-bottom:1px solid #FFF}
+
+#spacer{margin:0;width:704px;float:left;overflow:hidden;height:10px;background:#595959}
+
+#content{margin:0;width:704px;float:left;overflow:hidden}
+
+#lbox,#left,#user8,#user9,#right,#spacer2{margin:0;float:left;width:220px;overflow:hidden}
+#lbox .moduletable,#lbox .moduletable_blue{margin:0;padding:0 12px;border-bottom:1px solid #F07242}
+#lbox .moduletable_blue{border-bottom:1px solid #549EE9}
+#lbox .moduletable h3,#lbox .moduletable_blue h3{margin:1px -12px 0;background:#FAD4C6 url(../images/img07.gif) top left repeat-y;height:35px;padding:25px 0 0px 21px;border-bottom:1px solid #FFF;letter-spacing:-1px;font-size:1.85em;font-weight:normal;color:#F07242;font-family:Georgia,"Times New Roman",Times,serif}
+#lbox .moduletable_blue h3{background:#CBE2F8 url(../images/img11.gif) repeat-y;;color:#549EE9}
+#lbox .moduletable ul,#lbox .moduletable_blue ul{margin:0 -12px}
+#lbox .moduletable ul li,#lbox .moduletable_blue ul li{display:inline;margin:0;padding:0}
+#lbox .moduletable ul li a,#lbox .moduletable_blue ul li a{display:block;width:100%;height:23px;line-height:23px;padding:3px 0 3px 21px;background:#FDF1EC url(../images/img08.gif) no-repeat;border-bottom:1px solid #FFF;text-decoration:none;color:#F07242}
+#lbox .moduletable_blue ul li a{background:#EEF5FD url(../images/img12.gif) no-repeat;color:#549EE9}
+#lbox .moduletable ul li a:hover,#lbox .moduletable_blue ul li a:hover{background:#F7B8A0 url(../images/img09.gif) no-repeat;color:#FFF;}
+#lbox .moduletable_blue ul li a:hover{background:#A9CEF4 url(../images/img13.gif) no-repeat;}
+#spacer2{height:1px;background:white;margin-top:-1px}
+
+#rbox,#top,#box1,#user1,#user2,#banner,#mainbody,#box2,#user3,#user4,#bottom{margin:0;float:left;width:454px;overflow:hidden}
+
+#rbox{text-align:justify}
+
+#rbox ul{margin:0;padding:0 0 0 35px;list-style:square}
+#rbox .moduletable,#mainbody{margin:0;padding:0 0 0 30px}
+#rbox .moduletable h3,#mainbody .contentheading,#mainbody .componentheading,#box3 .moduletable h3{height:35px;padding:26px 0 0 0;border-bottom:1px solid #CCC;font-size:2em;margin:0;font-family:Georgia,"Times New Roman",Times,serif;font-weight:normal;color:#666666;margin-bottom:8px}
+#mainbody .contentpaneopen,#mainbody .contentpane{width:100%}
+
+blockquote{border-left:6px solid #549EE9;padding:0 10px;text-align:center;font-style:italic}
+#box3,#user5,#user6,#user7{margin:0;float:left;width:704px;overflow:hidden}
+#box3 .moduletable{margin:5px 0 0 0;padding:5px 7px}
+#box3 .moduletable h3{font-size:1.3em;border:none;padding:20px 0 0 0;margin:0;height:auto}
+
+#footer{width:704px;margin:0;float:left;overflow:hidden;border-top:1px solid #666;background:#CCC;padding:5px 0;font-size:0.8em;}
+#footer,#footer p,#footer td,#footer a{color:#999999;text-align:center}
+
+#bottom_left{float:left;margin:0;padding:22px 0 0 10px;text-align:left}
+#bottom_left div{text-align:left}
+#bottom_right{float:right;margin:0;padding:0 10px 0 0;text-align:right}
+#bottom_right div{text-align:right}
+
+/*joomla settings*/
+.small,span.small,#mainbody .createdate,#mainbody .modifydate,.pagenavcounter{font-size:0.9em;color:#aaa;font-style:italic}
+.back_button,.pagenav_prev,.pagenav_next{font-size:0.9em}
+.readon{float:right;padding:0 1em;line-height:1.4em;background:#CCC;border-left:4px solid #666;text-decoration:none;}
+.readon:hover{background:#666;color:#FFF}
+.contentpane,.contentpaneopen{text-align:justify}
+
+.contenttoc{margin:7px 0 7px 7px;padding:0 10px;border:1px dotted #666}
+.contenttoc th{border-bottom:1px dotted #666;font-size:13px;color:#666;text-align:center}
+.contenttoc td{margin:5px 0 5px 14px;padding:2px 7px}
+.contenttoc a.toclink{text-decoration:none;font-weight:bold}
+
+.blog td{padding:2px}
+.blog_more{margin:0 3px 15px 13px;padding:3px 6px;border:1px dotted #666}
+.blog_more div{border-bottom:1px dotted #666}
+.blog_more ul{margin:2px 0 2px 34px}
+.blog_more ul li{margin-left:30px}
+.blog_more ul li a.blogsection{text-decoration:none}
+
+.syndicate div{text-align:center}
+select#mod_templatechooser_jos_change_template{width:142px}
+div.contact_email textarea#contact_text.inputbox{width:350px}
+.contentpane .inputbox{width:50%}
+.contentpane select.inputbox{width:55px}
+
+.pollstableborder td{line-height:25px;vertical-align:middle}
+.poll thead td{text-align:center}
+.poll .button{margin-top:5px}
+
+.sectiontableheader{color:#FFF;background:#9F8DF6;font-weight:bold;padding:0 5px;height:20px;border-bottom:1px dashed #222;font-size:12px}
+.sectiontablefooter{text-align:center}
+.sectiontableentry1 label{color:#333}
+.sectiontableentry2 label{color:#333}
+
+.pollstableborder{margin:0}
+.pollstableborder td{vertical-align:middle}
+.pollstableborder input{margin:0}
+
+.sectiontableentry1,.sectiontableentry1 td{padding:2px;text-align:left;background:#F2F2F2;color:#333;line-height:25px}
+.sectiontableentry1 td a,.sectiontableentry2 td a{line-height:25px}
+.sectiontableentry2,.sectiontableentry2 td{padding:2px;text-align:left;background:#FFF;color:#333;line-height:25px}
+
+.tips{display:none}
