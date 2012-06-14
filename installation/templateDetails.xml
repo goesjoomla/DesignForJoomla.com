@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <mosinstall type="template">
 
-<name>lazydays</name>
-<creationDate>November 2006</creationDate>
+<name>liquidity_graph</name>
+<creationDate>December 2007</creationDate>
 <author>DesignForJoomla.com</author>
 <copyright>DesignForJoomla.com</copyright>
 <authorEmail>cuongnm@designforjoomla.com</authorEmail>
 <authorUrl>designforjoomla.com</authorUrl>
 <version>1.0</version>
-<description>Lazydays - Joomla template by DesignForJoomla.com</description>
+<description>Liquidity Graph - Joomla template by DesignForJoomla.com</description>
 
 <files>
     <filename>index.php</filename>
@@ -16,20 +16,33 @@
 </files>
 
 <images>
-        <filename>images/bullet.gif</filename>
-        <filename>images/footer.jpg</filename>
-        <filename>images/go.gif</filename>
-        <filename>images/gradient.jpg</filename>
-        <filename>images/hd.jpg</filename>
+        <filename>images/arrow-hover.gif</filename>
+        <filename>images/arrow-normal.gif</filename>
+        <filename>images/bodybg.gif</filename>
+        <filename>images/bodydot-line.gif</filename>
+        <filename>images/bodydot-line1.gif</filename>
+        <filename>images/bullet-hover.gif</filename>
+        <filename>images/bullet-normal.gif</filename>
+        <filename>images/footerbg.jpg</filename>
+        <filename>images/header.jpg</filename>
+        <filename>images/icon1.gif</filename>
+        <filename>images/icon2.gif</filename>
+        <filename>images/icon3.gif</filename>
+        <filename>images/logo.gif</filename>
+        <filename>images/main-bg.jpg</filename>
+        <filename>images/x1.gif</filename>
+        <filename>images/x2.gif</filename>
 </images>
 
 <css>
         <filename>css/bottom.css.php</filename>
         <filename>css/footer.css.php</filename>
         <filename>css/template.css</filename>
+        <filename>css/d4j_dropdownmenu.css</filename>
+        <filename>css/d4j_transmenu.css</filename>
         <filename>css/template_css.css</filename>
         <filename>css/template_css_ie.css</filename>
-
+        <filename>css/template_css_ie7.css</filename>
 </css>
 
 </mosinstall>
