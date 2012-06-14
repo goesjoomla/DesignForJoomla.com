@@ -1,8 +1,15 @@
-#mainmenu li li,#mainmenu li li:hover,#mainmenu li li.sfhover,#mainmenu li li.active{padding:3px 0 3px 22px}
-table{font-size:1em;line-height:1.7em}
-#advert1{height:161px}
-#lbox .moduletable h3,#lbox .moduletable_blue h3{padding:26px 0 8px 21px;}
-#lbox .moduletable ul li a,#lbox .moduletable_blue ul li a{padding:2px 0 4px 21px;}
-#rbox .moduletable h3{padding:26px 0 9px 0}
-#sitetools{position:absolute;right:30px}
-#tools{position:absolute;right:30px}
+#logo{margin:36px 0 0 24px}
+#menuhack{margin:30px 0 0 122px}
+#toolbar{margin:13px 0 0 166px}
+#lbox{margin:10px 0 0 18px}
+#lbox .moduletable h3,#mainbody .contentheading,#mainbody .componentheading{        background: url(../images/square-green.png) no-repeat 3px 45%}
+#boxa .moduletable h3{background:none}
+#user6{margin-left:5px}
+#rbox .moduletable h3{ margin: 10px 0 4px 0}
+#rbox .moduletable{padding:0 3px 13px}
+input.button {padding: 2px 1px}
+input.inputbox {padding: 3px 1px}
+#rbox .moduletable_special ul,#rbox .moduletable ul{ background:none;border-top:1px solid #B7CE86}
+#rbox .moduletable_special ul li,#rbox .moduletable ul li{background:none;border-bottom:1px solid #B7CE86}
+#footer{margin-left:50px}
+

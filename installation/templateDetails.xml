@@ -1,58 +1,43 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <mosinstall type="template">
 
-<name>enter</name>
-<creationDate>May 2007</creationDate>
+<name>envision</name>
+<creationDate>February 2008</creationDate>
 <author>DesignForJoomla.com</author>
 <copyright>DesignForJoomla.com</copyright>
 <authorEmail>cuongnm@designforjoomla.com</authorEmail>
 <authorUrl>designforjoomla.com</authorUrl>
 <version>1.0</version>
-<description>Enter - Joomla template by DesignForJoomla.com</description>
+<description>Envision - Joomla template by DesignForJoomla.com</description>
 
 <files>
-    <filename>index.php</filename>
-    <filename>template_thumbnail.png</filename>
-    <filename>func/style/d4j_stylechanger.js</filename>
-    <filename>func/style/d4j_stylechanger.php</filename>
-    <filename>func/d4jCommonInclude.compact.js</filename>
-    <filename>func/style/d4j_sitetools.php</filename>
-    <filename>func/menu/d4j_menu.compact.js</filename>
-    <filename>func/menu/d4j_menu.php</filename>
-    <filename>func/menu/d4j_menu.js</filename>
-    <filename>func/menu/mainmenu.xml</filename>
+        <filename>index.php</filename>
+        <filename>template_thumbnail.png</filename>
 </files>
 
 <images>
+        <filename>images/bullet.gif</filename>
+        <filename>images/button-bg.jpg</filename>
+        <filename>images/content.jpg</filename>
+        <filename>images/content1.jpg</filename>
+        <filename>images/dots.jpg</filename>
+        <filename>images/footer.jpg</filename>
         <filename>images/header.jpg</filename>
-        <filename>images/img01.jpg</filename>
-        <filename>images/img02.jpg</filename>
-        <filename>images/img03.jpg</filename>
-        <filename>images/img04.jpg</filename>
-        <filename>images/img05.jpg</filename>
-        <filename>images/img07.gif</filename>
-        <filename>images/img08.gif</filename>
-        <filename>images/img10.jpg</filename>
-        <filename>images/img09.gif</filename>
-        <filename>images/img11.gif</filename>
-        <filename>images/img12.gif</filename>
-        <filename>images/img13.gif</filename>
-        <filename>images/sitetools.gif</filename>
-        <filename>images/site_tools/autofit.gif</filename>
-        <filename>images/site_tools/biggerFont.gif</filename>
-        <filename>images/site_tools/expand.gif</filename>
-        <filename>images/site_tools/narrow.gif</filename>
-        <filename>images/site_tools/normalFont.gif</filename>
-        <filename>images/site_tools/smallerFont.gif</filename>
+        <filename>images/logo.gif</filename>
+        <filename>images/page.gif</filename>
+        <filename>images/quote.gif</filename>
+        <filename>images/square-green.png</filename>
 </images>
 
 <css>
         <filename>css/bottom.css.php</filename>
         <filename>css/footer.css.php</filename>
         <filename>css/template.css</filename>
+        <filename>css/d4j_dropdownmenu.css</filename>
+        <filename>css/d4j_transmenu.css</filename>
         <filename>css/template_css.css</filename>
         <filename>css/template_css_ie.css</filename>
-        <filename>css/D4J_sitetools/site_tools.css</filename>
+        <filename>css/template_css_ie7.css</filename>
 </css>
 
 </mosinstall>
