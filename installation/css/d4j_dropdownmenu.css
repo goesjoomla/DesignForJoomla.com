@@ -10,30 +10,34 @@
         position:relative;
         float:left;
         padding:0;
-}
+       }
 #toolbar ul.list_menu li .mainlevel{/* root-menu items :: link and placeholder */
+        width:98px;
+        height:34px;
+        display:block;
+        color:#332D2B;
+        text-decoration:none;
+        text-align:center;
+        font-weight:bold;
+        background:url(../images/menu.gif) top right no-repeat;
+        float:left
 }
 #toolbar ul.list_menu li:hover .mainlevel,
 #toolbar ul.list_menu li.active_mitem .mainlevel,
 #toolbar ul.list_menu li.sfhover .mainlevel,
 #toolbar ul.list_menu li.active_mitem .mainlevel{/* root-menu items :: hover and active state */
-        background:url(../images/nav_hover.gif) 0 0 no-repeat;
-        width:102px;
-        height:29px;
-        color:#4C4C4C;
-        background-color:inherit
+        background:url(../images/menu-hover.gif) top right no-repeat
 }
 #toolbar ul.list_menu li ul{/* drop-down sub-menu */
         position:absolute;
-        top:30px;
+        top:33px;
         left:-999em;
         width:158px;
         margin:0;
         z-index:100;
         background:#FFF;
         text-align:left;
-        border-bottom:1px solid #ccc;
-        text-transform:uppercase
+        border-bottom:1px solid #555
 }
 #toolbar ul.list_menu li:hover ul,
 #toolbar ul.list_menu li.sfhover ul{/* drop-down sub-menu :: active state */
@@ -41,7 +45,7 @@
         float:left
 }
 #toolbar ul.list_menu li ul ul{/* pull-out sub-menu */
-        margin:-31px 0 0 156px;
+        margin:-34px 0 0 156px;
         float:left
 }
 #toolbar ul.list_menu li:hover ul ul,
@@ -72,9 +76,9 @@
 #toolbar ul.list_menu li li li li li li{/* sub-menu items */
         display:block;
         width:143px;
-        padding:7px 0 3px 13px;
+        padding:4px 0 6px 13px;
         margin:0;
-        border:1px solid #ccc;
+        border:1px solid #555;
         border-bottom:none;
 }
 #toolbar ul.list_menu li li .sublevel,
@@ -88,7 +92,7 @@
 #toolbar ul.list_menu li li.sfhover li li li li .sublevel{/* sub-menu items :: link and placeholder */
         display:block;
         width:143px;
-        color:#4C4C4C;
+        color:#332D2B;
         height:16px;
         font-size:11px;
         text-decoration:none;
@@ -109,11 +113,11 @@
 #toolbar ul.list_menu li li li li.active_mitem .sublevel,
 #toolbar ul.list_menu li li li li li.active_mitem .sublevel,
 #toolbar ul.list_menu li li li li li li.active_mitem .sublevel{/* sub-menu items :: hover and active state */
-        color:#ED7D41;
+        background:#F5F5F5;
         display:block;
         width:143px;
-        padding:7px 0 3px 13px;
-        margin:-7px 0 -3px -13px;
+        padding:4px 0 6px 13px;
+        margin:-4px 0 -6px -13px;
 }
 #toolbar ul.list_menu li li:hover li .sublevel,
 #toolbar ul.list_menu li li li:hover li .sublevel{
@@ -124,7 +128,7 @@
 #toolbar ul.list_menu li li:hover li li .sublevel,
 #toolbar ul.list_menu li:hover li:hover li:hover li .sublevel,
 #toolbar ul.list_menu li:hover li:hover li:hover li:hover li .sublevel{
-        color:#4C4C4C;
+        color:#332D2B;
         background:#fff;
         width:143px
 }
@@ -132,6 +136,7 @@
 #toolbar ul.list_menu li:hover li:hover li:hover .sublevel,
 #toolbar ul.list_menu li:hover li:hover li:hover li:hover .sublevel,
 #toolbar ul.list_menu li:hover li:hover li:hover li:hover li:hover .sublevel{
-        color:#ED7D41;
+        background:#F5F5F5;
+        color:#332D2B;
         width:143px
 }

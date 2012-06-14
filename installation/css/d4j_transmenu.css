@@ -6,7 +6,6 @@
         border-top:1px solid #ccc;
         text-align:left;
         color:#4C4C4C;
-        text-transform:uppercase
 }
 #toolbar .transMenu img{
         display:none
@@ -40,6 +39,4 @@
 #toolbar .transMenu .items .item .sublevel:hover{
         background:#fff;
         text-decoration:none;
-        color:#CF4700;
-
 }

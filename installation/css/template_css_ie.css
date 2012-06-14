@@ -1,8 +1,67 @@
-#logo{margin:53px 0 0 17px}
-#newsflash .moduletable h3{padding:0;line-height:26px}
-#rbox .moduletable_login input.button{padding:0 2px}
-#rbox .moduletable ul li{margin:-3px 0 0 0}
-#menuhack a{width:120px}
-#toolbar{margin:73px 8px 0 0}
-#toolbar ul.list_menu li{margin:0 0 0 -1px}
-#toolbar ul.list_menu li ul ul{margin:-31px 0 0 156px}
+#logo{margin:41px 0 0 152px}
+#menuhack{margin:0 0 0 30px}
+
+#toolbar ul.list_menu li li,
+#toolbar ul.list_menu li li li,
+#toolbar ul.list_menu li li li li,
+#toolbar ul.list_menu li li li li li,
+#toolbar ul.list_menu li li li li li li{padding:4px 0 2px 13px}
+#toolbar ul.list_menu li li:hover .sublevel,
+#toolbar ul.list_menu li li li:hover .sublevel,
+#toolbar ul.list_menu li li li li:hover .sublevel,
+#toolbar ul.list_menu li li li li li:hover .sublevel,
+#toolbar ul.list_menu li li li li li li:hover .sublevel,
+#toolbar ul.list_menu li li.sfhover .sublevel,
+#toolbar ul.list_menu li li li.sfhover .sublevel,
+#toolbar ul.list_menu li li li li.sfhover .sublevel,
+#toolbar ul.list_menu li li li li li.sfhover .sublevel,
+#toolbar ul.list_menu li li li li li li.sfhover .sublevel,
+#toolbar ul.list_menu li li.active_mitem .sublevel,
+#toolbar ul.list_menu li li li.active_mitem .sublevel,
+#toolbar ul.list_menu li li li li.active_mitem .sublevel,
+#toolbar ul.list_menu li li li li li.active_mitem .sublevel,
+#toolbar ul.list_menu li li li li li li.active_mitem .sublevel{padding:4px 0 2px 13px;margin:-4px 0 -2px -13px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+#user4{margin:0 0 0 42px}
+#user4 .moduletable h3{margin:9px 0 0 32px}
+#lbox{margin:0 0 0 42px}
+#user5 .moduletable{padding:0px 28px 35px 32px}
+#user5 .moduletable h3{margin:0 -4px 5px -32px;padding:0 0 0 32px;width:161px}
+#user1 .moduletable_special h3,#user2 .moduletable_special h3{padding-bottom:13px}
+
+#toolbar a.mainlevel{line-height:18px}
+#toolbar ul li a.mainlevel{line-height:20px}
+#toolbar ul.list_menu li ul ul{margin:-19px 0 0 158px}
+#toolbar ul.list_menu li li,
+#toolbar ul.list_menu li li li,
+#toolbar ul.list_menu li li li li,
+#toolbar ul.list_menu li li li li li,
+#toolbar ul.list_menu li li li li li li{padding:3px 0 1px 15px;margin:0 0 0 0px;float:left}
+#toolbar ul.list_menu li li:hover .sublevel,
+#toolbar ul.list_menu li li li:hover .sublevel,
+#toolbar ul.list_menu li li li li:hover .sublevel,
+#toolbar ul.list_menu li li li li li:hover .sublevel,
+#toolbar ul.list_menu li li li li li li:hover .sublevel,
+#toolbar ul.list_menu li li.sfhover .sublevel,
+#toolbar ul.list_menu li li li.sfhover .sublevel,
+#toolbar ul.list_menu li li li li.sfhover .sublevel,
+#toolbar ul.list_menu li li li li li.sfhover .sublevel,
+#toolbar ul.list_menu li li li li li li.sfhover .sublevel,
+#toolbar ul.list_menu li li.active_mitem .sublevel,
+#toolbar ul.list_menu li li li.active_mitem .sublevel,
+#toolbar ul.list_menu li li li li.active_mitem .sublevel,
+#toolbar ul.list_menu li li li li li.active_mitem .sublevel,
+#toolbar ul.list_menu li li li li li li.active_mitem .sublevel{padding:3px 0 5px 15px;margin:-3px 0 -5px -15px}
