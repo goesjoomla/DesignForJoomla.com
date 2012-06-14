@@ -1,0 +1,92 @@
+/*document settings*/
+body{margin:0;background-color:black}
+body,table,form,div,p{font-family:arial,helvetica,"Trebuchet MS",verdana,sans-serif;font-size:11px;color:white}
+form{margin:0;padding:0;width:auto !important;width:100%}
+h1,h2,h3{margin:0}
+ul{margin:5px;list-style:none}
+li{background:url(../../../images/M_images/arrow.png) 0 1px no-repeat;padding-left:16px}
+hr{background:white;height:1px;width:95%}
+a{color:#FF8000;text-decoration:none}
+a:hover,a:active{color:#ffff00}
+
+/*positions settings (tableless)*/
+.clr{clear:both;height:0px;overflow:hidden}
+#container{width:770px;background:url(../images/left_col_bg.gif) 0 126px no-repeat}
+
+#header{width:770px;height:126px;background:url(../images/header_bg.gif) 190px 0 repeat-y;overflow:hidden}
+#user8{float:left;width:190px;background:url(../images/0_lion.gif) no-repeat}
+#logo{float:left;width:150px;padding-top:29px}
+#logo h1,#logo h1 a{width:136px;height:67px}
+#logo h1{background:url(../images/logo.png) 50% 50% no-repeat}
+#logo h1 a{display:block;text-indent:-5000px}
+
+#slogan{width:408px;float:right}
+#slogan div.moduletable{text-align:left;font-weight:normal;font-size:12px}
+#slogan div.moduletable *{padding:0}
+#slogan div.moduletable h3{padding-top:48px;font-size:18px;color:#ff0000;text-align:left;border:none;font-weight:normal;text-transform:uppercase}
+
+#body{width:770px}
+
+#left{float:left;width:190px}
+#left1,#right{margin:9px}
+
+#main{float:right;width:580px;border:1px solid #fff;text-align:left}
+#main table{width:auto}
+#inner_main{margin:9px}
+
+#user1 .moduletable ul,#user2 .moduletable ul{margin-left:37px}
+#advert1,#top,#bottom,#advert2{clear:both;padding-top:14px}
+
+#footer{width:770px;text-align:left;padding:15px 0 5px}
+#bottom_left{float:left}
+#bottom_left div{text-align:left}
+#bottom_right{float:right}
+#bottom_right div{text-align:right}
+
+/*joomla settings*/
+.componentheading{font-size:14px;font-weight:bold;color:#FF8000;text-align:left;padding-left:5px;margin-bottom:12px;border-bottom:1px solid #FF8000}
+.pagenavbar{text-align:center}
+.pathway{font-weight:bold;color:#000000}
+
+.inputbox,.button{font-style:normal;font-weight:bold;font-size:10px;color:black;border:1px solid}
+.inputbox{background:white}
+
+.mainlevel{font-size:12px;font-weight:bold;text-align:left;display:block;line-height:34px}
+a.mainlevel:link,a.mainlevel:visited{color:white;border-bottom:1px dashed white}
+a.mainlevel:hover{color:#FF8000;border-bottom:1px solid #FF8000}
+.sublevel{font-size:11px;font-weight:bold;text-align:right;padding-right:5px;display:block;line-height:34px}
+
+div.moduletable{width:auto !important;width:100%;margin-bottom:17px;text-align:left}
+div.moduletable *{padding:4px}
+div.moduletable * *{padding:0px}
+div.moduletable img{margin:3px}
+div.moduletable ul li{padding-left:16px}
+div.moduletable h3{font-size:13px;font-weight:bold;color:#ff6600;text-align:center;padding:2px;border-top:2px solid #ff6600;border-bottom:2px solid #ff6600}
+
+.poll{line-height:20px}
+.pollstableborder{margin:4px 0 6px 0}
+.poll .button{margin-top:10px}
+
+.blog td{padding:0 2px}
+.contentpane,.contentpaneopen{text-align:justify}
+.contentheading{font-size:15px;font-weight:bold;color:white;text-align:left;padding-top:7px;border-bottom:1px solid white}
+.contenttoc{background-color:#e0e0e0;border:solid 1px black;padding:3px}
+.contentdescription{color:#c0c0c0}
+.readon{font-weight:bold;padding-top:10px;text-align:right;display:block}
+
+.small,.smalldark{font-size:9px;color:#CC6600}
+.smalldark{color:white}
+.createdate,.modifydate{font-style:italic}
+
+.sectiontableheader{background-color:#ff3300;color:white;height:20px;font-weight:bold;padding:0 5px;border-bottom:2px solid black}
+tr.sectiontableentry1 td,td.sectiontableentry1{background-color:#333300;padding:3px}
+tr.sectiontableentry2 td,td.sectiontableentry2{background-color:#555500;padding:3px}
+
+.blog_more{margin-bottom:15px}
+.blog_more div{margin-bottom:5px}
+.blog_more strong{font-size:14px;font-weight:bold;font-style:italic;text-align:left;padding:10px 0 0 15px}
+.blog_more ul{margin-left:20px}
+.blog_more a{font-size:11px}
+
+.back_button{text-align:right;margin-top:8px}
+.tips{display:none}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="template">
+
+<name>lovely_lion</name>
+<creationDate>06th October 2006</creationDate>
+<author>DesignForJoomla.com</author>
+<copyright>DesignForJoomla.com</copyright>
+<authorEmail>support@designforjoomla.com</authorEmail>
+<authorUrl>designforjoomla.com</authorUrl>
+<version>1.0</version>
+<description>Lovely lion - Joomla template by DesignForJoomla.com</description>
+
+<files>
+    <filename>index.php</filename>
+    <filename>template_thumbnail.png</filename>
+</files>
+
+<images>
+    <filename>images/0_lion.gif</filename>
+    <filename>images/header_bg.gif</filename>
+    <filename>images/left_col_bg.gif</filename>
+    <filename>images/logo.png</filename>
+    <filename>images/footer_bg.gif</filename>
+    <filename>images/bg.gif</filename>
+</images>
+
+<css>
+    <filename>css/template_css.css</filename>
+    <filename>css/template_css_ie.css</filename>
+    <filename>css/bottom.css.php</filename>
+	<filename>css/footer.css.php</filename>
+</css>
+
+</mosinstall>
