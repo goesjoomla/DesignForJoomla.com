@@ -123,6 +123,41 @@ a.sublevel:hover {
 
 /* ###################### MODULE SETTINGS ###################### */
 table.moduletable {
+  width            : 153px;
+  table-layout	   : auto;
+  margin-bottom    : 7px;
+  padding-bottom   : 25px;
+  background-color : #EAEAEA;
+  background-image : url(../images/img_08.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+table.moduletable th {
+  font             : Arial, Verdana, Geneva, Helvetica, sans-serif;
+  font-size        : 11px;
+  font-weight      : bold;
+  text-transform   : uppercase;
+  letter-spacing   : 1px;
+  text-align       : left;
+  padding-left     : 9px;
+  padding-bottom   : 3px;
+  height           : 21px;
+  line-height      : 21px;
+  background-image : url(../images/img_06.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+table.moduletable td, table.moduletable_center td {
+  font             : Arial, Verdana, Geneva, Helvetica, sans-serif;
+  font-size        : 11px;
+  text-align       : justify;
+  padding-left     : 3px;
+  padding-right    : 3px;
+}
+
+table.moduletable_center {
   width            : 100%;
   padding-left     : 3px;
   padding-right    : 3px;
@@ -130,7 +165,7 @@ table.moduletable {
   padding-bottom   : 7px;
 }
 
-table.moduletable th {
+table.moduletable_center th {
   font             : Trebuchet MS, Verdana, sans-serif;
   font-size        : 13px;
   font-weight      : bold;
@@ -139,13 +174,6 @@ table.moduletable th {
   padding          : 1px;
   margin-bottom    : 4px;
   background-color : #e0e0e0;
-}
-
-.poll {
-  font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
-  font-size        : 10px;
-  color            : #303030;
-  line-height      : 15px
 }
 
 /* ###################### FORMULAR SETTINGS ###################### */
