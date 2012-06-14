@@ -1,4 +1,4 @@
-D4J Internet Jobs template for Joomla! 1.0 series
+D4J Internet Market template for Joomla! 1.0 series
 ===============================================
 
 Install Git client by following the guide at the URL below:
@@ -9,7 +9,7 @@ Then, clone the repository at following URL:
 
 https://github.com/goesjoomla/DesignForJoomla.com.git
 
-Finally, checkout templates/internet_jobs branch to get D4J Internet Jobs.
+Finally, checkout templates/internet_market branch to get D4J Internet Market.
 
 --
 Manh-Cuong Nguyen
