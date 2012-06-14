@@ -1,6 +1,17 @@
-#logo{margin:54px 0 0 17px}
-#toolbar{margin:51px 0 0 68px}
-/* Trans Menu */
-#toolbar .transMenu .items{border:1px solid #9ADA00}
-#toolbar .transMenu .items .item{border:none}
-#toolbar .transMenu .items .item .sublevel{padding:3px 4px 2px 9px}
+#headlink div.moduletable{padding-top:28px;line-height:1.2em}
+#headlink div.moduletable h3{font-size:30px;padding-top:12px}
+#headlink h1{padding-top:40px}
+#headlink h2{text-indent:-260px}
+
+#inner_main{margin:17px 0 20px 12px}
+#rightcontainer .moduletable{text-align:justify;margin:0 6px 7px 0px}
+#rightcontainer .moduletable img{margin-right:-5px}
+
+.componentheading{padding:0px 0 10px 6px}
+.blog_more ul{padding-left:42px}
+
+.search input.inputbox{width:80%}
+.search tr.sectiontableentry1 input.inputbox{width:70px}
+select#mod_templatechooser_jos_change_template {width:130px}
+
+tr th.pagenav_prev,tr th.pagenav_next{font-size:13px}

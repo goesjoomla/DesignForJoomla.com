@@ -1,4 +1,4 @@
-D4J Liquidity Graph template for Joomla! 1.0 series
+D4J Localize template for Joomla! 1.0 series
 ===============================================
 
 Install Git client by following the guide at the URL below:
@@ -9,7 +9,7 @@ Then, clone the repository at following URL:
 
 https://github.com/goesjoomla/DesignForJoomla.com.git
 
-Finally, checkout templates/liquidity_graph branch to get D4J Liquidity Graph.
+Finally, checkout templates/localize branch to get D4J Localize.
 
 --
 Manh-Cuong Nguyen

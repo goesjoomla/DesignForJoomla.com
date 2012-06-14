@@ -1,4 +1,5 @@
-/* Trans Menu */
-#toolbar .transMenu .items{border:1px solid #9ADA00}
-#toolbar .transMenu .items .item{border:none}
-#toolbar .transMenu .items .item .sublevel{padding:3px 4px 2px 9px}
+ul,li{margin-left:0;padding-left:0}
+#body{padding-top:19px}
+#main{margin-top:0}
+#inner_main{margin:8px 0 20px 12px}
+#rightcontainer{margin:10px 0 19px}
