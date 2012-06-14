@@ -1,113 +1,168 @@
-body { 
-	scrollbar-face-color: #ffffff;
-	scrollbar-highlight-color: #2E6CB3;
-	scrollbar-shadow-color: #7CA3CA; 
-	scrollbar-3dlight-color: #7CA3CA;
-	scrollbar-arrow-color: #2E6CB3;
-	scrollbar-track-color: #7CA3CA;
-	scrollbar-darkshadow-color: #7CA3CA;
-	scrollbar-base-color: #7CA3CA;
+body {
+	font-family: verdana, helvetica, arial, sans-serif;
+	font-size: 80%;
+	margin: 0;
+	padding: 0;
+	background-color : #fabd0a;
+}
+
+.tbl1 { 
+	background: url('../images/back.jpg'); 
+	background-repeat: no-repeat; 
+} 
+
+p,h1,h2,h3,main {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 85%;
+	color: black;
+}
+
+h1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 200%;
+	font-weight: bold;
+}
+
+h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 160%;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 110%;
 }
 
 td,tr,p,div {
-	font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
-	font-size        : 11px;
-	color            : #000000;
+  font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
+  font-size        : 11px;
+  color            : #000000;
 }
 
 ul {
-	margin           : 5px 5px 5px 5px;
+  margin           : 5px 5px 5px 5px;
 }
 
 li {
-	list-style       : inside url(../../../images/M_images/arrow.png);
-	list-style-image : url(../../../images/M_images/arrow.png);
+  list-style       : inside url(../../../images/M_images/arrow.png);
+  list-style-image : url(../../../images/M_images/arrow.png);
 }
 
 hr {
-	background       : #C00000;
-	height           : 1px;
-	width            : 97%;
+  background       : #a0a0a0;
+  height           : 1px;
+  width            : 95%;
 }
 
 table.searchintro {
-	background-color : #FFFFFF;
-	border           : 1px solid #FF8000;
+  background-color : #FFFFFF;
+  border           : 1px solid #777777;
 }
 
+/* ###################### LINKS ###################### */
 a:link, a:visited {
-	text-decoration: underline;
-	color: #000080;
-	font-family: Tahoma, Verdana;
+  font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
+  font-size        : 11px;
+  color            : #303030;
+  text-decoration  : none;
 }
 
 a:hover {
-	text-decoration: underline;
-	color: #7BC000;
-	font-family: Tahoma, Verdana;
+  color            : #f0f0f0;
+  border-bottom    : 1px solid #f0f0f0;
 }
 
-.miniwh { COLOR: #ffffff; FONT-FAMILY: Tahoma, Verdana, Helvetica, sans-serif; FONT-SIZE: 10px}
+a.category:link, a.category:visited {
+  font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
+  font-size        : 13px;
+  color            : #303030;
+  font-weight      : bold;
+  border-bottom    : 1px dashed #303030;
+  text-decoration  : none;
+}
 
-.smallwh { COLOR: #ffffff; FONT-FAMILY: Tahoma, Verdana, Helvetica, sans-serif; FONT-SIZE: 12px}
+a.category:hover {
+  border-bottom    : 1px solid #303030;
+}
 
+a.blogsection:link, a.blogsection:visited {
+  font-family      : Trebuchet MS;
+  font-size        : 11px;
+  color            : #303030;
+  font-weight      : bold;
+  border-bottom    : 1px dashed #303030;
+  text-decoration  : none;
+}
+a.blogsection:hover {
+  border-bottom    : 1px solid #303030;
+}
+
+/* ###################### MAIN MENU SETTINGS ###################### */
+.mainlevel {
+  font-family      : Verdana, Geneva, Arial, Helvetica, serif;
+  font-size        : 12px;
+  font-weight      : bold;
+  text-align       : left;
+  margin-top       : 3px;
+  padding-left     : 3px;
+  width            : 95%;
+  display          : block;
+}
+
+a.mainlevel:link, a.mainlevel:visited {
+  color            : #303030;
+  border-bottom    : 1px dashed #303030;
+}
+
+a.mainlevel:hover {
+  border-bottom: 1px solid #303030;
+}
+
+.sublevel {
+  font-family      : Arial, Helvetica, serif;
+  font-size        : 12px;
+  font-weight      : bold;
+  font-style       : italic;
+  text-align       : right;
+  margin-top       : 3px;
+  padding-right    : 3px;
+  width            : 95%;
+  display          : block;
+}
+
+a.sublevel:link, a.sublevel:visited {
+  color            : #303030;
+  border-bottom    : 1px dashed #303030;
+}
+
+a.sublevel:hover {
+  border-bottom: 1px solid #303030;
+}
+
+/* ###################### MODULE SETTINGS ###################### */
 table.moduletable {
-	width: 100%;
-	COLOR: #000000;
-	FONT-FAMILY: Tahoma, Verdana, Helvetica, sans-serif;
-	FONT-SIZE: 12px;
-	background-color: #D4E6F8;
-	padding-top: 1px;
-	padding-bottom: 9px;
-	padding-left: 3px;
-	padding-right: 3px;
+  width            : 100%;
+  margin-top       : 1px;
+  margin-bottom    : 9px;
 }
 
 table.moduletable th {
-	COLOR: #ffffff;
-	FONT-FAMILY: Tahoma, Verdana, Helvetica, sans-serif;
-	FONT-SIZE: 15px;
-	background-color: #659CCE;
-	padding: 3px;
+  font             : Trebuchet MS, Verdana, sans-serif;
+  font-size        : 13px;
+  font-weight      : bold;
+  color            : #333333;
+  text-align       : center;
+  padding          : 1px;
+  background-color : #d0d0d0;
 }
 
-.bl { COLOR: #000000; FONT-FAMILY: Tahoma, Verdana, Helvetica, sans-serif; FONT-SIZE: 15px}
-
-.contentpane {
-  text-align       : justify;
-  padding          : 3px;
+.poll {
+  font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
+  font-size        : 10px;
+  color            : #101010;
 }
 
-.contentpaneopen {
-  text-align       : justify;
-  padding          : 3px;
-}
-
-.contentheading {
-	COLOR: #585858;
-	FONT-FAMILY: Tahoma, Verdana, Helvetica, sans-serif;
-	FONT-SIZE: 15px;
-	background-color: #e2e2e2;
-	font-weight: bold;
-	font-style: italic;
-}
-
-a.contentpagetitle:link, a.contentpagetitle:visited {
-	COLOR: #585858;
-	FONT-FAMILY: Tahoma, Verdana, Helvetica, sans-serif;
-	FONT-SIZE: 15px;
-	background-color: #e2e2e2;
-	font-weight: bold;
-	font-style: italic;
-	padding: 2px;
-	text-decoration: none;
-	border-bottom: none;
-}
-
-a.contentpagetitle:hover {
-	COLOR: #000000;
-}
-
+/* ###################### FORMULAR SETTINGS ###################### */
 .button {
   font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
   font-style       : normal;
@@ -126,8 +181,160 @@ a.contentpagetitle:hover {
   border           : 1px solid;
 }
 
-.blog_more {
+/* ###################### CONTENT PAGE SETTINGS ###################### */
+a.contentpagetitle:link, a.contentpagetitle:visited {
+  font-family      : Arial;
+  font-size        : 15px;
+  font-weight      : bold;
+  color            : #333333;
+  padding          : 1px;
+  border-bottom    : none;
+}
+
+a.contentpagetitle:hover {
+  color            : #330000;
+}
+
+.contentpane {
+  text-align       : justify;
+}
+
+.contentpaneopen {
+  text-align       : justify;
+}
+
+.contentheading {
+  font-family      : Arial;
+  font-size        : 15px;
+  font-weight      : bold;
+  color            : #333333;
+  text-align       : left;
+  padding-top      : 7px;
+  border-bottom    : 1px solid #333333;
+}
+
+.componentheading {
+  font-family      : Trebuchet MS;
+  font-size        : 13px;
+  font-weight      : bold;
+  color            : #333333;
+  text-align       : center;
+  padding          : 1px;
+  background-color : #d0d0d0;
+}
+
+.contentdescription {
+  font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
   font-size        : 11px;
+  color            : #333333;
+  text-align       : left;
+}
+
+.category {
+  color            : #C0C0C0;
+  font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
+  font-size        : 11px;
+  font-weight      : bold;
+  text-decoration  : none;
+}
+
+/* ###################### SECTION LISTING SETTINGS ###################### */
+.sectiontableentry1 {
+  background-color : #b0b0b0;
+  margin-left      : 1px;
+  margin-right     : 1px;
+ }
+
+.sectiontableentry2 {
+  background-color : #c0c0c0;
+  margin-left      : 1px;
+  margin-right     : 1px;
+ }
+
+.sectiontableheader {
+  background-color : #a0a0a0;
+  color            : #FFFFFF;
+  height           : 20px;
+  font-weight      : bold;
+  padding-left     : 5px;
+  padding-right    : 5px;
+  border-bottom    : 2px solid #fabd0a;
+}
+
+/* ###################### SMALL FONT SETTINGS ###################### */
+.small {
+  font-family      : Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 9px;
+  color            : #707070;
+  font-weight      : normal;
+}
+
+.smalldark {
+  font-family      : Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 9px;
+  color            : #303030;
+  font-weight      : normal;
+}
+
+/* ###################### TABLE OF CONTENT SETTINGS ###################### */
+.contenttoc {
+  background-color : #f0f0f0;
+  border           : solid 1px #777777;
+  padding          : 3px;
+  margin           : 3px;
+}
+
+a.toclink:link, a.toclink:visited {
+  color            : #707070;
+  font-weight      : bold;
+  border-bottom    : none;
+}
+
+a.toclink:hover {
+  color            : #303030;
+  font-weight      : bold;
+  font-style       : italic;
+  border-bottom    : 1px dashed #303030;
+}
+
+/* ###################### PATH-WAY SETTINGS ###################### */
+.pathway {
+  font-family      : Arial;
+  font-size        : 13px;
+  font-weight      : bold;
+  color            : #000000;
+  padding          : 1px;
+}
+
+a.pathway:link, a.pathway:visited {
+  font-family      : Arial;
+  font-size        : 13px;
+  font-weight      : bold;
+  color            : #000000;
+  border-bottom    : none;
+}
+
+a.pathway:hover {
+  font-family      : Arial;
+  font-size        : 13px;
+  font-weight      : bold;
+  color            : #ffffff;
+  border-bottom    : none;
+}
+
+/* ###################### DATE TIME SETTINGS ###################### */
+.createdate {
+  font-style       : italic;
+}
+
+/* ###################### PAGE NAVIGATION SETTINGS ###################### */
+.pagenavbar {
+  text-align       : center;
+}
+
+/* ###################### OTHER SETTINGS ###################### */
+.blog_more {
+  font-size        : 14px;
   font-weight      : bold;
   font-style       : italic;
   text-align       : left;
@@ -136,9 +343,12 @@ a.contentpagetitle:hover {
 }
 
 .readon {
-  font             : Arial, Verdana, Trebuchet MS, Verdana, sans-serif;
-  font-size        : 11px;
+  font             : Arial, Verdana, Trebuchet MS;
+  font-size        : 13px;
   font-weight      : bold;
+  font-style       : italic;
   text-align       : left;
+  padding-top      : 7px;
   padding-left     : 10px;
+  border-bottom    : 1px dashed;
 }

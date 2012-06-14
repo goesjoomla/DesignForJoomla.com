@@ -17,237 +17,84 @@ echo '<?xml version="1.0" encoding="'. $iso[1] .'"?' .'>';
 	<meta name="Publisher" content="Your Mambo Design">
 	<meta name="Language" content="en">
 	<link rel="shortcut icon" href="<?php echo $GLOBALS['mosConfig_live_site'];?>/images/favicon.ico" />
-	<link rel="stylesheet" type="text/css" href="<?php echo $GLOBALS['mosConfig_live_site']; ?>/templates/general_02/css/template_css.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo $GLOBALS['mosConfig_live_site']; ?>/templates/general_03/css/template_css.css" />
 </head>
 
-  <BODY bgcolor="#F5F5F5" topmargin="1" leftmargin="1" marginwidth="1" marginheight="1">
-    <TABLE width="100%" border="0" cellpadding="0" cellspacing="0">
-      <TR>
-        <TD colspan="2" height="4" background="templates/general_02/images/line_green.jpg"><IMG src="templates/general_02/images/line_green.jpg" width="1" height="4"></TD>
-      </TR>
-      <TR>
-        <TD width="25%" bgcolor="#ffffff" align="center" valign="middle"><IMG src="templates/general_02/images/logo.gif" align="absmiddle"></TD>
-        <TD width="75%" bgcolor="#ffffff" valign="middle" style="background-image: url(templates/general_02/images/head.jpg); background-repeat: no-repeat; background-position: right;">
-<!-- Show Site's Title & Slogan - Begin -->
-<?php $site_title = explode(' - ', $GLOBALS['mosConfig_sitename']); ?>
-<font face="Arial" size="3" color="#ff0000"><?php echo strtoupper($site_title[0]); ?></font><br/>
-<font face="Arial" size="2" color="#ff6600"><?php echo $site_title[1]; ?></font>
-<!-- Show Site's Title & Slogan - End -->
-        </TD>
-      </TR>
-      <TR>
-        <TD colspan="2" height="4" background="templates/general_02/images/line_green.jpg"><IMG src="templates/general_02/images/line_green.jpg" width="1" height="4"></TD>
-      </TR>
-      <TR>
-        <TD colspan="2" height="10" bgcolor="#f5f5f5">
-          &nbsp;
-        </TD>
-      </TR>
-      <TR>
-        <TD colspan="2">
-          <TABLE width="780" border="0" cellpadding="0" cellspacing="0" align="center">
-            <TR>
-              <TD align="left" valign="top">
-                <TABLE width="160" border="0" cellpadding="0" cellspacing="0">
-                  <TR>
-                    <TD valign="top">
-                      <TABLE border="0" cellspacing="0" cellpadding="0" width="150" align="center" valign="top">
-                        <TR>
-                          <TD align="left" width="4" height="4" background="templates/general_02/images/line_green.jpg"><IMG src="templates/general_02/images/corner_green.jpg" height="4" width="4"></TD>
-                          <TD align="left" width="76" height="4" background="templates/general_02/images/line_green.jpg"><IMG src="templates/general_02/images/line_green.jpg" height="4" width="11"></TD>
-                          <TD align="right" width="76" height="4" background="templates/general_02/images/line_green.jpg"><IMG src="templates/general_02/images/line_green.jpg" height="4" width="11"></TD>
-                          <TD align="left" width="4" height="4" background="templates/general_02/images/line_green.jpg"><IMG src="templates/general_02/images/corner1_green.jpg" height="4" width="4"></TD>
-                        </TR>
-                        <TR>
-                          <TD align="left" valign="top" width="4"><IMG src="templates/general_02/images/ctop_green.jpg" height="11" width="4"></TD>
-                          <TD align="center" width="152" bgcolor="#D4E6F8" colspan="2" rowspan="2">
-<!-- Load Left Module :: Begin -->
+<body>
+<table border="0" cellpadding="0" cellspacing="0" class="tbl1" width="100%">
+  <tr valign="middle"> 
+    <td width="100%" height="30" nowrap>
+<!-- Load Pathway - Begin -->
+	&nbsp;
+	<?php include $GLOBALS['mosConfig_absolute_path'] . '/pathway.php'; ?>
+<!-- Load Pathway - End -->
+    </td>
+  </tr>
+  <tr valign="middle"> 
+    <td width="100%" height="170" nowrap>
+<!-- Show Logo, Site's Title & Slogan - Begin -->
+	<table border="0" cellpadding="0" cellspacing="0" Width="100%"><tr>
+		<td align="center" width="140">
+			<a href="<?php echo $GLOBALS['mosConfig_live_site']; ?>" title="<?php echo strtoupper($GLOBALS['mosConfig_sitename']); ?>">
+				<IMG border="0" width="119" height="150" align="absmiddle" SRC="<?php echo $GLOBALS['mosConfig_live_site']; ?>/templates/general_03/images/logo.gif" alt="<?php echo $GLOBALS['mosConfig_sitename']; ?> - <?php echo $mosConfig_MetaDesc; ?>"/>
+			</a>
+		</td>
+		<td valign="middle">
+			<?php $site_title = explode(' - ', $GLOBALS['mosConfig_sitename']); ?>
+			<font face="Arial" size="5" color="#ff6600"><?php echo strtoupper($site_title[0]); ?></font><br/>
+			<font face="Arial" size="4" color="#00ffff"><?php echo $site_title[1]; ?></font>
+		</td>
+	</tr></table>
+<!-- Show Logo, Site's Title & Slogan - End -->
+    </td>
+  </tr>
+  <tr> 
+    <td width="100%" height="1" nowrap>
+    	<img src="templates/general_03/images/single_pixel.gif" width="1" height="1">
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <table width="100%" border="0" cellspacing="5" cellpadding="3">
+       <tr>
+        <td width="140" align="center" valign="top" nowrap>
+<!-- Load Left Module - Begin -->
 	<?php mosLoadModules("left"); ?>
-<!-- Load Left Module :: End -->
-                          </TD>
-                          <TD align="right" valign="top" width="4"><IMG src="templates/general_02/images/ctop_green.jpg" height="11" width="4"></TD>
-                        </TR>
-                        <TR>
-                          <TD align="left" width="4" valign="bottom"><IMG src="templates/general_02/images/cbottom_green.jpg" height="11" width="4"></TD>
-                          <TD align="left" width="4" valign="bottom"><IMG src="templates/general_02/images/cbottom_green.jpg" height="11" width="4"></TD>
-                        </TR>
-                        <TR>
-                          <TD align="left" width="4" height="4" background="templates/general_02/images/line_green.jpg"><IMG src="templates/general_02/images/corner2_green.jpg" height="4" width="4"></TD>
-                          <TD align="left" width="76" height="4" background="templates/general_02/images/line_green.jpg"><IMG src="templates/general_02/images/line_green.jpg" height="4" width="11"></TD>
-                          <TD align="right" width="76" height="4" background="templates/general_02/images/line_green.jpg"><IMG src="templates/general_02/images/line_green.jpg" height="4" width="11"></TD>
-                          <TD align="left" width="4" height="4" background="templates/general_02/images/line_green.jpg"><IMG src="templates/general_02/images/corner3_green.jpg" height="4" width="4"></TD>
-                        </TR>
-                      </TABLE>
-                    </TD>
-                  </TR>
-                </TABLE>
-              </TD>
-              <TD align="center" valign="top">
-<!-- Load Top Module :: Begin -->
-	<?php if (mosCountModules('top') > 0) { ?>
-                <TABLE width="460" border="0" cellpadding="0" cellspacing="0">
-                  <TR>
-                    <TD valign="top" align="center">
-                      <TABLE border="0" cellspacing="0" cellpadding="0" width="450" align="center" valign="top">
-                        <TR>
-                          <TD align="left" width="4" height="4" background="templates/general_02/images/line_blue.jpg"><IMG src="templates/general_02/images/corner.jpg" height="4" width="4"></TD>
-                          <TD align="left" width="221" height="4" background="templates/general_02/images/line_blue.jpg"><IMG src="templates/general_02/images/line_blue.jpg" height="4" width="11"></TD>
-                          <TD align="right" width="221" height="4" background="templates/general_02/images/line_blue.jpg"><IMG src="templates/general_02/images/line_blue.jpg" height="4" width="11"></TD>
-                          <TD align="left" width="4" height="4" background="templates/general_02/images/line_blue.jpg"><IMG src="templates/general_02/images/corner1.jpg" height="4" width="4"></TD>
-                        </TR>
-                        <TR>
-                          <TD align="left" valign="top" width="4"><IMG src="templates/general_02/images/ctop.jpg" height="11" width="4"></TD>
-                          <TD align="center" width="442" bgcolor="#D4E6F8" colspan="2" rowspan="2">
-	<?php mosLoadModules("top"); ?>
-                          </TD>
-                          <TD align="right" valign="top" width="4"><IMG src="templates/general_02/images/ctop.jpg" height="11" width="4"></TD>
-                        </TR>
-                        <TR>
-                          <TD align="left" width="4" valign="bottom"><IMG src="templates/general_02/images/cbottom.jpg" height="11" width="4"></TD>
-                          <TD align="left" width="4" valign="bottom"><IMG src="templates/general_02/images/cbottom.jpg" height="11" width="4"></TD>
-                        </TR>
-                        <TR>
-                          <TD align="left" width="4" height="4" background="templates/general_02/images/line_blue.jpg"><IMG src="templates/general_02/images/corner2.jpg" height="4" width="4"></TD>
-                          <TD align="left" width="221" height="4" background="templates/general_02/images/line_blue.jpg"><IMG src="templates/general_02/images/line_blue.jpg" height="4" width="11"></TD>
-                          <TD align="right" width="221" height="4" background="templates/general_02/images/line_blue.jpg"><IMG src="templates/general_02/images/line_blue.jpg" height="4" width="11"></TD>
-                          <TD align="left" width="4" height="4" background="templates/general_02/images/line_blue.jpg"><IMG src="templates/general_02/images/corner3.jpg" height="4" width="4"></TD>
-                        </TR>
-                      </TABLE>
-                    </TD>
-                  </TR>
-                </TABLE><br/>
-	<?php } ?>
-<!-- Load Top Module :: End -->
-                <TABLE width="460" border="0" cellpadding="0" cellspacing="0">
-                  <TR>
-                    <TD valign="top" align="center">
-                      <TABLE border="0" cellspacing="0" cellpadding="0" width="450" align="center" valign="top">
-                        <TR>
-                          <TD align="left" width="4" height="4" background="templates/general_02/images/line_green.jpg"><IMG src="templates/general_02/images/corner_green.jpg" height="4" width="4"></TD>
-                          <TD align="left" width="221" height="4" background="templates/general_02/images/line_green.jpg"><IMG src="templates/general_02/images/line_green.jpg" height="4" width="11"></TD>
-                          <TD align="right" width="221" height="4" background="templates/general_02/images/line_green.jpg"><IMG src="templates/general_02/images/line_green.jpg" height="4" width="11"></TD>
-                          <TD align="left" width="4" height="4" background="templates/general_02/images/line_green.jpg"><IMG src="templates/general_02/images/corner1_green.jpg" height="4" width="4"></TD>
-                        </TR>
-                        <TR>
-                          <TD align="left" valign="top" width="4"><IMG src="templates/general_02/images/ctop_green.jpg" height="11" width="4"></TD>
-                          <TD align="center" width="442" bgcolor="#D4E6F8" colspan="2" rowspan="2" style="padding: 3px;">
-<!-- Load Main Content :: Begin -->
-	<?php mosMainBody(); ?>
-<!-- Load Main Content :: End -->
-                          </TD>
-                          <TD align="right" valign="top" width="4"><IMG src="templates/general_02/images/ctop_green.jpg" height="11" width="4"></TD>
-                        </TR>
-                        <TR>
-                          <TD align="left" width="4" valign="bottom"><IMG src="templates/general_02/images/cbottom_green.jpg" height="11" width="4"></TD>
-                          <TD align="left" width="4" valign="bottom"><IMG src="templates/general_02/images/cbottom_green.jpg" height="11" width="4"></TD>
-                        </TR>
-                        <TR>
-                          <TD align="left" width="4" height="4" background="templates/general_02/images/line_green.jpg"><IMG src="templates/general_02/images/corner2_green.jpg" height="4" width="4"></TD>
-                          <TD align="left" width="221" height="4" background="templates/general_02/images/line_green.jpg"><IMG src="templates/general_02/images/line_green.jpg" height="4" width="11"></TD>
-                          <TD align="right" width="221" height="4" background="templates/general_02/images/line_green.jpg"><IMG src="templates/general_02/images/line_green.jpg" height="4" width="11"></TD>
-                          <TD align="left" width="4" height="4" background="templates/general_02/images/line_green.jpg"><IMG src="templates/general_02/images/corner3_green.jpg" height="4" width="4"></TD>
-                        </TR>
-                      </TABLE>
-                    </TD>
-                  </TR>
-                </TABLE>
-<!-- Load Bottom Module :: Begin -->
-	<?php if (mosCountModules('bottom') > 0) { ?>
-                <br/><TABLE width="460" border="0" cellpadding="0" cellspacing="0">
-                  <TR>
-                    <TD valign="top" align="center">
-                      <TABLE border="0" cellspacing="0" cellpadding="0" width="450" align="center" valign="top">
-                        <TR>
-                          <TD align="left" width="4" height="4" background="templates/general_02/images/line_blue.jpg"><IMG src="templates/general_02/images/corner.jpg" height="4" width="4"></TD>
-                          <TD align="left" width="221" height="4" background="templates/general_02/images/line_blue.jpg"><IMG src="templates/general_02/images/line_blue.jpg" height="4" width="11"></TD>
-                          <TD align="right" width="221" height="4" background="templates/general_02/images/line_blue.jpg"><IMG src="templates/general_02/images/line_blue.jpg" height="4" width="11"></TD>
-                          <TD align="left" width="4" height="4" background="templates/general_02/images/line_blue.jpg"><IMG src="templates/general_02/images/corner1.jpg" height="4" width="4"></TD>
-                        </TR>
-                        <TR>
-                          <TD align="left" valign="top" width="4"><IMG src="templates/general_02/images/ctop.jpg" height="11" width="4"></TD>
-                          <TD align="center" width="442" bgcolor="#D4E6F8" colspan="2" rowspan="2">
-	<?php mosLoadModules("bottom"); ?>
-                          </TD>
-                          <TD align="right" valign="top" width="4"><IMG src="templates/general_02/images/ctop.jpg" height="11" width="4"></TD>
-                        </TR>
-                        <TR>
-                          <TD align="left" width="4" valign="bottom"><IMG src="templates/general_02/images/cbottom.jpg" height="11" width="4"></TD>
-                          <TD align="left" width="4" valign="bottom"><IMG src="templates/general_02/images/cbottom.jpg" height="11" width="4"></TD>
-                        </TR>
-                        <TR>
-                          <TD align="left" width="4" height="4" background="templates/general_02/images/line_blue.jpg"><IMG src="templates/general_02/images/corner2.jpg" height="4" width="4"></TD>
-                          <TD align="left" width="221" height="4" background="templates/general_02/images/line_blue.jpg"><IMG src="templates/general_02/images/line_blue.jpg" height="4" width="11"></TD>
-                          <TD align="right" width="221" height="4" background="templates/general_02/images/line_blue.jpg"><IMG src="templates/general_02/images/line_blue.jpg" height="4" width="11"></TD>
-                          <TD align="left" width="4" height="4" background="templates/general_02/images/line_blue.jpg"><IMG src="templates/general_02/images/corner3.jpg" height="4" width="4"></TD>
-                        </TR>
-                      </TABLE>
-                    </TD>
-                  </TR>
-                </TABLE>
-	<?php } ?>
-<!-- Load Bottom Module :: End -->
-              </TD>
-              <TD align="right" valign="top">
-                <TABLE width="160" border="0" cellpadding="0" cellspacing="0">
-                  <TR>
-                    <TD valign="top">
-                      <TABLE border="0" cellspacing="0" cellpadding="0" width="150" align="center" valign="top">
-                        <TR>
-                          <TD align="left" width="4" height="4" background="templates/general_02/images/line_blue.jpg"><IMG src="templates/general_02/images/corner.jpg" height="4" width="4"></TD>
-                          <TD align="left" width="76" height="4" background="templates/general_02/images/line_blue.jpg"><IMG src="templates/general_02/images/line_blue.jpg" height="4" width="11"></TD>
-                          <TD align="right" width="76" height="4" background="templates/general_02/images/line_blue.jpg"><IMG src="templates/general_02/images/line_blue.jpg" height="4" width="11"></TD>
-                          <TD align="left" width="4" height="4" background="templates/general_02/images/line_blue.jpg"><IMG src="templates/general_02/images/corner1.jpg" height="4" width="4"></TD>
-                        </TR>
-                        <TR>
-                          <TD align="left" valign="top" width="4"><IMG src="templates/general_02/images/ctop.jpg" height="11" width="4"></TD>
-                          <TD align="center" width="152" bgcolor="#D4E6F8" colspan="2" rowspan="2">
-<!-- Load Right Module :: Begin -->
-	<?php if (mosCountModules('right') > 0) { mosLoadModules ( "right" ); } ?>
-<!-- Load Right Module :: End -->
-                          </TD>
-                          <TD align="right" valign="top" width="4"><IMG src="templates/general_02/images/ctop.jpg" height="11" width="4"></TD>
-                        </TR>
-                        <TR>
-                          <TD align="left" width="4" valign="bottom"><IMG src="templates/general_02/images/cbottom.jpg" height="11" width="4"></TD>
-                          <TD align="left" width="4" valign="bottom"><IMG src="templates/general_02/images/cbottom.jpg" height="11" width="4"></TD>
-                        </TR>
-                        <TR>
-                          <TD align="left" width="4" height="4" background="templates/general_02/images/line_blue.jpg"><IMG src="templates/general_02/images/corner2.jpg" height="4" width="4"></TD>
-                          <TD align="left" width="76" height="4" background="templates/general_02/images/line_blue.jpg"><IMG src="templates/general_02/images/line_blue.jpg" height="4" width="11"></TD>
-                          <TD align="right" width="76" height="4" background="templates/general_02/images/line_blue.jpg"><IMG src="templates/general_02/images/line_blue.jpg" height="4" width="11"></TD>
-                          <TD align="left" width="4" height="4" background="templates/general_02/images/line_blue.jpg"><IMG src="templates/general_02/images/corner3.jpg" height="4" width="4"></TD>
-                        </TR>
-                      </TABLE>
-                    </TD>
-                  </TR>
-                </TABLE>
-              </TD>
-            </TR>
-          </TABLE>
-        </TD>
-      </TR>
-      <TR>
-        <TD colspan="2" height="10" bgcolor="#f5f5f5">
-          &nbsp;
-        </TD>
-      </TR>
-      <TR>
-        <TD colspan="2" height="4" background="templates/general_02/images/line_green.jpg"><IMG src="templates/general_02/images/line_green.jpg" width="1" height="4"></TD>
-      </TR>
-	  <TR>
-        <TD colspan="2" align="center">
+<!-- Load Left Module - End -->
+		</td>
+    	<td width="7" height="100%" valign="bottom" nowrap>
+        	<img src="templates/general_03/images/separator1.gif" width="7" height="100%">
+    	</td>
+        <td width="100%" align="center" valign="top"> 
+<!-- Load Top Module, Main Content & Bottom Module - Begin -->
+<?php
+	if (mosCountModules('top') > 0) { mosLoadModules ( "top" ); echo '<hr/>'; }
+	mosMainBody();
+	if (mosCountModules('bottom') > 0) { echo '<hr/>'; mosLoadModules ( "bottom" ); }
+?>
+<!-- Load Top Module, Main Content & Bottom Module - End -->
+		</td>
+    	<td width="7" height="100%" valign="bottom" nowrap>
+        	<img src="templates/general_03/images/separator2.gif" width="7" height="100%">
+    	</td>
+        <td width="150" align="center" valign="top" nowrap>
+<!-- Load Right Module - Begin -->
+	<?php if (mosCountModules('right') > 0) mosLoadModules("right"); ?>
+<!-- Load Right Module - End -->
+		</td>
+       </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td width="100%" align="center" valign="bottom" nowrap>
+    	<br/><br/><br/>
 <!-- Display Credit :: Begin -->
-Template source from <a href="http://www.webhomez.net" target="_blank">www.webhomez.net</a>. <a href="http://designforjoomla.com" target="_blank" title="Joomla template by DesignForJoomla.com">Joomla template by DesignForJoomla.com</a>.
+Template source from <a href="http://www.logodesignweb.com/" target="_blank">Logo Design Web</a>. <a href="http://designforjoomla.com" target="_blank" title="Joomla template by DesignForJoomla.com">Joomla template by DesignForJoomla.com</a>.
 <?php include_once( $GLOBALS['mosConfig_absolute_path'] . '/includes/footer.php' ); ?>
-<!-- Display Credit :: End -->
-        </TD>
-      </TR>
-	  <TR>
-        <TD colspan="2" height="4" background="templates/general_02/images/line_green.jpg"><IMG src="templates/general_02/images/line_green.jpg" width="1" height="4"></TD>
-      </TR>
-    </TABLE>
-  </BODY>
-</HTML>
-
-
-
+<!-- Credit Line - End -->
+    </td>
+  </tr>
+</table>
+</body> 
+</html> 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <mosinstall type="template">
-  <name>general_02</name>
-  <creationDate>23th March 2005</creationDate>
+  <name>general_03</name>
+  <creationDate>7th April 2005</creationDate>
  <author>DesignForJoomla.com</author>
   <copyright>Converted to Joomla template by DesignForJoomla.com.</copyright>
   <authorEmail>design@designforjoomla.com</authorEmail>
@@ -13,22 +13,11 @@
     <filename>template_thumbnail.png</filename>
   </files>
   <images>
-    <filename>images/cbottom.jpg</filename>
-    <filename>images/cbottom_green.jpg</filename>
-    <filename>images/corner.jpg</filename>
-    <filename>images/corner_green.jpg</filename>
-    <filename>images/corner1.jpg</filename>
-    <filename>images/corner1_green.jpg</filename>
-    <filename>images/corner2.jpg</filename>
-    <filename>images/corner2_green.jpg</filename>
-    <filename>images/corner3.jpg</filename>
-    <filename>images/corner3_green.jpg</filename>
-    <filename>images/ctop.jpg</filename>
-    <filename>images/ctop_green.jpg</filename>
-    <filename>images/head.jpg</filename>
-    <filename>images/line_blue.jpg</filename>
-    <filename>images/line_green.jpg</filename>
+    <filename>images/back.jpg</filename>
     <filename>images/logo.gif</filename>
+    <filename>images/separator1.gif</filename>
+    <filename>images/separator2.gif</filename>
+    <filename>images/single_pixel.gif</filename>
   </images>
   <css>
     <filename>css/template_css.css</filename>
