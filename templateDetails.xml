@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="template">
+
+<name>funky_cool_blue</name>
+<creationDate>October 2006</creationDate>
+<author>DesignForJoomla.com</author>
+<copyright>DesignForJoomla.com</copyright>
+<authorEmail>cuongnm@designforjoomla.com</authorEmail>
+<authorUrl>designforjoomla.com</authorUrl>
+<version>1.0</version>
+<description>Funky Cool Blue - Joomla template by DesignForJoomla.com</description>
+
+<files>
+    <filename>index.php</filename>
+    <filename>template_thumbnail.png</filename>
+</files>
+
+<images>
+        <filename>images/arrow_path.gif</filename>
+        <filename>images/back.gif</filename>
+        <filename>images/back_top.jpg</filename>
+        <filename>images/bg1.gif</filename>
+        <filename>images/bg2.gif</filename>
+        <filename>images/bg3.gif</filename>
+        <filename>images/bg4.gif</filename>
+        <filename>images/bg5.gif</filename>
+        <filename>images/bgshl.gif</filename>
+        <filename>images/bgshr.gif</filename>
+        <filename>images/header.jpg</filename>
+        <filename>images/lbh3.gif</filename>
+        <filename>images/logo.gif</filename>
+        <filename>images/main.gif</filename>
+        <filename>images/main1.gif</filename>
+</images>
+
+<css>
+        <filename>css/bottom.css.php</filename>
+        <filename>css/footer.css.php</filename>
+        <filename>css/template_css.css</filename>
+        <filename>css/template_css_ie.css</filename>
+
+</css>
+
+</mosinstall>
