@@ -1,4 +1,4 @@
-D4J Business 06 template for Joomla! 1.0 series
+D4J Business Event template for Joomla! 1.0 series
 ===============================================
 
 Install Git client by following the guide at the URL below:
@@ -9,7 +9,7 @@ Then, clone the repository at following URL:
 
 https://github.com/goesjoomla/DesignForJoomla.com.git
 
-Finally, checkout templates/business_06 branch to get D4J Business 06.
+Finally, checkout templates/business_event branch to get D4J Business Event.
 
 --
 Manh-Cuong Nguyen

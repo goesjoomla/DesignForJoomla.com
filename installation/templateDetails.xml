@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="template">
+
+<name>business_event</name>
+<creationDate>26th November 2007</creationDate>
+<author>DesignForJoomla.com</author>
+<copyright>DesignForJoomla.com</copyright>
+<authorEmail>support@designforjoomla.com</authorEmail>
+<authorUrl>designforjoomla.com</authorUrl>
+<version>1.0</version>
+<description>Business Event - Joomla template by DesignForJoomla.com</description>
+
+<files>
+    <filename>index.php</filename>
+    <filename>template_thumbnail.png</filename>
+	<filename>func/style/d4j_sitetools.php</filename>
+	<filename>func/style/d4j_stylechanger.js</filename>
+	<filename>func/style/d4j_stylechanger.php</filename>
+</files>
+
+<images>
+<filename>images/arrow1.gif</filename>
+<filename>images/arrow1-hover.gif</filename>
+<filename>images/blank.gif</filename>
+<filename>images/bodybottombg.gif</filename>
+<filename>images/bottom-more-bg.gif</filename>
+<filename>images/bullet1.gif</filename>
+<filename>images/callus-bg.gif</filename>
+<filename>images/css-bg-hover.gif</filename>
+<filename>images/css-bg-normal.gif</filename>
+<filename>images/dot-line.gif</filename>
+<filename>images/footerbg.gif</filename>
+<filename>images/headermore-hover.gif</filename>
+<filename>images/headermore-normal.gif</filename>
+<filename>images/html-bg-hover.gif</filename>
+<filename>images/html-bg-normal.gif</filename>
+<filename>images/icon1.jpg</filename>
+<filename>images/icon2.jpg</filename>
+<filename>images/leftfolder.gif</filename>
+<filename>images/logo.gif</filename>
+<filename>images/main-bg.gif</filename>
+<filename>images/menu-bg.gif</filename>
+<filename>images/red-image.jpg</filename>
+<filename>images/redpan-bg.gif</filename>
+<filename>images/redpan-bg.jpg</filename>
+<filename>images/rightfolder.gif</filename>
+<filename>images/ser.gif</filename>
+<filename>images/sitetools.gif</filename>
+
+
+	<filename>images/site_tools/biggerFont.gif</filename>
+	<filename>images/site_tools/normalFont.gif</filename>
+	<filename>images/site_tools/smallerFont.gif</filename>
+</images>
+
+<css>
+	<filename>css/template_css.css</filename>
+	<filename>css/template.css</filename>
+	<filename>css/d4j_dropdownmenu.css</filename>
+	<filename>css/bottom.css.php</filename>	
+	<filename>css/footer.css.php</filename>
+	<filename>css/base.css</filename>
+	<filename>css/layout.css</filename>
+	<filename>css/custom.css</filename>
+	<filename>css/D4J_sitetools/site_tools.css</filename>
+</css>
+
+</mosinstall>

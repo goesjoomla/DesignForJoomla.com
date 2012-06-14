@@ -1,0 +1,49 @@
+/* CSS SELECTORS FOR LAYOUT */
+
+.clearer{clear:both;height:0;float:left}
+.tips{display:none}
+/* ======================== CONTAINER ======================== */
+#D4J_Wrapper1{width:100%;background:url(../images/main-bg.gif) top repeat-x;}
+#D4J_Wrapper2{width:100%;background:url(../images/footerbg.gif) bottom repeat-x}
+
+#D4J_Container{width:780px;text-align:left}
+
+/* ======================== TOP NAV =========================== */
+#D4J_TopNav{height:20px;margin:0 138px 0 0}
+
+/* ======================== HEADER ============================ */
+#D4J_Header{height:88px;overflow:hidden;margin:5px 0 0 0;padding:28px 0 0 30px}
+
+/* ======================== TOP PAGE ========================== */
+#D4J_TopPage{height:228px}
+#D4J_TopPageLeft{float:left;width:46px}
+#D4J_TopPageCenter{float:left;width:688px}
+#D4J_TopPageRight{float:right;width:46px}
+
+/* ======================== MAIN MENU ========================= */
+#D4J_MainMenu{height:33px;background:#000 url(../images/menu-bg.gif) bottom repeat-x;width:100%}
+
+/* ======================== NEWS ========================= */
+#D4J_RedPan{border-bottom:1px solid #CDCAA3;border-top:1px solid #CDCAA3;background-color: #FEFDF1; margin:9px 0 0 0; height:184px;width:690px}
+#D4J_News{margin:13px 0 0 0;height:142px; width:690px; float:left;background:url(../images/redpan-bg.jpg) 0 19px repeat-x;}
+#D4J_NewsIn{height:66px;float:left;width:690px;}
+
+/* ======================== MAIN PAGE ==================== */
+#D4J_MainPage{width:688px;margin:10px 0 0 45px}
+
+#D4J_MainBody{padding:0 0 14px 0;}
+
+/* ======================== BOTTOM PAGE ================== */
+#D4J_User1,#D4J_User2{float:left;width:375px;background:#FEFDF0 url(../images/bodybottombg.gif) top no-repeat;border-bottom:1px solid #CDCAA3; border-left:1px solid #CDCAA3; border-right:1px solid #CDCAA3;}
+
+#D4J_BottomPage{margin-bottom:60px}
+
+/* ======================== FOOTER PAGE ================== */
+#D4J_FooterPage{height:144px;margin:0;padding:20px 0 0 0}
+
+#D4J_Footer{margin:10px 0 0 0}
+#D4J_Footer .xhtml{margin-left:320px}
+
+/* ======================== SITE TOOLS ======================== */
+#D4J_Sitetools{position:fixed;bottom:0px;right:10px;height:25px}
+#D4J_Tools{display:none;position:fixed;bottom:20px;right:10px;width:21px}
