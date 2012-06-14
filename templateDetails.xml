@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <mosinstall type="template">
-  <name>fantasy_01</name>
-  <creationDate>8th March 2005</creationDate>
+  <name>fantasy_02</name>
+  <creationDate>22th March 2005</creationDate>
  <author>DesignForJoomla.com</author>
   <copyright>Converted to Joomla template by DesignForJoomla.com.</copyright>
   <authorEmail>design@designforjoomla.com</authorEmail>
@@ -13,9 +13,10 @@
     <filename>template_thumbnail.png</filename>
   </files>
   <images>
-    
-    <filename>images/bg.jpg</filename>
+    <filename>images/ad_banner.gif</filename>
+    <filename>images/adbanner.jpg</filename>
     <filename>images/logo.gif</filename>
+    <filename>images/logo.jpg</filename>
   </images>
   <css>
     <filename>css/template_css.css</filename>

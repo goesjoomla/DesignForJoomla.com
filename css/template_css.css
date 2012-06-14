@@ -1,3 +1,19 @@
+BODY {
+	SCROLLBAR-FACE-COLOR: #000000; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; SCROLLBAR-SHADOW-COLOR: #2e425a; SCROLLBAR-3DLIGHT-COLOR: #2e425a; SCROLLBAR-ARROW-COLOR: #bccbdc; SCROLLBAR-TRACK-COLOR: #2e425a; SCROLLBAR-DARKSHADOW-COLOR: #000000; BACKGROUND-COLOR: #000000
+}
+A:link {
+	COLOR: #bccbdc; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #bccbdc; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #bccbdc; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #597795; TEXT-DECORATION: underline
+}
+
 td,tr,p,div {
   font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
   font-size        : 11px;
@@ -19,133 +35,66 @@ hr {
   width            : 95%;
 }
 
-table.searchintro {
-  background-color : #FFFFFF;
-  border           : 1px solid #FF8000;
-}
-
-/* ###################### LINKS ###################### */
-a:link, a:visited {
-  font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
-  font-size        : 11px;
-  color            : #FF8000;
-  text-decoration  : none;
-}
-
-a:hover {
-  color            : #ffff00;
-}
-
-a.category:link, a.category:visited {
-  font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
-  font-size        : 13px;
-  color            : #FF8000;
-  font-weight      : bold;
-  border-bottom    : 1px dashed #FF8000;
-  text-decoration  : none;
-}
-
-a.category:hover {
-  color            : #ffff00;
-  border-bottom    : 1px solid #ffff00;
-}
-
-a.blogsection:link, a.blogsection:visited {
-  font-family      : Trebuchet MS, Verdana, sans-serif;
-  font-size        : 11px;
-  color            : #FF8000;
-  font-weight      : bold;
-  border-bottom    : 1px dashed #FF8000;
-  text-decoration  : none;
-}
-
-a.blogsection:hover {
-  color            : #ffff00;
-  border-bottom    : 1px solid #ffff00;
-}
-
-/* ###################### MAIN MENU SETTINGS ###################### */
-.mainlevel {
-  font-family      : Verdana, Geneva, Arial, Helvetica, serif;
-  font-size        : 12px;
-  font-weight      : bold;
-  text-align       : left;
-  padding-left     : 5px;
-  display          : block;
-  line-height      : 20px;
-}
-
-a.mainlevel:link, a.mainlevel:visited {
-  color            : #ffffff;
-  border-bottom    : 1px dashed #ffffff;
-}
-
-a.mainlevel:hover {
-  color            : #FF8000;
-  border-bottom    : 1px solid #FF8000;
-}
-
-.sublevel {
-  font-family      : Verdana, Geneva, Arial, Helvetica, serif;
-  font-size        : 11px;
-  font-weight      : bold;
-  text-align       : right;
-  padding-right    : 5px;
-  display          : block;
-  line-height      : 20px;
-}
-
-a.sublevel:link, a.sublevel:visited {
-  color            : #ffffff;
-  border-bottom    : 1px dashed #ffffff;
-}
-
-a.sublevel:hover {
-  color            : #FF8000;
-  border-bottom    : 1px solid #FF8000;
-}
-
-/* ###################### MODULE SETTINGS ###################### */
 table.moduletable {
-  width            : 100%;
-  padding-top      : 1px;
-  padding-bottom   : 7px;
-  padding-left     : 3px;
-  padding-right    : 3px;
+  padding-top: 1px;
+  padding-bottom: 9px;
+  padding-left: 3px;
+  padding-right: 3px;
+  width: 100%;
 }
 
 table.moduletable th {
-  font             : Trebuchet MS, Verdana, sans-serif;
+  background-color: #336699;
+  color: #9DEFFB;
+  padding: 1px;
+}
+
+.componentheading {
+  font-family      : Trebuchet MS, Verdana, sans-serif;
   font-size        : 13px;
   font-weight      : bold;
-  color            : #ff6600;
-  text-align       : center;
-  padding          : 2px;
-  border-top       : 2px solid #ff6600;
-  border-bottom    : 2px solid #ff6600;
+  background-color : #336699;
+  padding          : 1px;
 }
 
-.newsflash {
-  font-family      : Arial, Helvetica, sans-serif;
-  font-size        : 10px;
-  color            : #000000;
+.contentheading {
+  font-family      : Trebuchet MS, Verdana, sans-serif;
+  font-size        : 17px;
+  font-weight      : bold;
+  padding          : 1px;
+  color            : #9DEFFB;
 }
 
-.frameheader {
-  font             : Verdana, Arial, Helvetica, sans-serif;
-  font-size        : 18px;
-  font-weight      : none;
-  color            : #808080;
+a.contentpagetitle:link, a.contentpagetitle:visited {
+  font-family      : Trebuchet MS, Verdana, sans-serif;
+  font-size        : 17px;
+  font-weight      : bold;
+  padding          : 1px;
+  color            : #9DEFFB;
+  text-decoration  : none;
+  border-bottom    : none;
 }
 
-.poll {
-  font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
-  font-size        : 11px;
-  color            : #ffffff;
-  line-height      : 15px
+a.contentpagetitle:hover {
+  font-family      : Trebuchet MS, Verdana, sans-serif;
+  font-size        : 17px;
+  font-weight      : bold;
+  padding          : 1px;
+  color            : #00ffff;
+  text-decoration  : none;
+  border-bottom    : none;
 }
 
-/* ###################### FORMULAR SETTINGS ###################### */
+.contentpane {
+  text-align       : justify;
+  padding          : 3px;
+}
+
+.contentpaneopen {
+  text-align       : justify;
+  padding          : 3px;
+}
+
 .button {
   font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
   font-style       : normal;
@@ -164,148 +113,8 @@ table.moduletable th {
   border           : 1px solid;
 }
 
-/* ###################### CONTENT PAGE SETTINGS ###################### */
-a.contentpagetitle:link, a.contentpagetitle:visited {
-  font-family      : Arial, Helvetica, sans-serif;
-  font-size        : 15px;
-  font-weight      : bold;
-  color            : #ffffff;
-  padding          : 1px;
-  text-decoration  : none;
-  border-bottom    : none;
-}
-
-a.contentpagetitle:hover {
-  color            : #ffff00;
-}
-
-.contentpane {
-  text-align       : justify;
-  padding          : 3px;
-}
-
-.contentpaneopen {
-  text-align       : justify;
-  padding          : 3px;
-}
-
-.contentheading {
-  font-family      : Arial, Helvetica, sans-serif;
-  font-size        : 15px;
-  font-weight      : bold;
-  color            : #ffffff;
-  text-align       : left;
-  padding-top      : 7px;
-  border-bottom    : 1px solid #ffffff;
-}
-
-.componentheading {
-  font-family      : Trebuchet MS, Verdana, sans-serif;
-  font-size        : 14px;
-  font-weight      : bold;
-  color            : #FF8000;
-  text-align       : left;
-  padding-left     : 5px;
-  border-bottom    : 1px solid #FF8000;
-}
-
-.contentdescription {
-  font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
-  font-size        : 11px;
-  color            : #c0c0c0;
-  text-align       : left;
-}
-
-.category {
-  color            : #C0C0C0;
-  font-family      : Arial, Helvetica, Trebuchet MS, Verdana, sans-serif;
-  font-size        : 11px;
-  font-weight      : bold;
-  text-decoration  : none;
-}
-
-/* ###################### SECTION LISTING SETTINGS ###################### */
-.sectiontableentry1 {
-  background-color : #333300;
-  margin           : 3px;
- }
-
-.sectiontableentry2 {
-  background-color : #555500;
-  margin           : 3px;
- }
-
-.sectiontableheader {
-  background-color : #ff3300;
-  color            : #FFFFFF;
-  height           : 20px;
-  font-weight      : bold;
-  padding-left     : 5px;
-  padding-right    : 5px;
-  border-bottom    : 2px solid #000000;
-}
-
-/* ###################### SMALL FONT SETTINGS ###################### */
-.small {
-  font-family      : Verdana, Arial, Helvetica, sans-serif;
-  font-size        : 9px;
-  color            : #CC6600;
-}
-
-.smalldark {
-  font-family      : Verdana, Arial, Helvetica, sans-serif;
-  font-size        : 9px;
-  color            : #000000;
-}
-
-/* ###################### TABLE OF CONTENT SETTINGS ###################### */
-.contenttoc {
-  background-color : #e0e0e0;
-  border           : solid 1px #000000;
-  padding          : 3px;
-}
-
-a.toclink:link, a.toclink:visited {
-  color            : #FF8000;
-}
-
-a.toclink:hover {
-  color            : #0000ff;
-}
-
-/* ###################### PATH-WAY SETTINGS ###################### */
-.pathway {
-  font-family      : Arial, Helvetica, sans-serif;
-  font-size        : 11px;
-  font-weight      : bold;
-  color            : #000000;
-}
-
-a.pathway:link, a.pathway:visited {
-  font-family      : Arial, Helvetica, sans-serif;
-  font-size        : 11px;
-  font-weight      : bold;
-  color            : #000000;
-}
-
-a.pathway:hover {
-  color            : #FF8000;
-  border-bottom    : 1px solid #FF8000;
-}
-
-/* ###################### DATE TIME SETTINGS ###################### */
-.createdate {
-  font-style       : italic;
-}
-
-/* ###################### PAGE NAVIGATION SETTINGS ###################### */
-.pagenavbar {
-  text-align       : center;
-}
-
-/* ###################### OTHER SETTINGS ###################### */
 .blog_more {
-  font-size        : 14px;
+  font-size        : 11px;
   font-weight      : bold;
   font-style       : italic;
   text-align       : left;
@@ -315,7 +124,7 @@ a.pathway:hover {
 
 .readon {
   font             : Arial, Verdana, Trebuchet MS, Verdana, sans-serif;
-  font-size        : 13px;
+  font-size        : 11px;
   font-weight      : bold;
   text-align       : left;
   padding-left     : 10px;
