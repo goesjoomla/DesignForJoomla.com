@@ -1,4 +1,4 @@
-D4J Lovely Lion template for Joomla! 1.0 series
+D4J Merry Christmas template for Joomla! 1.0 series
 ===============================================
 
 Install Git client by following the guide at the URL below:
@@ -9,7 +9,7 @@ Then, clone the repository at following URL:
 
 https://github.com/goesjoomla/DesignForJoomla.com.git
 
-Finally, checkout templates/lovely_lion branch to get D4J Lovely Lion.
+Finally, checkout templates/merry_christmas branch to get D4J Merry Christmas.
 
 --
 Manh-Cuong Nguyen
