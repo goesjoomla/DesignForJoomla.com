@@ -1,10 +1,86 @@
-/* JOOMLA 1.0.X TEMPLATE CSS FILE */
+/*Document settings*/
+body{background:#0094D6 url(../images/bg.gif) repeat-x;color:#466;font:normal 12px "Lucida Sans Unicode",sans-serif;margin:0}
+*{margin:0;padding:0}
+a{color:#F70}
+a:hover{color:#C60}
+p,ul{font-size:12px;padding-bottom:12px}
+ul{line-height:18px}
+blockquote{background:url(../images/bgcode.gif);border:1px solid #F0F0F0;border-left:6px solid #39F;color:#555;display:block;font-size:1.1em;margin-bottom:12px;padding:8px 10px}
+blockquote ul{list-style:none;padding:0;margin:0}
+comment{background:url(../images/quote.gif) no-repeat;color:#666;display:block;;padding-left:28px}
 
-/* Main css file with standard css selectors */
-@import url("base.css");
+/* Position settings(tabless) */
+.clearer{clear:both}
+#container{background:url(../images/topleft.gif) no-repeat}
+#header{height:92px}
 
-/* Css file with css selectors for layout */
-@import url("layout.css");
+#logo{width:75px;height:61px;float:left;background:url(../images/logo.gif) no-repeat top left;overflow:hidden}
+#logo h1 a{height:66px;display:block;text-indent:-5000px}
 
-/* Css file with css selectors for custom modules and menus */
-@import url("custom.css");
+#slogan{height:27px;float:left;text-align:left;overflow:hidden;width:50%;margin-top:35px}
+#user7,#slogan h1{color:#FFF;font:normal 20px Verdana}
+#slogan h1 a{color:#FFF;font:normal 20px Verdana;text-decoration:none}
+
+#navigation{float:right;width:50%;height:30px;overflow:hidden;background:none}
+#navigation a{color:#FFF;float:left;font:bold 12px "Trebuchet MS";text-align:center;text-decoration:none;padding:4px 18px 8px 18px}
+#navigation a:hover{background-color:#4A91C3;color:#FFF}
+
+#body{background:#FFF url(../images/bgmain.gif) no-repeat;text-align:left;clear:both;padding:12px 12px 0 52px}
+
+#center{float:left;margin-right:4%;width:69%}
+#center .moduletable h3{color:#06C;padding-top:6px;font-size:14px;margin-bottom:4px;font-weight:bold}
+#center li{list-style:url(../images/li.gif);margin-left:18px}
+
+#top .readon{background:url(img/quote.gif) no-repeat;color:#666;display:block;font:normal 1.3em "Lucida Sans Unicode";padding-left:28px}
+
+#main{text-align:justify;padding-bottom:40px}
+#main .blog td{padding-right:3px}
+
+#right{float:left;width:24%}
+#right .moduletable{padding:0 0 5px}
+#right .moduletable h3{border-bottom:1px dashed #DDD;color:#E73;height:20px;margin:12px 0 5px;font-size:12px}
+#right ul{margin:0;padding:0}
+#right li{list-style:none;margin:0}
+#right a.mainlevel,#right a.sublevel{border-bottom:1px dashed #EEE;color:#777;display:block;font-size:11px;padding:3px 6px 3px 18px;text-decoration:none}
+#right a.sublevel{border-bottom:none;padding:3px 6px 3px 25px}
+#right a.mainlevel:hover,#right a.sublevel:hover{color:#111;background:url(../images/nav_li.gif) no-repeat}
+#right a.sublevel:hover{background:url(../images/nav_li.gif) 10px 0  no-repeat}
+#right .moduletable td div img{display:none}
+
+#footer{margin:0 auto;width:100%;background:#0094D6 url(../images/bgfooter.gif) top repeat-x;color:#C1DEF0;font-size:11px;text-align:center}
+#footer p{padding:0;margin:0}
+#footer a{color:#FFF;text-decoration:none}
+#footer a:hover{color:#FFF;text-decoration:underline}
+#footer .copyright{padding:10px 0 10px 10px}
+
+#bottom_left{float:left;text-align:left;padding:10px 0 0 10px}
+#bottom_left div{text-align:left}
+#bottom_right{text-align:right;padding:10px 5px 10px 0}
+
+/* joomla settings */
+.componentheading,.contentheading{color:#06C;padding-top:6px;font-size:14px;margin-bottom:4px;font-weight:bold}
+
+.blog padding{padding-right:3px}
+
+.pollstableborder td{vertical-align:middle;padding:2px 0}
+.poll thead td{text-align:center}
+.poll .button{margin-top:5px}
+
+.sectiontableheader{background:#C85E35;color:#FFF;height:20px;font-weight:bold;padding:0 5px;border-bottom:2px solid #FFFFFF;line-height:25px}
+.sectiontablefooter{text-align:center}
+.sectiontableentry1{padding:2px;text-align:left;background:#F2F2F2;line-height:25px}
+.sectiontableentry2{padding:2px;text-align:left;line-height:25px}
+
+.back_button{margin:2px 0 5px 0}
+
+.inputbox{border:3px double #E5E5E5;padding:2px 3px}
+input#mod_login_remember{border:none}
+.button{border:1px solid #AAA;margin:2px 0 0 0;padding:2px 3px}
+.search .button{margin:2px 0 0 5px}
+
+select#mod_templatechooser_jos_change_template{width:141px}
+
+.createdate{color:#C60;font-size:10px}
+.small{font-size:10px}
+
+.tips{display:none}
