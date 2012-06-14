@@ -1,32 +1,42 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <mosinstall type="template">
 
-<name>envision</name>
+<name>expert_vision</name>
 <creationDate>February 2008</creationDate>
 <author>DesignForJoomla.com</author>
 <copyright>DesignForJoomla.com</copyright>
 <authorEmail>cuongnm@designforjoomla.com</authorEmail>
 <authorUrl>designforjoomla.com</authorUrl>
 <version>1.0</version>
-<description>Envision - Joomla template by DesignForJoomla.com</description>
+<description>Expert Vision - Joomla template by DesignForJoomla.com</description>
 
 <files>
         <filename>index.php</filename>
         <filename>template_thumbnail.png</filename>
+        <filename>menu.php</filename>
 </files>
 
 <images>
-        <filename>images/bullet.gif</filename>
-        <filename>images/button-bg.jpg</filename>
-        <filename>images/content.jpg</filename>
-        <filename>images/content1.jpg</filename>
-        <filename>images/dots.jpg</filename>
-        <filename>images/footer.jpg</filename>
-        <filename>images/header.jpg</filename>
+        <filename>images/arrow3.gif</filename>
+        <filename>images/arrow4.gif</filename>
+        <filename>images/body-bottombg.gif</filename>
+        <filename>images/buttet1.gif</filename>
+        <filename>images/buttet2.gif</filename>
+        <filename>images/footerbg.gif</filename>
+        <filename>images/icon1.gif</filename>
+        <filename>images/icon2.gif</filename>
+        <filename>images/icon3.gif</filename>
+        <filename>images/icon4.gif</filename>
         <filename>images/logo.gif</filename>
-        <filename>images/page.gif</filename>
-        <filename>images/quote.gif</filename>
-        <filename>images/square-green.png</filename>
+        <filename>images/mainbg.gif</filename>
+        <filename>images/midbg.jpg</filename>
+        <filename>images/more.gif</filename>
+        <filename>images/more_h.gif</filename>
+        <filename>images/tab.gif</filename>
+        <filename>images/tab_se.gif</filename>
+        <filename>images/topbg.jpg</filename>
+        <filename>images/viewmore.gif</filename>
+        <filename>images/viewmore-hover.gif</filename>
 </images>
 
 <css>
@@ -38,6 +48,8 @@
         <filename>css/template_css.css</filename>
         <filename>css/template_css_ie.css</filename>
         <filename>css/template_css_ie7.css</filename>
+        <filename>js/ie.js</filename>
+        <filename>js/tabcontent.js</filename>
 </css>
 
 </mosinstall>
