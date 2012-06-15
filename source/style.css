@@ -1,0 +1,137 @@
+/* CSS Document */
+body{padding:0; margin:12px 0 0; background:url(images/main-bg.gif) 0 0 repeat-x #fff; font:14px/20px "Trebuchet MS",Arial, Helvetica, sans-serif; color:#7D7D7D; }
+div, p, ul, h1, h2, h3, h4, h5, img{margin:0px; padding:0px;}
+ul{list-style-type:none;}
+
+#mainPan{width:778px; position:relative; margin:0 auto;}
+/*---TOP PANEL---*/
+#topPan{width:778px; height:185px;}
+#topleftPan{width:608px; margin:0; float:left; background:url(images/header.jpg) 0 0 no-repeat #FDFDFC; color:#fff;}
+#topleftPan h1{width:268px; height:131px; background:none; font:20px/22px Arial, Helvetica, sans-serif; padding:54px 0 0 340px; }
+#topleftPan h2{font:13px/20px Arial, Helvetica, sans-serif; display:block; border-top:1px solid #6CEC16; width:203px; position:absolute; top:105px; left:340px;}
+#topPan img{ width:229px; height:102px; display:block; margin:0; position:absolute; top:42px; left:61px;}
+
+
+#toprightPan{width:170px; height:185px; position:absolute; top:0px; right:0px;}
+#toprightPan ul{width:117px; height:147px; margin:18px 0 0;}
+#toprightPan ul li{height:30px; border-bottom:1px solid #CBCACA; line-height:29px;}
+#toprightPan ul li a{width:117px; display:block; background:url(images/arrow-normal.gif) 0 50% no-repeat #fff; color:#3B3B3B; text-decoration:none; padding:0 0 0 20px;}
+#toprightPan ul li a:hover{background:url(images/arrow-hover.gif) 0 50% no-repeat; text-decoration:none;}
+#toprightPan ul li.underlinenone{height:30px; border-bottom:none; line-height:29px;}
+
+
+/*---/TOP PANEL---*/
+
+/*---BODY PANEL---*/
+#bodytopPan{width:778px; height:138px; background:url(images/bodytop.jpg) 0 0 no-repeat;}
+/*---BodyTop Left Panel--*/
+#bodytopleftPan{width:608px; margin:0; float:left;}
+#bodytopleftPan h2{width:478px; height:26px; display:block; font:24px/24px Georgia, "Times New Roman", Times, serif; font-weight:bold; color:#39A002; background:#fff; margin:28px 0 30px 61px;}
+#bodytopleftPan h2 span{font-size:21px; line-height:24px; font-weight:normal;}
+#bodytopleftPan h3{width:116px; height:47px; display:block; background:url(images/icon1.jpg) 0 0 no-repeat #fff; color:#06507A; border-bottom:1px solid #E6E6E6; font-size:14px; line-height:14px ; margin:0 0 0 61px; padding:6px 0 0 100px; font-weight:bold; text-transform:uppercase;}
+#bodytopleftPan h3 span{background:#fff; color:#39A002; text-transform:none;}
+
+/*---/BodyTop Left Panel--*/
+
+/*---BodyTop Right Panel--*/
+#bodytoprightPan{width:170px; position:absolute; top:185px; right:0px;}
+#bodytoprightPan form{width:151px; height:119px; background:url(images/formarea.jpg) 0 0 no-repeat; margin:15px 0 0;}
+#bodytoprightPan input{width:100px; height:15px; line-height:14px; font-size:11px; margin:0 0 0 22px;}
+#bodytoprightPan input.button{width:103px; height:22px; background: url(images/button.gif) 0 0 no-repeat #fff; color:#fff; font:14px/18px Georgia, "Times New Roman", Times, serif; text-align:center; font-weight:bold; border:none; margin:14px 0 0 22px;}
+
+#bodytoprightPan form h2{width:100px; height:62px; display:block; background:url(images/icon5.jpg) 0 50% no-repeat #fff; color:#39A002; font:15px/52px Georgia, "Times New Roman", Times, serif; font-weight:bold; text-transform:uppercase; padding:0 0 0 33px; margin:0 0 0 19px;}
+
+/*---/BodyTop Right Panel--*/
+
+#bodyPan{width:778px;}
+/*---Body Left Panel--*/
+#bodyleftPan{width:608px; background: url(images/body-bg.gif) 0 0 repeat-y; margin:0; padding:0 0 40px;}
+#bodyleftPan p{padding:19px 61px 0;}
+#bodyleftPan p span.boldtext{font-weight:bold;}
+#bodyleftPan p.border{height:6px; background:url(images/line.gif) 0 100% repeat-x; margin:20px 61px; padding:0;}
+#bodyleftPan p.captiontext{font:16px/22px Georgia, "Times New Roman", Times, serif; background: url(images/body-bg.gif) 0 0 repeat-y #fff; color:#7D7D7D; font-style:italic; font-weight:bold;}
+#bodyleftPan p span.quetion{font-size:50px;}
+
+#bodyleftPan h2{width:478px; height:40px; display:block; font:21px/21px Georgia, "Times New Roman", Times, serif; font-weight:bold; color:#39A002; background:#fff; margin:0 0 0 61px;}
+#bodyleftPan h2 span{font-size:21px; line-height:21px; font-weight:normal;}
+#bodyleftPan h3{width:116px; height:47px; display:block; background:url(images/icon1.jpg) 0 0 no-repeat #fff; color:#06507A; border-bottom:1px solid #E6E6E6; font-size:14px; line-height:14px ; margin:20px 0 0 61px; padding:6px 0 0 100px; font-weight:bold; text-transform:uppercase;}
+#bodyleftPan h3 span{background:#fff; color:#39A002; text-transform:none;}
+#bodyleftPan h4{width:478px; height:40px; display:block; font:24px/24px Georgia, "Times New Roman", Times, serif; font-weight:bold; color:#39A002; background:#fff; margin:0 0 0 61px;}
+#bodyleftPan h5{width:200px; height:47px; display:block; background:url(images/icon4.jpg) 0 0 no-repeat #fff; color:#06507A; border-bottom:1px solid #E6E6E6; font-size:18px; line-height:24px ; margin:10px 0 10px 59px; padding:0 0 10px 100px; border-bottom:1px solid #E6E6E6;}
+#bodyleftPan h5 span{font-size:24px;}
+
+#bodyleftlinkboxonePan{width:400px; height:50px; display:block; margin:25px 0 0  61px; padding:0px;}
+#bodyleftlinkboxonePan ul{width:400px; height:28px; width:318px; height:24px;}
+#bodyleftlinkboxonePan ul li{display:block; width:156px; height:34px; float:left;}
+#bodyleftlinkboxonePan ul li.comments{width:110px; height:28px; display:block; background:url(images/icon2.jpg) 0 0 no-repeat #fff; color:#00456F; font-size:14px; font-weight:normal; padding:0 0 0 35px;}
+#bodyleftlinkboxonePan ul li.comments span.boldtext{font-weight:bold;}
+
+#bodyleftlinkboxonePan ul li.continue{width:134px; height:28px; background:url(images/icon3.jpg) 0 0 no-repeat; padding:2px 0 0 36px;}
+#bodyleftlinkboxonePan ul li.continue a{display:block; height:18px; background:#fff; color:#00456F; font-size:14px; font-weight:normal; text-decoration:none; float:left;}
+#bodyleftlinkboxonePan ul li.continue a:hover{display:block; height:18px; background:#F4F4F4; text-decoration:none;}
+
+
+#bodyleftlinkboxPan{width:400px; height:88px; display:block; margin:25px 0 0  61px; padding:0px;}
+#bodyleftlinkboxPan ul{width:400px; height:28px; width:318px; height:24px; margin:0px;}
+#bodyleftlinkboxPan ul li{display:block; height:34px; float:left;}
+#bodyleftlinkboxPan ul li.comments{width:110px; height:28px; display:block; background:url(images/icon2.jpg) 0 0 no-repeat #fff; color:#00456F; font-size:14px; font-weight:normal; padding:0 0 0 36px;}
+#bodyleftlinkboxPan ul li.comments span.boldtext{font-weight:bold;}
+
+#bodyleftlinkboxPan ul li.continue{width:134px; height:28px; background:url(images/icon3.jpg) 0 0 no-repeat; padding:2px 0 0 36px;}
+#bodyleftlinkboxPan ul li.continue a{display:block; height:18px; background:#fff; color:#00456F; font-size:14px; font-weight:normal; text-decoration:none; float:left;}
+#bodyleftlinkboxPan ul li.continue a:hover{display:block; height:18px; background:#F4F4F4; text-decoration:none;}
+
+#bodyleftpublicationPan{width:468px; margin:25px 0 0  61px; padding:0px;}
+#bodyleftpublicationPan h2{width:448px; height:70px; background:url(images/bullet1.gif) 0 0 no-repeat #fff; font-size:16px; font-family:"Trebuchet MS",Arial, Helvetica, sans-serif; font-weight:bold; margin:0; color:#7D7D7D; padding:0 0 0 40px;}
+#bodyleftpublicationPan h2 span{background:#fff; color:#06507A; font-size:14px;}
+
+#bodyleftpublicationPan h3{width:448px; height:70px; background:url(images/bullet2.gif) 0 0 no-repeat #fff; font-size:16px; line-height:20px; font-family:"Trebuchet MS",Arial, Helvetica, sans-serif; font-weight:bold; margin:0; color:#7D7D7D; padding:0 0 0 40px; text-transform:none; border:none;}
+#bodyleftpublicationPan h3 span{background:#fff; color:#06507A; font-size:14px; font-weight:normal;}
+
+#bodyleftpublicationPan h4{width:448px; height:70px; background:url(images/bullet3.gif) 0 0 no-repeat #fff; font-size:16px; line-height:20px; font-family:"Trebuchet MS",Arial, Helvetica, sans-serif; font-weight:bold; margin:0; color:#7D7D7D; padding:0 0 0 40px; text-transform:none;}
+#bodyleftpublicationPan h4 span{background:#fff; color:#06507A; font-size:14px; font-weight:normal;}
+
+#bodyleftpublicationPan h5{width:448px; height:70px; background:url(images/bullet4.gif) 0 0 no-repeat #fff; font-size:16px; line-height:20px; font-family:"Trebuchet MS",Arial, Helvetica, sans-serif; font-weight:bold; margin:0; color:#7D7D7D; padding:0 0 0 40px; text-transform:none; border:none;}
+#bodyleftpublicationPan h5 span{background:#fff; color:#06507A; font-size:14px; font-weight:normal;}
+
+
+#bodyleftpublicationPan p.dotline{background:url(images/dotline.gif) 0 0 repeat-x; margin:0 0 0 38px; padding:0;}
+/*---/Body Left Panel--*/
+
+/*---Body Right Panel--*/
+#bodyrightPan{width:170px; position:absolute; top:389px; right:0px;}
+#bodyrightPan ul{width:170px;} 
+#bodyrightPan ul li{width:170px; height:26px;}
+#bodyrightPan ul li a{width:150px; display:block; background:url(images/arrow2.gif) 0 50% no-repeat #fff; color:#3B3B3B; text-decoration:underline; padding:0 0 0 20px;}
+#bodyrightPan ul li a:hover{text-decoration:none;}
+/*---/Body Right Panel--*/
+
+/*---FOOTER PANEL--*/
+#footermainPan{height:174px; background:url(images/footerbg.gif) 0 0 repeat-x #777; color:#fff; margin:0; padding:0;}
+#footerPan{width:778px; position:relative; margin:0 auto;}
+#footerPan img{width:164px; height:69; position:absolute; top:37px; right:6px;}
+
+#footerPan ul{width:500px; position:absolute; top:36px; left:49px;}
+#footerPan li{float:left; font:12px/15px "Trebuchet MS",Arial, Helvetica, sans-serif; font-weight:normal;}
+#footerPan ul li a{padding:0 0 0 12px; color:#fff; background:#777777; text-decoration:none;}
+#footerPan ul li a:hover{text-decoration:underline;}
+
+#footerPan ul.templateworld{width:190px; background:#7D7D7D; color:#fff; display:block; position:absolute; top:120px; left:60px; }
+#footerPan ul.templateworld li{height:20px;}
+#footerPan ul.templateworld li a{background:#7D7D7D; display:block; color:#fff; text-decoration:none; padding:0px;}
+#footerPan ul.templateworld li a:hover{text-decoration:underline;}
+
+#footerPan p.copyright{background:#7D7D7D; color:#fff; font:11px/15px Tahoma,Arial, Helvetica, sans-serif; position:absolute; top:56px; left:61px;}
+
+#footerPanhtml{width:70px; height:24px; background:url(images/htmlbutton.gif) 0 0 no-repeat #7D7D7D; display:block; position:absolute; top:90px; left:61px;}
+#footerPanhtml a{width:59px; height:19px; background:url(images/arrow3-normal.gif) no-repeat 45px 4px #fff; display:block; position:absolute; top:3px; left:3px; margin:0; padding:0 0 0 5px; color:#353427; text-transform:uppercase; text-decoration:none;}
+#footerPanhtml a:hover{background:url(images/arrow3-hover.gif) no-repeat 45px 4px #fff; color:#353427; text-decoration:none;}
+
+#footerPancss{width:58px; height:24px; background:url(images/cssbutton.gif) 0 0 no-repeat #7D7D7D; display:block; position:absolute; top:90px; left:135px;}
+#footerPancss a{width:46px; height:19px; background: url(images/arrow3-normal.gif) no-repeat 35px 4px #fff; display:block; position:absolute; top:3px; left:3px; margin:0; padding:0 0 0 5px; color:#353427; text-transform:uppercase; text-decoration:none;}
+#footerPancss a:hover{background:url(images/arrow3-hover.gif) no-repeat 35px 4px #fff; color:#353427; text-decoration:none;}
+
+
+
+
+

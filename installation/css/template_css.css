@@ -1,173 +1,126 @@
 /*document settings*/
-body{margin:0;padding:0;background:url(../images/back.png) repeat;font-family:verdana,arial,sans-serif;line-height:1.7em}
-th,td,form,div,p{margin:0;padding:0;font-family:verdana;line-height:1.7em}
-ul{margin:0;padding:0 0 0 15px;list-style:square}
-li{margin:0;padding:0}
-a{padding:0px 0px 2px 0px;text-decoration:none}
+body{padding:0;margin:0;background:url(../images/main-bg.gif) 0 0 repeat-x #fff;font:14px/20px "Trebuchet MS",Arial,Helvetica,sans-serif;color:#7D7D7D}
+th,td,form,div,p{margin:0;padding:0;font-family:"Trebuchet MS";color:#7D7D7D}
+a{color:#3B3B3B;text-decoration:underline}
 a:hover{text-decoration:none}
+ul{margin:0;list-style:none;padding:0}
+li{margin:0;padding:0}
 
 /* position setting (tableless)*/
 .clr{clear:both}
 
-#container{width:100%;margin:0 auto;text-align:left;overflow:hidden}
+#container{width:778px;margin:0 auto;text-align:left}
+#spacer{width:778px;margin:0;float:left;overflow:hidden;height:12px}
 
-#container_left{width:100%;margin:0;background:url(../images/main_left.gif) top left repeat-y;float:left}
-#container_right{width:98.2%;margin:0;background:url(../images/main_right.gif) top right repeat-y;float:left;padding:0 7px}
+#topbox{width:778px;margin:0;background:url(../images/header.jpg) 0 0 no-repeat;text-align:left;float:left;height:185px}
+#box{width:607px;margin:0;float:left;height:185px}
 
-#header{margin:0;width:100%;float:left;height:28px;overflow:hidden}
+#logo1{margin:42px 0 0 61px;width:229px;float:left;height:102px;overflow:hidden}
+#logo1 h1,#logo1 h1 a{width:229px;height:102px}
+#logo1 h1{background:url(../images/logo.jpg) left top no-repeat;margin:0}
+#logo1 h1 a{display:block;text-indent:-5000px;background:none;border:none}
 
-#toolbar{margin:0 14px 0 0;width:90%;float:right;height:28px;overflow:hidden;font-size:0.8em}
-#toolbar,#toolbar td,#toolbar p{text-align:right;text-transform:uppercase}
-#toolbar a{padding:0 6px;border:none;text-decoration:none;line-height:26px}
-#toolbar a:hover{text-decoration:underline}
+#user7{width:253px;margin:0;float:left;text-align:left;overflow:hidden;color:#fff}
+#user7 .moduletable,#user7 h2{margin:0;padding:54px 0 0 50px;color:#fff;font:13px/20px Arial,Helvetica,sans-serif}
+#user7 .moduletable h3,#user7 h1{font:20px/22px Arial,Helvetica,sans-serif;margin:0;padding:0 0 7px;border-bottom:1px solid #6CEC16}
+#user7 h1{margin:54px 0 0 50px}
+#user7 h2{padding-top:0}
 
-#toolbar ul{padding:0;margin:0;list-style:none}
-#toolbar ul li{display:inline;padding:0;margin:0}
-#toolbar ul li a{line-height:28px}
+#toolbar{margin:18px 0 0;width:117px;height:167px;float:left}
+#toolbar a.mainlevel{width:97px;display:block;background:url(../images/arrow-normal.gif) 0 45% no-repeat;color:#3B3B3B;text-decoration:none;padding:0 0 0 20px;border-bottom:1px solid #CBCACA;line-height:29px}
+#toolbar a:hover.mainlevel{background:url(../images/arrow-hover.gif) 0 45% no-repeat;text-decoration:none}
+#toolbar ul,#toolbar ul li{margin:0;padding:0}
+#toolbar ul li a.mainlevel{margin-top:1px;margin-left:1px}
 
-#subheader{margin:0;width:100%;float:left;height:130px}
+#content,#content1{width:778px;margin:0;text-align:left;float:left;overflow:hidden;background:url(../images/body-bg.gif) 0 0 repeat-y}
+#content1{background:url(../images/bodytop.jpg) 0 0 no-repeat}
+#lbox,#top,#mainbody,#bottom,#user6{width:608px;margin:0;text-align:left;float:left;overflow:hidden}
+#mainbody{width:486px}
+#lbox .moduletable,#mainbody{margin:0;padding:19px 61px 5px}
+#lbox .moduletable h3,#mainbody .contentheading,#mainbody .componentheading{font:24px/24px Georgia;line-height:24px;font-weight:bold;margin:9px 0 12px;padding:0;color:#39A002}
+#lbox .moduletable h3 span{font:21px/24px Georgia;font-weight:normal}
+#lbox .moduletable span.boldtext{font-weight:bold}
+blockquote{font:16px/22px Georgia,"Times New Roman",Times,serif;background:url(images/body-bg.gif) 0 0 repeat-y #fff;color:#7D7D7D;font-style:italic;font-weight:bold;margin:20px 0}
+#lbox .moduletable h2{color:#06507A;font-size:18px;line-height:24px;border-bottom:1px solid #E6E6E6}
+#lbox .moduletable ul{margin:0;padding:0;font-size:16px;font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;font-weight:bold;color:#7D7D7D;text-decoration:none}
+#lbox .moduletable ul li{background:url(../images/dotline.gif) bottom left repeat-x;margin:0;padding:0 0 3px;line-height:24px}
+#lbox .moduletable ul li a,#lbox .moduletable a{text-decoration:none;color:#06507A;font-size:14px;font-weight:normal}
 
-#logo{margin:0;width:17.62%;float:left;height:100px;overflow:hidden}
-#logo h1,#logo h1 a{width:135px;height:130px}
-#logo h1{background:url(../images/image_1.jpg) left top no-repeat;margin:0}
-#logo h1 a{display:block;text-indent:-5000px;background:none;border:none}
+#rbox,#right,#user4,#left{width:170px;margin:0;text-align:left;float:left;overflow:hidden}
 
-#slogan{margin:0;width:44.99%;float:left;height:125px;overflow:hidden;background:url(../images/image_2.jpg) left top no-repeat}
+#user4{width:152px;height:125px;background:url(../images/formarea.jpg) 0 0 no-repeat #fff;margin:15px 0 0}
+#user4 .moduletable{margin:0;padding:0 19px}
+#rbox .moduletable h3{color:#39A002;font:15px/52px Georgia,"Times New Roman",Times,serif;font-weight:bold;text-transform:uppercase;padding:0 0 0 33px;margin:0}
+#user4 .moduletable input.inputbox{width:100px;height:15px;line-height:14px;font-size:11px;margin:0 0 0 3px}
+#user4 .moduletable input.button{width:103px;height:22px;background:url(../images/button.gif) 0 0 no-repeat #fff;color:#fff;font:14px/18px Georgia,"Times New Roman",Times,serif;text-align:center;font-weight:bold;border:none;margin:14px 0 0 3px}
 
-#slogan .moduletable,#slogan h2{padding:0 0 0 3px;margin:0;font-family:arial;font-size:1.1em;letter-spacing:0.2em;font-weight:bold}
-#slogan .moduletable h3,#slogan h1{padding:0;margin:27px 0 3px 0;text-transform:uppercase;font-size:1.5em;font-weight:normal}
-#slogan h2{font-size:1.1em}
-#slogan h1{font-size:1.5em;letter-spacing:0.2em;margin-bottom:5px}
+#left .moduletable,#right .moduletable{margin:10px 0 0;padding:0 0 10px 5px}
+#left .moduletable h3,#right .moduletable h3{padding:0;font:15px/30px Georgia;margin:0;font-weight:bold}
+#rbox .moduletable ul,#rbox .moduletable ul li{margin:0;padding:0}
+#rbox .moduletable ul li a{display:block;background:url(../images/arrow2.gif) 0 50% no-repeat #fff;color:#3B3B3B;text-decoration:underline;padding:0 0 0 20px;height:26px}
+#rbox .moduletable ul li a:hover{text-decoration:none}
 
-#color{margin:0;width:35.24%;float:right;height:125px;overflow:hidden;background:url(../images/image_3.jpg) right top no-repeat}
-#color a{border:none;padding:0}
+#footer_container{margin:0;float:left;width:100%;height:174px;background:url(../images/footerbg.gif) 0 0 repeat-x #777;color:#fff;overflow:hidden;text-align:left}
+#footer_container,#footer_container a,#footer_container div,#footer_container div,#footer_container p,#footer_container form{color:#fff;font-size:12px;text-decoration:none}
+#footer_container a:hover{text-decoration:underline}
+#footer_container1{margin:0 auto;overflow:hidden;width:778px}
 
-#tool1{margin:0;float:right;width:270px;overflow:hidden}
-#button1,#button2,#button3,#button4,#button5,#button6,#button7,#button8{margin:0;float:left;height:11px;width:11px}
-#button1{margin:5px 0 0 122px}
-#button2,#button3,#button4,#button5,#button6,#button7,#button8{margin:5px 0 0 7px}
+#footer_box,#user9,#footer{width:500px;margin:37px 0 0;float:left;overflow:hidden}
+#user9{margin:0 0 0 50px}
+#footer{margin:30px 0 0 60px}
+#user9 a.mainlevel{padding:0 10px;border-right:1px solid #fff;line-height:12px}
+#user9 ul,#user9 ul li{display:inline}
 
+#logo2{margin:37px 6px 0 0px;width:164px;float:right;height:69px;overflow:hidden}
+#logo2 h1,#logo2 h1 a{width:164px;height:69px}
+#logo2 h1{background:url(../images/footerlogo.jpg) left top no-repeat;margin:0}
+#logo2 h1 a{display:block;text-indent:-5000px;background:none;border:none}
 
-#nav{margin:-25px 0 0 0;height:30px;width:100%;float:left}
-#nav ul{list-style:none;margin:0;padding:0}
-#nav a span,.tips{display:none}
-/***SuckerFish menu***/
-#mainmenu{/*root list*/float:left}
-#mainmenu li{/*root list item*/position:relative;float:left;height:20px;text-decoration:none;padding:4px 19px 4px 19px;text-transform:uppercase;margin-right:5px}
-#mainmenu li a{text-decoration:none;border:none;font-size:0.8em}
-#mainmenu li:hover{/*hovered root list item*/}
-#mainmenu li.active{/*active root list item*/}
-#mainmenu li.active a,#mainmenu li.active a:hover{}
-#mainmenu li.active li a{}
-#mainmenu li ul{/*child list*/position:absolute;top:24px;left:-999em;height:auto;width:auto}
-#mainmenu li:hover ul,#mainmenu li.sfhover ul{/*active dropdown list from root list item*/z-index:100;left:-1px;top:28px}
-#mainmenu li ul ul{/*margin for pullout list*/margin:-27px 0 0 215px}
-#mainmenu li:hover ul ul,#mainmenu li:hover ul ul ul,#mainmenu li:hover ul ul ul ul,#mainmenu li.sfhover ul ul,#mainmenu li.sfhover ul ul ul,#mainmenu li.sfhover ul ul ul ul{/*not-active pullout list*/left:-999em}
-#mainmenu li li:hover ul,#mainmenu li li li:hover ul,#mainmenu li li li li:hover ul,#mainmenu li li.sfhover ul,#mainmenu li li li.sfhover ul,#mainmenu li li li li.sfhover ul{/*active pullout list from child list item*/z-index:100;left:0;padding-top:5px}
-#mainmenu li li{/*child list item*/float:left;width:140px;height:18px;border-bottom:none;margin:0;padding:5px 0 0 20px}
-#mainmenu li ul li a:hover{}
-#mainmenu li li:hover,#mainmenu li li.sfhover{/*hovered child list item*/display:block;padding:5px 0 0 20px;border-bottom:none}
-#mainmenu li li.active{/*active child list item*/display:block;padding:5px 0 0 20px;border-bottom:none}
-#mainmenu a,#mainmenu li a,#mainmenu span.mainlevel,#mainmenu span.sublevel{/*list and root list item link and placeholder*/display:block;position:relative;margin-left:0px;text-decoration:none;text-transform:uppercase;font-size:0.9em;font-weight:normal}
-#mainmenu a.topdaddy,#mainmenu span.topdaddy,#mainmenu li.active span.topdaddy,#mainmenu li.active a.topdaddy{/*root list item menu link and placeholder*/}
-#mainmenu a.daddy,#mainmenu li.active a.daddy,#mainmenu span.daddy,#mainmenu li.active span.daddy{/*child list item menu link and placeholder*/}
-#mainmenu li:hover a,#mainmenu li.sfhover a{/*link style of hovered root list item*/}
-#mainmenu li li a,#mainmenu li li span.sublevel{/*child list item link and placeholder*/width:140px;line-height:14px;text-align:left;border:none;font-size:0.9em}
-#mainmenu li li:hover a,#mainmenu li li.sfhover a{/*link style of hovered child list item*/}
-
-#content{margin:0;float:left;width:100%;overflow:hidden}
-#lbox,#top,#box1,#banner,#user8,#user9,#mainbody,#bottom{margin:0;float:left;width:71.2%;overflow:hidden}
-#top,#box1,#banner,#mainbody,#bottom{width:100%}
-
-#lbox .moduletable,#mainbody{margin:18px 19px 19px;padding:0;text-align:justify}
-#lbox .moduletable h3,#mainbody .contentheading,#mainbody .componentheading,#rbox .moduletable h3,#box2 .moduletable h3,#box3 .moduletable h3{font-family:arial,sans-serif;padding:0 0px 5px;margin:0 0 12px;font-size:1.5em;letter-spacing:.1em;text-transform:uppercase;font-weight:normal}
-#user8 .moduletable,#user9 .moduletable{padding:0;text-align:justify}
-#user8 .moduletable h3,#user9 .moduletable h3{font-size:1.2em}
-#banner a{border:none;padding:0}
-
-#mainbody{width:93.5%}
-#mainbody .contentheading,#mainbody .componentheading{margin:0;padding:0;font-size:1.4em}
-#mainbody .contentpaneopen,#mainbody .contentpane{width:100%}
-#mainbody .buttonheading a{border:none;margin:0;padding:0}
-blockquote{margin:20px 0;padding:5px 20px 7px;}
-
-#rbox,#left,#newsflash,#right,#tool2{margin:0;float:left;width:28.8%;overflow:hidden}
-#left,#newsflash,#right,#tool2{width:100%}
-#tool2{width:200px;height:41px;float:right}
-#rbox a,#tool2 a{border:none;text-decoration:none;padding:0}
-
-#button9,#button10,#button11,#spacer,#button12,#button13,#button14{margin:0;float:right;height:13px;width:14px}
-#button14{width:16px}
-#spacer{width:1px;background:#060606;margin:12px 10px 0 0;height:11px}
-#button14{margin:10px 20px 0 0}
-#button12,#button13{margin:10px 7px 0 0}
-#button11{margin:10px 8px 0 0}
-#button10{margin:10px 7px 0 0}
-#button9{margin:10px 6px 0 0}
-
-#rbox .moduletable{margin:0 19px 21px 3px;padding:13px 20px 15px}
-#rbox .moduletable h3,#box2 .moduletable h3,#box3 .moduletable h3{font-size:1.1em;border:none;margin:0 0 3px}
-#rbox .moduletable ul{list-style:none;padding:0}
-#rbox .moduletable ul li{padding:2px 0}
-#rbox .moduletable ul li a{background:url(../images/cog.png) 0 1px no-repeat;padding-left:22px}
-#rbox .moduletable ul li a:hover{padding-left:22px}
-#rbox .moduletable form{width:100%}
-
-#box2,#user1,#user2,#user3,#user4{margin:0;width:100%;float:left;overflow:hidden}
-#box2{padding:0 11px 0 13px;width:98.3%}
-#box2 .moduletable{padding:10px;height:148px;overflow:hidden}
-#box2 .moduletable{margin:10px 5px}
-
-#box,#box3,#user5,#user6,#user7{margin:0;width:100%;float:left;overflow:hidden}
-#box3{padding:0 10px;width:97.38%}
-#box3 .moduletable{padding:10px 10px 10px}
-#box3 .moduletable h3{font-size:1.1em;font-weight:bold;text-transform:none}
-
-#footer{margin:0;float:left;width:100%;padding:3px 0;overflow:hidden;font-size:0.9em;}
-#footer,#footer p,#footer td,#footer a{text-transform:uppercase;text-align:center}
-#footer a{border:none;padding:0}
-#footer a:hover{text-decoration:underline}
-
-#bottom_left{float:left;padding:17px 0 0 19px;margin:0;text-align:left}
-#bottom_left div{font-size:0.9em;text-align:left}
-#bottom_right{float:right;padding:0 19px 0 0;margin:0;text-align:right}
-#bottom_right div{font-size:0.9em;text-align:right}
+#bottom_left,#bottom_right{margin:0;padding:0}
 
 /*joomla settings*/
-.small,span.small,#mainbody .createdate,#mainbody .modifydate,.pagenavcounter{font-size:0.9em;color:#aaa;font-style:italic}
+.small,span.small,#mainbody .createdate,#mainbody .modifydate,.pagenavcounter{font-size:0.9em;font-style:italic}
 .back_button,.pagenav_prev,.pagenav_next{font-size:0.9em}
-.readon{float:right;text-transform:lowercase;background:url(../images/cog.png) 0 4px no-repeat;border:none;padding:0 0 0 20px;text-decoration:none}
-.readon:hover{border:none;text-decoration:none}
+.readon{height:28px;background:url(../images/icon.jpg) 0 0 no-repeat;padding:2px 0 0 36px;color:#00456F;font-size:14px;font-weight:normal;text-decoration:none;float:right}
+a:hover.readon{height:28px;background:url(../images/icon.jpg) 0 0 no-repeat #F4F4F4;text-decoration:none}
 
 .contentpane,.contentpaneopen{text-align:justify}
 
-.contenttoc{margin:10px 0 10px 10px;padding:0 10px}
-.contenttoc th{font-size:13px;text-align:center}
+.contenttoc{margin:7px 0 7px 7px;padding:0 10px;border:1px dotted #666}
+.contenttoc th{border-bottom:1px dotted #666;font-size:13px;color:#666;text-align:center}
 .contenttoc td{margin:5px 0 5px 14px;padding:2px 7px}
-.contenttoc a.toclink{text-decoration:none;font-weight:bold;border:none}
+.contenttoc a.toclink{text-decoration:none;font-weight:bold}
 
 .blog td{padding:2px}
-.blog_more{margin:0 3px 15px 13px;padding:3px 6px}
-.blog_more ul{margin:2px 0 2px 25px;list-style:none}
-.blog_more ul li{margin-left:0px}
-.blog_more ul li a.blogsection{text-decoration:none;border:none;background:url(../images/cog.png) 0 1px no-repeat;padding-left:25px}
+.blog_more{margin:0 3px 15px 13px;padding:3px 6px;border:1px dotted #666}
+.blog_more div{border-bottom:1px dotted #666}
+.blog_more ul{margin:2px 0 2px 34px}
+.blog_more ul li{margin-left:30px}
+.blog_more ul li a.blogsection{text-decoration:none}
 
 .syndicate div{text-align:center}
 select#mod_templatechooser_jos_change_template{width:142px}
+div.contact_email textarea#contact_text.inputbox{width:350px}
+.contentpane .inputbox{width:50%}
+.contentpane select.inputbox{width:55px}
 
 .pollstableborder td{line-height:25px;vertical-align:middle}
 .poll thead td{text-align:center}
 .poll .button{margin-top:5px}
+input{border:1px solid #eee;font:normal 1em Verdana,sans-serif;color:#777;padding:3px 2px}
+input.button{font:bold 12px Arial,Sans-serif;height:24px;margin:0;padding:2px 3px;color:#FFF;background:#8EB50C url(../images/button-bg.jpg) repeat-x 0 0;border:none}
 
-.sectiontableheader{font-weight:bold;padding:0 5px;height:20px;border-bottom:1px dashed #222;font-size:11px}
+.sectiontableheader{color:#FFF;background:#93BC0C;font-weight:bold;padding:0 5px;height:20px;border-bottom:1px dashed #222;font-size:12px}
 .sectiontablefooter{text-align:center}
+.sectiontableentry1 label{color:#333}
+.sectiontableentry2 label{color:#333}
 
 .pollstableborder{margin:0}
 .pollstableborder td{vertical-align:middle}
 .pollstableborder input{margin:0}
 
-.sectiontableentry1 td{padding:2px;text-align:left;line-height:25px}
+.sectiontableentry1,.sectiontableentry1 td{padding:2px;text-align:left;background:#EFEFEF;color:#333;line-height:25px}
 .sectiontableentry1 td a,.sectiontableentry2 td a{line-height:25px}
-.sectiontableentry2,.sectiontableentry2 td{padding:2px;text-align:left;line-height:25px}
+.sectiontableentry2,.sectiontableentry2 td{padding:2px;text-align:left;background:none;color:#333;line-height:25px}
 
 .tips{display:none}

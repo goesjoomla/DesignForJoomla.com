@@ -1,81 +1,46 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <mosinstall type="template">
 
-<name>tick_tock</name>
-<creationDate>February 2007</creationDate>
+<name>total_touch</name>
+<creationDate>February 2008</creationDate>
 <author>DesignForJoomla.com</author>
 <copyright>DesignForJoomla.com</copyright>
 <authorEmail>cuongnm@designforjoomla.com</authorEmail>
 <authorUrl>designforjoomla.com</authorUrl>
 <version>1.0</version>
-<description>Tick tock - Joomla template by DesignForJoomla.com</description>
+<description>Total Touch - Joomla template by DesignForJoomla.com</description>
 
 <files>
-    <filename>index.php</filename>
-    <filename>template_thumbnail.png</filename>
-    <filename>func/style/d4j_stylechanger.js</filename>
-    <filename>func/style/d4j_stylechanger_ie6.js</filename>
-    <filename>func/style/d4j_stylechanger.php</filename>
-    <filename>func/menu/d4j_menu.compact.js</filename>
-    <filename>func/menu/d4j_menu.php</filename>
-    <filename>func/menu/d4j_menu.js</filename>
-    <filename>func/menu/mainmenu.xml</filename>
+        <filename>index.php</filename>
+        <filename>template_thumbnail.png</filename>
 </files>
 
 <images>
-        <filename>images/b1.gif</filename>
-        <filename>images/b2.gif</filename>
-        <filename>images/b3.gif</filename>
-        <filename>images/b4.gif</filename>
-        <filename>images/b5.gif</filename>
-        <filename>images/b6.gif</filename>
-        <filename>images/b7.gif</filename>
-        <filename>images/b8.gif</filename>
-        <filename>images/b9.gif</filename>
-        <filename>images/b10.gif</filename>
-        <filename>images/b11.gif</filename>
-        <filename>images/b12.gif</filename>
-        <filename>images/b13.gif</filename>
-        <filename>images/b14.gif</filename>
-        <filename>images/back.png</filename>
-        <filename>images/blue_cog.png</filename>
-        <filename>images/blue_subheader.jpg</filename>
-        <filename>images/cog.png</filename>
-        <filename>images/green_cog.png</filename>
-        <filename>images/green_subheader.jpg</filename>
-        <filename>images/image_1.jpg</filename>
-        <filename>images/image_2.jpg</filename>
-        <filename>images/image_3.jpg</filename>
-        <filename>images/light_blue_footer.jpg</filename>
-        <filename>images/light_blue_header.jpg</filename>
-        <filename>images/light_green_footer.jpg</filename>
-        <filename>images/light_green_header.jpg</filename>
-        <filename>images/light_orange_footer.jpg</filename>
-        <filename>images/light_orange_header.jpg</filename>
-        <filename>images/light_violet_footer.jpg</filename>
-        <filename>images/light_violet_header.jpg</filename>
-        <filename>images/main_left.gif</filename>
-        <filename>images/main_right.gif</filename>
-        <filename>images/orange_cog.png</filename>
-        <filename>images/orange_subheader.jpg</filename>
-        <filename>images/violet_cog.png</filename>
-        <filename>images/violet_subheader.jpg</filename>
+        <filename>images/arrow2.gif</filename>
+        <filename>images/arrow-hover.gif</filename>
+        <filename>images/arrow-normal.gif</filename>
+        <filename>images/body-bg.gif</filename>
+        <filename>images/bodytop.jpg</filename>
+        <filename>images/button.gif</filename>
+        <filename>images/dotline.gif</filename>
+        <filename>images/footerbg.gif</filename>
+        <filename>images/footerlogo.jpg</filename>
+        <filename>images/formarea.jpg</filename>
+        <filename>images/header.jpg</filename>
+        <filename>images/icon.jpg</filename>
+        <filename>images/logo.jpg</filename>
+        <filename>images/main-bg.gif</filename>
 </images>
 
 <css>
         <filename>css/bottom.css.php</filename>
         <filename>css/footer.css.php</filename>
         <filename>css/template.css</filename>
+        <filename>css/d4j_dropdownmenu.css</filename>
+        <filename>css/d4j_transmenu.css</filename>
         <filename>css/template_css.css</filename>
         <filename>css/template_css_ie.css</filename>
-        <filename>css/template_css_blue.css</filename>
-        <filename>css/template_css_green.css</filename>
-        <filename>css/template_css_light_blue.css</filename>
-        <filename>css/template_css_light_green.css</filename>
-        <filename>css/template_css_light_orange.css</filename>
-        <filename>css/template_css_light_violet.css</filename>
-        <filename>css/template_css_orange.css</filename>
-        <filename>css/template_css_violet.css</filename>
+        <filename>css/template_css_ie7.css</filename>
 </css>
 
 </mosinstall>

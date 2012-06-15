@@ -1,4 +1,4 @@
-D4J Tick Tock template for Joomla! 1.0 series
+D4J Total Touch template for Joomla! 1.0 series
 ===============================================
 
 Install Git client by following the guide at the URL below:
@@ -9,7 +9,7 @@ Then, clone the repository at following URL:
 
 https://github.com/goesjoomla/DesignForJoomla.com.git
 
-Finally, checkout templates/tick_tock branch to get D4J Tick Tock.
+Finally, checkout templates/total_touch branch to get D4J Total Touch.
 
 --
 Manh-Cuong Nguyen
