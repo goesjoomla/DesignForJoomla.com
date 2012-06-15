@@ -1,33 +1,45 @@
-/* CSS SELECTORS FOR LAYOUT */
-
-/* ======================== WRAPPERS ======================== */
-#container{margin:0 auto;background:url(../images/abg_left.gif) repeat-y top left;min-height:545px}
-#container_outer{margin:0;background:url(../images/abg_right.gif) repeat-y top right;min-height:545px}
-#container_inner{margin:0 0 13px;text-align:left;overflow:hidden}
-
-/* ======================== COMMON ======================== */
-.clr{clear:both;height:0;overflow:hidden}
+.clearer{clear:both;width:0;height:0}
 .tips{display:none}
 
-/* ======================== HEADER ======================== */
-#header_outer{margin:0;float:left;width:100%;background:url(../images/upbg_left.gif) no-repeat top left;overflow:hidden;height:264px}
-#header_inner{margin:0;float:left;width:100%;background:url(../images/upbg_right.gif) no-repeat top right;overflow:hidden;height:264px}
-#header{margin:13px 0 0 0;width:100%;background:#FF7800 url(../images/a8.gif) repeat-x top left;float:left;overflow:hidden;height:92px}
-#button{margin:0;float:right;background:#EAEAE2 url(../images/a10.jpg) no-repeat top left;width:488px;border-left:7px solid white;height:93px}
+/* ======================= CONTAINER ===================== */
+#D4J_Container{width:100%}
 
-/* ======================== MENU ======================== */
-#menu{height:67px;padding:0px 20px 0px 5px;margin:0;float:left;width:70%;overflow:hidden;background:url(../images/a16_left.gif) no-repeat top left}
+/* ======================= TOPPAGE ======================= */
+#D4J_TopPage{background:url(../images/img02.jpg) repeat-x;height:310px;width:100%}
 
-/* ======================== BODY ======================== */
-#subheader{margin:6px 0 0 0;width:100%;background:url(../images/a16.gif) repeat-x top left;float:left;overflow:hidden;height:67px}
-#date{height:67px;line-height:52px;margin:0;padding:0 20px 0 0;float:right;background:url(../images/a16_right.gif) no-repeat top right;color:#BDBDA2;width:160px;overflow:hidden;font-weight:bold;font-size:1.1em;letter-spacing:-1px}
-#content{margin:-80px 0 15px 0;width:100%;overflow:hidden;float:right}
-#lbox,#top,#bottom,#mainbody{margin:0 0 0 30px;width:64%;overflow:hidden;float:left}
-#top,#bottom,#mainbody{width:100%;margin:0}
-#mainbody{padding:0 15px 20px;width:94%;margin-bottom:20px;background:url(../images/a33.gif) bottom left repeat-x}
-#rbox,#left,#right{margin:0;width:29%;float:right;overflow:hidden}
-#left,#right{width:100%;overflow:hidden}
+#D4J_MainMenu{height:60px;text-align:center;width:auto}
 
-/* ======================== FOOTER ======================== */
-#footer_outer{width:100%;background:#FAFAF8 url(../images/a50.gif) repeat-x top left;margin:0;overflow:hidden}
-#footer_inner{width:100%;background:url(../images/footer_left.gif) no-repeat top left;overflow:hidden}
+#D4J_HeaderImages{width:755px}
+#D4J_Header{background:url(../images/img04.jpg) no-repeat;width:224px;height:214px;float:left;margin-top:14px;overflow:hidden}
+#D4J_Banner{background:url(../images/img05.jpg) no-repeat;width:514px;height:215px;float:right;margin-top:14px;overflow:hidden}
+#D4J_Inset{float:left;position:absolute;z-index:100;top:240px;left:400px;width:460px;overflow:hidden;height:36px}
+
+/* ======================= SITETOOLS ===================== */
+#D4J_SiteTools{position:absolute;right:10px;top:265px}
+
+/* ======================= MAINPAGE ====================== */
+#D4J_MainPage{width:100%;background:#ffffff;padding-bottom:20px}
+#D4J_MainPage_In{width:755px}
+
+/* ----------------------- LEFTSIDE ====================== */
+#D4J_LeftSide{float:left;width:220px;text-align:left;margin-top:15px;overflow:hidden}
+
+/* ----------------------- RIGHTSIDE --------------------- */
+#D4J_RightSide{float:left;width:510px;text-align:left;margin:-5px 0 0 25px}
+
+#D4J_TopUsers,#D4J_CenterUsers,#D4J_Main{margin:20px 0 0 20px;width:475px}
+#D4J_Newsflash,#D4J_Top,#D4J_Bottom{width:510px;margin:20px 0 0 0}
+
+#D4J_User1,#D4J_User2,#D4J_User3,#D4J_User4,#D4J_User5,#D4J_User6,#D4J_User7,#D4J_User8,#D4J_User9,#D4J_Advert1,#D4J_Advert2,#D4J_Advert3{float:left;text-align:left;overflow:hidden;text-align:justify}
+
+#D4J_BottomUsers{margin-top:10px}
+
+/* ======================== BOTTOMPAGE ==================== */
+#D4J_BottomPage{background:url(../images/img07.jpg) top repeat-x;float:left}
+#D4J_FooterUsers{margin-top:20px;width:100%;color:#ffffff;padding:0 20px}
+
+#D4J_Footer{color:#ffffff;padding-bottom:40px;margin-top:20px}
+#D4J_Copyright{padding:10px 0 20px 10px}
+#bottom_left{float:left;text-align:left;padding:10px 0 0 10px}
+#bottom_left div{text-align:left}
+#bottom_right{text-align:right;padding:10px 5px 10px 0;margin-right:10px;float:right}

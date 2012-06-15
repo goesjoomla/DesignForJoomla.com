@@ -1,64 +1,48 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <mosinstall type="template">
 
-<name>terrafirma</name>
-<creationDate>January 2007</creationDate>
+<name>thecoffeeshop</name>
+<creationDate>4th July 2007</creationDate>
 <author>DesignForJoomla.com</author>
 <copyright>DesignForJoomla.com</copyright>
-<authorEmail>cuongnm@designforjoomla.com</authorEmail>
+<authorEmail>support@designforjoomla.com</authorEmail>
 <authorUrl>designforjoomla.com</authorUrl>
 <version>1.0</version>
-<description>Terrafirma - Joomla template by DesignForJoomla.com</description>
+<description>thecoffeeshop - Joomla template by DesignForJoomla.com</description>
 
 <files>
     <filename>index.php</filename>
     <filename>template_thumbnail.png</filename>
-    <filename>func/style/d4j_stylechanger.js</filename>
-	<filename>func/style/d4j_stylechanger.php</filename>
 </files>
 
 <images>
-        <filename>images/a1.gif</filename>
-        <filename>images/a1_ie.gif</filename>
-        <filename>images/a10.jpg</filename>
-        <filename>images/a16.gif</filename>
-        <filename>images/a16_left.gif</filename>
-        <filename>images/a16_right.gif</filename>
-        <filename>images/a18.gif</filename>
-        <filename>images/a22.gif</filename>
-        <filename>images/a33.gif</filename>
-        <filename>images/a38.gif</filename>
-        <filename>images/a50.gif</filename>
-        <filename>images/a8.gif</filename>
-        <filename>images/abg.gif</filename>
-        <filename>images/abg_left.gif</filename>
-        <filename>images/abg_right.gif</filename>
-        <filename>images/b1.gif</filename>
-        <filename>images/b2.gif</filename>
-        <filename>images/b3.gif</filename>
-        <filename>images/b4.gif</filename>
-        <filename>images/b5.gif</filename>
-        <filename>images/b6.gif</filename>
-        <filename>images/footer_left.gif</filename>
-        <filename>images/footer_right.gif</filename>
-        <filename>images/slogan.gif</filename>
-        <filename>images/spacer.gif</filename>
-        <filename>images/upbg.gif</filename>
-        <filename>images/upbg_left.gif</filename>
-        <filename>images/upbg_right.gif</filename>
+	<filename>images/banner.jpg</filename>
+<filename>images/header.gif</filename>
+<filename>images/img01.jpg</filename>
+<filename>images/img02.jpg</filename>
+<filename>images/img03.jpg</filename>
+<filename>images/img06.gif</filename>
+<filename>images/img07.jpg</filename>
+<filename>images/img08.jpg</filename>
+<filename>images/img09.gif</filename>
+
+
+	<filename>func/style/d4j_stylechanger.js</filename>
+	<filename>func/style/d4j_stylechanger.php</filename>
+	<filename>func/style/d4j_sitetools.php</filename>
 
 </images>
 
 <css>
-        <filename>css/base.css</filename>
-        <filename>css/bottom.css.php</filename>
-        <filename>css/custom.css</filename>
-        <filename>css/layout.css</filename>
-        <filename>css/footer.css.php</filename>
-		<filename>css/template.css</filename>
-        <filename>css/template_css.css</filename>
-        <filename>css/template_css_ie.css</filename>
-        <filename>css/template_css_ie7.css</filename>
+	<filename>css/template_css.css</filename>
+	<filename>css/bottom.css.php</filename>
+	<filename>css/footer.css.php</filename>
+	<filename>css/base.css</filename>
+	<filename>css/layout.css</filename>
+	<filename>css/custom.css</filename>
+	<filename>css/d4j_dropdownmenu.css</filename>
+	<filename>css/D4J_sitetools/site_tools.css</filename>
+	<filename>css/template.css</filename>
 </css>
 
 </mosinstall>

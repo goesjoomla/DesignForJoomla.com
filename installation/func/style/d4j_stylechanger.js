@@ -1,37 +1,36 @@
 var prefsLoaded = false;
-var defaultFontSize = 11;
+var defaultFontSize = 13;
 var currentFontSize = defaultFontSize;
-var defaultContainerWidth = 960;
-var currentContainerWidth = defaultContainerWidth;
+var defaultColor = 0;
+var currentColor = defaultColor;
+
+function changeColor(newColor){
+	if(currentColor != parseInt(newColor)){
+		currentColor = parseInt(newColor);
+		createCookie("color", currentColor, 30);		
+		window.location.reload();   		
+	}
+}
 
 function revertStyles(){
-
-        currentFontSize = defaultFontSize;
-        changeFontSize(0);
-
+	currentFontSize = defaultFontSize;
+	changeFontSize(0);
 }
 
 function changeFontSize(sizeDifference){
-        currentFontSize = parseInt(currentFontSize) + parseInt(sizeDifference);
+	currentFontSize = parseInt(currentFontSize) + parseInt(sizeDifference);
 
-        if(currentFontSize > 18){
-                currentFontSize = 18;
-        }else if(currentFontSize < 6){
-                currentFontSize = 6;
-        }
+	if(currentFontSize > 17){
+		currentFontSize = 17;
+	}else if(currentFontSize < 10){
+		currentFontSize = 10;
+	}
 
-        setFontSize(currentFontSize);
+	setFontSize(currentFontSize);
 };
 
 function setFontSize(fontSize){
-        document.body.style.fontSize = fontSize + 'px';
-};
-
-function changeContainerWidth(newWidth) {
-        var obj = document.getElementById('container');
-        currentContainerWidth = parseInt(newWidth);
-        if (currentContainerWidth == 0) obj.style.width = '96%';
-        else obj.style.width = currentContainerWidth + 'px';
+	document.body.style.fontSize = fontSize + 'px';
 };
 
 function createCookie(name,value,days) {
@@ -58,21 +57,19 @@ function readCookie(name) {
 window.onload = setUserOptions;
 
 function setUserOptions(){
-        if(!prefsLoaded){
-                userFontSize = readCookie("fontSize");
-                userContainerWidth = readCookie("containerWidth");
-	            currentFontSize = userFontSize ? userFontSize : defaultFontSize;
-                setFontSize(currentFontSize);
-                currentContainerWidth = userContainerWidth ? userContainerWidth : defaultContainerWidth;
-                changeContainerWidth(currentContainerWidth);
-                prefsLoaded = true;
-        }
+	if(!prefsLoaded){
+
+		userFontSize = readCookie("fontSize");		
+		currentFontSize = userFontSize ? userFontSize : defaultFontSize;
+		setFontSize(currentFontSize);		
+		prefsLoaded = true;
+	}
+
 }
 
 window.onunload = saveUserOptions;
 
 function saveUserOptions()
 {
-                createCookie("fontSize", currentFontSize, 30);
-                createCookie("containerWidth", currentContainerWidth, 30);
+	createCookie("fontSize", currentFontSize, 30);
 }

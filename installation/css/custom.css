@@ -1,46 +1,26 @@
-/* CSS SELECTORS FOR CUSTOMIZATION */
+/* ===================== MAINMENU =============================== */
+#D4J_MainMenu table{background:url(../images/img03.jpg) 0 -4px no-repeat}
 
-/* ======================== SLOGAN ======================== */
-#slogan{margin:0;float:left;background:url(../images/slogan.gif) no-repeat top left;width:33.5%;height:93px;color:#fff;overflow:hidden}
-#slogan .moduletable,#slogan h2{font-size:0.9em;margin:0;font-weight:normal;color:#FCE2CA;padding:30px 0 0 50px}
-#slogan .moduletable h3,#slogan h1{font-size:2.3em;color:white;margin:0 0 -3px 0;font-weight:bold;letter-spacing:-1px}
-#slogan h1{padding:30px 0 0 50px;font-size:2.1em}
-#slogan h2{padding:0px 0 0 50px}
-#slogan .moduletable h3 span,#slogan h1 span{font-weight:normal}
-#slogan .moduletable h3 sup,#slogan h1 sup{font-weight:bold;color:#FCE2CA;font-size:0.55em}
-#slogan h1 sup{font-size:0.5em}
+#D4J_Inset{color:#ffffff;font-size:1.7em;line-height:40px;text-align:right;font-style:italic}
 
-/* ======================== BUTTONS ======================== */
-#button1,#button2,#button3,#button4,#button5,#button6{margin:0;float:left;height:11px;width:17px}
-#button1{margin:5px 0 0 328px}
-#button2,#button3,#button4,#button5,#button6{margin:5px 0 0 5px}
+/* ===================== LEFTSIDE =============================== */
+#D4J_LeftSide .moduletable,#D4J_LeftSide .moduletable-nav{background:url(../images/img08.jpg) 0 21px repeat-x;margin-bottom:25px;padding:44px 20px 0 20px}
+#D4J_LeftSide .moduletable h3,#D4J_LeftSide .moduletable-nav h3{font-size:1.3em;color:#715558;margin:-46px 0 25px 0;background:none}
+#D4J_LeftSide .moduletable ul#mainlevel{list-style:none}
+#D4J_LeftSide .moduletable ul#mainlevel a,#D4J_LeftSide .moduletable-nav a.mainlevel,#D4J_LeftSide .moduletable-nav a.sublevel{display:block;width:182px;height:23px;padding:4px 0 5px 0}
+#D4J_LeftSide .moduletable ul#mainlevel a:hover,#D4J_LeftSide .moduletable-nav a.mainlevel:hover,#D4J_LeftSide .moduletable-nav a.sublevel:hover{background:url(../images/img06.gif) repeat-x left bottom}
+#D4J_LeftSide .moduletable-nav a.sublevel{margin-left:-4px;padding:4px 0 5px 20px;width:162px}
 
-/* ======================== MENU ======================== */
-#menu ul{margin-left:30px}
-#menu ul li{display:inline;line-height:52px;padding-left:3px;border-top:none}
-#menu ul li a{padding:8px 12px 8px 12px;font-size:1.1em;color:#fff;font-weight:bold}
-#menu ul li a:hover{background:#fff url(../images/a18.gif) repeat-x top;color:#4A4A24;text-decoration:none}
+/* ====================== RIGHTSIDE ============================= */
+#D4J_RightSide .moduletable h3{color:#715558;text-transform:uppercase;margin:0 0 20px 0;font-size:1em}
+#D4J_Newsflash .moduletable,#D4J_Top .moduletable,#D4J_Bottom .moduletable{background:url(../images/img08.jpg) 0 21px repeat-x;margin-bottom:25px;padding:44px 20px 0 20px}
+#D4J_Newsflash .moduletable h3,#D4J_Top .moduletable h3,#D4J_Bottom .moduletable h3{font-size:1.3em;color:#715558;margin:-46px 0 25px 0;background:none}
 
-/* ======================== LEFT COLUMNS ======================== */
-#left .moduletable,#right .moduletable{padding:0px 30px 0px 10px;margin-bottom:20px}
-#left .moduletable h3,#right .moduletable h3{font-size:1.45em;line-height:25px;color:#656551;letter-spacing:-1px;background:url(../images/a22.gif) bottom repeat-x;padding:0 0 0 7px;margin:2px 0 16px 0}
-#left .moduletable ul,#right .moduletable ul{margin:0 5px;padding:0}
-#left .moduletable ul li,#right .moduletable ul li{border-bottom:solid 1px #EEEEEE;padding-bottom:5px}
+#D4J_BottomUsers .moduletable h3{color:#715558;text-transform:uppercase;margin:0 0 20px 0;font-size:1em}
 
-/* ======================== RIGHT COLUMNS ======================== */
-#top .moduletable,#bottom .moduletable{background:url(../images/a33.gif) bottom left repeat-x;padding:0 15px 20px;margin-bottom:20px;text-align:justify}
-#top .moduletable h3,#bottom .moduletable h3,#mainbody .contentheading,#mainbody .componentheading{font-size:1.3em;line-height:25px;color:#656551;letter-spacing:-1px;background:url(../images/a22.gif) bottom repeat-x;font-weight:bold;padding:0px 0px 10px 15px;margin:18px -15px 16px -15px}
-#top .moduletable thead,#bottom .moduletable thead{text-align:center}
+/* ======================= FOOTER =============================== */
+#D4J_FooterUsers a{color:#ffffff}
+#D4J_FooterUsers .moduletable h3{text-transform:uppercase;margin:0 0 20px 0;font-size:1em}
 
-#mainbody .contentheading,#mainbody .componentheading{margin:0;padding:0 0 10px 0}
-#mainbody .contentheading,#mainbody .componentheading,#mainbody .contentpaneopen,#mainbody .contentpane{width:100%}
-#mainbody .buttonheading img{border:0px;margin:0px;padding:0}
-
-/* ======================== FOOTER ======================== */
-#footer{width:100%;background:url(../images/footer_right.gif) no-repeat top right;overflow:hidden;padding:10px 0;text-align:center;color:#A8A88D}
-#footer a{color:#8C8C73}
-
-#bottom_left{float:left;margin:0;padding:0 0 0 40px;text-align:left}
-#bottom_left div{font-size:1em;text-align:left}
-#bottom_right{float:right;margin:0;padding:0 40px 0 0;text-align:right}
-#bottom_right div{font-size:1em;text-align:right}
+#D4J_Footer,#D4J_Footer a{color:#ffffff}
+#D4J_Footer a{font-weight:bold;background:none}
