@@ -1,65 +1,36 @@
 /* CSS SELECTORS FOR CUSTOMIZATION */
 
 /* ======================== SLOGAN ======================== */
-#slogan,#slogan h1{margin:0;width:43%;float:left;height:60px;overflow:hidden;color:#286ea0;font-size:1.6em;font-weight:bold;padding:20px 0 0 15px;background:url(../images/slogan.gif) no-repeat 0 24px}
-#slogan h1{padding:0;font-size:1em;background:none}
+#slogan,#slogan h1{margin:8px 0 0;width:700px;float:left;height:40px;overflow:hidden;text-align:center;font-size:1.5em;font-weight:bold}
+#slogan h1{margin:0;font-size:1em}
 
 /* ======================== BUTTONS ======================== */
-#buttons{margin:-10px 0 0;width:80px;float:right}
-#button1,#button2,#button3,#button4,#button5,#button6{margin:0;height:11px;width:17px;float:left}
-#button1,#button2,#button3,#button4,#button5,#button6{margin:5px 0 0 6px}
-
-/* ======================== LOGO ======================== */
-#logo{margin:0;width:132px;float:left;height:60px;overflow:hidden}
-#logo h1,#logo h1 a{width:132px;height:60px}
-#logo h1{background:url(../images/logo.png) left top no-repeat;margin:0}
-#logo h1 a{display:block;text-indent:-5000px}
-
-/* ======================== SEARCH ======================== */
-#search_field #search{float:left;margin:0;width:268px}
-#search_field #text{float:left;margin:23px 0 0;width:96px;font-size:13px;color:#808080}
-#search_field #inputbox{float:left;margin:20px 0 0;width:107px}
-#search_field #inputbox input.inputbox{float:left;background:#FFF;color:#000;height:15px;margin:0;width:99%;padding-left:3px;padding-top:2px}
-#search_field #button{float:left;margin:0;width:39px}
-#search_field #button input.button{margin:20px 0 0 10px;width:39px;height:21px;border:none;background:none;float:left}
+#button{margin:0;float:left;width:700px;height:20px}
+#button1,#button2,#button3{margin:0;float:left;height:11px;width:17px}
+#button1{margin:3px 0 0 630px}
+#button2,#button3{margin:3px 0 0 5px}
 
 /* ======================== MENU ======================== */
-#menu ul{list-style:none;width:100%;float:right;margin:0 4px 0 0;padding:0;font-size:1.1em}
-#menu ul li{margin:0 0 4px;padding:6px 11px 0 20px;background:none}
-#menu ul li a{font-size:1em;font-weight:bold;text-align:right;height:20px;text-decoration:none;color:#808080;display:block;background:#fff;text-transform:lowercase}
-#menu ul li a:hover{color:#286ea0}
+#menu ul{margin:0 0 10px;padding:0;list-style-type:none;width:100%;white-space:nowrap;text-align:center}
+#menu ul li{font-size:1.1em;font-weight:bold;margin-left:4px;line-height:130%;display:inline}
+#menu ul li a{padding:2px 10px 2px 10px;text-decoration:none}
+#menu ul li a#active_menu1{background-color:#ffd380;border-left:1px solid #ffa600;border-right:1px solid #ffa600}
+#menu a:link,#menu a:visited{color:#000000}
+#menu a:hover{color:#000000;background:#ffa600}
 
 /* ======================== LEFT COLUMNS ======================== */
-#left,#right,#user6{width:100%}
-#left .moduletable,#right .moduletable{padding:5px 8px 10px 0;color:#6B6B6B;font-size:1em;line-height:1.6em}
-#left .moduletable h3,#right .moduletable h3,#user6 .moduletable h3{font-size:1.25em;margin:0 0 5px 0;;font-weight:bold;padding:2px 0 0;border-bottom:2px solid #eee}
-#user6 .moduletable{border:1px solid #ccc;background:#f4f4f4;padding:4px;margin:5px 8px 10px 0}
-#user6 .moduletable h3{border:none;font-size:1.1em}
+#top .moduletable,#bottom .moduletable{padding:0 10px 10px;margin-top:10px}
+#top .moduletable h3,#bottom .moduletable h3,#mainbody .contentheading,#mainbody .componentheading{font-size:1.1em;font-weight:bold;margin:0 0 4px 0;line-height:130%}
+
+#mainbody img{margin:15px}
+#mainbody .buttonheading img{border:0px;margin:0px;padding:0}
+blockquote{border-left:3px solid #ddd;padding:0 5px 0 15px}
 
 /* ======================== RIGHT COLUMNS ======================== */
-#newsflash .moduletable{padding:4px 0 0 11px;color:#5488BC;font-size:1.1em;line-height:1.4em}
-#newsflash .moduletable h3{margin:0 0 2px;font-size:1.2em;color:#3A6794}
-#newsflash .moduletable ul li,#user6 .moduletable ul li,#bottom .moduletable ul li{border:none}
-
-#user3 .moduletable,#user4 .moduletable,#top .moduletable{padding:4px 10px 10px;color:#6B6B6B;font-size:1.1em;line-height:1.6em}
-#user3 .moduletable h3,#user4 .moduletable h3,#top .moduletable h3,#mainbody .contentheading,#mainbody .componentheading,#bottom .moduletable h3{font-size:1.3em;margin:0 0 4px 0;padding:2px 0 0;border-bottom:2px solid #eee;font-weight:bold;color:#6B6B6B}
-#user3 .moduletable a,#user4 .moduletable a,#top .moduletable a{text-decoration:underline}
-#user3 .moduletable ul li a,#user4 .moduletable ul li a,#top .moduletable ul li a{font-size:0.9em;text-decoration:none}
-
-#mainbody td{line-height:1.6em}
-#mainbody .contentheading,#mainbody .componentheading,#mainbody .contentpaneopen,#mainbody .contentpane{width:100%}
-
-blockquote{border-left:3px solid #B60400;padding:0 15px}
-
-#bottom .moduletable{border:1px solid #819CD7;background:#CDE1F9;padding:6px}
-#bottom .moduletable h3{border:none}
+#left .moduletable,#right .moduletable{padding:4px 5px;border:1px solid #ffa600;margin-bottom:10px}
+#left .moduletable h3,#right .moduletable h3{font-size:90%;padding:0;margin:-4px -5px 5px;background:#ffd380;border-bottom:1px solid #ffa600;text-align:center}
+#left .moduletable ul,#right .moduletable ul{margin:0;padding:0;list-style:none}
 
 /* ======================== FOOTER ======================== */
-#footer td,#footer p{text-align:right}
-#footer a{text-decoration:underline;color:#3A6794}
-#footer a:hover{color:#000}
-
-#bottom_left{float:left;margin:0;padding:0;text-align:left}
-#bottom_left div{font-size:1em;text-align:left}
-#bottom_right{float:right;margin:0;padding:0;text-align:right}
-#bottom_right div{font-size:1em;text-align:right}
+#bottom_left,#bottom_right{float:left;margin:0;padding:0;text-align:left;width:100%}
+#bottom_left div,#bottom_right div{font-size:1em;text-align:left}

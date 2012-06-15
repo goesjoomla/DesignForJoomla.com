@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <mosinstall type="template">
 
-<name>small_studio</name>
+<name>speed_of_light</name>
 <creationDate>January 2007</creationDate>
 <author>DesignForJoomla.com</author>
 <copyright>DesignForJoomla.com</copyright>
 <authorEmail>cuongnm@designforjoomla.com</authorEmail>
 <authorUrl>designforjoomla.com</authorUrl>
 <version>1.0</version>
-<description>Small Studio - Joomla template by DesignForJoomla.com</description>
+<description>Speed of light - Joomla template by DesignForJoomla.com</description>
 
 <files>
     <filename>index.php</filename>
@@ -21,22 +21,7 @@
         <filename>images/b1.gif</filename>
         <filename>images/b2.gif</filename>
         <filename>images/b3.gif</filename>
-        <filename>images/b4.gif</filename>
-        <filename>images/b5.gif</filename>
-        <filename>images/b6.gif</filename>
-        <filename>images/bg_left.gif</filename>
-        <filename>images/bg_right.gif</filename>
-        <filename>images/bg1.gif</filename>
-        <filename>images/bg2.gif</filename>
-        <filename>images/button.gif</filename>
-        <filename>images/fade.gif</filename>
-        <filename>images/footer_left.gif</filename>
-        <filename>images/footer_right.gif</filename>
-        <filename>images/logo.png</filename>
-        <filename>images/pic.jpg</filename>
-        <filename>images/slogan.gif</filename>
-        <filename>images/strelica2.gif</filename>
-        <filename>images/topbox.gif</filename>
+        <filename>images/head.jpg</filename>
 </images>
 
 <css>

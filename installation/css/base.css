@@ -3,23 +3,20 @@
 /* ======================== COMMON ======================== */
 
 /* standard */
-body{margin:0;padding:0;font-family:Arial,Verdana,Sans-Serif;font-size:12px;background:#E7E7E7;color:#808080}
+body{margin:0;padding:0;color:#000;background:#f2f2f2;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:140%}
 p{margin:0;padding:0}
-th,td,form,div,body{margin:0;padding:0;font-family:Arial;color:#808080}
-ul{margin:0;padding:0;list-style:none}
-li{display:block;padding:0 0 4px 10px;margin:0 0 2px;border-bottom:1px dotted #ccc;font-size:0.9em;background:url(../images/strelica2.gif) no-repeat left center}
+th,td,form,div,body{margin:0;padding:0;color:#000;font-family:Arial;line-height:140%}
+ul{margin:5px 0 15px;padding:0 0 0 30px}
+li{margin:5px 0px 5px 0px;line-height:100%}
 label{vertical-align:baseline}
 
 /* link */
-a{text-decoration:none;color:#B60400}
-a:hover{color:#808080}
-
+a:link,a:visited,a:hover{color:#000}
 /* ======================== MORE ======================== */
 .blog td{padding:2px}
 .blog_more{margin:0 3px 15px 13px;padding:3px 6px;border:1px dotted #777}
 .blog_more div{border-bottom:1px dotted #777}
-.blog_more ul{margin:0 0 0 34px}
-.blog_more ul li{border:none;padding:0 0  0 15px}
+.blog_more ul{margin:2px 0 2px 34px}
 .blog_more ul li a.blogsection{text-decoration:none}
 
 
@@ -38,6 +35,7 @@ a:hover{color:#808080}
 .small,span.small,#mainbody .createdate,#mainbody .modifydate,.pagenavcounter{font-size:0.9em;font-style:italic}
 .back_button,.pagenav_prev,.pagenav_next{font-size:1em}
 select#mod_templatechooser_jos_change_template{width:142px}
+.inputbox,.button{margin:0;border:1px solid #ffa600;font-size:90%}
 
 /* ======================== POLL ======================== */
 
@@ -45,7 +43,7 @@ select#mod_templatechooser_jos_change_template{width:142px}
 .poll thead td{text-align:center}
 .poll .button{margin-top:5px}
 
-.sectiontableheader{color:#444;background:#D0DEF6;font-weight:bold;padding:0 5px;height:20px;border-bottom:1px dashed #222;font-size:12px}
+.sectiontableheader{color:#444;background:#ffd380;font-weight:bold;padding:0 5px;height:20px;border-bottom:1px dashed #222;font-size:12px}
 .sectiontablefooter{text-align:center}
 .sectiontableentry1 label{color:#333}
 .sectiontableentry2 label{color:#333}

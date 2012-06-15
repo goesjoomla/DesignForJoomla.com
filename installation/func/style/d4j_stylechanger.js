@@ -1,8 +1,7 @@
 var prefsLoaded = false;
-var defaultFontSize = 12;
+var defaultFontSize = 14;
 var currentFontSize = defaultFontSize;
-var defaultContainerWidth = 960;
-var currentContainerWidth = defaultContainerWidth;
+
 
 function revertStyles(){
 
@@ -27,12 +26,6 @@ function setFontSize(fontSize){
         document.body.style.fontSize = fontSize + 'px';
 };
 
-function changeContainerWidth(newWidth) {
-        var obj = document.getElementById('container');
-        currentContainerWidth = parseInt(newWidth);
-        if (currentContainerWidth == 0) obj.style.width = '96%';
-        else obj.style.width = currentContainerWidth + 'px';
-};
 
 function createCookie(name,value,days) {
   if (days) {
@@ -60,11 +53,8 @@ window.onload = setUserOptions;
 function setUserOptions(){
         if(!prefsLoaded){
                 userFontSize = readCookie("fontSize");
-                userContainerWidth = readCookie("containerWidth");
                 currentFontSize = userFontSize ? userFontSize : defaultFontSize;
                 setFontSize(currentFontSize);
-                currentContainerWidth = userContainerWidth ? userContainerWidth : defaultContainerWidth;
-                changeContainerWidth(currentContainerWidth);
                 prefsLoaded = true;
         }
 }
@@ -74,5 +64,4 @@ window.onunload = saveUserOptions;
 function saveUserOptions()
 {
                 createCookie("fontSize", currentFontSize, 30);
-                createCookie("containerWidth", currentContainerWidth, 30);
 }
