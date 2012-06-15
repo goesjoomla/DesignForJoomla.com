@@ -1,4 +1,4 @@
-D4J Total Touch template for Joomla! 1.0 series
+D4J Tower Eye template for Joomla! 1.0 series
 ===============================================
 
 Install Git client by following the guide at the URL below:
@@ -9,7 +9,7 @@ Then, clone the repository at following URL:
 
 https://github.com/goesjoomla/DesignForJoomla.com.git
 
-Finally, checkout templates/total_touch branch to get D4J Total Touch.
+Finally, checkout templates/tower_eye branch to get D4J Tower Eye.
 
 --
 Manh-Cuong Nguyen

@@ -1,0 +1,19 @@
+#logo h1{background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='templates/tower_eye/images/logo.png',sizingMethod='')}
+body{margin-bottom:10px}
+h4,h5{margin:15px 0 0 0;}
+
+#tnav{margin-left:100px}
+#tnav ul{width:76px;padding-left:8px;padding-top:10px}
+
+#login #user input.inputbox{height:19px;width:140px}
+#login #pass input.inputbox{height:19px;width:104px}
+
+#search #inputbox input.inputbox{height:19px;width:115px}
+#search #button input.button{margin:23px 0 0 9px}
+
+#text{margin:21px 0 0 40px;float:left;color:#000;font-weight:bold;font-size:12px}
+#connect{margin:2px 0 0 56px}
+
+#news .moduletable_newsflash h3{width:100%}
+#news{margin:35px 0 0 110px;padding-bottom:40px}
+#top{margin:0}
