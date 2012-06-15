@@ -1,0 +1,406 @@
+/* CSS Document */
+
+body{padding:0px; margin:0px; background:url(images/bg.gif) repeat-x #FFFFFF; font:14px/17px Arial, Helvetica, sans-serif; color:#919191;}
+div, ul, h1, h2, h3, li, p, img, a{margin:0; padding:0;}
+ul{list-style-type:none;}
+
+/*-----------------main pan---------*/
+#mainPan{width:778px; position:relative; margin:0 auto;}
+/*-------------------header pan------*/
+#headerPan{
+	width:778px;
+ 	height:223px;
+	}
+/*----------------left pan--------*/
+#leftPan{
+	width:189px;
+	height:223px;
+	background:url(images/left_side.gif) no-repeat 0 0 #FFFFFF; color:#7F7F7F;
+	float:left;
+	}
+#leftPan ul{
+	width:100px;
+	display:block;
+	padding:80px 0 0 86px;
+	font-size:0px;
+	float:left;
+	}
+#leftPan ul li{
+	float:left;
+	display:block;
+	}
+#leftPan ul li a{
+	height:20px;
+	display:block;
+	text-indent:-2222px;
+	}
+#leftPan ul li a.home{
+	background:url(images/home_icon.gif) no-repeat 0 0; width:23px; margin:7px 0 0 8px;
+	}
+#leftPan ul li a.home:hover{
+	background:url(images/home_icon_h.gif) no-repeat 0 0; width:23px;
+	}
+#leftPan ul li a.user{
+	background:url(images/user.gif) no-repeat 0 0; width:23px; margin:9px 0 0 11px;
+	}
+#leftPan ul li a.user:hover{
+	background:url(images/user_h.gif) no-repeat 0 0; width:23px;
+	}
+#leftPan ul li a.email{
+	background:url(images/email.gif) no-repeat 0 0; width:23px; margin:12px 0 0 10px;
+	}
+#leftPan ul li a.email:hover{
+	background:url(images/email_h.gif) no-repeat 0 0; width:23px;
+	}
+#leftPan ul.new{
+	width:147px;
+	display:block;
+	padding:90px 0 0 38px;
+	}
+#leftPan ul.new li{
+	display:block;
+	height:14px;
+	float:left;
+	width:73px;
+	}
+#leftPan ul.new li a{
+	font-family:Verdana, Arial, Helvetica, sans-serif;	font-size:11px;	line-height:12px; font-weight:bold;	text-decoration:none;
+	color:#7F7F7F; background-color:#FFFFFF; width:18px; display:block;	text-indent:0px; margin:3px 0 0 22px;
+	}
+#leftPan ul.new li a:hover{
+	color:#050505; background-color:#FFFFFF;
+	}
+/*------------------header middle-----------------------*/
+#middlePan{
+	background:url(images/header_pic.jpg) no-repeat 33px 73px #FFFFFF; color:#333333;
+	width:400px;
+	height:223px;
+	float:left;
+	}
+#middlePan img{
+	margin:13px 0 0 44px;
+	}
+/*----------------right side------------*/
+#right{
+	width:186px;
+	height:223px;
+	float:left;
+	background:url(images/right_side.gif) no-repeat 0 0;
+	}
+#right ul{
+	width:125px;
+	display:block;
+	float:left;
+	padding:85px 0 0 10px;
+	}
+#right ul li{
+	display:block;
+	background:url(images/tell.gif) no-repeat 0 0;
+	height:25px;
+	}
+#right ul li a{
+	font:11px/12px Arial, Helvetica, sans-serif;
+	color:#626262; background-color:#FFFFFF;
+	text-decoration:none;
+	margin:0 0 0 45px;
+	display:block;
+	text-transform:uppercase;
+	}
+#right ul.solu{
+	width:147px;
+	display:block;
+	padding:90px 0 0 2px;
+	}
+#right ul.solu li{
+	display:block;
+	height:14px;
+	float:left;
+	width:70px;
+	background:none;
+	margin:0 0 0 2px;
+	}
+#right ul.solu li a{
+	font-family:Verdana, Arial, Helvetica, sans-serif; background-color:#FFFFFF;
+	font-size:11px;	line-height:12px; font-weight:bold;	text-decoration:none; color:#7F7F7F;
+	width:18px;	display:block;	text-indent:0px; margin:2px 0 0 8px; 
+	text-transform:none;
+	}
+#right ul.solu li a:hover{
+	color:#050505; background-color:#FFFFFF;
+	}
+/*----------------------body---------------*/
+#body1{
+	width:778px;
+	}
+#body_leftbg{
+	background:url(images/body_leftbg.gif) repeat-y right top;
+	width:189px;
+	float:left;
+	height:480px;
+	}
+#body_leftbg h2{
+	height:31px; width:91px;
+	display:block;
+	font-family:"Trebuchet MS",Arial, Helvetica, sans-serif;
+	font-size:27px;
+	line-height:26px;
+	font-weight:normal;
+	color:#A68A33; background-color:#FFFFFF;
+	margin:20px 0 0 94px;
+	}
+#body_leftbg h3{
+	font:16px/18px Georgia, "Times New Roman", Times, serif;
+	font-weight:bold;
+	color:#272727; background-color:#FFFFFF;
+	height:18px;
+	margin: 13px 0 10px 50px;
+	display:block;
+	}
+#body_leftbg p{
+	width:112px;
+	margin:0 14px 0 63px;
+	font:14px/18px Arial, Helvetica, sans-serif;
+	color:#6D6D6D; background-color:#FFFFFF;
+	text-align:right;
+	}
+#body_leftbg a{
+	width:72px;
+	color:#538D00; background-color:#FFFFFF;
+	font:12px/17px Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	font-weight:bold;
+	margin:4px 14px 0 102px;
+	display:block;
+	}
+#body_leftbg a:hover{
+	text-decoration:underline;
+	}
+/*----------------body middle-------------*/
+#body_middle{
+	width:400px;
+	background:url(images/middle_bg.gif) no-repeat bottom #fff;
+	float:left; color:#919191;
+	height:483px;
+	}
+#body_middle h2{
+	height:30px;
+	display:block;
+	font-family:"Trebuchet MS",Arial, Helvetica, sans-serif;
+	font-size:27px;
+	line-height:17px;
+	font-weight:normal;
+	color:#A68A33; background-color:#FFFFFF; 
+	margin:21px 0 0px 33px;
+	}
+#body_middle p{
+	width:348px;
+	margin:20px 20px 0px 32px;
+	font-size:14px;
+	line-height:17px;
+	}
+#body_middle a{
+	width:72px;
+	color:#538D00; background-color:#FFFFFF;
+	font:12px/17px Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	font-weight:bold;
+	margin:0px 14px 0 293px;
+	display:block;
+	}
+#body_middle a:hover{
+	text-decoration:underline;
+	}
+#body_middle ul{
+	width:332px;  margin:16px 0 0 34px;
+	}
+#body_middle ul li{
+	background:url(images/01.gif) no-repeat #fff; border-bottom:#B7B7B7 1px dashed; border-top:#B7B7B7 1px dashed;
+	height:65px; padding:10px 0 0 0px; font:14px/17px Arial, Helvetica, sans-serif; color:#6C6C6C;
+	}
+#body_middle ul li strong{
+	color:#538D00; padding-left:8px; background-color:#FFFFFF;
+	}
+#body_middle ul li span{
+	width:56px; height:45px; display:block; background-color:#F3F3F3; float:left; margin:4px 10px 0 0px;
+	font:40px/45px Georgia, "Times New Roman", Times, serif; text-align:center; font-style:italic;
+	color:#979797;
+	}	
+#body_middle ul li a{
+	margin:0px 0 0 10px; font:11px/17px Arial, Helvetica, sans-serif; display:block; height:17px;
+	font-weight:bold; color:#A68A33; background:url(images/more_bg.gif) no-repeat center #FFFFFF;
+	text-decoration:none;  float:left; width:105px; padding-left:76px;
+	}
+#body_middle ul li a:hover{
+	text-decoration:underline;
+	}
+#body_middle ul li.li1{
+	background:url(images/02.gif) no-repeat #fff; border-bottom:#B7B7B7 1px dashed; 
+	height:65px; padding:10px 0 0 0px; font:14px/17px Arial, Helvetica, sans-serif; color:#6C6C6C;
+	}
+#body_middle ul li.li1 strong{
+	color:#538D00; padding-left:8px; background-color:#FFFFFF;
+	}
+#body_middle ul li.li1 span{
+	width:56px; height:45px; display:block; background-color:#F3F3F3; float:left; margin:4px 10px 0 0px;
+	font:40px/45px Georgia, "Times New Roman", Times, serif; text-align:center; font-style:italic; color:#979797; 
+	}	
+#body_middle ul li.li1 a{
+	margin:0px 0 0 10px;	font:11px/17px Arial, Helvetica, sans-serif; display:block; height:17px;
+	font-weight:bold; color:#A68A33; background:url(images/more_bg.gif) no-repeat center #FFFFFF;
+	text-decoration:none;  float:left; width:105px; padding-left:76px;
+	}
+#body_middle ul li.li1 a:hover{
+	text-decoration:underline;
+	}
+
+/*------------------------right----------------------*/
+#right_bg{
+	width:186px;
+	float:left;
+	height:480px;
+	background:url(images/right_bg.gif) repeat-y left;
+	}
+#right_bg h2{
+	height:31px; background-color:#FFFFFF;
+	display:block; width:118px;
+	font-family:"Trebuchet MS",Arial, Helvetica, sans-serif;
+	font-size:27px;	line-height:26px; font-weight:normal; color:#A68A33; margin:20px 0 0px 17px;
+	}
+#right_bg h3{
+	font:18px/17px Arial, Helvetica, sans-serif;
+	color:#538D00; background-color:#FFFFFF;
+	height:22px;
+	margin: 13px 0 0px 18px;
+	display:block;
+	font-weight:normal;
+	}
+#right_bg ul{
+	width:120px;
+	display:block;
+	font-size:0px;
+	margin:10px 0 0 17px;
+	}
+#right_bg ul li{
+	display:block;
+	height:24px;
+	background:url(images/arrow.gif) no-repeat 0 8px; padding:0 0 0 12px;
+	}
+#right_bg ul li a{
+	font:14px/24px Arial, Helvetica, sans-serif;
+	color:#6D6D6D; background-color:#FFFFFF;
+	text-decoration:underline;
+	}
+#right_bg ul li a:hover{
+	text-decoration:none;
+	}
+/*----------------------project-----------*/
+#project{
+	width:100%;
+	height:132px;
+	margin:0 auto 0 auto;
+	float:left;
+	background:url(images/project_bg.gif) repeat-x #FFFFFF; color:#A68A33;
+	}
+#project h2{
+	width:218px;
+	margin:24px auto 0 auto;
+	display:block;
+	background:url(images/project_h2.gif) no-repeat #FFFFFF;
+	font:27px/30px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#A68A33;
+	height:30px;
+	font-weight:normal;
+	padding-left:116px;
+	}
+#project ul{
+	width:320px;
+	height:43px;
+	display:block;
+	margin:0 auto 0 auto;
+	background-color:#FFFFFF; color:#362900;
+	padding:7px 0 0 14px;
+	}
+#project ul li{
+	display:block;
+	float:left;
+	margin-right:3px;
+	}
+#project ul.next{
+	height:28px; width:224px; display:block; margin:0 auto 0 auto;  padding:0 0 0 0; font-size:0px;
+	}
+#project ul.next li{
+	display:block;
+	float:left;
+	font:10px/17px Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	}
+#project ul.next a{
+	color:#362900; margin:0 4px 0 4px;	text-decoration:none; background-color:#FFFFFF;
+	}
+#project ul.next a:hover{
+	color:#A68A33; background-color:#FFFFFF;
+	}
+/*------------------------footer---------------*/
+#footer{
+	width:100%;
+	height:163px;
+	margin:0 auto 0 auto;
+	background:url(images/footer_bg.gif) repeat-x #979797;
+	float:left;
+	color:#FFFFFF;
+	font:11px/16px Arial, Helvetica, sans-serif;
+	}
+#footer ul{
+	width:472px;
+	margin:41px auto 0 auto;
+	display:block;
+	font-size:0px;
+	height:20px;
+	}
+#footer ul li{
+	display:block;
+	float:left;
+	height:16px;
+	font:13px/16px Arial, Helvetica, sans-serif;
+	}
+#footer ul li a{
+	margin:0 10px 0 10px; text-decoration:none;	color:#FCFCFC; background-color:#979797;
+	}
+#footer ul li a:hover{
+	text-decoration:underline;
+	}
+#footer ul.ad{
+	width:335px; margin:17px auto 0 auto; display:block; height:50px;
+	}
+#footer ul.ad li{
+	display:block;	float:left;	margin:0px 0 0 0; border-right:#FFFFFF 1px dashed;	height:37px;
+	}
+#footer ul.ad li.li1{
+	display:block;	float:left;	margin:0px 0 0 0; border-right:none; height:37px;
+	}
+#footer ul.ad li a.add{
+	font:10px/14px Tahoma, Arial, Helvetica, sans-serif; color:#353535;	text-decoration:none; font-weight:bold;
+	margin:0 10px 0 10px; background-color:#979797;
+	display:block;
+	}
+#footer ul.ad li a.add:hover{
+	text-decoration:none;
+	}
+#footer ul.ad li a.add span{
+	color:#FFDB5D; background-color:#979797; text-transform:uppercase;
+	}
+#footer p{
+	width:203px; margin:0 auto 0 auto;	display:block;
+	}
+#footer p.lk {
+	margin:0 auto; text-align:center;
+	}
+#footer p.lk a {
+	color:#fff; background-color:#979797; text-decoration:underline;
+	
+	
+	}
+#footer p a:hover {	
+	color:#000;
+	background-color:#C6C6C6;
+	}
