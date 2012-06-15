@@ -1,65 +1,54 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <mosinstall type="template">
 
-<name>trialservices</name>
-<creationDate>16th August 2007</creationDate>
+<name>visual_tomfoolery</name>
+<creationDate>February 2007</creationDate>
 <author>DesignForJoomla.com</author>
 <copyright>DesignForJoomla.com</copyright>
-<authorEmail>support@designforjoomla.com</authorEmail>
+<authorEmail>cuongnm@designforjoomla.com</authorEmail>
 <authorUrl>designforjoomla.com</authorUrl>
 <version>1.0</version>
-<description>trialservices - Joomla template by DesignForJoomla.com</description>
+<description>Visual Tomfoolery - Joomla template by DesignForJoomla.com</description>
 
 <files>
     <filename>index.php</filename>
-    <filename>template_thumbnail.png</filename>
-	<filename>func/style/d4j_sitetools.php</filename>
+	<filename>template_thumbnail.png</filename>
+	<filename>func/menu/d4j_menu.compact.js</filename>
+	<filename>func/menu/d4j_menu.js</filename>
+	<filename>func/menu/d4j_menu.php</filename>
+	<filename>func/menu/mainmenu.xml</filename>
 	<filename>func/style/d4j_stylechanger.js</filename>
 	<filename>func/style/d4j_stylechanger.php</filename>
 </files>
 
 <images>
-	<filename>images/blank.gif</filename>
-<filename>images/blue-hover.jpg</filename>
-<filename>images/blue-normal.jpg</filename>
-<filename>images/button.gif</filename>
-<filename>images/css-img.gif</filename>
-<filename>images/dot-line.gif</filename>
-<filename>images/footer.gif</filename>
-<filename>images/green-hover.jpg</filename>
-<filename>images/green-normal.jpg</filename>
-<filename>images/html-img.gif</filename>
-<filename>images/line.gif</filename>
-<filename>images/logo.gif</filename>
-<filename>images/more2.gif</filename>
-<filename>images/more.gif</filename>
-<filename>images/name.gif</filename>
-<filename>images/orange-hover.jpg</filename>
-<filename>images/orange-normal.jpg</filename>
-<filename>images/seperate.gif</filename>
-<filename>images/symbol2.gif</filename>
-<filename>images/symbol.jpg</filename>
-<filename>images/testimonial-bg.gif</filename>
-<filename>images/testimonial-bg2.gif</filename>
-<filename>images/sitetools.gif</filename>
-
-
-	<filename>images/site_tools/biggerFont.gif</filename>
-	<filename>images/site_tools/normalFont.gif</filename>
-	<filename>images/site_tools/smallerFont.gif</filename>
+	<filename>images/b1.gif</filename>
+	<filename>images/b2.gif</filename>
+	<filename>images/b3.gif</filename>
+	<filename>images/b4.gif</filename>
+	<filename>images/b5.gif</filename>
+	<filename>images/b6.gif</filename>
+	<filename>images/bodybg.gif</filename>
+	<filename>images/border.gif</filename>
+	<filename>images/butterfly.jpg</filename>
+	<filename>images/down_arrow.gif</filename>
+	<filename>images/down_arrow1.gif</filename>
+	<filename>images/header.gif</filename>
+	<filename>images/line.gif</filename>
+	<filename>images/right_arrow.gif</filename>
+	<filename>images/slogan.gif</filename>
 </images>
 
 <css>
-	<filename>css/template_css.css</filename>
-	<filename>css/template.css</filename>
-	<filename>css/d4j_transmenu.css</filename>	
-	<filename>css/d4j_dropdownmenu.css</filename>
-	<filename>css/bottom.css.php</filename>	
-	<filename>css/footer.css.php</filename>
 	<filename>css/base.css</filename>
-	<filename>css/layout.css</filename>
+	<filename>css/bottom.css.php</filename>
 	<filename>css/custom.css</filename>
-	<filename>css/D4J_sitetools/site_tools.css</filename>
+	<filename>css/footer.css.php</filename>
+	<filename>css/layout.css</filename>
+	<filename>css/template.css</filename>
+	<filename>css/template_css.css</filename>
+	<filename>css/template_css_ie.css</filename>
+	<filename>css/template_css_ie7.css</filename>
 </css>
 
 </mosinstall>

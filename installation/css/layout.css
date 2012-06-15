@@ -1,52 +1,26 @@
 /* CSS SELECTORS FOR LAYOUT */
 
-.clearer{clear:both;height:0}
+/* ======================== WRAPPERS ======================== */
+#container,#container_inner{margin:0px auto;padding:0;background:#101010 url(../images/border.gif) top left repeat-y;color:#a3b2ba;text-align:left;overflow:hidden}
+#container_inner{margin:0;background:url(../images/border.gif) top right repeat-y;width:100%;color:#a3b2ba}
+
+/* ======================== COMMON ======================== */
+.clr{clear:both;height:0;overflow:hidden}
 .tips{display:none}
-/* ======================== CONTAINER ======================== */
-#D4J_Container{width:758px;text-align:left}
 
-/* ======================== HEADER =========================== */
-#D4J_Header{height:112px;background:url(../images/line.gif) 0 45px repeat-x}
+/* ======================== HEADER ======================== */
+#user9{margin:18px 20px 0;width:95%;float:right;height:26px;color:#999;overflow:hidden}
+#header,#slogan,#buttons{margin:0;float:left;width:100%;height:127px;background:url(../images/header.gif) top left repeat-x;overflow:hidden}
 
-/* ======================== LOGO ============================= */
-#D4J_Logo{float:left;margin-left:20px}
-
-/* ======================== MAINMENU ========================= */
-#D4J_MainMenu{float:right}
-
-/* ======================== TOPUSERS ========================= */
-#D4J_TopUsers{float:left}
-#D4J_User1,#D4J_User2,#D4J_User3{float:left;display:block;width:246px;height:263px;overflow:hidden;margin-left:10px}
-#D4J_User1{margin-left:0;background:url(../images/orange-normal.jpg) no-repeat}
-#D4J_User2{background:url(../images/green-normal.jpg) no-repeat}
-#D4J_User3{background:url(../images/blue-normal.jpg) no-repeat}
-
-/* ======================== ABOUT US ========================= */
-#D4J_AboutUs{background:url(../images/symbol.jpg) 60px 60px no-repeat;min-height:210px;float:left;padding:0 0 20px 202px;width:556px;overflow:hidden}
-
-/* ======================== MAIN BODY ======================== */
-#D4J_MainBody{width:100%}
-
-/* ======================== LEFT SIDE ======================== */
-#D4J_LeftSide{float:left;width:463px}
-
-#D4J_Top,#D4J_Banner,#D4J_Main,#D4J_Bottom{margin-bottom:20px}
-
-/* ======================== RIGHT SIDE ======================== */
-#D4J_RightSide{float:left;width:230px;margin-left:22px}
-
-/* ======================== BOTTOM USERS ====================== */
-#D4J_BottomUsers{margin-top:10px}
-#D4J_User4,#D4J_User5,#D4J_User6{float:left;margin-left:10px}
-#D4J_User4{margin-left:0}
-
-/* ======================== BOTTOM PAGE ======================= */
-#D4J_BottomPage{color:#4C4C4C;font-size:12px;height:140px;overflow:hidden}
-
-#D4J_Validate{float:left;margin-top:37px}
-#D4J_RightBottomPage{text-align:right;margin-top:37px}
-#D4J_RightBottomPage #D4J_Footer_Left div{text-align:right}
-
-/* ======================== SITE TOOLS ======================== */
-#D4J_Sitetools{position:fixed;bottom:0px;right:10px;height:25px}
-#D4J_Tools{display:none;position:fixed;bottom:20px;right:10px;width:21px}
+/* ======================== BODY ======================== */
+#buttons{float:right;width:482px;background:url(../images/butterfly.jpg) top right no-repeat}
+#mainmenu{margin:5px 26px 10px;float:left;width:95%;height:auto;padding-bottom:10px}
+#subheader,#user1,#user2,#user3{margin:0;float:left}
+#subheader{width:100%}
+#content,#lbox,#top,#mainbody,#bottom{margin:0;float:left;width:67%;overflow:hidden}
+#content,#top,#bottom{width:100%}
+#mainbody{width:92.88%}
+#rbox,#right,#left{margin:0;float:left;width:33%;overflow:hidden}
+#right,#left{width:100%}
+/* ======================== FOOTER ======================== */
+#footer{float:left;margin:0 5px;width:97.2%;padding:10px 5px;overflow:hidden;border-top:1px dotted #888;font-size:0.9em}
