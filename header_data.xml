@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root url="templates/warm_christmas/images/">
+	<media>
+		<filename><![CDATA[header_0.jpg]]></filename>
+		<path><![CDATA[header/header_0.jpg]]></path>
+	</media>
+	<media>
+		<filename><![CDATA[header_1.jpg]]></filename>
+		<path><![CDATA[header/header_1.jpg]]></path>
+	</media>
+	<media>
+		<filename><![CDATA[header_2.jpg]]></filename>
+		<path><![CDATA[header/header_2.jpg]]></path>
+	</media>
+	<media>
+		<filename><![CDATA[header_3.jpg]]></filename>
+		<path><![CDATA[header/header_3.jpg]]></path>
+	</media>
+	<media>
+		<filename><![CDATA[header_4.jpg]]></filename>
+		<path><![CDATA[header/header_4.jpg]]></path>
+	</media>
+</root>

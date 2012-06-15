@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="template">
+
+<name>warm_christmas</name>
+<creationDate>08th October 2006</creationDate>
+<author>DesignForJoomla.com</author>
+<copyright>DesignForJoomla.com</copyright>
+<authorEmail>support@designforjoomla.com</authorEmail>
+<authorUrl>designforjoomla.com</authorUrl>
+<version>1.0</version>
+<description>Warm Christmas - Joomla template by DesignForJoomla.com</description>
+
+<files>
+    <filename>index.php</filename>
+    <filename>template_thumbnail.png</filename>
+    <filename>tooltip_text.js</filename>
+    <filename>wz_tooltip.js</filename>
+    <filename>header.swf</filename>
+    <filename>header_data.xml</filename>
+	<filename>swfobject.js</filename>
+</files>
+
+<images>
+	<filename>images/header/header_0.jpg</filename>
+	<filename>images/header/header_1.jpg</filename>
+	<filename>images/header/header_2.jpg</filename>
+	<filename>images/header/header_3.jpg</filename>
+	<filename>images/header/header_4.jpg</filename>
+	<filename>images/button_bg.gif</filename>
+	<filename>images/emailButton.png</filename>
+	<filename>images/header_image.jpg</filename>
+	<filename>images/arrow.png</filename>
+	<filename>images/list_bullet.gif</filename>
+	<filename>images/logo.gif</filename>
+	<filename>images/mainlevel_over.gif</filename>
+	<filename>images/module_trees.gif</filename>
+	<filename>images/moduletable_bg.gif</filename>
+	<filename>images/pathway_trees.gif</filename>
+	<filename>images/pdf_button.png</filename>
+	<filename>images/printButton.png</filename>
+	<filename>images/spacer.gif</filename>
+	<filename>images/sublevel_over.gif</filename>
+	<filename>images/h_div.gif</filename>
+	<filename>images/h_dotdiv.gif</filename>
+	<filename>images/v_div.gif</filename>
+	<filename>images/v_dotdiv.gif</filename>
+	<filename>images/indent1.png</filename>
+	<filename>images/main_bg.jpg</filename>
+	<filename>images/body_bg.gif</filename>
+</images>
+
+<css>
+	<filename>css/template_css.css</filename>
+	<filename>css/bottom.css.php</filename>
+	<filename>css/footer.css.php</filename>
+</css>
+
+</mosinstall>
+
