@@ -1,38 +1,43 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <mosinstall type="template">
 
-<name>sunflower</name>
-<creationDate>10 January 2007</creationDate>
+<name>sunny_flower</name>
+<creationDate>January 2007</creationDate>
 <author>DesignForJoomla.com</author>
 <copyright>DesignForJoomla.com</copyright>
-<authorEmail>support@designforjoomla.com</authorEmail>
+<authorEmail>cuongnm@designforjoomla.com</authorEmail>
 <authorUrl>designforjoomla.com</authorUrl>
 <version>1.0</version>
-<description>sunflower- Joomla template by DesignForJoomla.com</description>
+<description>Sunny flower - Joomla template by DesignForJoomla.com</description>
 
 <files>
     <filename>index.php</filename>
     <filename>template_thumbnail.png</filename>
+    <filename>func/style/d4j_stylechanger.js</filename>
+    <filename>func/style/d4j_stylechanger.php</filename>
 </files>
 
 <images>
-	<filename>images/bg.jpg</filename>
-	<filename>images/top.jpg</filename>
-	<filename>images/border_l.jpg</filename>
-	<filename>images/border_r.jpg</filename>
-	<filename>images/square.gif</filename>
-	<filename>images/vline.gif</filename>
-	<filename>func/style/d4j_stylechanger.js</filename>
-	<filename>func/style/d4j_stylechanger.php</filename>
+        <filename>images/b1.gif</filename>
+        <filename>images/b2.gif</filename>
+        <filename>images/b3.gif</filename>
+        <filename>images/flower.jpg</filename>
+        <filename>images/indent1.png</filename>
+        <filename>images/indent2.png</filename>
+        <filename>images/line.jpg</filename>
+        <filename>images/navtab.gif</filename>
+        <filename>images/navtab1.gif</filename>
+        <filename>images/subheader.gif</filename>
 </images>
 
 <css>
-	<filename>css/template_css.css</filename>
-	<filename>css/bottom.css.php</filename>
-	<filename>css/footer.css.php</filename>
-	<filename>css/base.css</filename>
-	<filename>css/layout.css</filename>
-	<filename>css/custom.css</filename>
+        <filename>css/base.css</filename>
+        <filename>css/bottom.css.php</filename>
+        <filename>css/custom.css</filename>
+        <filename>css/layout.css</filename>
+        <filename>css/footer.css.php</filename>
+        <filename>css/template_css.css</filename>
+        <filename>css/template_css_ie.css</filename>
 </css>
 
 </mosinstall>

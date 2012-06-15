@@ -1,0 +1,221 @@
+/*======================================*
+** stylesheet.css
+**======================================*/
+
+/*---------------------------------------*
+** Created: 26-04-2006
+** Author: M S Rahman
+** Website: webain.co.uk
+**======================================*/
+
+
+/*------------------------------------------------------------*
+**  Global
+**------------------------------------------------------------*/
+body {
+	font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+	font-size: 83%;
+	margin: 0px;
+	padding: 0px;
+	background-color: #3A5D73;
+}
+#wrapper {
+	width: 656px;
+	margin: auto;
+}
+img { border: 0; }
+h2 {
+	color: #9CDF18;
+	font-size: 1.5em;
+	font-weight: normal;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	}
+a {
+	text-decoration: underline;
+	color: #8FCE45;
+}
+a:hover {
+	text-decoration:none;
+}
+/*------------------------------------------------------------*
+**  Header
+**------------------------------------------------------------*/
+#divBanner{
+	height: 140px;
+	margin-top: 40px;
+	border: 5px solid #FFFFFF;
+	padding: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	background-image: url(images/sunflower.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+#divlogo {
+	height: 95px;
+	margin-top: 40px;
+	border: 5px solid #FFFFFF;
+	text-align: center;
+	padding-top: 45px;
+	font-size: 3em;
+
+}
+span.ain {
+	color: #92D340;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #92D340;
+}
+span.web {
+	color: #FFC605;
+}
+/*------------------------------------------------------------*
+**  Column Left
+**------------------------------------------------------------*/
+#colLeft {
+	width: 174px;
+	height: 600px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #32556B;
+	padding: 0px;
+	float: left;
+	margin: 0px;
+	background-color: #3A5D73;
+}
+
+/*------------------------------------------------------------*
+**  Content Middle
+**------------------------------------------------------------*/
+#divMainContent {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+/*------------------------------------------------------------*
+**  Column Right
+**------------------------------------------------------------*/
+#colRight {
+	background-color: #32556B;
+	height: 600px;
+	width: 475px;
+	float: left;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+}
+
+/*------------------------------------------------------------*
+**  Navigation
+**------------------------------------------------------------*/
+#Navigation {
+	padding: 0px;
+	margin-top: 40px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 175px;
+}
+#Navigation ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#Navigation li {
+	display: block;
+}
+
+#Navigation ul li a  {
+	color: #FFFFFF;
+	display: block;
+	text-decoration: none;
+	font-size: 14px;
+	background-color: #32556B;
+	border-left-width: 5px;
+	border-left-style: solid;
+	border-left-color: #32556B;
+	height: 15px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 25px;
+	margin: 0px;
+	border-right-width: 5px;
+	border-right-style: solid;
+	border-right-color: #32556B;
+	padding-right: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #3A5D73;
+	background-image: url(images/icons/arrow.gif);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+#Navigation ul li a:hover,  #Navigation ul li  a.current {
+	background-color: #365D7A;
+	border-right-width: 5px;
+	border-right-style: solid;
+	border-right-color: #FFFFFF;
+	border-left-width: 5px;
+	border-left-style: solid;
+	border-left-color: #365D7A;
+	color: #B4FF05;
+}
+
+
+/*------------------------------------------------------------*
+**  Footer
+**------------------------------------------------------------*/	
+#footer {
+	height: 22px;
+	clear: both;
+	border: 1px solid #32556B;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 3px;
+}
+/*------------------------------------------------------------*
+**  End_of
+**------------------------------------------------------------*/	
+
+.title {
+	font-size: 17px;
+	color: #B4FF05;
+	height: 20px;
+	padding-top: 20px;
+	background-image: url(images/line.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	font-weight: bold;
+}
+.allpara {
+	background-image: url(images/line.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	padding-bottom: 15px;
+	color: #9DC1D9;
+	margin: 0px;
+}
+.smallSpacer {
+	height: 600px;
+	width: 5px;
+	float: left;
+}
+#menuTab {
+	color:#32556B;
+	font-size:1.2em;
+	text-align:center;
+	background-image: url(images/navtab.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 175px;
+	height: 25px;
+	padding-top: 2px;
+}
