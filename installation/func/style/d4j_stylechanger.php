@@ -3,24 +3,29 @@
 // no direct access
 defined( '_VALID_MOS' ) or die( 'Restricted access' );
 
-global $colors;
-
 // set font size
 $defaultFontSize = 13;
 $currentFontSize = $defaultFontSize;
 $userOptions['fontSize'] = intval(mosGetParam($_COOKIE, 'fontSize', $defaultFontSize));
 
 if ($userOptions['fontSize'] != $defaultFontSize) { // user has already interested in a font size
-        $currentFontSize = $userOptions['fontSize'];
+	$currentFontSize = $userOptions['fontSize'];
 }
-{
-        echo "<style type=\"text/css\">";
-        echo "\tbody{font-size:".$currentFontSize."px}\n";
-        echo "</style>";
-}
+
 if ($currentFontSize != $defaultFontSize) {
-        echo "<style type=\"text/css\">\tbody{font-size:".$currentFontSize."px}\n</style>";
+	echo "\tbody{font-size:".$currentFontSize."px}\n";
+	echo "\t#Jtitle h1 a{font-size:".($currentFontSize+7)."px}\n";	
 }
-setcookie( 'fontSize', $currentFontSize, time() + 30*24*60*60, '/' );
 
+// set container width
+$defaultContainerWidth = 960;
+$currentContainerWidth = $defaultContainerWidth;
 
+$userOptions['containerWidth'] = intval(mosGetParam($_COOKIE, 'containerWidth', $defaultContainerWidth));
+
+if ($userOptions['containerWidth'] != $defaultContainerWidth) { // user has already interested in a container width
+	$currentContainerWidth = $userOptions['containerWidth'];
+}
+
+	echo "\t#Jcontainer{width:".($currentContainerWidth == 0 ? '96%' : $currentContainerWidth.'px')."}\n";
+?>

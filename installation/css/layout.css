@@ -1,0 +1,36 @@
+/* CSS SELECTORS FOR LAYOUT */
+
+/* ======================== WRAPPERS ======================== */
+#Jcontainer{background:#FFFFFF url(../images/bg_body.gif) top repeat-x;position:relative;width:100%;text-align:justify}
+
+/* ======================== COMMON ======================== */
+.clearer{clear:both;height:0px;overflow:hidden}
+.tips{display:none}
+
+/* ======================== HEADER ======================== */
+#Jheader1{height:117px;;background:url(../images/bg_header.jpg) top right no-repeat;overflow:hidden}
+#Jheader2{background:url(../images/bg_logo_deep.gif) no-repeat;height:100%}
+
+#Jtitle{background:#CD0000;width:auto;float:left;margin-left:22px;height:55px;overflow:hidden}
+#tools{float:right}
+/*padding:18px 35px 15px 25px;*/
+#nav{float:right;width:auto;height:40px;margin-top:32px !important;margin-top:79px}
+
+/* ======================== PATHWAY ======================== */
+#path{padding:29px 0 0 0;margin-bottom:10px}
+
+/* ======================== BODY ======================== */
+#Jbody{width:100%;margin-top:20px}
+#Jleft{float:left;width:15.3% !important;width:17%;background:url(../images/bg_vline.gif) repeat-y right;padding:0 1.7em;overflow:hidden}
+#Jright{float:left;width:75%;overflow:hidden}
+#bottom{margin-top:15px}
+#bottom .poll thead td{text-align:center}
+
+
+/* ======================== FOOTER ======================== */
+#footer{text-align:left;margin-left:22%}
+#footer .copyright{padding:10px 0 10px 0}
+#bottom_left{float:left;text-align:left;padding:10px 0 0 0}
+#bottom_left div{text-align:left}
+#bottom_right{text-align:right;padding:10px 5px 10px 0}
+

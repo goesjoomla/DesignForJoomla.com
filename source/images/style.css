@@ -1,0 +1,54 @@
+body{ font-family: Arial, Helvetica, sans-serif; color: Black; background-color: White; font-size: 10pt; background-image: url(bg_body.gif); background-repeat: repeat-x; margin: 0;  padding: 0;  }
+p{	font-size : 10pt; }
+a{	font-family : Arial, Helvetica, sans-serif;	color : #B90000;	font-size : 10pt;}
+a:hover{	text-decoration : underline;  color: #FF2424; }
+form{	margin: 0px;}
+input{ font-family: Tahoma;  font-size: 12px;  }
+
+/* HEADER
+-------------------------------------------------------------------------*/
+#HEADER{ display: block; height: 117px; padding:0; margin:0;  background-position: top right;  background-repeat: no-repeat;  background-image: url(bg_header.jpg);   }
+	#HEADER h1{ width: 471px; position: absolute;  top: 0;  left: 0;     height: 112px;  background-image: url(bg_logo_deep.gif); background-repeat: no-repeat; padding: 0 0 0 23px; margin: 0;  display: inline;              }
+	#HEADER h1 a{ display: block;  padding: 0 22px 0 22px;  width: 130px;   line-height: 52px; border-top: 3px solid #9E0000; background-color: #CD0000; height: 52px; color: White; font-family: "Times New Roman", Times, serif; font-size: 20px; margin: 0; text-decoration: none;  display: block;  font-weight: normal;    }
+	#HEADER h1 a:hover{	background-color: #E60000;}
+	#HEADER p.NextPage{ margin: 32px 0 0 0; display: inline; width: 20px; float: right;    }
+	#HEADER p.NextPage a{ width: 20px; height: 19px; background-color: #CD0000; background-image: url(next_page.gif); background-repeat: no-repeat; display: block; color: #CD0000; }
+	#HEADER p.NextPage a:hover{ background-color: #E60000; background-image: url(next_page.gif); background-repeat: no-repeat; color: #E60000; }
+	#HEADER ul{ list-style: none; margin: 87px 0 0 0; padding: 0; display: inline; float: right; display: block;  border-bottom: 5px solid #004278;  position: relative;  left: 20px;       }
+	#HEADER li{ float:left; margin: 0;  padding: 0 27px 0 5px; list-style: none; display: inline;  background-image: url(bg_topnav_li.gif);  background-repeat: repeat-y;    height: 25px;  line-height: 7px;      }
+	#HEADER li a{  color: White; text-decoration: none;  font-size: 11px;  font-family: Tahoma, Arial, Helvetica, sans-serif;         }
+	#HEADER li a:hover{ text-decoration: none; position: relative; top: -1px; }
+
+/* NAV LINE
+--------------------------------------------------------------------------*/
+#PATH{ display: block; height:48px;  padding-left: 220px; margin:0; }
+	#PATH p{ padding: 29px 0 0 0; margin: 0; font-size: 8pt; color: #B90000; font-weight: bold; }
+	#PATH a{ text-decoration: none; color: Black; font-size: 8pt;  font-weight: normal;  }
+	#PATH a:hover{ text-decoration: none; position: relative; top: -1px; }
+	#PATH .Arrow{ color: Black; position: relative; top: -1px;  margin: 0 2px 0 2px;  }
+	
+/* CONTENT
+--------------------------------------------------------------------------*/
+#CONTENT{ display: block; margin: 27px 27px 27px 220px; }
+	#CONTENT h1{ margin:0 0 0.5em 0; padding:0; line-height: 14pt; font-family: Arial, Helvetica, sans-serif;  font-weight: normal;  font-size: 14pt;  color: #225680;    }
+	#CONTENT p{ text-align: justify; text-indent: 25px;  margin: 0 0 10px 0;  padding: 0;  }
+
+#SIDEBAR{ width:151px; display: table-cell; margin-top: 27px; padding: 0px 23px 0 23px;  background-image: url(bg_vline.gif);  background-repeat: repeat-y;  background-position: right;  float: left;  margin-bottom: 20px;     }
+	#SIDEBAR h1{ font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 11px; color: White;  background-color: #004278;  text-align: center;  font-weight: bold;  padding: 3px 0 3px 0;  margin: 0 0 17px 0;         }
+	#SIDEBAR p{ text-align: justify;  margin: 0;  font-family: Arial, Helvetica, sans-serif;  font-size: 9pt;  padding-bottom: 3px;     }
+	#SIDEBAR p.Date{ text-align: left;  font-size: 8pt; color: #B90000;  font-weight: bold;  line-height: 8pt;  margin: 0 0 3px 0;       }
+	#SIDEBAR p.More{ text-align:right;  margin-top: 3px;  margin-bottom: 18px;   }
+	#SIDEBAR p.More a{font-size: 8pt; color: #B90000;  text-decoration: none;  font-weight: bold;     }
+	#SIDEBAR p.More a:hover{ text-decoration: underline; }
+
+/* FOOTER
+--------------------------------------------------------------------------*/
+#FOOTER{ display: block; margin: 27px 27px 0 220px; padding: 0 0 20px 0; clear: both;  background-image: url(bg_footer.gif);  background-repeat: no-repeat;  background-position: right bottom;             }
+	#FOOTER ul{  background-image: url(bg_hline.gif);  background-repeat: repeat-x;  list-style: none; margin: 0; padding: 5px 0 0 0;   display: block;              }
+	#FOOTER li{  margin: 0;  padding: 0; list-style: none;  display: inline;                  }
+	#FOOTER li a{ color: #004278; text-decoration: none; font-size: 9pt; font-family: "MS Sans Serif", Geneva, sans-serif;  margin-left: 6px;  margin-right: 6px;   }
+	#FOOTER li a.First{ margin-left:0;}
+	#FOOTER li a:hover{ text-decoration: underline; }
+	#FOOTER p{ margin: 5px 0 0 0; font-family: "MS Sans Serif", Geneva, sans-serif; font-size: 9pt; }
+	#FOOTER a{font-family: "MS Sans Serif", Geneva, sans-serif;  font-size: 9pt; 		color: Black;  text-decoration: none; 	 }
+	#FOOTER a:hover{ text-decoration: underline; }
