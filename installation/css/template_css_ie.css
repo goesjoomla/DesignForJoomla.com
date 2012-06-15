@@ -1,0 +1,27 @@
+table{font-size:1em;line-height:1.8em}
+#sitetools{position:absolute;right:30px}
+#tools{position:absolute;right:30px}
+#header h1{margin:74px 0 14px}
+#toolbar ul.list_menu li li,
+#toolbar ul.list_menu li li li,
+#toolbar ul.list_menu li li li li,
+#toolbar ul.list_menu li li li li li,
+#toolbar ul.list_menu li li li li li li{
+        padding:0}
+#toolbar ul.list_menu li li:hover .sublevel,
+#toolbar ul.list_menu li li li:hover .sublevel,
+#toolbar ul.list_menu li li li li:hover .sublevel,
+#toolbar ul.list_menu li li li li li:hover .sublevel,
+#toolbar ul.list_menu li li li li li li:hover .sublevel,
+#toolbar ul.list_menu li li.sfhover .sublevel,
+#toolbar ul.list_menu li li li.sfhover .sublevel,
+#toolbar ul.list_menu li li li li.sfhover .sublevel,
+#toolbar ul.list_menu li li li li li.sfhover .sublevel,
+#toolbar ul.list_menu li li li li li li.sfhover .sublevel,
+#toolbar ul.list_menu li li.active_mitem .sublevel,
+#toolbar ul.list_menu li li li.active_mitem .sublevel,
+#toolbar ul.list_menu li li li li.active_mitem .sublevel,
+#toolbar ul.list_menu li li li li li.active_mitem .sublevel,
+#toolbar ul.list_menu li li li li li li.active_mitem .sublevel{
+         padding:0 0 0 10px;
+         margin:0}

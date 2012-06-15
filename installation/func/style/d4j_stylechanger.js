@@ -1,53 +1,28 @@
 var prefsLoaded = false;
 var defaultFontSize = 13;
 var currentFontSize = defaultFontSize;
-var defaultContainerWidth = 760;
-var currentContainerWidth = defaultContainerWidth;
-var defaultColor = 0;
-var currentColor = defaultColor;
-
-function changeColor(newColor){
-	if(currentColor != parseInt(newColor)){
-		currentColor = parseInt(newColor);
-		createCookie("color", currentColor, 30);		
-		window.location.reload();   		
-	}
-}
 
 function revertStyles(){
-	currentFontSize = defaultFontSize;
-	changeFontSize(0);
+        currentFontSize = defaultFontSize;
+        changeFontSize(0);
 }
 
 function changeFontSize(sizeDifference){
-	currentFontSize = parseInt(currentFontSize) + parseInt(sizeDifference);
+        currentFontSize = parseInt(currentFontSize) + parseInt(sizeDifference);
 
-	if(currentFontSize > 16){
-		currentFontSize = 16;
-	}else if(currentFontSize < 11){
-		currentFontSize = 11;
-	}
+        if(currentFontSize > 17){
+                currentFontSize = 17;
+        }else if(currentFontSize < 9){
+                currentFontSize = 9;
+        }
 
-	setFontSize(currentFontSize);
+        setFontSize(currentFontSize);
 };
 
 function setFontSize(fontSize){
-	document.body.style.fontSize = fontSize + 'px';
+        document.body.style.fontSize = fontSize + 'px';
 };
 
-function changeContainerWidth(newWidth) {
-	var obj1 = document.getElementById('D4J_Container');
-	var obj2 = document.getElementById('D4J_Container2');
-	currentContainerWidth = parseInt(newWidth);
-	if (currentContainerWidth == 0)
-	{
-		obj1.style.width = '100%';		
-	}
-	else 
-	{
-		obj1.style.width = currentContainerWidth + 'px';						
-	}
-};
 
 function createCookie(name,value,days) {
   if (days) {
@@ -73,20 +48,12 @@ function readCookie(name) {
 window.onload = setUserOptions;
 
 function setUserOptions(){
-	if(!prefsLoaded){
-
-		userFontSize = readCookie("fontSize");
-		userContainerWidth = readCookie("containerWidth");
-		userColor = readCookie("color");
-
-		currentFontSize = userFontSize ? userFontSize : defaultFontSize;
-		setFontSize(currentFontSize);
-		currentContainerWidth = userContainerWidth ? userContainerWidth : defaultContainerWidth;
-		changeContainerWidth(currentContainerWidth);
-		currentColor = userColor ? userColor : defaultColor;
-
-		prefsLoaded = true;
-	}
+        if(!prefsLoaded){
+                userFontSize = readCookie("fontSize");
+                currentFontSize = userFontSize ? userFontSize : defaultFontSize;
+                setFontSize(currentFontSize);
+                prefsLoaded = true;
+        }
 
 }
 
@@ -94,7 +61,6 @@ window.onunload = saveUserOptions;
 
 function saveUserOptions()
 {
-	createCookie("fontSize", currentFontSize, 30);
-	createCookie("containerWidth", currentContainerWidth, 30);
-	createCookie("color", currentColor, 30);
+        createCookie("fontSize", currentFontSize, 30);
+
 }
