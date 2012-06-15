@@ -1,10 +1,102 @@
-/* JOOMLA 1.0.X TEMPLATE CSS FILE */
+/*document settings*/
+body{padding:0;margin:0;background:url(../images/bg.gif) repeat}
+body,form,div,p,table{font-family:Verdana,Tahoma,Arial,sans-serif;font-size:10px;color:black}
+form{margin:0;padding:0}
+ul{margin:1px;padding:1px;list-style:none}
+hr{background:#88abf2;height:1px;width:97%}
+a{color:#95e343;text-decoration:none}
+a:hover{color:#000000;text-decoration:underline}
+a img{border:none}
 
-/* Main css file with standard css selectors */
-@import url("base.css");
+/*positions settings (tableless)*/
+.clr{clear:both;height:0px;overflow:hidden}
+#container{margin:3px 0;width:800px}
 
-/* Css file with css selectors for layout */
-@import url("layout.css");
+#header{height:144px;width:auto !important;width:800px;}
+#header_left{float:left;height:65px;width:570px;overflow:hidden;line-height:48px;text-align:left}
+#header_left,#header_left h1{padding-top:40px;padding-left:30px}
+#header_left,#header_left h1 a{color:#fff;font-weight:normal;font-size:30px;letter-spacing:1px;border:none}
+#header_left h1 a:hover{text-decoration:none}
 
-/* Css file with css selectors for custom modules and menus */
-@import url("custom.css");
+#header_right{float:left;height:33px;width:170px;margin-top:66px;overflow:hidden;vertical-align:top}
+#header_right .user1{color:#FFFFFF;font-size:16px;text-decoration:none;font-weight:bold;float:right;height:33px;width:160px;overflow:hidden;text-align:left}
+#header_right ul{list-style:none}
+#header_right ul li a{color:#FFFFFF;font-size:16px;text-decoration:none;font-weight:bold}
+#header_right ul li a:hover{color:#999999;text-decoration:none}
+#header_right .user1 h2{margin-top:0px}
+#header_right .user1 h2 a{font-size:16px;color:#FFFFFF;text-decoration:none}
+#header_right .user1 h2 a:hover{color:#999999;text-decoration:none}
+
+#topmenu{padding-left:28px;line-height:21px;text-align:left}
+#topmenu a{color:#FFFFFF;font-weight:bold;line-height:21px;padding-right:5px}
+#topmenu a:hover{color:#000000;text-decoration:none}
+
+#date{line-height:20px;padding-right:10px;text-align:right}
+
+#body{width:800px}/*define in index.php*/
+
+#center{float:left;text-align:left}
+#main_bottom{float:right;margin-top:10px;text-align:left;padding-bottom:20px}
+#main_bottom .componentheading{text-align:left;padding-bottom:8px}
+
+
+#right{margin-top:10px;float:right;width:214px;text-align:left}
+#right .moduletable{width:205px}
+#right div.moduletable table{margin-left:15px}
+#right div.moduletable table.poll{margin-left:-12px}
+#right div.moduletable table.poll thead{text-align:center}
+
+#footer{height:44px;padding-top:8px;text-align:right;padding-top:4px;padding-right:220px;overflow:hidden}
+#footer a{color:#000000;text-decoration:underline}
+#footer a:hover{color:#FFFFFF}
+
+#bottom_left{float:left}
+#bottom_left div{width:300px;text-align:left}
+#bottom_right{float:right}
+#bottom_right div{width:300px;text-align:right}
+
+/*joomla settings*/
+.moduletable{margin-bottom:7px;padding-bottom:21px}
+.moduletable *{margin:10px}
+.moduletable * *{margin:0}
+.moduletable table,.moduletable table a{width:auto}
+.moduletable h3,.componentheading{margin:0;padding:0 0 0 10px;font-size:1.2em;font-weight:bold;color:#000000;line-height:21px}
+
+.componentheading,.back_button{width:100%;text-align:center;top:0}
+.contentheading,.contentpagetitle,.buttonheading a{font-weight:bold;font-size:1.1em;text-align:left;border:none}
+.contentheading{color:#8d8d8d;font-size:20px;font-weight:normal}
+
+.mainlevel,.sublevel{font-family:verdana,helvetica,serif;font-size:12px;font-weight:bold;margin:0 0 3px 3px;line-height:21px}
+.sublevel{font-weight:normal;margin:0 0 3px 13px;line-height:16px}
+
+.blog td{padding:0 2px}
+.contentpane,.contentpaneopen{text-align:justify}
+
+.inputbox,.button{font-family:arial,helvetica,sans-serif;font-size:1em;border:1px solid}
+.small,.smalldark,.createdate,.modifydate{color:#8d8d8d;font-size:10px;font-weight:normal}
+.smalldark{font-size:0.9em}
+.readon{float:right;color:#95e343;font-weight:bold;padding:5px 1px 1px 5px}
+
+.blog_more{margin:0 6px 15px 3px;padding:3px 6px;border:1px dotted #D4DFF7;text-align:left}
+.blog_more div{padding-bottom:3px;border-bottom:1px dotted #D4DFF7}
+.blog_more ul{margin:2px 0 2px 14px}
+
+.contenttoc{background:#F0F3F9;border:1px solid #D4DFF7;padding:3px;margin:0 0 1px 5px}
+.contenttoc th{padding-bottom:1px;border-bottom:1px solid #D4DFF7}
+.contenttoc td{padding:3px 1px}
+
+.sectiontableheader{background:#222;color:#FFFFFF;height:20px;font-weight:bold;padding:0 5px;border-bottom:2px solid #FFFFFF}
+.sectiontablefooter{text-align:center}
+.sectiontableentry1,.sectiontableentry1 td{background:#888;padding:5px;text-align:left}
+.sectiontableentry1 a{color:#fff}
+.sectiontableentry2 a{color:#000}
+.sectiontableentry2,.sectiontableentry2 td{background:#f3f4f4;padding:5px;text-align:left}
+
+.pollstableborder{margin:5px 0}
+.pollstableborder td{padding:5px;vertical-align:middle}
+.pollstableborder input{margin:0}
+
+select#mod_templatechooser_jos_change_template{width:142px}
+.back_button a{font-size:1em;top:auto;bottom:0;margin-top:6px;font-weight:bold;color:black}
+.poll .button{margin-top:5px}
+.tips{display:none}
