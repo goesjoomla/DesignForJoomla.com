@@ -12,10 +12,11 @@ $userOptions['fontSize'] = intval(mosGetParam($_COOKIE, 'fontSize', $defaultFont
 if ($userOptions['fontSize'] != $defaultFontSize) { // user has already interested in a font size
         $currentFontSize = $userOptions['fontSize'];
 }
+
         echo "<style type=\"text/css\">\tbody{font-size:".$currentFontSize."px}\n</style>";
 
 // set container width
-$defaultContainerWidth = 770;
+$defaultContainerWidth = 960;
 $currentContainerWidth = $defaultContainerWidth;
 
 $userOptions['containerWidth'] = intval(mosGetParam($_COOKIE, 'containerWidth', $defaultContainerWidth));
@@ -24,9 +25,8 @@ if ($userOptions['containerWidth'] != $defaultContainerWidth) { // user has alre
         $currentContainerWidth = $userOptions['containerWidth'];
 }
 
-if ($currentContainerWidth != $defaultContainerWidth) {
-	$currentContainerWidth = $userOptions['containerWidth'];
-}
-	echo "<style type=\"text/css\">\t#Jcontainer{width:".($currentContainerWidth == 0 ? '96%' : $currentContainerWidth.'px')."}\n</style>";
+       
+        echo "<style type=\"text/css\">\t#container{width:".($currentContainerWidth == 0 ? '96%' : $currentContainerWidth.'px')."}\n</style>";
 
 ?>
+

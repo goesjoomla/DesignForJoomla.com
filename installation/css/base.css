@@ -4,37 +4,36 @@
 
 /* standard */
 *{padding:0;margin:0}
-body,html{font: small Verdana, Sans-serif;color:#444444}
-body{font-size:13px;background-color:#A9CF9C;color:#444444;line-height:1.6em}
-input,textarea{font-size:0.9em;color:#444444}
-a{color:#6CAB54}
-a:hover{color:#422100}
-ul{list-style-type:square;margin-left:25px;font-weight:bold}
-ul li a{font-size:0.875em}
-blockquote{background:#FAE49A;border-left:2px solid #FF9900;font:0.95em "Palatino Linotype", "Book Antiqua", Palatino, serif;color:#CC9933;letter-spacing:.05em;margin-top:15px;margin-bottom:15px;padding:6px;width:80%}
-
-/* ======================== PATHWAY ======================== */
-span.pathway,a.pathway{}
-a.pathway:hover{}
-span.pathway img{}
+body,html{background:#e3f0c1;color:#1B403E;margin:0;padding:0}
+body{font:13px Tahoma, Geneva, sans-serif}
+a,a:hover{color:#0033FF}
+ul{padding-bottom:1em}
+li{color:#AFCD70;list-style:circle}
+li a{text-decoration:none}
+li a:link{color:#547999}
+li a:hover{color:#999254}
+blockquote{background:#e3f0c1;border-left:2px solid #afcd70;font:0.95em "Palatino Linotype", "Book Antiqua", Palatino, serif;color:#898D67;letter-spacing:.05em;margin-top:15px;margin-bottom:15px;padding:6px}
 
 /* ======================== CONTENT ======================== */
 
 /* page title */
-.componentheading{padding-top:10px;font-size:1.2em;color:#422100;font-weight:bold}
+.componentheading{color:#B19A53;font-size:1.5em;margin-bottom:0.8em}
+
+/*module title*/
+div.moduletable h3{color:#B19A53;font-size:1.17em;margin-bottom:0.8em}
 
 /* blog page main wrapper */
 table.blog{}
 table.blog td{padding:0 0.1em}
 
 /* component & content container */
-table.contentpane img,table.contentpaneopen img{margin:4px}
-.mosimage_caption{font-size:0.9em;font-weight:bold;margin:2px}
+table.contentpane,table.contentpaneopen{}
+.contentpaneopen img{margin:6px;border:1px solid #CCCCCC}
 /* separator after each content item */
 span.article_seperator{}
 
 /* content title */
-td.contentheading{padding-top:10px;font-size:1.2em;color:#422100;font-weight:bold}
+td.contentheading{color:#B19A53;font-size:1.17em;font-weight:bold}
 
 a.contentpagetitle{}
 
@@ -54,30 +53,10 @@ table.contenttoc th{}
 table.contenttoc td{}
 a.toclink{}
 
-/* content image */
-div.mosimage{}
-div.mosimage_caption{}
-
 /* read more */
 a.readon{}
 
-/* ======================== MORE ======================== */
-
-/* panel */
-div.blog_more{}
-
-/* panel heading */
-div.blog_more div{}
-
-/* block list */
-div.blog_more ul{}
-div.blog_more ul li{}
-
-/* list link */
-a.blogsection{}
-
 /* ======================== TABLE ======================== */
-
 /* description */
 td.contentdescription{font-weight:bold}
 
@@ -85,25 +64,12 @@ td.contentdescription{font-weight:bold}
 a.category{}
 
 /* listing */
-td.sectiontableheader{padding:0.5em;background:#006633;color:white;text-transform:uppercase;font-weight:bold}
-tr.sectiontableentry1 td{padding:0px 5px;background:#EDF3EB;text-align:left}
-tr.sectiontableentry2 td{padding:0px 5px;background:#FFFFFF;text-align:left}
-tr.sectiontableentry1 td a,tr.sectiontableentry2 td a{font-size:0.9em;font-weight:bold}
+td.sectiontableheader{padding:0.5em;background:#CDE375;color:white;text-transform:uppercase;font-weight:bold}
+tr.sectiontableentry1 td,tr.sectiontableentry2 td{line-height:25px;padding:1px 5px;background:#ECEAA4;color:black;border-top:2px solid #fff}
+tr.sectiontableentry1 td a,tr.sectiontableentry2 td a{color:#009999}
+tr.sectiontableentry1 td a:hover,tr.sectiontableentry2 td a:hover{color:#000000}
 
 /* ======================== NAVIGATION ======================== */
-a.mainlevel{font-size:0.875em;text-transform:uppercase;font-weight:bold;background:url(../images/square.gif) left no-repeat;line-height:1.6em}
-a.sublevel{font-weight:bold;line-height:1.6em;text-decoration:none;position:relative;margin-left:5px}
-ul#mainlevel{list-style-type:none;margin:0}
-
-/* multi-page content nav */
-div.pagenavbar{}
-div.pagenavbar div{}
-div.pagenavbar div a{}
-
-/* content item nav */
-th.pagenav_prev,th.pagenav_next{}
-th.pagenav_prev a,th.pagenav_next a{}
-
 /* blog page nav */
 .pagenav{}
 a.pagenav{}
@@ -113,9 +79,6 @@ div.back_button{margin:1em 0}
 div.back_button a{}
 
 /* ======================== FORM ======================== */
-.contentpane .inputbox{width:50%}
-.contentpane select.inputbox{width:55px}
-
 input.button{margin-top:5px}
 input.button:hover{}
 input.inputbox{}
@@ -123,15 +86,11 @@ input.inputbox:hover{}
 input.inputbox:focus{}
 select.inputbox{}
 select#mod_templatechooser_jos_change_template{width:142px;margin:3px 0 0 0}
-textarea#contact_text.inputbox{width:320px}
+textarea#contact_text.inputbox{}
 /* ======================== POPUP ======================== */
 body.contentpane{}
 
-/* ======================== MENU ======================== */
-
-
 /* ======================== SEARCH ======================== */
-
 /* search wrapper */
 div.search{}
 
@@ -141,23 +100,7 @@ input#mod_search_searchword{}
 /* keyword high-light */
 span.highlight{}
 
-/* ======================== LOGIN ======================== */
-input#mod_login_username{}
-input#mod_login_password{}
-input#mod_login_remember{}
-
-/* ======================== LATEST ARTICLE ======================== */
-ul.latestnews{}
-li.latestnews{}
-a.latestnews{}
-
-/* ======================== POPULAR ARTICLE ======================== */
-ul.mostread{}
-li.mostread{}
-a.mostread{}
-
 /* ======================== POLL ======================== */
-
 /* wrapper table */
 table.poll{margin-bottom:0.25em;width:100%}
 
@@ -171,8 +114,6 @@ table.poll td{text-align:left}
 table.pollstableborder{margin:0.25em 0}
 table.pollstableborder td{font-size:0.9em;vertical-align:middle}
 td.sectiontableentry1,td.sectiontableentry2{padding:0.5em}
-td.sectiontableentry1{background:#A9CF9C}
-td.sectiontableentry2{background:#FCFCFC}
 
 /* ======================== SYNDICATE ======================== */
 div.syndicate{}
