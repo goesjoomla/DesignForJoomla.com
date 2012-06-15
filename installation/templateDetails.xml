@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <mosinstall type="template">
 
-<name>ntech_blog</name>
-<creationDate>December 2007</creationDate>
+<name>onlinebusiness</name>
+<creationDate>October 2006</creationDate>
 <author>DesignForJoomla.com</author>
 <copyright>DesignForJoomla.com</copyright>
 <authorEmail>cuongnm@designforjoomla.com</authorEmail>
 <authorUrl>designforjoomla.com</authorUrl>
 <version>1.0</version>
-<description>Ntech Blog - Joomla template by DesignForJoomla.com</description>
+<description>Onlinebusiness - Joomla template by DesignForJoomla.com</description>
 
 <files>
     <filename>index.php</filename>
@@ -16,46 +16,23 @@
 </files>
 
 <images>
-        <filename>images/arrow1.gif</filename>
-        <filename>images/arrow2.gif</filename>
-        <filename>images/b1.gif</filename>
-        <filename>images/b2.gif</filename>
-        <filename>images/button.gif</filename>
-        <filename>images/content.gif</filename>
-        <filename>images/content1.gif</filename>
-        <filename>images/footer-bg.gif</filename>
-        <filename>images/header.jpg</filename>
-        <filename>images/header1.jpg</filename>
-        <filename>images/icon.gif</filename>
-        <filename>images/icon1.gif</filename>
-        <filename>images/icon2.gif</filename>
-        <filename>images/lcon2.jpg</filename>
-        <filename>images/lcon4.jpg</filename>
-        <filename>images/lcon5.jpg</filename>
-        <filename>images/lcon5-hover.jpg</filename>
-        <filename>images/line.gif</filename>
-        <filename>images/logo1.jpg</filename>
-        <filename>images/logo2.jpg</filename>
-        <filename>images/mainbg.gif</filename>
-        <filename>images/mpanel-bg.gif</filename>
-        <filename>images/search-bg.gif</filename>
-        <filename>images/services-bg.jpg</filename>
-        <filename>images/services-bg1.gif</filename>
-        <filename>images/top-shadow.jpg</filename>
-        <filename>images/top-shadow1.jpg</filename>
-        <filename>images/top-shadow2.jpg</filename>
-        <filename>images/u5_1.gif</filename>
-        <filename>images/u5_2.gif</filename>
-        <filename>images/u5_3.gif</filename>
+        <filename>images/english.gif</filename>
+        <filename>images/french.gif</filename>
+        <filename>images/login.jpg</filename>
+        <filename>images/logo.jpg</filename>
+        <filename>images/russian.gif</filename>
+        <filename>images/siteimage.jpg</filename>
+        <filename>images/style.gif</filename>
+        <filename>images/style_ie.gif</filename>
 </images>
 
 <css>
         <filename>css/bottom.css.php</filename>
         <filename>css/footer.css.php</filename>
         <filename>css/template.css</filename>
-        <filename>css/d4j_dropdownmenu.css</filename>
         <filename>css/template_css.css</filename>
         <filename>css/template_css_ie.css</filename>
-        <filename>css/d4j_transmenu.css</filename>
+        <filename>css/template_css_ie7.css</filename>
 </css>
+
 </mosinstall>

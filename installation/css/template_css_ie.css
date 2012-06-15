@@ -1,29 +1,9 @@
-#user7 .moduletable h3{margin:-1px -3px 1px 0}
-#toolbar .moduletable h3{padding:1px 0 5px}
-#lbox .moduletable h3{padding:21px 0 20px 0}
-
-#toolbar ul.list_menu li li,
-#toolbar ul.list_menu li li li,
-#toolbar ul.list_menu li li li li,
-#toolbar ul.list_menu li li li li li,
-#toolbar ul.list_menu li li li li li li{/* sub-menu items */
-        padding:3px 0 1px 13px;
-}
-#toolbar ul.list_menu li li:hover .sublevel,
-#toolbar ul.list_menu li li li:hover .sublevel,
-#toolbar ul.list_menu li li li li:hover .sublevel,
-#toolbar ul.list_menu li li li li li:hover .sublevel,
-#toolbar ul.list_menu li li li li li li:hover .sublevel,
-#toolbar ul.list_menu li li.sfhover .sublevel,
-#toolbar ul.list_menu li li li.sfhover .sublevel,
-#toolbar ul.list_menu li li li li.sfhover .sublevel,
-#toolbar ul.list_menu li li li li li.sfhover .sublevel,
-#toolbar ul.list_menu li li li li li li.sfhover .sublevel,
-#toolbar ul.list_menu li li.active_mitem .sublevel,
-#toolbar ul.list_menu li li li.active_mitem .sublevel,
-#toolbar ul.list_menu li li li li.active_mitem .sublevel,
-#toolbar ul.list_menu li li li li li.active_mitem .sublevel,
-#toolbar ul.list_menu li li li li li li.active_mitem .sublevel{/* sub-menu items :: hover and active state */
-        padding:3px 0 1px 9px;
-        margin:-3px 0 -1px -13px;
-}
+#headerlink{margin:90px 0 0 10px}
+#topbar{margin:0 2px 0 2px}
+#topbar h1{margin:5px 6px 0 0px}
+#hlogin #user input.inputbox{margin:22px 3px 0 82px;height:15px;width:66px}
+#hlogin #pass input.inputbox{height:15px;width:66px}
+#mainbody{margin:0 5px 10px 5px}
+#footer{height:40px}
+#bottom_left{padding:8px 5px 0 5px}
+#bottom_right{padding:8px 10px 10px 5px}

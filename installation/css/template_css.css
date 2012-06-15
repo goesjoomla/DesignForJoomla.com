@@ -1,143 +1,102 @@
 /*document settings*/
-body{margin:0; padding:0; background:url(../images/mainbg.gif) 0 0 repeat-x #414141; color:#969595; font-size:14px;font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;line-height:140%}
-th,td,form,div,p{margin:0;padding:0;font-family:"Trebuchet MS";line-height:140%}
-ul{margin:0;padding:0;list-style:none}
-li{margin:0;padding:0}
-a{color:#969595; text-decoration:underline}
-a:hover{text-decoration:underline; color:#AFACAC;}
+body{margin:0;padding:0;text-align:left;background:#e0e0e0;line-height:1.75em;color:#333;font-family:Arial,Helvetica,sans-serif}
+body,th,td,form,div{font-size:11px;margin:0;padding:0}
+ul{margin:0;padding:0;line-height:1.75em;font-size:11px;list-style:inside square}
+li{padding:0 0 0 5px}
+a{color:#00A2FF;font-weight:bold;text-decoration:none}
+a:link{color:#00A2FF;font-weight:bold;text-decoration:none}
+a:hover{color:#333;font-weight:bold;text-decoration:none}
 
 /* position setting (tableless)*/
 .clr{clear:both}
+#container{width:770px;background:#fff;margin:0 auto;overflow:hidden}
 
-#container{width:778px;margin:0 auto;text-align:left;overflow:hidden}
-#topbox{width:778px;margin:0;float:left;text-align:left;height:174px;background:url(../images/header.jpg) 0 0 no-repeat}
+#topbar_container{width:770px;height:25px;background:#333;overflow:hidden}
+#topbar{margin:0 5px 0 5px;padding:3px 0 0 0;color:#fff;width:760px;float:left;height:25px;text-align:right;overflow:hidden}
+#topbar h1{color:#fff;margin:2px 5px 0 0px;padding:0;font-size:12px;font-weight:normal}
 
-#logo1{margin:28px 0 0 0;width:102px;float:left;height:91px;overflow:hidden}
-#logo1 h1,#logo1 h1 a{width:102px;height:91px}
-#logo1 h1{background:url(../images/logo1.jpg) left top no-repeat;margin:0}
-#logo1 h1 a{display:block;text-indent:-5000px;background:none;border:none}
+#header{width:770px;height:72px;margin:0;overflow:hidden}
 
-#user7{margin:37px 0 0 20px;width:198px;float:left;height:91px;overflow:hidden}
-#user7 .moduletable,#user7 h2{margin:0;padding:0 0 10px;color:#fff;line-height:100%;font:14px/14px Arial, Helvetica, sans-serif}
-#user7 .moduletable h3,#user7 h1{margin:0 -4px 0 0;padding:0;text-transform:uppercase;font-size:30px;font-weight:normal;line-height:132%;color:#fff}
-#user7 .moduletable h3 span,#user7 h1 span{font-weight:bold}
-#user7 h1{font-size:33px;line-height:121%}
+#logo{width:500px;height:72px;float:left;overflow:hidden}
+#logo h1,#logo h1 a{width:200px;height:72px;float:left}
+#logo h1{background:url(../images/logo.jpg) left top no-repeat;margin:0}
+#logo h1 a{display:block;text-indent:-5000px}
 
-#toolbar{margin:0 0 0 22px;width:210px;float:left;height:168px;background:url(../images/services-bg.jpg) 0 0 no-repeat}
-#toolbar .moduletable{margin:0;padding:34px 0 0 37px}
-#toolbar .moduletable h3{margin:0;padding:0 0 6px;color:#317400; font:18px/14px Georgia, "Times New Roman", Times, serif}
-#toolbar .moduletable a.mainlevel,#toolbar .moduletable a.sublevel{font:13px/20px Georgia, "Times New Roman", Times, serif; text-decoration:none;background:url(../images/line.gif) left bottom repeat-x;color:#01699F;width:100%}
-#toolbar .moduletable a:hover.mainlevel{color:#0A4767}
+#hlogin{width:270px;height:72px;overflow:hidden;float:left}
+#hlogin #sform{float:left}
+#hlogin #user input.inputbox,#hlogin #pass input.inputbox{float:left;height:11px;margin:22px 3px 0 83px;width:64px;border:1px solid #333;font-size:9px;color:#777}
+#hlogin #pass input.inputbox{margin:22px 3px 0 0}
+#hlogin #go input.button{margin:22px 0 0 0px;float:left;height:15px;width:34px;border:none}
 
-#content{margin:0;width:778px;float:left;overflow:hidden;background: url(../images/content.gif) 0 0 repeat-y}
+#navbar{width:770px;height:28px;background:#f0f0f0;margin:0;padding:0 0 0 9px;float:left}
+#navbar ul{display:inline;float:left}
+#navbar li{display:inline}
+#navbar a{line-height:30px;display:inline;font-weight:bold;font-size:11px}
+#navbar ul li span{margin:0 -10px 0 10px;font-family:Verdana}
 
-#lbox,#user3,#top,#mainbody,#bottom{margin:0;width:352px;float:left;overflow:hidden}
-#mainbody{width:288px}
+#top{width:770px;height:200px;margin:0;float:left;overflow:hidden}
 
-#lbox .moduletable,#mainbody,#lbox .moduletable_special{margin:0;padding:0 35px 15px 29px;background:url(../images/top-shadow.jpg) bottom center no-repeat}
-#lbox .moduletable h3,#lbox .moduletable_special h3,#mainbody .contentheading,#mainbody .componentheading{font:24px/20px Georgia, "Times New Roman", Times, serif; font-weight:bold; color:#66EA00;background:url(../images/top-shadow.jpg) bottom left no-repeat; padding:20px 0 30px 0;margin:0 0 15px}
-#lbox .moduletable_special h3{background: url(../images/lcon4.jpg) 10px 12px no-repeat;padding:20px 0 20px 55px;margin:0}
-#lbox .moduletable h3 span,#lbox .moduletable_special h3 span{font:21px/20px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight:normal;}
-#mainbody .contentheading,#mainbody .componentheading,#mainbody .contentpaneopen,#mainbody .contentpane{width:100%}
-#lbox .moduletable span{font-weight:bold}
+#headerlink,#headerlink h2{width:400px;height:109px;margin:90px 0 0 20px;float:left;overflow:hidden;text-align:left;font-family:Georgia,serif;font-size:23px;line-height:1.05em;font-weight:normal;letter-spacing:-0.05em}
+#headerlink h2{margin:0}
+#user9{width:350px;float:left}
 
-#cbox,#left,#spacer,#left,#user5{margin:0;width:192px;float:left;overflow:hidden;background:#2E2E2E}
-#spacer{height:10px;background: url(../images/mpanel-bg.gif) top left no-repeat}
-#user5{background: url(../images/u5_2.gif) top left repeat-y}
+#main{width:770px;float:left}
+#div1,#div2,#div3{background:#333;float:left}
+#div1{width:770px}
+#div2{width:200px}
 
-#cbox .moduletable{margin:0;padding:0 18px 20px;color:#fff}
-#cbox .moduletable h3{font:24px/20px Georgia, "Times New Roman", Times, serif; color:#39A002;margin:0;padding:10px 0 10px}
-#cbox .moduletable h3 span{font:18px/20px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#09A5F6}
-#cbox .moduletable span{font-weight:bold;color:#7D7D7D}
+#mainbody{margin:0 10px 10px;float:left}
+#lbox,#left,#right,#rbox,#user3,#user4{float:left;overflow:hidden}
+#left .moduletable,#user3 .moduletable{text-align:left;margin:0 10px}
+#left .moduletable h3,#user3 .moduletable h3{margin:0 -10px 5px;padding:0 0 0 10px;font-size:12px;color:#fff;line-height:2.0em;background:#333}
+#right .moduletable,#user4 .moduletable,#mainbody{text-align:left;margin:0 10px 20px}
+#right .moduletable h3,#user4 .moduletable h3,#mainbody .contentheading,#mainbody .componentheading{font-family:Georgia,serif;margin:20px 0 10px 0;font-size:20px;line-height:1.25em;font-weight:normal;text-align:left}
 
-#user5 .moduletable{margin:0;padding:0 33px 15px;color:#969595;font-style:italic;background: url(../images/u5_3.gif) bottom left no-repeat}
-#user5 .moduletable span{color:#089DEA; font-style:normal; font-size:14px;font-weight:normal}
-#user5 .moduletable h3{font:24px Georgia, "Times New Roman", Times, serif;color:#39A002;font-weight:bold;background: url(../images/u5_1.gif) top left no-repeat;margin:0 -32px 15px;padding:10px 0 8px 33px}
-#user5 .moduletable h3 span{font:20px Georgia; text-transform:uppercase;color:#39A002;font-weight:bold;}
+#footer{float:right;width:570px;height:35px;margin:5px;background:#fff;overflow:hidden;text-align:left}
+#footer a{text-decoration:none}
 
-#rbox,#user4,#right{margin:0;float:left;width:215px;overflow:hidden}
-#rbox{margin-top:10px}
-#rbox .moduletable{margin:0;padding:0 19px 20px}
-#rbox .moduletable h3{color:#39A002; font:24px/52px Georgia, "Times New Roman", Times, serif; margin:0;padding:0}
-
-#rbox .moduletable ul{margin:0;padding:0;}
-#rbox .moduletable ul li{ height:27px; border-bottom:1px dashed #868686;}
-#rbox .moduletable ul li a{display:block; height:27px;  background:url(../images/arrow1.gif) 0 50% no-repeat #414141; color:#fff; font:14px/25px Arial, Helvetica, sans-serif; text-decoration:none; padding:0 0 0 13px;}
-#rbox .moduletable ul li a:hover{background:url(../images/arrow2.gif) 0 50% no-repeat; text-decoration:none;}
-#toolbar .moduletable a.sublevel,#rbox .moduletable a.sublevel{margin-left:-4px}
-
-#user4 .moduletable{margin:10px 0 0;padding:0 19px 20px;height:117px;width:187px;background:url(../images/search-bg.gif) 19px 0 no-repeat}
-#user4 .moduletable{font:15px/26px Georgia, "Times New Roman", Times, serif; text-transform:uppercase; font-weight:bold; margin:0;padding:25px 0 0 51px;color:#2B2B2B}
-#user4 .moduletable{width:100px; height:17px; margin:8px 0 0 14px; float:left;color:#2B2B2B;padding-left:4px}
-#user4 .moduletable input.button{width:40px; height:22px; background:url(../images/button.gif) 0 0 no-repeat #C0C0C0; color:#fff; line-height:22px; margin:8px 0 0 8px; border:none}
-blockquote{background:url(../images/lcon2.jpg) 5px 12px no-repeat ;padding:10px 12px 10px 40px;font-style:italic}
-
-#footer_container{width:100%;float:left;margin:20px 0 0;background:url(../images/footer-bg.gif) 0 0 repeat-x #2E2E2E;color:#fff;padding-top:15px;padding-bottom:29px;text-align:center}
-#footer_container,#footer_container a,#footer_container div,#footer_container p,#footer_container form{color:#FFF}
-
-#box1,#box2,#footer{margin:0 auto;width:778px;overflow:hidden;text-align:left}
-#box2,#footer{width:500px;float:left}
-
-#user9{padding:10px 0;margin:0 0 0 51px}
-#user9 a.mainlevel{padding:0 10px;color:#fff;text-decoration:none;border-right:1px solid #fff;line-height:100%;font:13px "Trebuchet MS"}
-#user9 a:hover.mainlevel{text-decoration:underline}
-#user9 ul li{display:inline}
-
-#bottom_left{margin:0;padding:5px 0 8px 62px;font-size:10px}
-#bottom_left div a{width:70px;background:url(../images/b1.gif) 0 0 no-repeat;color:#fff;font-size:14px;line-height:24px;font-weight:bold;text-decoration:none;text-transform:uppercase;padding:3px 45px 4px 5px;display:inline;text-align:left;font-weight:bold}
-#bottom_left div a:hover{background:url(../images/b2.gif) 0 0 no-repeat}
-#bottom_right{padding-left:62px}
-#bottom_right div{font:10px/15px "Trebuchet MS"}
-#bottom_right div a{text-decoration:none}
-#bottom_right div a:hover{text-decoration:underline}
-
-#logo2{margin:12px 0 0 2px;width:246px;float:left;height:74px;overflow:hidden}
-#logo2 h1,#logo2 h1 a{width:246px;height:74px}
-#logo2 h1{background:url(../images/logo2.jpg) left top no-repeat;margin:0}
-#logo2 h1 a{display:block;text-indent:-5000px;background:none;border:none}
+#bottom_left{float:left;margin:-5px 0 0 0;padding:8px 5px 0 15px;text-align:left;line-height:normal}
+#bottom_left div{font-size:10px;text-align:left;color:#000}
+#bottom_left div a{font:bold 10px Tahoma}
+#bottom_right{float:right;margin:-5px 0 0 0;padding:8px 10px 10px 5px;text-align:right;line-height:normal}
+#bottom_right div{font-size:10px;color:#000}
+#bottom_right div a{font:bold 10px Tahoma}
 
 /*joomla settings*/
-.small,span.small,#mainbody .createdate,#mainbody .modifydate,.pagenavcounter{font-size:0.9em;color:#aaa;font-style:italic}
-.back_button,.pagenav_prev,.pagenav_next{font-size:0.9em}
-.readon{float:right;display:block;background:url(../images/lcon5.jpg) top left no-repeat;text-align:left;padding:0 5px 0 30px;line-height:135%;text-transform:lowercase;color:#66EA00; font-size:14px; font-weight:normal; text-decoration:none;}
-a:hover.readon{background:url(../images/lcon5-hover.jpg) top left no-repeat;text-decoration:none}
-
 .contentpane,.contentpaneopen{text-align:justify}
+.contentheading{font-family:Georgia;font-size:13px}
 
-.contenttoc{margin:7px 0 7px 7px;padding:0 10px;border:1px dotted #666}
-.contenttoc th{border-bottom:1px dotted #666;font-size:13px;color:#666;text-align:center}
-.contenttoc td{margin:5px 0 5px 14px;padding:2px 7px}
-.contenttoc a.toclink{text-decoration:none;font-weight:bold}
+ul#mainlevel{list-style:none}
+ul#mainlevel li a{font-size:12px}
+a.mainlevel{font-size:12px;padding-left:15px}
 
-.blog td{padding:2px}
-.blog_more{margin:0 3px 15px 13px;padding:3px 6px;border:1px dotted #666}
-.blog_more div{border-bottom:1px dotted #666}
-.blog_more ul{margin:2px 0 2px 34px}
-.blog_more ul li{margin-left:30px}
+.contenttoc{margin:5px;padding:0 5px;border:1px dotted #000}
+.contenttoc th{border-bottom:1px dotted #000;font-size:13px;color:#000}
+.contenttoc td{padding:3px 5px 0}
+.contenttoc a.toclink{text-decoration:none}
+
+.blog td{padding:0 2px}
+.blog_more{margin:0 3px 15px 13px;padding:3px 6px;border:1px dotted #bbb;background:#F2F2F2}
+.blog_more div{border-bottom:1px dotted #bbb}
+.blog_more ul{margin:2px 0 2px 14px}
 .blog_more ul li a.blogsection{text-decoration:none}
 
-.syndicate div{text-align:center}
-select#mod_templatechooser_jos_change_template{width:142px}
-div.contact_email textarea#contact_text.inputbox{width:300px}
-.contentpane .inputbox{width:50%}
-.contentpane select.inputbox{width:55px}
-
-.pollstableborder td{line-height:25px;vertical-align:middle}
-.poll thead td{text-align:center}
-.poll .button{margin-top:5px}
-
-.sectiontableheader{color:#222;background:#70C12D;font-weight:bold;padding:0 5px;height:20px;border-bottom:1px dashed #222;font-size:12px}
+.sectiontableheader{background:#88ABF2;color:#FFFFFF;height:20px;font-weight:bold;padding:0 5px 0 5px;border-bottom:2px solid #FFFFFF}
 .sectiontablefooter{text-align:center}
-.sectiontableentry1 label{color:#A5A5A4}
-.sectiontableentry2 label{color:#A5A5A4}
+.sectiontableentry1,.sectiontableentry1 td{background:#c9d8fb;padding:5px;text-align:left;font-size:12px}
+.sectiontableentry2,.sectiontableentry2 td{background:#F2F2F2;padding:5px;text-align:left;font-size:12px}
+.sectiontableentry1 td a,.sectiontableentry2 td a{color:#333;text-decoration:none}
+.sectiontableentry1 td a:hover,.sectiontableentry2 td a:hover{color:#333;text-decoration:underline}
 
-.pollstableborder{margin:0}
-.pollstableborder td{vertical-align:middle}
+.moduletable .poll thead{text-align:center}
+.pollstableborder{margin:3px 0;line-height:20px}
+.pollstableborder td{padding:5px;vertical-align:middle}
 .pollstableborder input{margin:0}
-
-.sectiontableentry1,.sectiontableentry1 td{padding:2px;text-align:left;background:#888888;color:#FFF;line-height:25px}
-.sectiontableentry1 td a,.sectiontableentry2 td a{line-height:25px;color:#fff}
-.sectiontableentry1 td a:hover,.sectiontableentry2 td a:hover{text-decoration:none}
-.sectiontableentry2,.sectiontableentry2 td{padding:2px;text-align:left;color:#FFF;line-height:25px}
+s
+.small,span.small,#mainbody .createdate,#mainbody .modifydate,.pagenavcounter{font-size:10px;color:#888}
+.readon{float:right}
+.back_button,.pagenav_prev,.pagenav_next{font-size:11px}
+.button{font-weight:bold;font-size:10px;color:#000;border:1px solid #000;margin-top:3px;height:19px}
 
 .tips{display:none}
+select#mod_templatechooser_jos_change_template{margin:1px 0 2px;width:82px;height:17px}
