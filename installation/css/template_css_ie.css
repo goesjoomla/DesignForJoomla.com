@@ -1,26 +1,5 @@
-#rheader{position:relative;margin:58px 0 0 5px;float:left;width:205px}
-#rheader #inputbox input.inputbox{height:21px;width:112px}
-#rheader #button input.button{margin-left:5px}
-
-#menu_container,#menu_container_bottom{width:760px;padding-right:5px}
-#menu_bottom .mainlevel,#menu .mainlevel{height:24px;font-size:15px}
-
-#content{width:760px}
-
-div.leftblock div.module{padding:0px;margin-top:0px}
-.leftblock#sidebar_left div.module div div div h3,.leftblock#sidebar_middle div.module div div div h3{font-size:17px}
-#sidebar_left,#sidebar_middle{margin-top:7px;height:185px}
-#sidebar_left div,#sidebar_middle div{font-size:13px}
-#sidebar_left div div div .contentpaneopen,#sidebar_middle div div div .contentpaneopen{font-size:13px}
-
-.leftblock#sidebar div.module div div div h3{font-size:17px}
-#sidebar .module div{margin:0;padding-bottom:1px;overflow:hidden}
-#sidebar div div div div{margin:0;padding:0 7px 0px 7px;}
-#sidebar div div div div ul{margin:0}
-#sidebar div div div div td{text-align:justify}
-#sidebar div div div div form{margin:0}
-#sidebar .syndicate div{height:18px}
-
-.sectiontableentry1,.sectiontableentry2,.poll,#sidebar label,#sidebar td,#sidebar_left label,#sidebar_middle label,#sidebar ul,{text-align:left;color:#EFEFEF;font:13px "Lucida Grande","Lucida Sans Unicode",arial,sans-serif}
-.sectiontableentry1,.sectiontableentry2{padding:2px;font-size:13px}
-.sectiontableentry1 td,.sectiontableentry2 td{color:#000}
+body{margin-bottom:7px}
+#centerColumn{width:580px}
+#header{width:546px;height:146px}
+#navtabs{margin:0 0 0 1px}
+#fauxRightColumn{margin:0;width:166px}

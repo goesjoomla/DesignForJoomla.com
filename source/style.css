@@ -1,313 +1,223 @@
-/* CSS Document For Stylized Beauty
-   Design by super j man
-   (http://www.jdavidmacor.com) */
+/*******************************************************
+TITLE: Summer Holiday v1.0
+DATE: 20060424
+AUTHOR: rayk web design - http://www.raykdesign.net
+*******************************************************/
 
-/******** Basic Body ********/
-        body {
-                background-color: #000000;
-                background: url(images/bg.png) top repeat-x;
-                }
+body {
+margin:.5em;
+padding:0;
+height:100%;
+background-color:#ffffff;
+background-image:url(img/body-bg.jpg);
+background-position:top;
+background-repeat:repeat-x;
+color:#000000;  
+text-align:center;
+font-family:Arial, Helvetica, sans-serif;
+font-size:.9em;
+}
 
-        h1 {
-                margin: 0;
-                color: #FFFFFF;
-                font-family: "Trebuchet MS" "Times New Roman";
-                font-size: 40px;
-                padding-left: 50px;
-                padding-top: 50px;
-                }
+a {
+color:#547699;
+text-decoration:underline;
+}
 
-        h2 {
-                margin: 0;
-                color: #000000;
-                font-family: "Trebuchet MS" "Times New Roman";
-                font-size: 22px;
-                font-variant: small-caps;
-                border-bottom: 1px solid #000000;
-                }
+a:hover {
+color:#999999;
+text-decoration:none;
+}
 
-        img {
-                border: 0;
-                }
+img {
+border:none;
+}
 
-        .icon {
-                border: 0;
-                vertical-align: text-bottom;
-                }
+img.left {
+float:left;
+margin:0 .5em 0 .2em;
+padding:.2em;
+border:1px solid #eeeeee;
+}
 
-        #container {
-                width: 760px;
-                margin: 0 auto;
-                padding: 0px;
-                }
+img.right {
+float:right;
+margin:0 .2em 0 .5em;
+padding:.2em;
+border:1px solid #eeeeee;
+}
 
-/******** Header ********/
-        #header {
-                width: 760px;
-                height: 155px;
-                background: url(images/header.gif) top no-repeat;
-                }
+blockquote.warning {
+margin:1em;
+padding:.5em;
+padding-left:5em;
+background-color:#ffffff;
+background-image:url(img/blockquote-bg-warning.jpg);
+background-position:left top;
+background-repeat:no-repeat;
+border-top:1px solid #eeeeee;
+}
 
-        form {
-                float: right;
-                font-size: 9px;
-                margin-right: 25px;
-                margin-top: 55px;
-                }
+blockquote.question {
+margin:1em;
+padding:.5em;
+padding-left:5em;
+background-color:#ffffff;
+background-image:url(img/blockquote-bg-question.jpg);
+background-position:left top;
+background-repeat:no-repeat;
+border-top:1px solid #eeeeee;
+}
 
-        form img {
-                vertical-align: bottom;
-                }
+blockquote p {
+font-size:.8em;
+margin:.2em;
+color:#616161;
+}
 
-        input {
-                background: #FFFFFF url(images/input.png) top left no-repeat;
-                color: #999999;
-                border: 0;
-                font-size: 11px;
-                padding: 3px;
-                }
+#centerColumn { 	
+margin:0 auto;
+padding:1em;
+width:38em;
+text-align:left;
+vertical-align: middle;	
+background-color:#ffffff;
+border:1px solid #BBD1E2;
+}
 
-        .button {
-                padding: 2px;
-                background: #88ac0b url('images/menu-background.png') top left repeat-x;
-                color: #FFFFFF;
-                border: 0;
-                font-size: 11px;
-                }
+#centerColumn h2 {
+margin:0 0 -.5em 0;
+padding:.75em 0 0 0;
+font-size:1em;
+letter-spacing:.1em;
+color:#DA8619;
+}
 
-/******** Menu ********/
-        #menu_container {
-                width: 748px;
-                _width: 750;
-                background: #FFFFFF;
-                height: 30px;
-                padding-left: 5px;
-                padding-right: 7px;
-                _padding-right: 5px;
-                }
+#header {
+margin:0 0 0 0;
+padding:0 0 0 0;
+height:10em;
+background-color:#ffffff;
+background-image:url(img/header-bg.jpg);
+background-position:bottom right;
+background-repeat:no-repeat;
+border:1px solid #EBCD48;
+}
 
-        #menu {
-                width: 100%;
-                background: #88ac0b url('images/menu-background.png') top left repeat-x;
-                float: left;
-                font-size: 95%;
-                white-space: nowrap;
-                padding-right: 2px;
-                margin-top: 0;
-                margin-bottom: 0;
-                }
+#header h1 {
+margin:0 0 -.6em 0;
+padding:1em 0 0 1em;
+font-size:1.5em;
+letter-spacing:.1em;
+color:#ffffff;
+}
 
-        * html #menu {
-                padding-right: 0;
-                }
+#header h2 {
+margin:0 0 0 0;
+padding:1em 0 0 1.75em;
+font-size:.9em;
+font-weight:300;
+letter-spacing:.1em;
+color:#000000;
+}
 
-        #menu ul {
-                margin: 0;
-                padding: 0;
-                list-style: none;
-                float: left;
-                border-left: 1px solid #95bc0e;
-                border-right: 1px solid #95bf0f;
-                width: 100%;
-                }
+#navtabs {
+margin:0 0 0 0;
+float:left;
+width:100%;
+height:6em;
+font-size:93%;
+line-height:normal;
+}
 
-        #menu li {
-                display: inline;
-                }
+#navtabs ul {
+margin:0;
+padding:4.1em 0 0 .2em;
+list-style:none;
+}
 
-        #menu a:link, #menu a:visited {
-                padding: 0.25em 1em;
-                background: transparent;
-                color: #FFFFFF;
-                text-decoration: none;
-                float: left;
-                border-right: 1px solid #95bc0e;
-                }
+#navtabs li {
+display:inline;
+margin:0;
+padding:0;
+}
 
-        #menu a:hover {
-                background: #b6e41c url('images/menu-hover.png') repeat-x;
-                color: #485b06;
-                }
+#navtabs a {
+float:left;
+background-image:url(img/tableftB.gif);
+background-position:left top;
+background-repeat:no-repeat;
+margin:0;
+padding:0 0 0 4px;
+text-decoration:none;
+}
 
-/******** Main Content ********/
-        #content {
-                width: 750px;
-                background: #FFFFFF;
-                padding: 5px;
-                }
+#navtabs a span {
+float:left;
+display:block;
+background-image:url(img/tabrightB.gif);
+background-position:right top;
+background-repeat:no-repeat;
+padding:5px 15px 4px 6px;
+color:#9E8100;
+}
 
-        #posts {
-                width: 540px;
-                background: #FFFFFF;
-                margin-right: 15px
-                }
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#navtabs a span {float:none;}
 
-        #posts p {
-                text-align: justify;
-                font: .8em "Lucida Grande", "Lucida Sans Unicode", arial, sans-serif;
-                line-height: 150%;
-                color: #666666;
-                }
+/* End IE5-Mac hack */
+#navtabs a:hover span {
+color:#000;
+}
 
-        #posts a {
-                color: #C44000;
-                text-decoration: none;
-                }
+#navtabs a:hover {
+background-position:0% -42px;
+}
 
-        #posts a:visited {
-                color: #C44000;
-                text-decoration: none;
-                }
+#navtabs a:hover span {
+background-position:100% -42px;
+color:#000000;
+}
 
-        #posts a:hover {
-                color: #C44000;
-                text-decoration: underline;
-                }
+#fauxRightColumn {
+position:relative;
+float:right;
+margin:.5em 0 0 .5em;
+padding:0 .7em .7em .7em;
+width:11em;
+font-size:.9em;
+background-color:#ffffff;
+background-image:url(img/fauxrightcolumn-bg.jpg);
+background-position:top;
+background-repeat:repeat-x;
+border-bottom:1px solid #eeeeee;
+}
 
-        .dropcap {
-                float: left;
-                width: .67em;
-                font-size: 3.1em;
-                line-height: 95%;
-                }
+#fauxRightColumn h2 {
+margin-bottom:-1em;
+font-size:.9em;
+color:#DA8619;
+}
 
-        .blockquote {
-                border: 2px dotted #88ac0b;
-                background-color: #EFEFEF;
-                margin: 30px;
-                padding: 5px;
-                overflow: hidden;
-                text-align: justify;
-                color: #CCCCCC;
-                font: 1.2em "Trebuchet MS", Arial, Helvetica, sans-serif;
-                }
+#fauxRightColumn a {
+font-size:.9em;
+text-decoration:none;
+color:#559449;
+}
 
-        .comments {
-                color: #999999;
-                font-size: 75%;
-                text-align: right;
-                }
+#fauxRightColumn a:hover{
+text-decoration:none;
+color:#cccccc;
+}
 
-/******** Sidebar ********/
-        #sidebar {
-                width: 195px;
-                float: right;
-                padding-top: 5px;
-                }
-
-        .sidebar_content{
-                display: block
-                }
-
-        .sidebar_content *{
-                display: block;
-                height: 1px;
-                overflow: hidden;
-                background: #999999
-                }
-
-        .sidebar_content1{
-                border-right: 1px solid #d3d3d3;
-                padding-right: 1px;
-                margin-right: 3px;
-                border-left: 1px solid #d3d3d3;
-                padding-left: 1px;
-                margin-left: 3px;
-                background: #b2b2b2;
-                }
-
-        .sidebar_content2{
-                border-right: 1px solid #f4f4f4;
-                border-left: 1px solid #f4f4f4;
-                padding: 0px 1px;
-                background: #acacac;
-                margin: 0px 1px;
-                }
-
-        .sidebar_content3{
-                border-right: 1px solid #acacac;
-                border-left: 1px solid #acacac;
-                margin: 0px 1px;
-                }
-
-        .sidebar_content4{
-                border-right: 1px solid #d3d3d3;
-                border-left: 1px solid #d3d3d3;
-                }
-
-        .sidebar_content5{
-                border-right: 1px solid #b2b2b2;
-                border-left: 1px solid #b2b2b2;
-                }
-
-        .sidebar_content_content{
-                padding: 0px 5px;
-                background: #999999;
-                color: #EFEFEF;
-                text-align: justify;
-                font: .8em "Lucida Grande", "Lucida Sans Unicode", arial, sans-serif;
-                line-height: 130%;
-                }
-
-
-        .sidebar_content_content a {
-                color: #FFFFFF;
-                text-decoration: none;
-                letter-spacing: 5px;
-                }
-
-        .sidebar_content_content a:visited {
-                color: #FFFFFF;
-                text-decoration: none;
-                letter-spacing: 5px;
-                }
-
-        .sidebar_content_content a:hover {
-                color: #FFFFFF;
-                text-decoration: underline;
-                letter-spacing: 5px;
-                }
-               
-        .side_content_header {
-                margin: 0;
-                color: #FFFFFF;
-                font-family: "Trebuchet MS" "Times New Roman";
-                font-size: 20px;
-                font-variant: small-caps;
-                }
-
-/******** Footer ********/
-        #footer {
-                width: 750px;
-                height: 73px;
-                background: url(images/footer.gif) top no-repeat;
-                margin-top: 0px;
-                padding: 5px;
-                }
-
-        #footer p {
-                padding: 25px;
-                text-align: center;
-                font-size: 9px;
-                color: #999999;
-                }
-
-        #footer p a {
-                color: #000000;
-                font-weight: 100;
-                text-decoration: none;
-                border-bottom: 1px dotted #000000;
-                }
-
-        #footer p a:visited {
-                color: #000000;
-                font-weight: 100;
-                text-decoration: none;
-                border-bottom: 1px dotted #000000;
-                }
-
-        #footer p a:hover {
-                color: #000000;
-                text-decoration: none;
-                border-top: 1px dotted #000000;
-                }
+#footer {
+position:relative;
+bottom:0;
+margin:5em 0 0 0;
+padding:0;
+height:4em;
+line-height:4em;
+text-align:center;
+font-size:.7em;
+background-color:#ffffff;
+border-top:1px solid #eeeeee;
+}

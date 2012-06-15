@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <mosinstall type="template">
 
-<name>stylized_beauty</name>
-<creationDate>September 2006</creationDate>
-<author>DesignForJoomla</author>
+<name>summer_holiday</name>
+<creationDate>August 2006</creationDate>
+<author>DesignForJoomla.com</author>
 <copyright>DesignForJoomla.com</copyright>
 <authorEmail>cuongnm@designforjoomla.com</authorEmail>
 <authorUrl>designforjoomla.com</authorUrl>
 <version>1.0</version>
-<description>Stylized Beauty - Joomla template by DesignForJoomla.com</description>
+<description>Summer holiday - Joomla template by DesignForJoomla.com</description>
 
 <files>
     <filename>index.php</filename>
@@ -16,22 +16,13 @@
 </files>
 
 <images>
-        <filename>images/bg.png</filename>
-        <filename>images/box_b_l.gif</filename>
-        <filename>images/box_b_r.gif</filename>
-        <filename>images/box_t_l.gif</filename>
-        <filename>images/box_t_r.gif</filename>
-        <filename>images/bullet_white.gif</filename>
-        <filename>images/comment.gif</filename>
-        <filename>images/emailButton.png</filename>
-        <filename>images/footer.gif</filename>
-        <filename>images/go.png</filename>
-        <filename>images/header.gif</filename>
-        <filename>images/input.png</filename>
-        <filename>images/menu-background.png</filename>
-        <filename>images/menu-hover.png</filename>
-        <filename>images/printButton.png</filename>
-        <filename>images/search.png</filename>
+        <filename>images/blockquote-bg-question.jpg</filename>
+        <filename>images/blockquote-bg-warning.jpg</filename>
+        <filename>images/body-bg.jpg</filename>
+        <filename>images/fauxrightcolumn-bg.jpg</filename>
+        <filename>images/header-bg.jpg</filename>
+        <filename>images/tableftB.gif</filename>
+        <filename>images/tabrightB.png</filename>
 </images>
 
 <css>
@@ -40,7 +31,7 @@
         <filename>css/template.css</filename>
         <filename>css/template_css.css</filename>
         <filename>css/template_css_ie.css</filename>
-		<filename>css/template_css_ie7.css</filename>
+
 </css>
 
 </mosinstall>
