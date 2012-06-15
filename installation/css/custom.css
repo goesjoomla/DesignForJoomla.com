@@ -1,0 +1,35 @@
+/* CSS SELECTORS FOR CUSTOMIZATION */
+
+/* ======================== HEADER ======================== */
+#title{color:#fff;font-weight:normal;font-size:24px}
+
+#user{color:#666;font-size:16px;margin:32px 10px 0 0;font-weight:bold;overflow:hidden}
+#user a{color:#666;font-size:16px;font-weight:bold}
+#user a:hover{color:#999}
+#title h1{color:#fff;font-weight:normal;font-size:24px}
+
+/* ======================== LEFT COLUMN ======================== */
+#left{color:#000;font-size:12px}
+#left .moduletable h3{padding:5px 0 5px 10px}
+#left .moduletable{padding:0 4px 0 3px;margin-bottom:10px}
+#left a.mainlevel{display:block;color:#fff;text-decoration:none;background:transparent url('../images/bullet.gif') 12px 10px no-repeat;border-bottom:1px solid #c8e5c7;width:198px;padding-left:20px;padding-top:4px}
+#left a.mainlevel:hover{display:block;color:#333;text-decoration:none;background:#c8e5c7}
+#left .contentpaneopen td,form{padding:0 20px}
+#left .moduletable img{border:none;padding:0;margin-left:20px}
+#left .moduletable syndicate{margin-left:0}
+#left .moduletable .contentpaneopen img{border:1px solid #fff;margin-left:0}
+#left ul#mainlevel,#left ul#mainlevel li{padding:0;background:none}
+
+/* ======================== RIGHT COLUMN ======================== */
+#right .module h3{font-size:20px;margin-bottom:10px}
+#top .module div div div,#bottom .module div div div,#main div div div{padding:34px 23px}
+#top .module div div div div,#bottom .module div div div div,#main div div div div{padding:0}
+
+/* ======================== FOOTER ======================== */
+#footer{text-align:center;padding:40px 40px 20px 40px}
+#footer .copyright{padding:10px 0 10px 10px}
+#bottom_left{float:left;text-align:left;padding:10px 0 0 10px}
+#bottom_left div{text-align:left}
+#bottom_right{text-align:right;padding:10px 5px 10px 0}
+#footer a{color:#000000}
+#footer a:hover{color:#FFFFFF}

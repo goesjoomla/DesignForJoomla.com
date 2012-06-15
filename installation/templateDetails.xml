@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <mosinstall type="template">
 
-<name>revival</name>
-<creationDate>21st September 2006</creationDate>
+<name>revival2</name>
+<creationDate>29nd December 2006</creationDate>
 <author>DesignForJoomla.com</author>
 <copyright>DesignForJoomla.com</copyright>
 <authorEmail>support@designforjoomla.com</authorEmail>
 <authorUrl>designforjoomla.com</authorUrl>
 <version>1.0</version>
-<description>Revival - Joomla template by DesignForJoomla.com</description>
+<description>revival2- Joomla template by DesignForJoomla.com</description>
 
 <files>
     <filename>index.php</filename>
@@ -16,25 +16,32 @@
 </files>
 
 <images>
-	<filename>images/bg.gif</filename>
-	<filename>images/content_bg01.gif</filename>
-	<filename>images/content_bg02.gif</filename>
-	<filename>images/footer.gif</filename>
-	<filename>images/footer_no_right.gif</filename>
+	<filename>images/bottom.gif</filename>
+	<filename>images/bullet.gif</filename>
+	<filename>images/content_bg.gif</filename>
+	<filename>images/content_btm.gif</filename>
+	<filename>images/content_mid.gif</filename>
+	<filename>images/content_top.gif</filename>
 	<filename>images/header.gif</filename>
-	<filename>images/header_no_right.gif</filename>
+	<filename>images/headerbg.gif</filename>
 	<filename>images/nav_bg.gif</filename>
-	<filename>images/sidebar_bg.gif</filename>
-	<filename>images/arrow.bmp</filename>
+	<filename>images/nav_btm.gif</filename>
+	<filename>images/nav_mid.gif</filename>
+	<filename>images/nav_top.gif</filename>
+	<filename>images/content_btm_l.gif</filename>
+	<filename>images/content_mid_l.gif</filename>
+	<filename>images/content_top_l.gif</filename>
 
 </images>
 
 <css>
-	<filename>css/bottom.css.php</filename>
 	<filename>css/template.css</filename>
-	<filename>css/footer.css.php</filename>
 	<filename>css/template_css.css</filename>
-	<filename>css/template_css_ie.css</filename>
+	<filename>css/bottom.css.php</filename>
+	<filename>css/footer.css.php</filename>
+	<filename>css/base.css</filename>
+	<filename>css/layout.css</filename>
+	<filename>css/custom.css</filename>
 </css>
 
 </mosinstall>
