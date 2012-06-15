@@ -1,43 +1,53 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <mosinstall type="template">
 
-<name>sunny_flower</name>
-<creationDate>January 2007</creationDate>
+<name>team_three</name>
+<creationDate>January 2008</creationDate>
 <author>DesignForJoomla.com</author>
 <copyright>DesignForJoomla.com</copyright>
 <authorEmail>cuongnm@designforjoomla.com</authorEmail>
 <authorUrl>designforjoomla.com</authorUrl>
 <version>1.0</version>
-<description>Sunny flower - Joomla template by DesignForJoomla.com</description>
+<description>Team Three - Joomla template by DesignForJoomla.com</description>
 
 <files>
     <filename>index.php</filename>
     <filename>template_thumbnail.png</filename>
-    <filename>func/style/d4j_stylechanger.js</filename>
-    <filename>func/style/d4j_stylechanger.php</filename>
 </files>
 
 <images>
-        <filename>images/b1.gif</filename>
-        <filename>images/b2.gif</filename>
-        <filename>images/b3.gif</filename>
-        <filename>images/flower.jpg</filename>
-        <filename>images/indent1.png</filename>
-        <filename>images/indent2.png</filename>
-        <filename>images/line.jpg</filename>
-        <filename>images/navtab.gif</filename>
-        <filename>images/navtab1.gif</filename>
-        <filename>images/subheader.gif</filename>
+        <filename>images/arrow.gif</filename>
+        <filename>images/header_bg.gif</filename>
+        <filename>images/html.gif</filename>
+        <filename>images/html_h.gif</filename>
+        <filename>images/line.gif</filename>
+        <filename>images/login.gif</filename>
+        <filename>images/login_buttom.gif</filename>
+        <filename>images/logo.gif</filename>
+        <filename>images/mid_arrow.gif</filename>
+        <filename>images/middle_table_bg.gif</filename>
+        <filename>images/regi_arrow.gif</filename>
+        <filename>images/services.gif</filename>
+        <filename>images/services_h.gif</filename>
+        <filename>images/services_pic.gif</filename>
+        <filename>images/slogan.gif</filename>
+        <filename>images/solution.gif</filename>
+        <filename>images/solution_h.gif</filename>
+        <filename>images/support.gif</filename>
+        <filename>images/support_h.gif</filename>
+        <filename>images/upper_pan_bg.gif</filename>
+        <filename>images/want.gif</filename>
+        <filename>images/who_pic.jpg</filename>
 </images>
 
 <css>
-        <filename>css/base.css</filename>
         <filename>css/bottom.css.php</filename>
-        <filename>css/custom.css</filename>
-        <filename>css/layout.css</filename>
         <filename>css/footer.css.php</filename>
+        <filename>css/template.css</filename>
+        <filename>css/d4j_dropdownmenu.css</filename>
         <filename>css/template_css.css</filename>
         <filename>css/template_css_ie.css</filename>
+        <filename>css/template_css_ie7.css</filename>
 </css>
 
 </mosinstall>

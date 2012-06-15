@@ -1,5 +1,29 @@
-table{font-size:1em}
-#slogan{height:150px;width:174px}
-#button1{margin:50px 0 0 201px}
-#slogan{height:150px;font-size:2.2em;padding-top:39px}
-#mainbody{width:475px}
+#topbox1{margin:0 0 0 32px}
+#menu1 ul li a,#menu2 ul li a,#menu3 ul li a{line-height:30px}
+#advert3{margin:22px 0 0 1px}
+#newsflash .moduletable h3{margin:3px 0 9px}
+#lbox .moduletable h3 span{margin:3px 0 0}
+#user2{margin:0 0 0 8px}
+#bottom_left{margin:0 0 0 65px}
+
+#toolbar ul.list_menu li li,
+#toolbar ul.list_menu li li li,
+#toolbar ul.list_menu li li li li,
+#toolbar ul.list_menu li li li li li,
+#toolbar ul.list_menu li li li li li li{padding:3px 0 3px 13px}
+#toolbar ul.list_menu li li:hover .sublevel,
+#toolbar ul.list_menu li li li:hover .sublevel,
+#toolbar ul.list_menu li li li li:hover .sublevel,
+#toolbar ul.list_menu li li li li li:hover .sublevel,
+#toolbar ul.list_menu li li li li li li:hover .sublevel,
+#toolbar ul.list_menu li li.sfhover .sublevel,
+#toolbar ul.list_menu li li li.sfhover .sublevel,
+#toolbar ul.list_menu li li li li.sfhover .sublevel,
+#toolbar ul.list_menu li li li li li.sfhover .sublevel,
+#toolbar ul.list_menu li li li li li li.sfhover .sublevel,
+#toolbar ul.list_menu li li.active_mitem .sublevel,
+#toolbar ul.list_menu li li li.active_mitem .sublevel,
+#toolbar ul.list_menu li li li li.active_mitem .sublevel,
+#toolbar ul.list_menu li li li li li.active_mitem .sublevel,
+#toolbar ul.list_menu li li li li li li.active_mitem .sublevel{padding:2px 0 2px 13px;margin:-2px 0 -2px -13px}
+#toolbar .transMenu .items{border-top:none}
