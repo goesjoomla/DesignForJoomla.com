@@ -1,16 +1,6 @@
 var prefsLoaded = false;
-var defaultFontSize = 13;
+var defaultFontSize = 15;
 var currentFontSize = defaultFontSize;
-var defaultColor = 0;
-var currentColor = defaultColor;
-
-function changeColor(newColor){
-	if(currentColor != parseInt(newColor)){
-		currentColor = parseInt(newColor);
-		createCookie("color", currentColor, 30);		
-		window.location.reload();   		
-	}
-}
 
 function revertStyles(){
 	currentFontSize = defaultFontSize;
@@ -20,18 +10,20 @@ function revertStyles(){
 function changeFontSize(sizeDifference){
 	currentFontSize = parseInt(currentFontSize) + parseInt(sizeDifference);
 
-	if(currentFontSize > 17){
-		currentFontSize = 17;
-	}else if(currentFontSize < 10){
-		currentFontSize = 10;
+	if(currentFontSize > 18){
+		currentFontSize = 18;
+	}else if(currentFontSize < 12){
+		currentFontSize = 12;
 	}
 
 	setFontSize(currentFontSize);
+	createCookie("fontSize", currentFontSize, 30);
 };
 
-function setFontSize(fontSize){
+function setFontSize(fontSize){	
 	document.body.style.fontSize = fontSize + 'px';
 };
+
 
 function createCookie(name,value,days) {
   if (days) {
@@ -59,17 +51,13 @@ window.onload = setUserOptions;
 function setUserOptions(){
 	if(!prefsLoaded){
 
-		userFontSize = readCookie("fontSize");		
+		userFontSize = readCookie("fontSize");
+		
 		currentFontSize = userFontSize ? userFontSize : defaultFontSize;
-		setFontSize(currentFontSize);		
+		setFontSize(currentFontSize);
+		
+		
 		prefsLoaded = true;
 	}
 
-}
-
-window.onunload = saveUserOptions;
-
-function saveUserOptions()
-{
-	createCookie("fontSize", currentFontSize, 30);
 }

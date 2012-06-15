@@ -3,17 +3,10 @@
 // no direct access
 defined( '_VALID_MOS' ) or die( 'Restricted access' );
 
-global $colors;
+global $template_font;
 
 // set font size
-$defaultFontSize = 13;
-$currentFontSize = $defaultFontSize;
-$userOptions['fontSize'] = intval(mosGetParam($_COOKIE, 'fontSize', $defaultFontSize));
+$defaultFontSize = 15;
+$template_font = intval(mosGetParam($_COOKIE, 'fontSize', $defaultFontSize));
 
-if ($userOptions['fontSize'] != $defaultFontSize) { // user has already interested in a font size
-	$currentFontSize = $userOptions['fontSize'];
-}
-	echo "<style type=\"text/css\">";
-	echo "\tbody{font-size:".$currentFontSize."px}\n";
-	echo "</style>";
 ?>

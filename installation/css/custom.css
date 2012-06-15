@@ -1,46 +1,71 @@
-/* =========================== Logo ================================== */
-#D4J_Logo .moduletable{margin:0;text-transform:lowercase;text-align:center;font-weight:normal;font-style:italic;color: #9C9C9C;font-size:1.1em}
-#D4J_Logo .moduletable h3{background:url(../images/img03.gif) no-repeat center center;font-size:2.5em;font-weight:100}
-#D4J_Logo a{color:#9C9C9C;text-decoration:none}
+/* ====================== FOR SITETOOLS CHANGER ========= */
+body.font18{font-size:18px}
+body.font17{font-size:17px}
+body.font16{font-size:16px}
+body.font15{font-size:15px}
+body.font14{font-size:14px}
+body.font13{font-size:13px}
 
-/* =========================== LEFTSIDE ================================ */
-#D4J_LeftSide{color:#ffffff}
-#D4J_Left .moduletable,#D4J_LeftSide .moduletable-green{background:#85c329 url(../images/img04.gif) top repeat-x;padding:30px 20px}
-#D4J_Right .moduletable,#D4J_LeftSide .moduletable-blue{background:#4096ee url(../images/img06.gif) top repeat-x;padding:30px 20px}
-#D4J_LeftSide .moduletable-orange{background:#ff9523 url(../images/img10.gif) top repeat-x;padding:30px 20px}
-#D4J_LeftSide .moduletable h3,#D4J_LeftSide .moduletable-green h3,#D4J_LeftSide .moduletable-blue h3,#D4J_LeftSide .moduletable-orange h3{font-size:129%;font-weight:200;margin:0 0 20px 0;padding-bottom:10px;display:block;width:100%}
-#D4J_Left .moduletable h3,#D4J_LeftSide .moduletable-green h3{background:url(../images/img05.gif) bottom repeat-x}
-#D4J_Right .moduletable h3,#D4J_LeftSide .moduletable-blue h3{background:url(../images/img07.gif) bottom repeat-x}
-#D4J_LeftSide .moduletable-orange h3{background:url(../images/img11.gif) bottom repeat-x}
+.dotline{background:url(../images/dot-line.gif) 0 0 repeat-x #fff; padding:0;color:#000;margin:3px 0 3px 0;display:block;width:100%;height:2px}
+.brown{color:#786321}
+.green{}
+/* ====================== MAIN MENU ===================== */
+#D4J_MainMenu ul{display:block;height:36px;margin:9px 0 0 0; padding:0 29px 0 0;list-style:none}
+#D4J_MainMenu ul li{float:left; font:12px/36px "Trebuchet MS",Arial, Helvetica, sans-serif; font-weight:bold;}
+#D4J_MainMenu ul li .mainlevel{width:74px; height:36px; display:block; padding:0; color:#555; background:#fff; text-decoration:none; text-align:center; margin:0 1px 0 0; top:0px; left:0px;overflow:hidden}
+#D4J_MainMenu ul li .mainlevel:hover{width:74px; height:36px; text-decoration:none; background:url(../images/button.gif) no-repeat 0 0 #AEAEAE; color:#fff}
+#D4J_MainMenu ul li a#active_menu{width:74px; display:block; height:36px; background:url(../images/button.gif) no-repeat 0 0 #AEAEAE; color:#fff; text-align:center; margin:0 1px 0 0;}
 
-#D4J_LeftSide a{color:#ffffff}
+/* ====================== TOP USERS ===================== */
+#D4J_TopUsers{color:#fff}
+#D4J_TopUsers a{color:#fff;font-weight:bold}
+#D4J_TopUsers a.disable{width:246px;height:263px;display:block;position:absolute;top:144px}
+#D4J_TopUsers .moduletable{z-index:1;display:block;position:absolute;padding:56px 0 0 0;width:180px;margin-left:34px;font-weight:bold;font:0.8em Arial, Helvetica, sans-serif;height:123px;overflow:hidden;text-align:left;line-height:16px}
+#D4J_TopUsers .moduletable h3{text-align:right;text-transform:uppercase;font:2.33em "Trebuchet MS",Arial, Helvetica, sans-serif;font-weight:bold;margin-bottom:20px}
+#D4J_TopUsers .moduletable ul{margin:0}
+#D4J_User1 a.disable:hover{background:url(../images/orange-hover.jpg) 0 0 no-repeat;width:246px;height:263px}
+#D4J_User2 a.disable:hover{background:url(../images/green-hover.jpg) 0 0 no-repeat;width:246px;height:263px}
+#D4J_User3 a.disable:hover{background:url(../images/blue-hover.jpg) 0 0 no-repeat;width:246px;height:263px}
 
-#D4J_LeftSide ul#mainlevel{margin:0;list-style:none}
-#D4J_LeftSide ul#mainlevel li{padding:10px 0}
-#D4J_LeftSide ul#mainlevel li a,#D4J_LeftSide a.mainlevel-nav,#D4J_LeftSide a.sublevel-nav{text-decoration:none;font-size:129%}
-#D4J_LeftSide ul#mainlevel li a:hover,#D4J_LeftSide a.mainlevel-nav:hover,#D4J_LeftSide a.sublevel-nav:hover{text-decoration:underline}
-#D4J_Left .moduletable ul#mainlevel li,#D4J_LeftSide .moduletable-green ul#mainlevel li,#D4J_Left .moduletable  .mainlevel-nav,#D4J_LeftSide .moduletable-green .mainlevel-nav{background:url(../images/img05.gif) bottom repeat-x}
-#D4J_Right .moduletable ul#mainlevel li,#D4J_LeftSide .moduletable-blue ul#mainlevel li,#D4J_Right .moduletable .mainlevel-nav,#D4J_LeftSide .moduletable-blue .mainlevel-nav{background:url(../images/img07.gif) bottom repeat-x}
-#D4J_LeftSide .moduletable-orange ul#mainlevel li,#D4J_LeftSide .moduletable-orange .mainlevel-nav{background:url(../images/img11.gif) bottom repeat-x}
-#D4J_LeftSide .mainlevel-nav,#D4J_LeftSide .sublevel-nav{padding:10px 0;display:block;font-size:129%}
-#D4J_LeftSide .sublevel-nav{padding-left:5px}
+/* ======================== ABOUT US ===================== */
+#D4J_AboutUs .moduletable{float:left}
+#D4J_AboutUs .moduletable h3{display:block;width:250px;height:50px;margin:0 0 13px 0;font:2em Georgia, "Times New Roman", Times, serif;font-weight:normal;color:#FF7113;text-align:left}
 
-/* ======================== RIGHTSIDE ============================ */
-#D4J_RightSide{line-height:25px}
-#D4J_RightSide .moduletable,#D4J_BottomUsers .moduletable-green,#D4J_BottomUsers .moduletable-orange,#D4J_BottomUsers .moduletable-blue{width:100%}
-#D4J_RightSide .moduletable h3,#D4J_BottomUsers .moduletable h3,#D4J_BottomUsers .moduletable-blue h3,#D4J_BottomUsers .moduletable-orange h3,#D4J_BottomUsers .moduletable-green h3{font-size:227%;color:#125293;font-weight:100;margin:0 0 15px 0;padding:0 0 15px 0;background:url(../images/img09.gif) bottom repeat-x;display:block;width:100%}
+/* ========================= NEWS ======================== */
+#D4J_News{font:1.2em Georgia, "Times New Roman", Times, serif;font-style:italic;color:#555555;padding:2px 10px 0 25px}
 
-#D4J_BottomUsers,#D4J_BottomUsers a{color:#ffffff}
-#D4J_User8 .moduletable,#D4J_User9 .moduletable,#D4J_User8 .moduletable-orange,#D4J_User9 .moduletable-orange{background:#ff9523 url(../images/img10.gif) top repeat-x}
-#D4J_User8 .moduletable h3,#D4J_User9 .moduletable h3,#D4J_User8 .moduletable-orange h3,#D4J_User9 .moduletable-orange h3{background:url(../images/img11.gif) bottom repeat-x;color:#ffffff;font-size:129%;padding:0 0 10px 0}
-#D4J_User8 .moduletable-blue,#D4J_User9 .moduletable-blue{background:#4096ee url(../images/img06.gif) top repeat-x}
-#D4J_User8 .moduletable-blue h3,#D4J_User9 .moduletable-blue h3{background:url(../images/img07.gif) bottom repeat-x;color:#ffffff;font-size:129%;padding:0 0 10px 0}
-#D4J_User8 .moduletable-green,#D4J_User9 .moduletable-green{background:#85c329 url(../images/img04.gif) top repeat-x}
-#D4J_User8 .moduletable-green h3,#D4J_User9 .moduletable-green h3{background:url(../images/img05.gif) bottom repeat-x;color:#ffffff;font-size:129%;padding:0 0 10px 0}
-#D4J_User8 .moduletable,#D4J_User8 .moduletable-orange,#D4J_User8 .moduletable-green,#D4J_User8 .moduletable-blue{padding:18px 10px 40px 30px}
-#D4J_User9 .moduletable,#D4J_User9 .moduletable-orange,#D4J_User9 .moduletable-green,#D4J_User9 .moduletable-blue{padding:18px 30px 40px 10px}
-#D4J_User8 ul,#D4J_User9 ul{margin-left:40px}
+/* ========================= MAIN BODY =================== */
+#D4J_MainBody .moduletable h3,#D4J_MainBody .moduletable-nav h3{background:#fff;margin:0 0 12px 0; font:2em Georgia, "Times New Roman", Times, serif;font-weight:normal;color:#FF7113}
 
-/* ========================== BOTTOMPAGE ========================= */
-#D4J_BottomPage{font-size:85%}
-#D4J_Debug a{color:#ffffff}
+/* ========================= TOP ========================= */
+#D4J_Top .moduletable{background:url(../images/testimonial-bg.gif) 0 50px  no-repeat;width:278px;height:180px;overflow:hidden;padding:76px 40px 5px 145px}
+#D4J_Top .moduletable h3{margin:-76px 0 45px -145px}
+#D4J_Top .readon{background:url(../images/more2.gif) no-repeat}
+#D4J_Top span,#D4J_Top b{color:#786321;font-weight:bold}
+
+/* ========================= RIGHT SIDE =================== */
+#D4J_RightSide{font-size:0.8em}
+#D4J_RightSide .moduletable,#D4J_RightSide .moduletable-nav{margin-bottom:20px}
+
+#D4J_RightSide .moduletable ul#mainlevel{list-style:none;margin:0}
+#D4J_RightSide .moduletable ul#mainlevel li,#D4J_RightSide .moduletable-nav td{background:url(../images/symbol2.gif) left no-repeat;padding:0 0 0 30px}
+#D4J_RightSide .moduletable ul#mainlevel li .mainlevel,#D4J_RightSide .moduletable-nav .mainlevel{background:url(../images/dot-line.gif) bottom repeat-x;display:block;width:100%;margin-top:3px;padding-bottom:2px}
+
+#D4J_RightSide .moduletable-nav table{width:100%}
+
+#D4J_RightSide input.inputbox{width:154px}
+#D4J_RightSide input.inputbox#mod_login_remember{width:auto}
+
+/* ========================== BOTTOM USERS ================ */
+#D4J_BottomUsers .moduletable h3{background:#fff;margin:0 0 12px 0; font:2em Georgia, "Times New Roman", Times, serif;font-weight:normal;color:#FF7113}
+
+/* ========================== FOOTER MENU ================= */
+#D4J_FooterMenu ul{list-style:none}
+#D4J_FooterMenu ul li{margin-left:5px;display:inline}
+#D4J_FooterMenu a{background:url(../images/seperate.gif) right no-repeat;padding-right:10px}
+
+/* ========================== VALIDATE ==================== */
+a#valid_html{background:url(../images/html-img.gif) no-repeat;display:block;width:76px;height:26px;padding:5px 0 0 10px;float:left}
+a#valid_css{background:url(../images/css-img.gif) no-repeat;display:block;width:65px;height:26px;padding:5px 0 0 10px;float:left}
+a#valid_508{background:url(../images/html-img.gif) no-repeat;display:block;width:76px;height:26px;padding:5px 0 0 10px;float:left}
+a#valid_html:hover,a#valid_css:hover,a#valid_508:hover{color:#216EBD;text-decoration:none}

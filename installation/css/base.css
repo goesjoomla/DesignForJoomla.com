@@ -1,49 +1,49 @@
-/* STANDARD CSS SELECTORfS OF JOOMLA 1.0.X TEMPLATE SYSTEM */
+/* STANDARD CSS SELECTORS OF JOOMLA 1.0.X TEMPLATE SYSTEM */
 
 /* ======================== COMMON ======================== */
 
 /* standard */
 *{padding:0;margin:0}
-body{margin:0;padding:0;background:#E5E5E5;font-family:Georgia, "Times New Roman", Times, serif;font-size:13px;color: #666666}
-blockquote{font-style:italic}
-a{color:#135293}
-a:hover{text-decoration:none}
-input,textarea{}
-ul{margin-left:25px}
+body,form,div,p,table{width:auto}
+body{background:#fff url(../images/footer.gif) bottom repeat-x; color:#0F0F0F; font:15px/20px Arial, Helvetica, sans-serif; margin:32px 0 0; padding:0;}
+a{color:#555;text-decoration:none}
+a:hover{text-decoration:underline}
+ul{margin:12px 0 12px 15px}
+ul li{}
+blockquote{margin:15px 0;padding:10px 34px;background:#FAFAFA;border:1px solid #f2f2f2;border-left:4px solid #4284B0;color:#4284B0;font:bold 1.26em Georgia, 'Bookman Old Style', Serif}
 img{border:none}
-
 /* ======================== PATHWAY ======================== */
-span.pathway{}
-span.pathway img{}
-a.pathway{}
+span.pathway,a.pathway{}
 a.pathway:hover{}
 span.pathway img{}
 
 /* ======================== CONTENT ======================== */
 
 /* page title */
-.componentheading{font-size:227%;color:#125293;font-weight:100;margin:0 0 15px 0;padding:0 0 15px 0;background:url(../images/img09.gif) bottom repeat-x;display:block;width:100%}
-.contentheading{color:#666666;font-weight:bold;font-size:16px}
+.componentheading{padding:0 0 12px 0;font:2em Georgia, "Times New Roman", Times, serif;font-weight:normal;color:#FF7113}
+
+/*module title*/
+div.moduletable h3{}
+
 /* blog page main wrapper */
 table.blog{}
 table.blog td{padding:0 0.1em}
 
 /* component & content container */
-table.contentpane,table.contentpaneopen{}
-table.contentpane img,table.contentpaneopen img{margin:4px}
-.mosimage_caption{font-size:0.9em;font-weight:bold;margin:2px}
+table.contentpane,table.contentpaneopen{width:auto}
+
 /* separator after each content item */
 span.article_seperator{}
 
+/* content title */
+td.contentheading{padding:0 0 12px 0;font:2em Georgia, "Times New Roman", Times, serif;font-weight:normal;color:#FF7113}
 a.contentpagetitle{}
 
 /* 3 buttons */
-td.buttonheading{width:auto}
-td.buttonheading img{border:none}
+td.buttonheading{}
 
 /* date & author */
-span.small,td.createdate,td.modifydate{font-size:0.76em;line-height:0.76em}
-td.createdate{}
+span.small,td.createdate,td.modifydate{font-size:0.8em}
 .smalldark{}
 
 /* page counter */
@@ -57,10 +57,11 @@ a.toclink{}
 
 /* content image */
 div.mosimage{}
-div.mosimage_caption{}
+div.mosimage_caption{font-size:0.9em;margin:2px}
 
 /* read more */
-a.readon{display:block;float:right;text-decoration:none;padding:0 0 0 10px}
+a.readon{display:block;background:url(../images/more.gif) no-repeat;width:76px;height:26px;color:#555; text-decoration:none; font:15px/26px "Trebuchet MS",Arial, Helvetica, sans-serif; padding:0 0 0 10px; text-transform:uppercase;float:right;margin-top:5px;overflow:hidden}
+a.readon:hover{color:#216EBD}
 
 /* ======================== MORE ======================== */
 
@@ -86,15 +87,11 @@ td.contentdescription{font-weight:bold}
 a.category{}
 
 /* listing */
-td.sectiontableheader{padding:0.5em;background:#333333;color:white;text-transform:uppercase;font-weight:bold}
-tr.sectiontableentry1 td{padding:2px 5px;text-align:left;background:#ededed}
-tr.sectiontableentry2 td{padding:2px 5px;text-align:left}
-tr.sectiontableentry1 td a,tr.sectiontableentry2 td a{font-size:0.9em;font-weight:bold}
+td.sectiontableheader{padding:0.5em;background:#FF7113;;color:white;text-transform:uppercase;font-weight:bold}
+tr.sectiontableentry1 td{padding:0.4em 0.5em;background:#d9d9d9;color:black}
+tr.sectiontableentry2 td{padding:0.4em 0.5em;background:#f5f5f5;color:black}
 
 /* ======================== NAVIGATION ======================== */
-a.mainlevel{}
-a.sublevel{}
-ul#mainlevel{list-style-type:none;margin:0}
 
 /* multi-page content nav */
 div.pagenavbar{}
@@ -114,19 +111,15 @@ div.back_button{margin:1em 0}
 div.back_button a{}
 
 /* ======================== FORM ======================== */
+form{}
+form label{}
+input,textarea{padding:2px;border:1px solid #eee;font:normal 1em Verdana, sans-serif;color:#777;margin:4px 0}
+input.button{margin:5px 0;border:1px solid #CCC;background:#FFF;padding:2px 3px;color:#555}
 .contentpane .inputbox{}
 .contentpane select.inputbox{}
 
-input.button{}
-input.button:hover{}
-input.inputbox{width:100%}
-textarea.inputbox{}
-input.button{margin-bottom:.5em;font:bold 100% Georgia, "Times New Roman", Times, serif;color:#666666}
-textarea.inputbox:hover,textarea.inputbox:focus,input.inputbox:hover,input.inputbox:focus{}
-
-select.inputbox{}
-select#mod_templatechooser_jos_change_template{width:142px;margin:3px 0 0 0}
-textarea#contact_text.inputbox{width:100%}
+select#mod_templatechooser_jos_change_template{width:142px;margin-top:3px}
+textarea#contact_text.inputbox{width:90%}
 /* ======================== POPUP ======================== */
 body.contentpane{}
 
@@ -162,7 +155,7 @@ a.mostread{}
 /* ======================== POLL ======================== */
 
 /* wrapper table */
-table.poll{margin-bottom:0.25em;width:100%}
+table.poll{margin-bottom:0.25em}
 
 /* question cell */
 table.poll thead td{font-size:0.9em}
@@ -174,10 +167,7 @@ table.poll td{text-align:left}
 table.pollstableborder{margin:0.25em 0}
 table.pollstableborder td{font-size:0.9em;vertical-align:middle}
 td.sectiontableentry1,td.sectiontableentry2{padding:0.5em}
-td.sectiontableentry1{background:#ededed;color:#666666}
-td.sectiontableentry2{}
 
 /* ======================== SYNDICATE ======================== */
 div.syndicate{}
-div.syndicate img{border:none}
 div.syndicate div{}
