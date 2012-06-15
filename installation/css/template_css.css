@@ -1,10 +1,115 @@
-/* JOOMLA 1.0.X TEMPLATE CSS FILE */
+/*document settings*/
+body{background:#000 url(../images/bg.png) left top repeat-x;margin:8px 0 15px 0}
+body,form,div,p,table{font-family:"Lucida Grande","Lucida Sans Unicode",arial,sans-serif}
 
-/* Main css file with standard css selectors */
-@import url("base.css");
+/* position setting (tableless)*/
+.clr{clear:both}
 
-/* Css file with css selectors for layout */
-@import url("layout.css");
+#container{width:760px;margin:0 auto;padding-bottom:0px}
 
-/* Css file with css selectors for custom modules and menus */
-@import url("custom.css");
+#mainbody{background:#fff}
+
+#header{width:760px;height:155px;background:url(../images/header.gif) top left no-repeat;overflow:hidden}
+
+#headerlink{width:540px;height:150px;float:left;overflow:hidden}
+#headerlink h2,#headerlink div.moduletable{font-weight:normal;float:left;margin:0;padding:22px 0 0 50px;font-size:14px;letter-spacing:1.45px;color:black;text-align:left}
+#headerlink h1,#headerlink div.moduletable h3{margin:0;padding-top:28px;padding-left:0px;font-family:"Trebuchet MS";font-size:40px;font-weight:bold;letter-spacing:0.5px;color:#fff;overflow:hidden;text-align:left}
+#headerlink h1{padding:50px 0 0 45px;text-align:left}
+#headerlink h2{padding:0 0 0 50px;text-align:left}
+
+#rheader{position:absolute;width:200px;height:50px;margin:58px 0 0 545px;padding:8px 0 0 8px;float:right;background:url(../images/search.png) left top no-repeat}
+#rheader #search{float:left}
+#rheader #inputbox input.inputbox{margin-left:30px;float:left;background:#FFF;color:#999;font-size:13px;height:15px;width:110px;background:url(../images/input.png) top right no-repeat}
+#rheader #button input.button{margin:1px 0 0 3px;float:left}
+
+div#menu .mainlevel{height:16px}
+#menu_container,#menu_container_bottom{width:748px;background:#fff;height:30px;padding:0 7px 0 5px;overflow:hidden;float:left}
+#menu,#menu_bottom{width:100%;background:#88ac0b url('../images/menu-background.png') top left repeat-x;float:left;font-size:90%;white-space:nowrap;padding-right:2px;margin:0;height:26px;font-family:"Trebuchet MS"}
+#menu ul,#menu_bottom ul{margin:0;padding:0;list-style:none;float:left;border-left:1px solid #95bc0e;border-right:1px solid #95bf0f;width:100%}
+#menu li,#menu_bottom li{display:inline}
+#menu a:link,#menu a:visited,#menu_bottom a:link,#menu_bottom a:visited{padding:0.25em 1em;background:transparent;color:#FFFFFF;text-decoration:none;float:left;border-right:1px solid #95bc0e}
+#menu a:hover,#menu_bottom a:hover{background:#b6e41c url('../images/menu-hover.png') repeat-x;color:#485b06}
+
+#content{width:750px;background:#fff;padding:0px 5px 5px 5px;overflow:hidden}
+
+div.leftblock div.module{padding:0;margin:0}
+.leftblock#sidebar div.module,.leftblock#sidebar_left div.module,.leftblock#sidebar_middle div.module{background:#999 url('../images/box_b_l.gif') no-repeat bottom left}
+.leftblock#sidebar div.module div div,.leftblock#sidebar_left div.module div div,.leftblock#sidebar_middle div.module div div{background:url('../images/box_t_l.gif') no-repeat top left}
+.leftblock#sidebar div.module div,.leftblock#sidebar_left div.module div,.leftblock#sidebar_middle div.module div{background:url('../images/box_b_r.gif') no-repeat bottom right}
+.leftblock#sidebar div.module div div div,.leftblock#sidebar_left div.module div div div,.leftblock#sidebar_middle div.module div div div{background:url('../images/box_t_r.gif') no-repeat top right}
+.leftblock#sidebar_left div.module div div div h3,.leftblock#sidebar_middle div.module div div div h3{display:block;color:#FFF;font-size:18px;font-variant:small-caps;font-weight:normal;margin:0;padding:0 5px 0 2px;text-align:left}
+.leftblock#sidebar div.module div div div div,.leftblock#sidebar_left div.module div div div div,.leftblock#sidebar_middle div.module div div div div{background:none}
+.leftblock .module img{margin-left:15px}
+
+#sidebar_left,#sidebar_middle{height:185px;overflow:hidden;float:left;margin-top:7px}
+#sidebar_left td,#sidebar_middle td{margin:0;padding:0px;text-align:left}
+#sidebar_left div,#sidebar_middle div{height:185px;color:#EFEFEF;font-size:12.5px;text-align:justify}
+#sidebar_left div div div .contentpaneopen,#sidebar_middle div div div .contentpaneopen{padding:0px;color:#EFEFEF}
+#sidebar_left div div div div,#sidebar_middle div div div div{margin:0;padding:0 8px 6px 8px}
+#sidebar_left div a,#sidebar_left div a:visited,#sidebar_middle div a,#sidebar_middle div a:visited,#sidebar div a,#sidebar div a:visited{font-size:13px;padding-left:15px;color:#FFF;text-decoration:none;letter-spacing:5pxlist-style:none}
+#sidebar_left div a:hover,#sidebar_middle div a:hover,#sidebar div a:hover{color:#FFF;text-decoration:underline;letter-spacing:5px}
+#sidebar_left div ul,#sidebar_middle div ul{margin:0;padding-left:5px}
+#sidebar_left div li,#sidebar_middle div li{background:url(../images/bullet_white.gif) no-repeat}
+#sidebar_left .syndicate div,#sidebar_middle .syndicate div{height:10px}
+#sidebar_middle .module img{margin-top:30px}
+
+.leftblock#sidebar div.module div div div h3{margin:0;color:#FFF;font-size:18px;font-variant:small-caps;font-weight:normal;text-align:left}
+
+#sidebar{width:195px;float:right;margin-right:5px;overflow:hidden;margin-top:7px;text-align:justify}
+#sidebar td{text-align:justify;padding:0}
+#sidebar div{text-align:justify;margin-bottom:5px;color:#EFEFEF;font-size:13px}
+#sidebar div div div div{margin-bottom:0px;padding:0 7px 5px 7px}
+#sidebar div div div div form{width:90%}
+#sidebar div ul{padding:0}
+#sidebar .syndicate div{height:12px}
+
+#posts{float:left;margin:0;background-color:#fff;padding-bottom:20px}
+#posts a,#posts a:visited{color:#C44000;text-decoration:none}
+#posts a:hover{text-decoration:underline}
+#posts .contentpaneopen,#posts .contentpane,#posts .readon,.contentdescription{text-align:justify;font-size:13px;line-height:150%;color:#666}
+#posts .contentheading,#posts .componentheading,.message{margin:0;padding:0;color:#000000;font-family:"Trebuchet MS";font-size:22px;font-weight:bold;font-variant:small-caps;border-bottom:1px solid #000000;text-align:left}
+#posts .contentheading,#posts .componentheading,#posts .contentpaneopen,#posts .contentpane{width:100%;text-align:left}
+#posts .dropcap{float: left;width:.67em;font-size: 3.1em;line-height: 95%}
+#posts .comments{color:#999;font-size:75%;text-align:right}
+blockquote{border:2px dotted #88ac0b;background-color:#EFEFEF;margin:15px;padding:5px;overflow:hidden;text-align:justify;color:#CCC;font:1.4em "Trebuchet MS"}
+
+#footer{text-align:center;font-size:12px;color:#999;overflow:hidden;position:relative;width:760px;height:73px;background:url(../images/footer.gif) top no-repeat}
+#bottom_left div a,#bottom_right div a,#bottom_left div a:visited,#bottom_right div a:visited,#footer a,#footer a:visited{color:#000;font-weight:100;text-decoration:none;border-bottom:1px dotted #000}
+#bottom_left div a:hover,#bottom_right div a:hover,#footer a:hover{border-top:1px dotted #000}
+#bottom_left{float:left;margin:0;padding:0 5px 0 15px;text-align:left}
+#bottom_left div{font-size:11px;text-align:left;color:#999}
+#bottom_right{float:right;margin:0;padding:0 15px 10px;text-align:right}
+#bottom_right div{font-size:11px;color:#999}
+
+/*joomla settings*/
+div.moduletable *{margin:0;padding-left:5px}
+div.moduletable * *{padding:0}
+div.moduletable ul,div.module ul{list-style:none;text-align:left}
+
+.contentpane{margin:0;padding-top:15px}
+.buttonheading{width:10px}
+.back_button,.toclink,.pagenavbar,.blogsection,.pagenav,.sectiontableheader,.searchintro,.article_seperator,.pagenav_next,.pagenav_prev,.category,.sectiontableentry2,.sectiontableentry1{font-family:"Trebuchet MS";text-align:left}
+
+.small,.smalldark,.createdate,.modifydate,.pagenavcounter{margin-bottom:15px;font-size:12px;color:gray;text-align:left}
+
+.contenttoc{margin:0 3px 15px 13px;padding:0 10px;border:1px dotted #bbb;background:#eee}
+.contenttoc th{border-bottom:1px dotted #bbb;font-size:13px}
+.contenttoc td{margin:2px 0 2px 14px}
+.contenttoc a.toclink{text-decoration:none}
+
+.sectiontableheader{background:#A6CA2D;color:#FFFFFF;height:20px;font-weight:bold;padding:0 5px;border-bottom:2px solid #FFFFFF}
+.sectiontablefooter{text-align:center}
+.sectiontableentry1,.sectiontableentry2{padding:2px;text-align:left}
+.sectiontableentry1 td{padding:2px;text-align:left;background:#fff}
+.sectiontableentry2 td{padding:2px;text-align:left;background:#EFEFEF}
+
+div.search tr.sectiontableentry1 input.inputbox{width:100px}
+select#mod_templatechooser_jos_change_template{margin:1px 0 2px 0;width:82px;height:17px}
+
+.blog td{padding:2px}
+.blog_more{margin:0 3px 15px 13px;padding:3px 6px;border:1px dotted #bbb;background:#eee;text-align:left}
+.blog_more div{border-bottom:1px dotted #bbb;text-align:left}
+.blog_more ul{margin:2px 0 2px 14px}
+.blog_more ul li a.blogsection{text-decoration:none}
+
+.tips{display:none}

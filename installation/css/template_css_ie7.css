@@ -1,11 +1,6 @@
 #rheader{position:relative;margin:58px 0 0 5px;float:left;width:205px}
-#rheader #inputbox input.inputbox{height:21px;width:112px}
+#rheader #inputbox input.inputbox{width:112px}
 #rheader #button input.button{margin-left:5px}
-
-#menu_container,#menu_container_bottom{width:760px;padding-right:5px}
-#menu_bottom .mainlevel,#menu .mainlevel{height:24px;font-size:15px}
-
-#content{width:760px}
 
 div.leftblock div.module{padding:0px;margin-top:0px}
 .leftblock#sidebar_left div.module div div div h3,.leftblock#sidebar_middle div.module div div div h3{font-size:17px}

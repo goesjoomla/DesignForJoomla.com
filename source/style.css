@@ -1,0 +1,313 @@
+/* CSS Document For Stylized Beauty
+   Design by super j man
+   (http://www.jdavidmacor.com) */
+
+/******** Basic Body ********/
+        body {
+                background-color: #000000;
+                background: url(images/bg.png) top repeat-x;
+                }
+
+        h1 {
+                margin: 0;
+                color: #FFFFFF;
+                font-family: "Trebuchet MS" "Times New Roman";
+                font-size: 40px;
+                padding-left: 50px;
+                padding-top: 50px;
+                }
+
+        h2 {
+                margin: 0;
+                color: #000000;
+                font-family: "Trebuchet MS" "Times New Roman";
+                font-size: 22px;
+                font-variant: small-caps;
+                border-bottom: 1px solid #000000;
+                }
+
+        img {
+                border: 0;
+                }
+
+        .icon {
+                border: 0;
+                vertical-align: text-bottom;
+                }
+
+        #container {
+                width: 760px;
+                margin: 0 auto;
+                padding: 0px;
+                }
+
+/******** Header ********/
+        #header {
+                width: 760px;
+                height: 155px;
+                background: url(images/header.gif) top no-repeat;
+                }
+
+        form {
+                float: right;
+                font-size: 9px;
+                margin-right: 25px;
+                margin-top: 55px;
+                }
+
+        form img {
+                vertical-align: bottom;
+                }
+
+        input {
+                background: #FFFFFF url(images/input.png) top left no-repeat;
+                color: #999999;
+                border: 0;
+                font-size: 11px;
+                padding: 3px;
+                }
+
+        .button {
+                padding: 2px;
+                background: #88ac0b url('images/menu-background.png') top left repeat-x;
+                color: #FFFFFF;
+                border: 0;
+                font-size: 11px;
+                }
+
+/******** Menu ********/
+        #menu_container {
+                width: 748px;
+                _width: 750;
+                background: #FFFFFF;
+                height: 30px;
+                padding-left: 5px;
+                padding-right: 7px;
+                _padding-right: 5px;
+                }
+
+        #menu {
+                width: 100%;
+                background: #88ac0b url('images/menu-background.png') top left repeat-x;
+                float: left;
+                font-size: 95%;
+                white-space: nowrap;
+                padding-right: 2px;
+                margin-top: 0;
+                margin-bottom: 0;
+                }
+
+        * html #menu {
+                padding-right: 0;
+                }
+
+        #menu ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                float: left;
+                border-left: 1px solid #95bc0e;
+                border-right: 1px solid #95bf0f;
+                width: 100%;
+                }
+
+        #menu li {
+                display: inline;
+                }
+
+        #menu a:link, #menu a:visited {
+                padding: 0.25em 1em;
+                background: transparent;
+                color: #FFFFFF;
+                text-decoration: none;
+                float: left;
+                border-right: 1px solid #95bc0e;
+                }
+
+        #menu a:hover {
+                background: #b6e41c url('images/menu-hover.png') repeat-x;
+                color: #485b06;
+                }
+
+/******** Main Content ********/
+        #content {
+                width: 750px;
+                background: #FFFFFF;
+                padding: 5px;
+                }
+
+        #posts {
+                width: 540px;
+                background: #FFFFFF;
+                margin-right: 15px
+                }
+
+        #posts p {
+                text-align: justify;
+                font: .8em "Lucida Grande", "Lucida Sans Unicode", arial, sans-serif;
+                line-height: 150%;
+                color: #666666;
+                }
+
+        #posts a {
+                color: #C44000;
+                text-decoration: none;
+                }
+
+        #posts a:visited {
+                color: #C44000;
+                text-decoration: none;
+                }
+
+        #posts a:hover {
+                color: #C44000;
+                text-decoration: underline;
+                }
+
+        .dropcap {
+                float: left;
+                width: .67em;
+                font-size: 3.1em;
+                line-height: 95%;
+                }
+
+        .blockquote {
+                border: 2px dotted #88ac0b;
+                background-color: #EFEFEF;
+                margin: 30px;
+                padding: 5px;
+                overflow: hidden;
+                text-align: justify;
+                color: #CCCCCC;
+                font: 1.2em "Trebuchet MS", Arial, Helvetica, sans-serif;
+                }
+
+        .comments {
+                color: #999999;
+                font-size: 75%;
+                text-align: right;
+                }
+
+/******** Sidebar ********/
+        #sidebar {
+                width: 195px;
+                float: right;
+                padding-top: 5px;
+                }
+
+        .sidebar_content{
+                display: block
+                }
+
+        .sidebar_content *{
+                display: block;
+                height: 1px;
+                overflow: hidden;
+                background: #999999
+                }
+
+        .sidebar_content1{
+                border-right: 1px solid #d3d3d3;
+                padding-right: 1px;
+                margin-right: 3px;
+                border-left: 1px solid #d3d3d3;
+                padding-left: 1px;
+                margin-left: 3px;
+                background: #b2b2b2;
+                }
+
+        .sidebar_content2{
+                border-right: 1px solid #f4f4f4;
+                border-left: 1px solid #f4f4f4;
+                padding: 0px 1px;
+                background: #acacac;
+                margin: 0px 1px;
+                }
+
+        .sidebar_content3{
+                border-right: 1px solid #acacac;
+                border-left: 1px solid #acacac;
+                margin: 0px 1px;
+                }
+
+        .sidebar_content4{
+                border-right: 1px solid #d3d3d3;
+                border-left: 1px solid #d3d3d3;
+                }
+
+        .sidebar_content5{
+                border-right: 1px solid #b2b2b2;
+                border-left: 1px solid #b2b2b2;
+                }
+
+        .sidebar_content_content{
+                padding: 0px 5px;
+                background: #999999;
+                color: #EFEFEF;
+                text-align: justify;
+                font: .8em "Lucida Grande", "Lucida Sans Unicode", arial, sans-serif;
+                line-height: 130%;
+                }
+
+
+        .sidebar_content_content a {
+                color: #FFFFFF;
+                text-decoration: none;
+                letter-spacing: 5px;
+                }
+
+        .sidebar_content_content a:visited {
+                color: #FFFFFF;
+                text-decoration: none;
+                letter-spacing: 5px;
+                }
+
+        .sidebar_content_content a:hover {
+                color: #FFFFFF;
+                text-decoration: underline;
+                letter-spacing: 5px;
+                }
+               
+        .side_content_header {
+                margin: 0;
+                color: #FFFFFF;
+                font-family: "Trebuchet MS" "Times New Roman";
+                font-size: 20px;
+                font-variant: small-caps;
+                }
+
+/******** Footer ********/
+        #footer {
+                width: 750px;
+                height: 73px;
+                background: url(images/footer.gif) top no-repeat;
+                margin-top: 0px;
+                padding: 5px;
+                }
+
+        #footer p {
+                padding: 25px;
+                text-align: center;
+                font-size: 9px;
+                color: #999999;
+                }
+
+        #footer p a {
+                color: #000000;
+                font-weight: 100;
+                text-decoration: none;
+                border-bottom: 1px dotted #000000;
+                }
+
+        #footer p a:visited {
+                color: #000000;
+                font-weight: 100;
+                text-decoration: none;
+                border-bottom: 1px dotted #000000;
+                }
+
+        #footer p a:hover {
+                color: #000000;
+                text-decoration: none;
+                border-top: 1px dotted #000000;
+                }
