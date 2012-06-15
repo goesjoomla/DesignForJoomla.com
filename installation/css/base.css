@@ -4,41 +4,47 @@
 
 /* standard */
 *{padding:0;margin:0}
-body,html{background:#e3f0c1;color:#1B403E;margin:0;padding:0}
-body{font:13px Tahoma, Geneva, sans-serif}
-a,a:hover{color:#0033FF}
-ul{padding-bottom:1em}
-li{color:#AFCD70;list-style:circle}
-li a{text-decoration:none}
-li a:link{color:#547999}
-li a:hover{color:#999254}
-blockquote{background:#e3f0c1;border-left:2px solid #afcd70;font:0.95em "Palatino Linotype", "Book Antiqua", Palatino, serif;color:#898D67;letter-spacing:.05em;margin-top:15px;margin-bottom:15px;padding:6px}
+body,form,div,p,table{font-family:verdana,arial,sans-serif;width:auto;line-height:18px}
+body{margin:0;padding:0;background:#FFFFFF url(../images/img01.jpg) repeat-x;color:#000;font-size:12px}
+a{color:#467aa7;text-decoration:none;font-weight:bold}
+a:hover{text-decoration:underline}
+ul{margin:12px 0 12px 0px;list-style:none}
+ul li{background:url(../images/bg_bullet_full_1.gif) left no-repeat;padding-left:15px}
+input{border:1px solid #c8c8c8}
+blockquote{padding-left:20px;background:url(../images/img05.gif) repeat-y;margin-left:40px}
+/* ======================== PATHWAY ======================== */
+span.pathway{font-size:0.83em;font-weight:bold;color:#7d7d7d}
+a.pathway{}
+a.pathway:hover{}
+span.pathway img{}
 
 /* ======================== CONTENT ======================== */
 
 /* page title */
-.componentheading{color:#B19A53;font-size:1.5em;margin-bottom:0.8em}
+.componentheading{color:#646464;font-size:1.75em;font-weight:bold;margin-bottom:36px;border-bottom:8px solid #e1e1e1;padding-bottom:10px}
 
 /*module title*/
-div.moduletable h3{color:#B19A53;font-size:1.17em;margin-bottom:0.8em}
+div.moduletable h3{}
 
 /* blog page main wrapper */
 table.blog{}
 table.blog td{padding:0 0.1em}
 
 /* component & content container */
-table.contentpane,table.contentpaneopen{}
-.contentpaneopen img{margin:6px;border:1px solid #CCCCCC}
+table.contentpane,table.contentpaneopen{width:auto}
+
+/* moduletable */
+.moduletable{margin-bottom:17px}
+
 /* separator after each content item */
 span.article_seperator{}
 
 /* content title */
-td.contentheading{color:#B19A53;font-size:1.17em;font-weight:bold}
-
+td.contentheading{font-size:1.75em;font-weight:normal;color:#505050;margin-bottom:10px}
 a.contentpagetitle{}
 
 /* 3 buttons */
-td.buttonheading img{border:none}
+td.buttonheading{}
 
 /* date & author */
 span.small,td.createdate,td.modifydate{font-size:0.8em}
@@ -53,10 +59,30 @@ table.contenttoc th{}
 table.contenttoc td{}
 a.toclink{}
 
+/* content image */
+div.mosimage{}
+div.mosimage_caption{font-size:0.9em;margin:2px}
+
 /* read more */
 a.readon{}
 
+/* ======================== MORE ======================== */
+
+/* panel */
+div.blog_more{}
+
+/* panel heading */
+div.blog_more div{}
+
+/* block list */
+div.blog_more ul{}
+div.blog_more ul li{}
+
+/* list link */
+a.blogsection{}
+
 /* ======================== TABLE ======================== */
+
 /* description */
 td.contentdescription{font-weight:bold}
 
@@ -64,12 +90,21 @@ td.contentdescription{font-weight:bold}
 a.category{}
 
 /* listing */
-td.sectiontableheader{padding:0.5em;background:#CDE375;color:white;text-transform:uppercase;font-weight:bold}
-tr.sectiontableentry1 td,tr.sectiontableentry2 td{line-height:25px;padding:1px 5px;background:#ECEAA4;color:black;border-top:2px solid #fff}
-tr.sectiontableentry1 td a,tr.sectiontableentry2 td a{color:#009999}
-tr.sectiontableentry1 td a:hover,tr.sectiontableentry2 td a:hover{color:#000000}
+td.sectiontableheader{padding:0.5em;background:#333;color:white;text-transform:uppercase;font-weight:bold}
+tr.sectiontableentry1 td{padding:0.4em 0.5em;background:#d9d9d9;color:black}
+tr.sectiontableentry2 td{padding:0.4em 0.5em;background:#f5f5f5;color:black}
 
 /* ======================== NAVIGATION ======================== */
+
+/* multi-page content nav */
+div.pagenavbar{}
+div.pagenavbar div{}
+div.pagenavbar div a{}
+
+/* content item nav */
+th.pagenav_prev,th.pagenav_next{}
+th.pagenav_prev a,th.pagenav_next a{}
+
 /* blog page nav */
 .pagenav{}
 a.pagenav{}
@@ -79,18 +114,20 @@ div.back_button{margin:1em 0}
 div.back_button a{}
 
 /* ======================== FORM ======================== */
-input.button{margin-top:5px}
-input.button:hover{}
-input.inputbox{}
-input.inputbox:hover{}
-input.inputbox:focus{}
-select.inputbox{}
-select#mod_templatechooser_jos_change_template{width:142px;margin:3px 0 0 0}
-textarea#contact_text.inputbox{}
+input.button{margin-top:5px;background:#e6e6e6;color:#969696;padding:2px;border:1px solid #969696}
+.contentpane .inputbox{}
+.contentpane select.inputbox{}
+
+select#mod_templatechooser_jos_change_template{width:142px;margin-top:3px}
+textarea#contact_text.inputbox{width:90%}
 /* ======================== POPUP ======================== */
 body.contentpane{}
 
+/* ======================== MENU ======================== */
+
+
 /* ======================== SEARCH ======================== */
+
 /* search wrapper */
 div.search{}
 
@@ -100,9 +137,25 @@ input#mod_search_searchword{}
 /* keyword high-light */
 span.highlight{}
 
+/* ======================== LOGIN ======================== */
+input#mod_login_username{}
+input#mod_login_password{}
+input#mod_login_remember{}
+
+/* ======================== LATEST ARTICLE ======================== */
+ul.latestnews{}
+li.latestnews{}
+a.latestnews{}
+
+/* ======================== POPULAR ARTICLE ======================== */
+ul.mostread{}
+li.mostread{}
+a.mostread{}
+
 /* ======================== POLL ======================== */
+
 /* wrapper table */
-table.poll{margin-bottom:0.25em;width:100%}
+table.poll{margin-bottom:0.25em}
 
 /* question cell */
 table.poll thead td{font-size:0.9em}
@@ -117,5 +170,4 @@ td.sectiontableentry1,td.sectiontableentry2{padding:0.5em}
 
 /* ======================== SYNDICATE ======================== */
 div.syndicate{}
-div.syndicate img{border:none}
 div.syndicate div{}

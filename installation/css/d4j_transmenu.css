@@ -1,0 +1,5 @@
+/* CSS Document */
+
+#D4J_MainMenu table td{border-right:1px solid #999}
+#D4J_MainMenu a.mainlevel{display:block;padding:10px 20px 12px 20px;text-align:center;font-size:1.1em;font-weight:bold;color:#646464;text-decoration:none;background:url(../images/img03.gif) no-repeat}
+#D4J_MainMenu a.mainlevel:hover{background:#ccc}
