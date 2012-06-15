@@ -1,6 +1,6 @@
-table{font-size:1em}
-#button1{margin:2px 0 0 25px}
-#left .moduletable h3,#right .moduletable h3{margin:0 0 11px 0}
-#left .moduletable .pollstableborder,#right .moduletable .pollstableborder{margin-right:10px}
-#top .moduletable h3,#bottom .moduletable h3{margin:0 0 11px -15px}
-#mainbody{width:464px}
+#mainmenu li li,#mainmenu li li:hover,#mainmenu li li.sfhover,#mainmenu li li.active{padding:3px 0 3px 22px}
+table{font-size:1em;line-height:160%}
+#sitetools{position:absolute;right:30px}
+#tools{position:absolute;right:30px}
+#user6{width: 200px;height: 150px}
+#menu{width:568px;height:150px}
