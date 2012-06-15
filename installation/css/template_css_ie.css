@@ -1,6 +1,7 @@
-#mainmenu li li,#mainmenu li li:hover,#mainmenu li li.sfhover,#mainmenu li li.active{padding:3px 0 3px 22px}
-table{font-size:1em;line-height:160%}
-#sitetools{position:absolute;right:30px}
-#tools{position:absolute;right:30px}
-#user6{width: 200px;height: 150px}
-#menu{width:568px;height:150px}
+table{font-size:1em}
+#container{width:782px}
+#button1{margin:3px 0 0 350px}
+#slogan{margin:80px 5px 0 0}
+#mainbody{width:550px}
+#left .module div,#right .module div{padding-bottom:4px}
+#menu ul li a,#menu ul li a:hover{line-height:20px}

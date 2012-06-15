@@ -1,0 +1,59 @@
+/* CSS SELECTORS FOR CUSTOMIZATION */
+
+/* ======================== SLOGAN ======================== */
+#slogan,#slogan h1{margin:80px 10px 0 0;float:left;width:770px;color:#fff;text-align:right;overflow:hidden}
+#slogan h1{margin:0;font-size:1em;font-weight:normal}
+#slogan span,#slogan h1 span{font-family:Verdana;color:#fff;font-size:1.4em;letter-spacing:5px;font-weight:bold;margin-right:4px}
+#slogan h1 span{margin-right:1px}
+
+/* ======================== BUTTONS ======================== */
+#button{margin:0;float:left;width:780px;height:20px}
+#button1,#button2,#button3{margin:0;float:left;height:11px;width:17px}
+#button1{margin:3px 0 0 700px}
+#button2,#button3{margin:3px 0 0 5px}
+
+/* ======================== MENU ======================== */
+#menu ul{padding:0;margin:0;color:#fff;list-style:none}
+#menu ul li{display:inline}
+#menu ul li a{margin:0;padding:0 2em .3em 1em;color:#000;text-decoration:none;float:left;border-right:1px solid #cccccc;text-transform:lowercase;line-height:21px}
+#menu ul li a:hover{background:#8DA8D5 url(../images/topnav_bg.gif) top left no-repeat;color:#fff;text-decoration:none;border-right:1px solid #cccccc;line-height:21px}
+
+/* ======================== LEFT COLUMNS ======================== */
+#top .moduletable{padding:10px 20px 2px 10px}
+#bottom .moduletable{padding:10px 10px 2px}
+#top .moduletable h3,#bottom .moduletable h3,#mainbody .contentheading,#mainbody .componentheading{margin:0 0 4px;color:#4669A4;font-size:1.1em;font-weight:bold}
+#top .moduletable thead,#bottom .moduletable thead{text-align:center}
+
+#mainbody .buttonheading img{border:0px;margin:0px;padding:0}
+blockquote{border-left:3px solid #f1b75f;padding:0 15px}
+
+/* ======================== RIGHT COLUMNS ======================== */
+div.leftblock div.module{padding:0;margin:0}
+.leftblock#left div.module,.leftblock#right div.module{background:#D0DEF6 url(../images/box_b_l.gif) no-repeat bottom left}
+.leftblock#left div.module a,.leftblock#right div.module a,#bottom .moduletable a,#top .moduletable a{text-decoration:none}
+.leftblock#left div.module div div,.leftblock#right div.module div div{background:url(../images/box_t_l.gif) no-repeat top left}
+.leftblock#left div.module div,.leftblock#right div.module div{background:url(../images/box_b_r.gif) no-repeat bottom right}
+.leftblock#left div.module div div div,.leftblock#right div.module div div div{background:url(../images/box_t_r.gif) no-repeat top right}
+.leftblock#left div.module div div div h3,.leftblock#right div.module div div div h3{text-align:left;color:#465670;font-size:1.1em;margin:9px 0 0 0;font-family:Arial;font-weight:bold;padding-top:19px}
+.leftblock#left div.module div div div div,.leftblock#right div.module div div div div{background:none}
+
+#left td,#right td{color:#465670;padding:0;font-family:Verdana}
+#left ul#mainlevel li,#right ul#mainlevel li{line-height:16px;font-size:1.1em}
+#left div,#right div{text-align:left;color:#465670;font-size:0.99em;font-family:Verdana;margin-top:10px}
+#left div div div .contentpaneopen,#right div div div .contentpaneopen{padding:0;color:#465670}
+#left div div div div form,#right div div div div form{margin:0;width:100%}
+#left div div div div,#right div div div div{margin:0;padding:0 10px}
+#left div div div div h3,#right div div div div h3{padding-bottom:5px}
+#left div div div,#right div div div{margin:0;padding-bottom:12px}
+
+/* ======================== FOOTER ======================== */
+#footer_container a{color:#f1b75f;text-decoration:none;text-transform:lowercase}
+#footer_container a:hover{color:#D3812D;text-decoration:none}
+
+#user9 ul{margin:0;padding:0}
+#user9 ul li{display:inline;padding:0 10px;background:url(../images/footer.gif) right no-repeat}
+
+#bottom_left{float:left;margin:0;padding:0 0 0 10px;text-align:left}
+#bottom_left div{font-size:1em;text-align:left}
+#bottom_right{float:right;margin:0;padding:0 10px 0 0;text-align:right}
+#bottom_right div{font-size:1em;text-align:right}
