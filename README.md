@@ -1,4 +1,4 @@
-D4J Rose Kist template for Joomla! 1.0 series
+D4J Service 01 template for Joomla! 1.0 series
 ===============================================
 
 Install Git client by following the guide at the URL below:
@@ -9,7 +9,7 @@ Then, clone the repository at following URL:
 
 https://github.com/goesjoomla/DesignForJoomla.com.git
 
-Finally, checkout templates/rose_kist branch to get D4J Rose Kist.
+Finally, checkout templates/service_01 branch to get D4J Service 01.
 
 --
 Manh-Cuong Nguyen
