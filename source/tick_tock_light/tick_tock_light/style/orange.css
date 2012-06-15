@@ -1,0 +1,83 @@
+body
+{ background: #FFF url(back.png) repeat;
+  color: #6F6757;
+}
+
+blockquote{border-color: #FF9C27;}
+
+#main
+{ background: #FFF url(main.png) repeat-y;
+  color: #6F6757;
+}
+
+#links, #footer
+{ background: #FF9C27 url(orange_linkfoot.png);
+  color: #444;
+  border-color: #6F6757;
+}
+
+#links a, #footer a, #links a:hover, #footer a:hover
+{ background: transparent;
+  color: #444;
+}
+
+#logo
+{ background: #FFF url(logo.jpg) no-repeat;
+  color: #6F6757;
+  border-top-color: #6F6757;
+  border-bottom-color: #FF9C27;
+}
+
+#logo h2
+{ background: transparent;
+  color: #FFF;
+}
+
+h1, #column1 h1, #column2 h1
+{ background: transparent;
+  color: #FF9C27;
+  border-color: #E1E1E1;
+}
+
+#menu
+{ background: transparent;
+  color: #444;
+}
+
+#menu li a
+{ background: #FFC78B;
+  color: #444;
+}
+
+#menu li a:hover, #menu li a#selected, #menu li a#selected:hover
+{ background: #FF9C27;
+  color: #FFF;
+} 
+
+#content, #column2, #column2 a
+{ background: #FFF;
+  color: #6F6757;
+  border-color: #6F6757;
+}
+
+#column2 a:hover
+{ background: #FFF;
+  color: #FF9C27;
+  border-color: #FF9C27;
+}
+
+.sidebaritem
+{ background: #F3EFE9;
+  color: #6F6757;
+  border-color: #E1E1E1;
+}
+
+.sbilinks li a, .sidebaritem a
+{ background: #F3EFE9 url(cog.png) no-repeat left center;
+  color: #6F6757;
+} 
+
+.sbilinks li a:hover, .sidebaritem a:hover
+{ background: #F3EFE9 url(orange_cog.png) no-repeat left center;
+  color: #FF9C27;
+} 

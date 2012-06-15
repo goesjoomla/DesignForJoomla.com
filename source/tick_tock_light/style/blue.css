@@ -1,0 +1,83 @@
+body
+{ background: #FFF url(back.png) repeat;
+  color: #57696F;
+}
+
+blockquote{border-color: #1798E9;}
+
+#main
+{ background: #FFF url(main.png) repeat-y;
+  color: #57696F;
+}
+
+#links, #footer
+{ background: #1798E9 url(blue_linkfoot.png);
+  color: #444;
+  border-color: #57696F;
+}
+
+#links a, #footer a, #links a:hover, #footer a:hover
+{ background: transparent;
+  color: #444;
+}
+
+#logo
+{ background: #FFF url(logo.jpg) no-repeat;
+  color: #57696F;
+  border-top-color: #57696F;
+  border-bottom-color: #1798E9;
+}
+
+#logo h2
+{ background: transparent;
+  color: #FFF;
+}
+
+h1, #column1 h1, #column2 h1
+{ background: transparent;
+  color: #1798E9;
+  border-color: #E1E1E1;
+}
+
+#menu
+{ background: transparent;
+  color: #444;
+}
+
+#menu li a
+{ background: #76C9F8;
+  color: #444;
+}
+
+#menu li a:hover, #menu li a#selected, #menu li a#selected:hover
+{ background: #109CEF;
+  color: #FFF;
+} 
+
+#content, #column2, #column2 a
+{ background: #FFF;
+  color: #57696F;
+  border-color: #57696F;
+}
+
+#column2 a:hover
+{ background: #FFF;
+  color: #1798E9;
+  border-color: #1798E9;
+}
+
+.sidebaritem
+{ background: #DDF0FB;
+  color: #57696F;
+  border-color: #E1E1E1;
+}
+
+.sbilinks li a, .sidebaritem a
+{ background: #DDF0FB url(cog.png) no-repeat left center;
+  color: #57696F;
+} 
+
+.sbilinks li a:hover, .sidebaritem a:hover
+{ background: #DDF0FB url(blue_cog.png) no-repeat left center;
+  color: #1798E9;
+} 
