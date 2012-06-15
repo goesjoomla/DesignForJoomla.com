@@ -1,40 +1,33 @@
 /* CSS SELECTORS FOR LAYOUT */
 
-.clearer{clear:both;height:0}
+/* ======================== WRAPPERS ======================== */
+#container{margin:0 auto;background:url(../images/abg_left.gif) repeat-y top left;min-height:545px}
+#container_outer{margin:0;background:url(../images/abg_right.gif) repeat-y top right;min-height:545px}
+#container_inner{margin:0 0 13px;text-align:left;overflow:hidden}
+
+/* ======================== COMMON ======================== */
+.clr{clear:both;height:0;overflow:hidden}
 .tips{display:none}
-/* ======================== CONTAINER ======================== */
-#D4J_Wrapper1{}
-#D4J_Container{width:700px;text-align:left}
 
-/* ======================== TOP PAGE ========================== */
-#D4J_TopPage{background:url(../images/header-img1.jpg) left no-repeat;height:215px;}
+/* ======================== HEADER ======================== */
+#header_outer{margin:0;float:left;width:100%;background:url(../images/upbg_left.gif) no-repeat top left;overflow:hidden;height:264px}
+#header_inner{margin:0;float:left;width:100%;background:url(../images/upbg_right.gif) no-repeat top right;overflow:hidden;height:264px}
+#header{margin:13px 0 0 0;width:100%;background:#FF7800 url(../images/a8.gif) repeat-x top left;float:left;overflow:hidden;height:92px}
+#button{margin:0;float:right;background:#EAEAE2 url(../images/a10.jpg) no-repeat top left;width:488px;border-left:7px solid white;height:93px}
 
-/* ======================== HEADER ============================ */
-#D4J_Header{float:right;height:91px;margin-top:124px}
+/* ======================== MENU ======================== */
+#menu{height:67px;padding:0px 20px 0px 5px;margin:0;float:left;width:70%;overflow:hidden;background:url(../images/a16_left.gif) no-repeat top left}
 
-/* ======================== MAIN MENU ========================= */
-#D4J_MainMenu{height:37px}
+/* ======================== BODY ======================== */
+#subheader{margin:6px 0 0 0;width:100%;background:url(../images/a16.gif) repeat-x top left;float:left;overflow:hidden;height:67px}
+#date{height:67px;line-height:52px;margin:0;padding:0 20px 0 0;float:right;background:url(../images/a16_right.gif) no-repeat top right;color:#BDBDA2;width:160px;overflow:hidden;font-weight:bold;font-size:1.1em;letter-spacing:-1px}
+#content{margin:-80px 0 15px 0;width:100%;overflow:hidden;float:right}
+#lbox,#top,#bottom,#mainbody{margin:0 0 0 30px;width:64%;overflow:hidden;float:left}
+#top,#bottom,#mainbody{width:100%;margin:0}
+#mainbody{padding:0 15px 20px;width:94%;margin-bottom:20px;background:url(../images/a33.gif) bottom left repeat-x}
+#rbox,#left,#right{margin:0;width:29%;float:right;overflow:hidden}
+#left,#right{width:100%;overflow:hidden}
 
-/* ======================== LEFT SIDE ========================= */
-#D4J_LeftSide{width:250px;float:left;margin:27px 0 0 44px}
-
-#D4J_Main,#D4J_Bottom{margin-top:20px}
-
-/* ======================== RIGHT SIDE ======================== */
-#D4J_RightSide{float:left;width:251px;margin-left:42px;background:#FFF;padding:32px 54px}
-
-/* ======================== USER 4 ============================ */
-#D4J_User4{background:url(../images/workdot-line.gif) bottom repeat-x;padding:0 0 20px 0;margin-bottom:30px}
-
-/* ======================== FOOT PAGE ========================= */
-#D4J_FootPage{height:114px; background:url(../images/footer-bg.gif) 0 0 repeat-x #4D4D4D; color:#fff; padding:90px 0 0 0; margin:0 auto; clear:both;}
-#D4J_FootPage_In{background:url(../images/footerlogo.gif) right no-repeat;width:700px}
-#D4J_FootPage_Left{width:300px;height:35px;float:left;margin:0 0 0 20px;padding:29px 0;background:url(../images/vertical-dot.gif) right repeat-y}
-#D4J_FootPage_Right{width:360px;float:left;margin-left:20px}
-
-/* ======================== FOOT NAV ========================== */
-#D4J_FootNav{margin:0 0 20px 0}
-
-/* ======================== SITE TOOLS ======================== */
-#D4J_Sitetools{position:fixed;bottom:0px;right:10px;height:25px}
-#D4J_Tools{display:none;position:fixed;bottom:20px;right:10px;width:21px}
+/* ======================== FOOTER ======================== */
+#footer_outer{width:100%;background:#FAFAF8 url(../images/a50.gif) repeat-x top left;margin:0;overflow:hidden}
+#footer_inner{width:100%;background:url(../images/footer_left.gif) no-repeat top left;overflow:hidden}

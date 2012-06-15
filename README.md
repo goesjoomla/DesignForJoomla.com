@@ -1,4 +1,4 @@
-D4J Technical Support template for Joomla! 1.0 series
+D4J Terrafirma template for Joomla! 1.0 series
 ===============================================
 
 Install Git client by following the guide at the URL below:
@@ -9,7 +9,7 @@ Then, clone the repository at following URL:
 
 https://github.com/goesjoomla/DesignForJoomla.com.git
 
-Finally, checkout templates/technicalsupport branch to get D4J Technical Support.
+Finally, checkout templates/terrafirma branch to get D4J Terrafirma.
 
 --
 Manh-Cuong Nguyen
