@@ -1,4 +1,4 @@
-D4J Travel 01 template for Joomla! 1.0 series
+D4J Travel Portal template for Joomla! 1.0 series
 ===============================================
 
 Install Git client by following the guide at the URL below:
@@ -9,7 +9,7 @@ Then, clone the repository at following URL:
 
 https://github.com/goesjoomla/DesignForJoomla.com.git
 
-Finally, checkout templates/travel_01 branch to get D4J Travel 01.
+Finally, checkout templates/travelportal branch to get D4J Travel Portal.
 
 --
 Manh-Cuong Nguyen

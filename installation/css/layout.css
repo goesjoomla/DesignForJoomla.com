@@ -1,0 +1,38 @@
+/* ======================= COMMON ======================== */
+.clearer{clear:both;width:0;height:0}
+.tips{display:none}
+
+/* ======================= CONTAINER ===================== */
+#D4J_Container{width:980px;background:#ffffff;text-align:left}
+
+/* ======================= TOPPAGE ======================= */
+#D4J_TopPage{height:220px}
+
+#D4J_Logo{float:left;width:240px;height:185px;padding-top:35px;overflow:hidden;text-align:center}
+#D4J_Header{float:left}
+
+/* ======================= MAINPAGE ======================= */
+#D4J_MainPage{}
+#D4J_LeftSide{width:240px}
+
+#D4J_RightSide{padding:22px 30px 30px 30px}
+
+#D4J_Top,#D4J_Newsflash,#D4J_TopUsers,#D4J_Main,#D4J_CenterUsers,#D4J_FooterUsers,#D4J_BottomUsers,#D4J_Bottom,#D4J_Banner{margin:0 0 20px 0}
+
+#D4J_TopUsers,#D4J_CenterUsers,#D4J_BottomUsers{margin-top:-15px}
+#D4J_User1,#D4J_User2,#D4J_User3,#D4J_User4,#D4J_User5,#D4J_User6,#D4J_User7,#D4J_Advert2,#D4J_Advert3{float:left}
+
+/* ======================== BOTTOMPAGE ====================== */
+#D4J_BottomPage{margin:0;background:#000000 url(../images/img12.gif) bottom repeat-x;padding-bottom:40px}
+#D4J_Debug{width:220px;background:#A0A0A0 url(../images/img13.gif) top repeat-x;padding:35px 0 20px 20px}
+
+/* ======================= FOOTER ======================== */
+#D4J_Footer{padding:35px 0 20px 20px;overflow:hidden;background:#CECECE url(../images/img14.gif) top repeat-x}
+#D4J_Copyright{}
+#bottom_left{float:left;text-align:left}
+#bottom_left div{text-align:left}
+#bottom_right{text-align:right;margin-right:10px;float:right}
+
+/* ======================== SITE TOOLS ==================== */
+#D4J_Sitetools{position:fixed;bottom:10px;right:10px}
+#D4J_Tools{margin-top:-4px;display:none;position:fixed;bottom:10px;right:10px}

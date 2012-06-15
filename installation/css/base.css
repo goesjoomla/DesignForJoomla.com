@@ -1,0 +1,183 @@
+/* STANDARD CSS SELECTORfS OF JOOMLA 1.0.X TEMPLATE SYSTEM */
+
+/* ======================== COMMON ======================== */
+
+/* standard */
+*{padding:0;margin:0}
+body{margin:0;padding:0;background:#E5E5E5;font-family:Georgia, "Times New Roman", Times, serif;font-size:13px;color: #666666}
+blockquote{font-style:italic}
+a{color:#135293}
+a:hover{text-decoration:none}
+input,textarea{}
+ul{margin-left:25px}
+img{border:none}
+
+/* ======================== PATHWAY ======================== */
+span.pathway{}
+span.pathway img{}
+a.pathway{}
+a.pathway:hover{}
+span.pathway img{}
+
+/* ======================== CONTENT ======================== */
+
+/* page title */
+.componentheading{font-size:227%;color:#125293;font-weight:100;margin:0 0 15px 0;padding:0 0 15px 0;background:url(../images/img09.gif) bottom repeat-x;display:block;width:100%}
+.contentheading{color:#666666;font-weight:bold;font-size:16px}
+/* blog page main wrapper */
+table.blog{}
+table.blog td{padding:0 0.1em}
+
+/* component & content container */
+table.contentpane,table.contentpaneopen{}
+table.contentpane img,table.contentpaneopen img{margin:4px}
+.mosimage_caption{font-size:0.9em;font-weight:bold;margin:2px}
+/* separator after each content item */
+span.article_seperator{}
+
+a.contentpagetitle{}
+
+/* 3 buttons */
+td.buttonheading{width:auto}
+td.buttonheading img{border:none}
+
+/* date & author */
+span.small,td.createdate,td.modifydate{font-size:0.76em;line-height:0.76em}
+td.createdate{}
+.smalldark{}
+
+/* page counter */
+div.pagenavcounter{}
+
+/* table of content */
+table.contenttoc{padding:4px;margin:4px}
+table.contenttoc th{}
+table.contenttoc td{}
+a.toclink{}
+
+/* content image */
+div.mosimage{}
+div.mosimage_caption{}
+
+/* read more */
+a.readon{display:block;float:right;text-decoration:none;padding:0 0 0 10px}
+
+/* ======================== MORE ======================== */
+
+/* panel */
+div.blog_more{}
+
+/* panel heading */
+div.blog_more div{}
+
+/* block list */
+div.blog_more ul{}
+div.blog_more ul li{}
+
+/* list link */
+a.blogsection{}
+
+/* ======================== TABLE ======================== */
+
+/* description */
+td.contentdescription{font-weight:bold}
+
+/* category link */
+a.category{}
+
+/* listing */
+td.sectiontableheader{padding:0.5em;background:#333333;color:white;text-transform:uppercase;font-weight:bold}
+tr.sectiontableentry1 td{padding:2px 5px;text-align:left;background:#ededed}
+tr.sectiontableentry2 td{padding:2px 5px;text-align:left}
+tr.sectiontableentry1 td a,tr.sectiontableentry2 td a{font-size:0.9em;font-weight:bold}
+
+/* ======================== NAVIGATION ======================== */
+a.mainlevel{}
+a.sublevel{}
+ul#mainlevel{list-style-type:none;margin:0}
+
+/* multi-page content nav */
+div.pagenavbar{}
+div.pagenavbar div{}
+div.pagenavbar div a{}
+
+/* content item nav */
+th.pagenav_prev,th.pagenav_next{}
+th.pagenav_prev a,th.pagenav_next a{}
+
+/* blog page nav */
+.pagenav{}
+a.pagenav{}
+
+/* back button */
+div.back_button{margin:1em 0}
+div.back_button a{}
+
+/* ======================== FORM ======================== */
+.contentpane .inputbox{}
+.contentpane select.inputbox{}
+
+input.button{}
+input.button:hover{}
+input.inputbox{width:100%}
+textarea.inputbox{}
+input.button{margin-bottom:.5em;font:bold 100% Georgia, "Times New Roman", Times, serif;color:#666666}
+textarea.inputbox:hover,textarea.inputbox:focus,input.inputbox:hover,input.inputbox:focus{}
+
+select.inputbox{}
+select#mod_templatechooser_jos_change_template{width:142px;margin:3px 0 0 0}
+textarea#contact_text.inputbox{width:100%}
+/* ======================== POPUP ======================== */
+body.contentpane{}
+
+/* ======================== MENU ======================== */
+
+
+/* ======================== SEARCH ======================== */
+
+/* search wrapper */
+div.search{}
+
+/* keyword input field */
+input#mod_search_searchword{}
+
+/* keyword high-light */
+span.highlight{}
+
+/* ======================== LOGIN ======================== */
+input#mod_login_username{}
+input#mod_login_password{}
+input#mod_login_remember{}
+
+/* ======================== LATEST ARTICLE ======================== */
+ul.latestnews{}
+li.latestnews{}
+a.latestnews{}
+
+/* ======================== POPULAR ARTICLE ======================== */
+ul.mostread{}
+li.mostread{}
+a.mostread{}
+
+/* ======================== POLL ======================== */
+
+/* wrapper table */
+table.poll{margin-bottom:0.25em;width:100%}
+
+/* question cell */
+table.poll thead td{font-size:0.9em}
+
+/* answers cell */
+table.poll td{text-align:left}
+
+/* answers table */
+table.pollstableborder{margin:0.25em 0}
+table.pollstableborder td{font-size:0.9em;vertical-align:middle}
+td.sectiontableentry1,td.sectiontableentry2{padding:0.5em}
+td.sectiontableentry1{background:#ededed;color:#666666}
+td.sectiontableentry2{}
+
+/* ======================== SYNDICATE ======================== */
+div.syndicate{}
+div.syndicate img{border:none}
+div.syndicate div{}
