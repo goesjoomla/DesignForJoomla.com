@@ -1,7 +1,22 @@
-#user7 .moduletable{line-height:129%}
-#user7 .moduletable h3{margin:0 0 -2px}
-#lbox1 .moduletable h3{margin:0 0 8px}
-#rbox1 .moduletable_login input.inputbox{margin:-20px 0 -40px 0}
-#rbox1 .moduletable_login label{margin:0 0 -150px}
-#footer_box{margin:36px 0 0 10px}
-#footer{margin:10px 0 0 5px}
+table{font-size:1em}
+#container_outer,#inner1,#inner2{float:left}
+
+#header{height:62px}
+#logo h1{background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='templates/small_studio/images/logo.png')}
+
+
+#search_field #inputbox{float:left;margin:20px 0 0;width:112px}
+#search_field #inputbox input.inputbox{height:25px}
+#search_field #button input.button{margin:20px 0 0 5px}
+
+#buttons{margin:-10px 3px 0}
+#menu{margin:0 0 11px 5px;width:19.3%}
+#menu ul li{padding:6px 15px 0 20px}
+#top1{width:79.4%}
+#newsflash .moduletable{padding:5px 0 0 11px}
+
+#lbox{margin-left:5px}
+#user6 .moduletable{overflow:hidden;width:100%}
+#mainbody,#bottom,#footer{width:100%}
+#footer_right{margin:0 -13px 0 0px}
+#footer_left{margin:0 0 0 -11px}

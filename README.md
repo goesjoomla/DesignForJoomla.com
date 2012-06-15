@@ -1,4 +1,4 @@
-D4J Skyhigh Industry template for Joomla! 1.0 series
+D4J Small Studio template for Joomla! 1.0 series
 ===============================================
 
 Install Git client by following the guide at the URL below:
@@ -9,7 +9,7 @@ Then, clone the repository at following URL:
 
 https://github.com/goesjoomla/DesignForJoomla.com.git
 
-Finally, checkout templates/skyhigh_industry branch to get D4J Skyhigh Industry.
+Finally, checkout templates/small_studio branch to get D4J Small Studio.
 
 --
 Manh-Cuong Nguyen

@@ -1,0 +1,40 @@
+/* CSS SELECTORS FOR LAYOUT */
+
+/* ======================== WRAPPERS ======================== */
+#container{margin:0 auto;background:#fff url(../images/bg_left.gif) repeat-y top left;overflow:hidden}
+#container_outer{margin:0;background:url(../images/bg_right.gif) repeat-y top right;overflow:hidden}
+#inner1,#inner2{margin:0;overflow:hidden;background:url(../images/bg1.gif) no-repeat left top}
+#inner2{background:url(../images/bg2.gif) no-repeat right top;text-align:left;padding:15px 13px 0 11px}
+
+/* ======================== COMMON ======================== */
+.clr{clear:both;height:0;overflow:hidden}
+.tips{display:none}
+
+/* ======================== HEADER ======================== */
+#header{margin:0 0 3px;float:left;overflow:hidden;height:60px;border-bottom:2px solid #eee;width:100%;background:url(../images/fade.gif) top left repeat-x}
+
+/* ======================== MENU ======================== */
+#menu{margin:0 0 11px 10px;float:left;width:19%;overflow:hidden;border-right:2px solid #ccc;height:151px}
+
+/* ======================== BODY ======================== */
+#search_field{margin:0;float:right;height:60px;width:268px;overflow:hidden}
+#subheader{margin:0;float:left;width:100%;overflow:hidden;height:157px}
+#top1{margin:0;width:78.9%;overflow:hidden;padding-left:3px;float:left;height:151px}
+#top2{margin:0;float:right;overflow:hidden;background:url(../images/pic.jpg) top right no-repeat;height:151px;width:100%;padding:10px 0}
+#newsflash{margin:0;width:46.5%;height:130px;float:left;overflow:hidden}
+#content{margin:0;width:100%;float:left;overflow:hidden}
+#lbox,#left,#right,#user6{margin:0;width:19%;float:left;overflow:hidden}
+#lbox{margin-left:10px}
+#rbox,#top,#mainbody,#topbox,#user3,#user4,#bottombox,#bottom{margin:0;width:79%;float:left;overflow:hidden}
+#rbox{border-left:2px solid #eee;width:79%}
+#top,#mainbody{width:100%}
+#topbox{width:99%;background:url(../images/topbox.gif) center repeat-y}
+#user3,#user4{width:49.99%}
+#mainbody{padding:4px 10px 10px;width:97%;color:#6B6B6B;line-height:1.6em}
+#bottombox{margin-top:10px;width:100%;padding:0 10px}
+#bottom{width:97.75%}
+
+/* ======================== FOOTER ======================== */
+#footer_right{margin:0 -13px 0 -10px;background:#E9E9E9 url(../images/footer_right.gif) no-repeat top right;overflow:hidden}
+#footer_left{margin:0 0 0 -1px;background:url(../images/footer_left.gif) no-repeat top left;overflow:hidden;padding:20px 16px 0}
+#footer{color:#808080;width:97%;background:#FFF;font-size:0.8em;text-align:right;padding:9px 10px 9px 10px;border:1px solid #ccc}
