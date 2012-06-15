@@ -1,0 +1,45 @@
+/* CSS SELECTORS FOR LAYOUT */
+
+.clearer{clear:both;height:0}
+.tips{display:none}
+/* ======================== CONTAINER ======================== */
+#D4J_Container{text-align:left;width:810px}
+
+/* ======================== TOP PAGE ========================= */
+#D4J_TopPage{height:110px;overflow:hidden}
+
+#D4J_Title{width:700px;float:left;margin:30px 0 0 0}
+
+#D4J_MainButton{float:right;margin:42px 0 0 50px}
+
+/* ======================== HEADER ============================ */
+#D4J_Header{height:248px;overflow:hidden}
+
+/* ======================== MAIN MENU ========================= */
+#D4J_MainMenu{width:26.5%;float:left;margin:13px 0 0 0}
+
+/* ======================== NEWSFLASH ========================= */
+#D4J_Newsflash{float:left;background:url(../images/newsflash_bg.gif) repeat-x;margin:10px 0 0 0;width:65%}
+#D4J_Newsflash_In1{background:url(../images/newsflash_left.jpg) left no-repeat;float:left}
+#D4J_Newsflash_In2{background:url(../images/newsflash_right.jpg) right no-repeat;float:left;padding:36px 30px;width:100%;height:127px;overflow:hidden}
+
+/* ======================== ADVERT =========================== */
+#D4J_Advert{margin-bottom:10px}
+
+/* ======================== LEFT SIDE ========================= */
+#D4J_LeftSide{width:70%;float:left;overflow:hidden}
+
+#D4J_User1,#D4J_User2,#D4J_User3,#D4J_User4,#D4J_User5,#D4J_User6,#D4J_User7,#D4J_User8{float:left;margin-left:4%}
+#D4J_User1,#D4J_User3,#D4J_User5{margin-left:0}
+/* ======================== RIGHT SIDE ======================== */
+#D4J_RightSide{width:28.3%;margin-left:1%;float:left;overflow:hidden;background:#f6f6f6;margin-bottom:10px}
+
+/* ======================== BOTTOM PAGE ============================ */
+#D4J_User9{float:left;width:50%}
+
+#D4J_Footer{float:right;width:50%;text-align:right}
+#D4J_Footer_Left div{text-align:right}
+
+/* ======================== SITE TOOLS ======================== */
+#D4J_Sitetools{position:fixed;bottom:0px;right:10px;height:25px}
+#D4J_Tools{display:none;position:fixed;bottom:20px;right:10px;width:21px}

@@ -1,4 +1,4 @@
-D4J Rainbow Consultant template for Joomla! 1.0 series
+D4J Red Business template for Joomla! 1.0 series
 ===============================================
 
 Install Git client by following the guide at the URL below:
@@ -9,7 +9,7 @@ Then, clone the repository at following URL:
 
 https://github.com/goesjoomla/DesignForJoomla.com.git
 
-Finally, checkout templates/rainbow_consultant branch to get D4J Rainbow Consultant.
+Finally, checkout templates/redbusiness branch to get D4J Red Business.
 
 --
 Manh-Cuong Nguyen

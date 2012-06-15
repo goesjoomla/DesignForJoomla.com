@@ -1,59 +1,56 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <mosinstall type="template">
 
-<name>rainbow_consultant</name>
-<creationDate>February 2008</creationDate>
+<name>redbusiness</name>
+<creationDate>26th Sept 2007</creationDate>
 <author>DesignForJoomla.com</author>
 <copyright>DesignForJoomla.com</copyright>
-<authorEmail>cuongnm@designforjoomla.com</authorEmail>
+<authorEmail>support@designforjoomla.com</authorEmail>
 <authorUrl>designforjoomla.com</authorUrl>
 <version>1.0</version>
-<description>Rainbow Consultant - Joomla template by DesignForJoomla.com</description>
+<description>redbusiness - Joomla template by DesignForJoomla.com</description>
 
 <files>
-    <filename>index.php</filename>
-    <filename>template_thumbnail.png</filename>
+	<filename>index.php</filename>
+	<filename>template_thumbnail.png</filename>
+	<filename>func/style/d4j_sitetools.php</filename>
+	<filename>func/style/d4j_stylechanger.js</filename>
+	<filename>func/style/d4j_stylechanger.php</filename>
 </files>
 
 <images>
-        <filename>images/01.gif</filename>
-        <filename>images/02.gif</filename>
-        <filename>images/arrow.gif</filename>
-        <filename>images/bg.gif</filename>
-        <filename>images/body_leftbg.gif</filename>
-        <filename>images/content.gif</filename>
-        <filename>images/content1.gif</filename>
-        <filename>images/content2.gif</filename>
-        <filename>images/content3.gif</filename>
-        <filename>images/email.gif</filename>
-        <filename>images/email_h.gif</filename>
-        <filename>images/footer_bg.gif</filename>
-        <filename>images/grey.gif</filename>
-        <filename>images/header_pic.jpg</filename>
-        <filename>images/home_icon.gif</filename>
-        <filename>images/home_icon_h.gif</filename>
-        <filename>images/left_side.gif</filename>
-        <filename>images/logo.gif</filename>
-        <filename>images/more_bg.gif</filename>
-        <filename>images/right_bg.gif</filename>
-        <filename>images/right_side.gif</filename>
-        <filename>images/spacer.gif</filename>
-        <filename>images/tell.gif</filename>
-        <filename>images/user.gif</filename>
-        <filename>images/user_h.gif</filename>
+	<filename>images/bg.jpg</filename>
+	<filename>images/cat-li.gif</filename>
+	<filename>images/contact.gif</filename>
+	<filename>images/download.jpg</filename>
+	<filename>images/h-art.gif</filename>
+	<filename>images/hbg.gif</filename>
+	<filename>images/home.gif</filename>
+	<filename>images/mainlevel.gif</filename>
+	<filename>images/newsflash_left.jpg</filename>
+	<filename>images/newsflash_right.jpg</filename>
+	<filename>images/newsflash_bg.gif</filename>
+	<filename>images/separate.gif</filename>
+	<filename>images/sitemap.gif</filename>
+	<filename>images/sitetools.gif</filename>
+
+	<filename>images/site_tools/autofit.gif</filename>
+	<filename>images/site_tools/biggerFont.gif</filename>
+	<filename>images/site_tools/expand.gif</filename>
+	<filename>images/site_tools/narrow.gif</filename>
+	<filename>images/site_tools/normalFont.gif</filename>
+	<filename>images/site_tools/smallerFont.gif</filename>
 </images>
 
 <css>
-        <filename>css/bottom.css.php</filename>
-        <filename>css/footer.css.php</filename>
-        <filename>css/template.css</filename>
-        <filename>css/d4j_dropdownmenu1.css</filename>
-        <filename>css/d4j_dropdownmenu2.css</filename>
-        <filename>css/d4j_transmenu1.css</filename>
-        <filename>css/d4j_transmenu2.css</filename>
-        <filename>css/template_css.css</filename>
-        <filename>css/template_css_ie.css</filename>
-        <filename>css/template_css_ie7.css</filename>
+	<filename>css/template_css.css</filename>
+	<filename>css/template.css</filename>
+	<filename>css/bottom.css.php</filename>	
+	<filename>css/footer.css.php</filename>
+	<filename>css/base.css</filename>
+	<filename>css/layout.css</filename>
+	<filename>css/custom.css</filename>
+	<filename>css/D4J_sitetools/site_tools.css</filename>
 </css>
 
 </mosinstall>

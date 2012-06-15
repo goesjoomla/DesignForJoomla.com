@@ -1,202 +1,276 @@
 <?php /* Joomla Template by DesignForJoomla.com */
+
+
 defined( '_VALID_MOS' ) or die( 'Direct Access to this location is not allowed.' );
-define( '_TEMPLATE_URL', $mosConfig_live_site.'/templates/'.$cur_template );
-define( '_TEMPLATE_PATH', str_replace('\\', '/', dirname(__FILE__)) );
+global $template_width,$template_font;
 
 //D4J Template Settings *********************************************************
+$site_tools = 1; // 0:disable all , 1:enable for SITE TOOLS
+$site_tools_font = 1; // 0:disable , 1:enable for font changer SITE TOOLS
+$site_tools_width = 1; // 0:disable all , 1:enable for width changer SITE TOOLS
 
-$d4j_menutype1 = 1; // 1: default joomla menu; 2: d4j_list_menu; 3: d4j_transmenu
-$d4j_menutype2 = 1; // 1: default joomla menu; 2: d4j_list_menu; 3: d4j_transmenu
-
-// count modules for configure positions
-$topModules = (mosCountModules('user5') ? 1 : 0) + (mosCountModules('user6') ? 1 : 0) + (mosCountModules('user7') ? 1 : 0);
-
-
+$main_button = 1; //Show or hide 3 link buttons : 1:show;2:hide
 //End Template Settings **********************************************************
+
+define( '_TEMPLATE_URL', $mosConfig_live_site.'/templates/'.$cur_template );
+define( '_TEMPLATE_PATH', str_replace('\\', '/', dirname(__FILE__)) );
 $iso = split( '=', _ISO );
+
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<?php if ( $my->id ) initEditor(); ?>
-<meta http-equiv="Content-Type" content="text/html; <?php echo _ISO; ?>" />
-<?php mosShowHead(); ?>
-<link rel="stylesheet" type="text/css" href="<?php echo _TEMPLATE_URL; ?>/css/template_css.css" />
-<link rel="stylesheet" type="text/css" href="<?php echo _TEMPLATE_URL ?>/css/d4j_dropdownmenu1.css" />
-<link rel="stylesheet" type="text/css" href="<?php echo _TEMPLATE_URL ?>/css/d4j_dropdownmenu2.css" />
-<link rel="stylesheet" type="text/css" href="<?php echo _TEMPLATE_URL ?>/css/d4j_transmenu1.css" />
-<link rel="stylesheet" type="text/css" href="<?php echo _TEMPLATE_URL ?>/css/d4j_transmenu2.css" />
-<?php function classifyHeading($module){
-ob_start();
-mosLoadModules($module,-2);
-$content = ob_get_contents();
-ob_end_clean();
-$patterns = "/&lt;([^\s]+)&gt;([^\/]*)\/([^\s]+)&gt;/";
-$replaces = "<\\1>\\2</\\3>";
-$iso = split( '=', _ISO );
-return str_replace('&lt;</', '</', preg_replace($patterns, $replaces, $content));
+<?php
+if( $my->id ) {
+	initEditor();
 }
 ?>
+<meta http-equiv="Content-Type" content="text/html; <?php echo _ISO; ?>" />
+<?php mosShowHead(); ?>
+<link rel="stylesheet" type="text/css" href="<?php echo _TEMPLATE_URL ?>/css/template_css.css" />	
+<?php if($site_tools) {
+	include_once(_TEMPLATE_PATH."/func/style/d4j_sitetools.php");
+?>	
+	<link rel="stylesheet" type="text/css" href="<?php echo _TEMPLATE_URL ?>/css/D4J_sitetools/site_tools.css" />
+<?php }?>
+<script type="text/javascript" language="JavaScript">
+		var _TEMPLATE_URL = '<?php echo _TEMPLATE_URL; ?>';
+</script>
+<?php
+	$topusers = 0;
+	if(mosCountModules('user1')) { $user1 = 1; $topusers++;}
+	if(mosCountModules('user2')) { $user2 = 1; $topusers++;}
+		
+	$centerusers = 0;
+	if(mosCountModules('user3')) { $user3 = 1; $centerusers++;}	
+	if(mosCountModules('user4')) { $user4 = 1; $centerusers++;}
+	$bottomusers = 0;
+	if(mosCountModules('user5')) { $user5 = 1; $bottomusers++;}
+	if(mosCountModules('user6')) { $user6 = 1; $bottomusers++;}	
+	if(mosCountModules('user7')) { $user7 = 1; $bottomusers++;};
+	if(mosCountModules('user8')) { $user8 = 1; $bottomusers++;}		
+	
+	if(!mosCountModules('right')) $right = 0; else $right = 1;
+	if(!mosCountModules('left')) $left = 0; else $left = 1;	
+	
+	if(mosCountModules('user9')) { $user9 = 1; }
+	
+	if(!$right && !$left) $right_side = 0; else $right_side = 1;
+?>
+<?php if($d4j_menutype == 1) {?>
+<link rel="stylesheet" type="text/css" href="<?php echo _TEMPLATE_URL ?>/css/d4j_dropdownmenu.css" />	
+<?php } else if($d4j_menutype == 2) {?>
+<link rel="stylesheet" type="text/css" href="<?php echo _TEMPLATE_URL ?>/css/d4j_transmenu.css" />	
+<?php }?>
+<?php include_once(_TEMPLATE_PATH."/func/style/d4j_stylechanger.php"); ?>
+
 <style type="text/css">
-        <?php if ((mosCountModules('left') OR mosCountModules('user1')) AND (mosCountModules('right') OR mosCountModules('user3'))) { ?>
-<?php } ?>
-        <?php if ((mosCountModules('left') OR mosCountModules('user1')) AND (!mosCountModules('right') AND !mosCountModules('user3'))) { ?>
-        #content{background: url('<?php echo _TEMPLATE_URL ?>/images/content2.gif') top left repeat-y}
-        #lbox2,#left,#user1{width:189px}
-        #cbox2,#top,#mainbody,#bottom,#user2{width:537px}
-        #cbox{width:589px}
-        #rbox2,#right,#user3,#spacer{width:0;height:0}
-<?php } ?>
-<?php if ((!mosCountModules('left') AND !mosCountModules('user1')) AND (mosCountModules('right') OR mosCountModules('user3'))) { ?>
-        #content{background: url('<?php echo _TEMPLATE_URL ?>/images/content1.gif') top left repeat-y}
-        #lbox2,#left,#user1,#spacer{width:0;height:0px}
-        #cbox2,#top,#mainbody,#bottom,#user2{width:537px}
-        #cbox{width:589px}
-        #rbox2,#right,#user3{width:189px}
-<?php } ?>
-<?php if ((!mosCountModules('left') AND !mosCountModules('user1')) AND (!mosCountModules('right') AND !mosCountModules('user3'))) { ?>
-        #content{background: url('<?php echo _TEMPLATE_URL ?>/images/content3.gif') top left repeat-y}
-        #lbox2,#left,#user1,#spacer,#rbox2,#right,#user3{width:0;height:0px}
-        #cbox2,#top,#mainbody,#bottom,#user2{width:726px}
-        #cbox{width:778px}
-<?php } ?>
-<?php if (mosCountModules ('user4')) { ?>
-        #user4{height:auto}
-<?php } else { ?>
-        #user4,#container2{width:0px;height:0px;padding:0}
-<?php } ?>
-<?php if (mosCountModules ('user9')) { ?>
-        #user9{height:auto}
-<?php } else { ?>
-        #user9{width:0px;height:0px;padding:0}
-        #box{margin-top:41px}
-<?php } ?>
-<?php if ($topModules > 0) { ?>
-<?php } if ($topModules == 3) { ?>
-        #user6,#user7,#user5{width:33%}
-<?php } elseif ($topModules == 2) { ?>
-        #user6,#user7,#user5{width:49%;text-align:center}
-<?php } elseif ($topModules == 1) { ?>
-        #user6,#user7,#user5{width:100%;text-align:center}
-        #box .moduletable{border:none}
-<?php } elseif ($topModules == 0) { ?>
-        #user6,#user7,#user5{width:0%;height:0;padding:0}
-        #box{border:none;width:0;height:0}
-<?php } ?>
+<?php if($topusers > 0) {?>
+#D4J_User1,#D4J_User2{width:<?php echo (100 - 4*($topusers - 1))/$topusers."%";?>}
+<?php }?>
+<?php if($centerusers > 0) {?>
+#D4J_User4,#D4J_User3{width:<?php echo (100 - 4*($centerusers - 1))/$centerusers."%";?>}
+<?php }?>
+<?php if($bottomusers > 0) {?>
+#D4J_User5,#D4J_User6,#D4J_User7,#D4J_User8{width:<?php echo ((100 - 4.1*($bottomusers -1))/$bottomusers).'%;'?>}
+<?php }?>
 </style>
-<!--[if lt IE 7]>
-<link rel="stylesheet" type="text/css" href="<?php echo _TEMPLATE_URL; ?>/css/template_css_ie.css" />
+<!--[if IE ]>
 <style type="text/css">
+
 </style>
 <![endif]-->
-<!--[if gte IE 7]>
-<link rel="stylesheet" type="text/css" href="<?php echo _TEMPLATE_URL; ?>/css/template_css_ie7.css" />
+<!--[if lt IE 7.]>
 <style type="text/css">
+#D4J_Sitetools{right:auto;bottom:auto;position:absolute;
+left: expression((-10 - D4J_Sitetools.offsetWidth + (document.documentElement.clientWidth ? document.documentElement.clientWidth : document.body.clientWidth ) + ( ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft) ) + 'px');
+top: expression((-5 - D4J_Sitetools.offsetHeight + (document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight ) + ( ignoreMe2 = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop) ) + 'px');
+
+}
+
+#D4J_Tools{position:absolute;right:12px;bottom:23px}
+#D4J_User2,#D4J_User4,#D4J_User6,#D4J_User7,#D4J_User8{margin-left:2.6%}
+</style>
+<![endif]-->
+<style type="text/css">
+<?php if(!$right_side){?>
+#D4J_LeftSide{width:100%}
+<?php }?>
+</style>
+<!--[if lt IE 7.]>
+<style type="text/css">
+
+
 </style>
 <![endif]-->
 </head>
-<body><center>
-<div id="container1">
-        <div id="midbox">
-                <div id="lbox1">
-                        <div id="menuhack">
-                                <div id="menu1"><?php
-                                        $database->setQuery("SELECT id,name,link,type FROM #__menu WHERE menutype='mainmenu' and parent='0' AND access<='$gid' AND sublevel='0' AND published='1' ORDER BY ordering LIMIT 0,1");
-                                        $database->loadObject( $row1 );
-                                        if (isset($row1)) {
-                                        echo '<ul>';
-                                        if ( $row1->type == 'url' ) {
-                                        echo '<li><a href="'.$row1->link.'">HOME</a></li>';
-                                        } else {
-                                        $link = ampReplace($link);
-                                        echo '<li><a href="'.$row1->link.'&amp;Itemid='.$row1->id.'"></a></li>';;
-                                        }
-                                        echo '</ul>';}?>
-                                </div>
-                                <div id="menu2"><?php
-                                        $database->setQuery("SELECT id,name,link,type FROM #__menu WHERE menutype='mainmenu' and parent='0' AND access<='$gid' AND sublevel='0' AND published='1' AND link LIKE 'index.php?option=com_search%' ORDER BY ordering LIMIT 0,1");
-                                        $database->loadObject( $row3 );
-                                        if (isset($row3)) {
-                                        echo '<ul>';
-                                        if ( $row3->type == 'url' ) {
-                                        echo '<li><a href="'.$row3->link.'">SEARCH</a></li>';
-                                        } else {
-                                        $link = ampReplace($link);
-                                        echo '<li><a href="'.$row3->link.'&amp;Itemid='.$row3->id.'"></a></li>';
-                                        }
-                                        echo '</ul>';}?>
-                                </div>
-                                <div id="menu3"><?php
-                                        $database->setQuery("SELECT id,name,link,type FROM #__menu WHERE menutype='mainmenu' and parent='0' AND access<='$gid' AND sublevel='0' AND published='1' AND link LIKE 'index.php?option=com_contact%' ORDER BY ordering LIMIT 0,1");
-                                        $database->loadObject( $row2 );
-                                        if (isset($row2)) {
-                                        echo '<ul>';
-                                        if ( $row2->type == 'url' ) {
-                                        echo '<li><a href="'.$row2->link.'">CONTACT US</a></li>';
-                                        } else {
-                                        $link = ampReplace($link);
-                                        echo '<li><a href="'.$row2->link.'&amp;Itemid='.$row2->id.'"></a></li>';
-                                        }
-                                        echo '</ul>';}?>
-                                </div>
-                        </div>
-                        <div id="toolbar1">
-                                <?php if($d4j_menutype1 == 1 && mosCountModules('toolbar')) echo classifyHeading('toolbar',-1);
-                                else if($d4j_menutype1 == 2 && mosCountModules('advert1')) echo classifyHeading('advert1',-1);
-                                else if($d4j_menutype1 == 3 && mosCountModules('advert2')) echo classifyHeading('advert2',-1);
-                                ?>
-                        </div>
-                </div>
-                <div id="cbox1">
-                        <div id="logo">
-                                <h1 title="<?php echo $GLOBALS['mosConfig_sitename']; ?>"><a href="<?php echo $GLOBALS['mosConfig_live_site']; ?>" title="<?php echo $GLOBALS['mosConfig_sitename']; ?>"><?php echo $GLOBALS['mosConfig_sitename']; ?></a></h1>
-                        </div>
-                        <div id="advert3"><?php
-                                if (mosCountModules('advert3')) mosLoadModules('advert3', -1);
-                                else echo '<img src="'._TEMPLATE_URL.'/images/header_pic.jpg" width="332" height="150" alt="" />';
-                        ?></div>
-                </div>
-                <div id="rbox1">
-                        <?php if (mosCountModules('user8')) { ?><div id="user8"><?php echo classifyHeading('user8', -2);?></div><?php } ?>
-                        <div id="toolbar2">
-                                <?php if($d4j_menutype2 == 1 && mosCountModules('cpanel')) echo classifyHeading('cpanel',-1);
-                                else if($d4j_menutype2 == 2 && mosCountModules('inset')) echo classifyHeading('inset',-1);
-                                else if($d4j_menutype2 == 3 && mosCountModules('legals')) echo classifyHeading('legals',-1);
-                                ?>
-                        </div>
-                </div>
-        </div>
-        <div id="content">
-                <div id="lbox2">
-                        <?php if (mosCountModules('left')) { ?><div id="left"><?php echo classifyHeading('left', -2);?></div><?php } ?>
-                        <?php if (mosCountModules('user1')) { ?><div id="user1"><?php echo classifyHeading('user1', -2);?></div><?php } ?>
-                </div>
-                <div id="cbox"><div id="cbox2">
-                        <?php if (mosCountModules('top')) { ?><div id="top"><?php echo classifyHeading('top', -2);?></div><?php } ?>
-                        <?php if (mosCountModules('user2')) { ?><div id="user2"><?php echo classifyHeading('user2', -2);?></div><?php } ?>
-                        <div id="mainbody"><?php mosMainbody() ?></div>
-                        <?php if (mosCountModules('bottom')) { ?><div id="bottom"><?php echo classifyHeading('bottom', -2);?></div><?php } ?>
-                </div></div>
-                <div id="rbox2">
-                        <?php if (mosCountModules('right')) { ?><div id="right"><?php mosLoadModules('right', -2);?></div><?php } ?>
-                        <?php if (mosCountModules('user3')) { ?><div id="user3"><?php echo classifyHeading('user3', -2);?></div><?php } ?>
-                </div>
-        </div>
-        <div id="spacer"></div>
+<body class="<?php echo $template_width.' font'.$template_font;?>">
+<center>
+<div id="D4J_Container">
+	<div id="D4J_TopPage">
+		<div id="D4J_Title">
+			<?php if(mosCountModules('header')) mosLoadModules('header',-2); else echo '<h3 title="'.$GLOBALS['mosConfig_sitename'].'"><a href="'.$GLOBALS['mosConfig_live_site'].'" title="'.$GLOBALS['mosConfig_sitename'].'">'.$GLOBALS['mosConfig_sitename'].'</a></h3>Place your best slogan here';?>
+		</div>
+		<?php if($main_button) {?>
+			<div id="D4J_MainButton">
+					<?php 
+				$database->setQuery("SELECT id,link,type,browserNav FROM #__menu WHERE menutype = 'mainmenu' AND published = 1 AND access <= $my->gid AND parent = 0 ORDER BY ordering LIMIT 0,100");
+				$imgSrc = array("home.gif","contact.gif","sitemap.gif");
+				if ($rows = $database->loadObjectList()) {
+					for ($n = count($rows),$i = $n-1; $i >= $n-3; $i--) {						
+						$link = $rows[$i]->type == 'url' ? $rows[$i]->link : sefRelToAbs($rows[$i]->link.'&Itemid='.$rows[$i]->id);
+						$link = ampReplace($link);
+						if ($rows[$i]->browserNav == 1) {
+							$link .= '" target="_blank';
+						} elseif ($rows[$i]->browserNav == 2) {
+							$link .= '" onclick="javascript: window.open(\''.$link.'\', \'\', \'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=780,height=550\'); return false';
+						}						
+						echo '<a href="'.$link.'"><img src="'._TEMPLATE_URL.'/images/'.$colors[$currentColor].'/'.$imgSrc[$n-$i-1].'" alt="" /></a>';
+				}
+					} ?>
+			</div>
+		<?php }?>
+		<div class="clearer"><!-- --></div>
+	</div>
+	<div id="D4J_Header">
+		<div id="D4J_MainMenu">
+			<?php if(mosCountModules('toolbar')) mosLoadModules('toolbar',-1);?>
+		</div>
+		<?php if(mosCountModules('newsflash')){?>
+		<div id="D4J_Newsflash">
+		<div id="D4J_Newsflash_In1">
+		<div id="D4J_Newsflash_In2">
+			 <?php mosLoadModules('newsflash',-2);?>
+		</div>
+		<div class="clearer"><!-- --></div>
+		</div>
+		<div class="clearer"><!-- --></div>
+		</div>
+		<?php }?>
+	</div>
+	<?php if(mosCountModules('advert1')){?>
+	<div id="D4J_Advert">
+		<?php mosLoadModules('advert1',-2);?>
+	</div>
+	<?php }?>
+	<div id="D4J_MainPage">
+		<div id="D4J_LeftSide">
+			<?php if(mosCountModules('top')){?>			
+			<div id="D4J_Top">
+				 <?php mosLoadModules('top',-2);?>
+			</div>
+			<?php }?>
+			<?php if($topusers){?>
+			<div id="D4J_TopUsers">
+				<?php if($user1){?>
+				<div id="D4J_User1">
+					<?php mosLoadModules('user1',-2);?>
+				</div>
+				<?php }?>
+				<?php if($user2){?>
+				<div id="D4J_User2" style="<?php if(!$user1) echo 'margin-left:0;'?>">
+					<?php mosLoadModules('user2',-2);?>
+				</div>
+				<?php }?>					
+				<div class="clearer"><!-- --></div>
+			</div>
+			<?php }?>
+			<?php if(mosCountModules('banner')){?>
+			<div id="D4J_Banner">
+				 <?php mosLoadModules('banner',-2);?>
+			</div>
+			<?php }?>
+			<div id="D4J_Main">
+				<?php mosMainBody();?>
+			</div>
+			<?php if($centerusers){?>
+			<div id="D4J_CenterUsers">
+				<?php if($user3){?>
+				<div id="D4J_User3">
+					<?php mosLoadModules('user3',-2);?>
+				</div>
+				<?php }?>
+				<?php if($user4){?>
+				<div id="D4J_User4" style="<?php if(!$user3) echo 'margin-left:0;'?>">
+					<?php mosLoadModules('user4',-2);?>
+				</div>
+					<?php }?>					
+				<div class="clearer"><!-- --></div>
+			</div>
+			<?php }?>
+			<?php if(mosCountModules('bottom')){?>			
+			<div id="D4J_Bottom">
+				 <?php mosLoadModules('bottom',-2);?>
+			</div>
+			<?php }?>
+		</div>
+		<?php if($right_side){?>
+		<div id="D4J_RightSide">
+			<?php if($left){?>
+			<div id="D4J_Left">
+				<?php mosLoadModules('left',-2);?>
+			</div>
+			<?php }?>
+			<?php if($right){?>
+			<div id="D4J_Right">
+			<?php mosLoadModules('right',-2);?>
+			</div>
+			<?php }?>
+		</div>
+		<?php }?>		
+		<div class="clearer"><!-- --></div>
+	</div>	
+	<?php if($bottomusers){?>
+	<div id="D4J_BottomUsers">
+		<?php if($user5){?>
+		<div id="D4J_User5" style="">
+			<?php echo mosLoadModules('user5',-2);?>
+		</div>
+		<?php }?>
+		<?php if($user6){?>
+		<div id="D4J_User6" style="<?php if(!$user5) echo 'margin-left:0;'?>">
+			<?php echo mosLoadModules('user6',-2);?>
+		</div>
+		<?php }?>
+		<?php if($user7){?>
+		<div id="D4J_User7" style="<?php if(!$user5 && !$user6) echo 'margin-left:0;'?>">
+			<?php echo mosLoadModules('user7',-2);?>
+			</div>
+		<?php }?>
+		<?php if($user8){?>
+		<div id="D4J_User8" style="<?php if(!$user7 && !$user5 && !$user6) echo 'margin-left:0;'?>">
+			<?php echo mosLoadModules('user8',-2);?>
+		</div>
+		<?php }?>
+		<div class="clearer"><!-- --></div>
+	</div>
+	<?php }?>
+	<div id="D4J_BottomPage">
+		<?php if($user9){?>
+		<div id="D4J_User9">
+			<?php mosLoadModules('user9',-1);?>
+		</div>
+		<?php }?>
+		<div id="D4J_Footer">
+			<?php if (mosCountModules('footer')) {?>
+			<div class="copyright">
+				<?php mosLoadModules('footer', -1);?>
+			</div>
+			<?php } else include_once(_TEMPLATE_PATH.'/css/bottom.css.php');?>
+		</div>
+	</div>	
 </div>
-<div id="container2">
-        <?php if (mosCountModules('user4')) { ?><div id="user4"><?php echo classifyHeading('user4', -2);?></div><?php } ?>
-</div>
-<div id="footer_container"><div id="footer_box">
-        <div id="user9"><?php if (mosCountModules('user9')) mosLoadModules('user9', -1); ?></div>
-        <?php if ($topModules > 0) { ?><div id="box">
-                <?php if (mosCountModules('user5')) { ?><div id="user5"><?php echo classifyHeading('user5', -2);?></div><?php } ?>
-                <?php if (mosCountModules('user6')) { ?><div id="user6"><?php echo classifyHeading('user6', -2);?></div><?php } ?>
-                <?php if (mosCountModules('user7')) { ?><div id="user7"><?php echo classifyHeading('user7', -2);?></div><?php } ?>
-                <div class="clr"><!-- --></div>
-        </div><?php } ?>
-        <div id="footer"><?php if (mosCountModules('footer')) mosLoadModules('footer', -1); else include_once(_TEMPLATE_PATH.'/css/bottom.css.php'); ?></div>
-</div></div>
 </center>
-<?php include_once(_TEMPLATE_PATH.'/css/footer.css.php') ?></body>
+<?php if($site_tools){?>		
+	<div id="D4J_Sitetools" style="">
+		<img src="<?php echo _TEMPLATE_URL; ?>/images/sitetools.gif" alt="" onmouseover="document.getElementById('D4J_Tools').style.display='block'" onmouseout="document.getElementById('D4J_Tools').style.display='none'"/>		
+	</div>
+	<div id="D4J_Tools" onmouseover="this.style.display='block'" onmouseout="this.style.display='none'" style="display:none;width:auto;height:auto;background:url(<?php echo _TEMPLATE_URL; ?>/images/blank.gif) repeat">			
+		<?php writeTools();?>
+	</div>
+<?php }?>
+<?php include_once(_TEMPLATE_PATH.'/css/footer.css.php') ?>
+<script type="text/javascript" src="<?php echo _TEMPLATE_URL?>/func/style/d4j_stylechanger.js">
+</script>
+</body>
 </html><!-- Joomla Template by DesignForJoomla.com -->
