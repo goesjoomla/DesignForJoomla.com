@@ -1,88 +1,10 @@
-/*document settings*/
-body{margin:0;padding:0;background:#fff url(../images/body-bg.jpg) left top repeat-x;color:#000;text-align:left;font-family:Arial,Helvetica,sans-serif}
-th,td,form,div{margin:0;padding:0;font-size:14px;color:#000}
-a{color:#547699}
-a:hover{text-decoration:none;color:#ccc}
-img{border:1px solid #CCC}
+/* JOOMLA 1.0.X TEMPLATE CSS FILE */
 
-/* position setting (tableless)*/
-.clr{clear:both}
-#centercolumn{margin:7px auto;padding:14px;width:548px;background-color:#fff;border:1px solid #BBD1E2;overflow:hidden}
+/* Main css file with standard css selectors */
+@import url("base.css");
 
-#header{margin:1px 0 0 1px;padding:0;height:144px;background:#fff url(../images/header-bg.jpg) bottom right no-repeat;border:1px solid #EBCD48}
-#headerlink{width:548px;height:119px;margin:0;float:left;overflow:hidden}
-#headerlink h2,#headerlink .moduletable{margin:0;padding:22px 0 0 22px;font-size:12px;letter-spacing:1.45px;color:black;text-align:left}
-#headerlink h1,#headerlink .moduletable h3{margin:0 0 0 -1px;font-size:22px;letter-spacing:2.1px;color:#fff;text-align:left}
-#headerlink h1{margin:0;padding:22px 0 0 22px}
-#headerlink h2{margin:0;padding:0 0 0 22px;font-weight:normal}
+/* Css file with css selectors for layout */
+@import url("layout.css");
 
-#navtabs{margin:0 0 0 3px;height:25px;overflow:hidden;float:left}
-#navtabs a{height:25px;float:left;background:url(../images/tableftB.gif) left top no-repeat;margin:0;padding-left:4px;text-decoration:none;font-size:13px;color:#9E8100}
-#navtabs a span{margin-top:0;padding:4px 15px 5px 6px;text-align:justify;display:block;width:auto;background:url(../images/tabrightB.png) right top no-repeat}
-#navtabs a span:hover{background-position:right bottom}
-#navtabs a:hover{background-position:left bottom;color:#000}
-
-#mainbody{float:left;margin-top:5px;overflow:hidden}
-#lbox{float:left;overflow:hidden}
-#ltop,#left{overflow:hidden}
-#ltop .moduletable,#left{text-align:left;margin-right:3px;margin-bottom:10px}
-#ltop .moduletable thead{text-align:center}
-#ltop .moduletable h3,.componentheading,.contentheading{margin:5px 0 9px 0;padding:0;color:#DA8619;font-size:14px;font-weight:bold;letter-spacing:0.1em}
-#left{text-align:justify;margin-bottom:10px}
-
-#fauxRightColumn{float:left;margin:0 0 0 3px;padding:0;width:160px;background:#fff url(../images/fauxrightcolumn-bg.jpg) left top repeat-x;overflow:hidden}
-#fauxRightColumn .moduletable{border-bottom:1px solid #eee;padding:2px 10px 10px 10px;text-align:left;font-size:13px}
-#fauxRightColumn .moduletable h3{margin:8px 0 1px 0px;padding:0;color:#DA8619;font-size:12px;font-weight:bold;letter-spacing:1.15px;text-align:left}
-#fauxRightColumn .moduletable ul{list-style:none;margin:0}
-#fauxRightColumn .moduletable a{font-size:12px;color:#569449;text-decoration:none}
-#fauxRightColumn .moduletable a:hover{color:#ccc}
-
-#bottom,#banner{margin:0;background:#fff url(../images/blockquote-bg-warning.jpg) no-repeat;text-align:left}
-#banner{background:#fff url(../images/blockquote-bg-question.jpg) no-repeat}
-
-#banner .moduletable,#bottom .moduletable{padding:0 20px 10px 75px;font-size:12px;color:#616161;text-align:justify;border-top:1px solid #eee}
-#banner .moduletable h3,#bottom .moduletable h3{margin:10px 0 0 0;padding:0;color:#616161;font-size:12px;font-weight:bold}
-#banner .moduletable a,#bottom .moduletable a{font-size:1em}
-#banner .mosimage,#bottom .mosimage{margin-left:15px}
-#banner .poll thead,#bottom .poll thead{text-align:center}
-
-#footer{margin:0;padding:10px 0 0 0;background:#fff;font-size:10px;text-align:center;border-top:1px solid #eee}
-#bottom_left{float:left;margin:0;padding:0 5px 0 0;text-align:left}
-#bottom_left div{font-size:11px;text-align:left;color:#999}
-#bottom_right{float:right;margin:0;padding:0;text-align:right}
-#bottom_right div{font-size:11px;color:#999}
-
-/*joomla settings*/
-.blog td{padding:2px}
-.contentpane,.contentpaneopen{text-align:justify}
-.contentpane .inputbox{width:50%}
-.contentpane select.inputbox{width:55px}
-.buttonheading img{border:none;margin:0}
-
-.contenttoc{margin:5px 4px 5px;padding:0 10px;border:1px dotted #000}
-.contenttoc th{border-bottom:1px dotted #000;font-size:13px;color:#0080DD}
-.contenttoc td{margin:5px 0 5px 14px;padding:2px 5px}
-.contenttoc a.toclink{text-decoration:none;color:#C3593C}
-.contenttoc a:hover.toclink{color:#0080DD}
-
-.blog_more{margin:0 3px 15px 13px;padding:3px 6px;border:1px dotted #666;;background:#fff}
-.blog_more div{border-bottom:1px dotted #666}
-.blog_more ul{margin:2px 0 2px 14px}
-.blog_more ul li a.blogsection{text-decoration:none}
-
-.sectiontableheader{background:#88ABF2;color:#FFFFFF;height:20px;font-weight:bold;padding:0 5px;border-bottom:2px solid #FFFFFF}
-.sectiontablefooter{text-align:center}
-.sectiontableentry1,.sectiontableentry1 td{background:#eee;padding:5px;text-align:left}
-.sectiontableentry2,.sectiontableentry2 td{background:#c3d6f6;padding:5px;text-align:left}
-
-.pollstableborder{margin:3px 0;line-height:18px}
-.pollstableborder td{padding:5px;vertical-align:middle}
-.pollstableborder input{margin:0}
-
-.small,.smalldark,span.small,#left .createdate,#left .modifydate,.pagenavcounter{font-size:10px;font-style:italic;color:#aaa}
-.readon{float:right}
-.button{font-weight:bold;font-size:10px;color:#000;border:1px solid #000;margin-top:5px}
-.tips{display:none}
-
-select#mod_templatechooser_jos_change_template{margin:1px 0 2px 0;width:80px;height:17px}
-div.contact_email textarea#contact_text.inputbox{width:350px}
+/* Css file with css selectors for custom modules and menus */
+@import url("custom.css");

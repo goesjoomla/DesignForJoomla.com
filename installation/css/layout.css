@@ -1,0 +1,32 @@
+/* CSS SELECTORS FOR LAYOUT */
+
+/* ======================== WRAPPERS ======================== */
+#Jcontainer{background:url(../images/border_l.jpg) 0px 0px repeat-y;width:764px}
+#border{background:url(../images/border_r.jpg) right repeat-y}
+#content{text-align:justify;margin:0 32px;background:#FFFFFF url(../images/vline.gif) 71% repeat-y}
+
+/* ======================== COMMON ======================== */
+.clearer{clear:both;height:0px;overflow:hidden}
+.tips{display:none}
+
+/* ======================== HEADER ======================== */
+#Jheader{height:auto;width:100%;text-align:center;background:#FFFFFF}
+#Jtitle{height:50px;border-bottom:3px solid #E0C72D;overflow:hidden}
+#flower{height:150px;background:url(../images/top.jpg) no-repeat center}
+#tools{float:right;text-align:right;margin-top:125px}
+
+/* ======================== NAV ======================== */
+#nav{background:#AFCD70;border-top:1px solid #889F57;border-bottom:2px solid #889F57;padding:5px 10px}
+
+/* ======================== BODY ======================== */
+#Jbody{margin-top:20px;background:#FFFFFF}
+#Jleft{float:left;margin-left:10px;width:68.71%;margin-bottom:30px;padding-right:10px;background:none}
+#main{margin-bottom:20px}
+#Jright{float:right;width:25.71%;margin-right:10px}
+
+/* ======================== FOOTER ======================== */
+#footer{background:#47241E}
+#footer .copyright{padding:10px 0 20px 10px}
+#bottom_left{float:left;text-align:left;padding:10px 0 0 10px}
+#bottom_left div{text-align:left}
+#bottom_right{text-align:right;padding:10px 5px 10px 0}

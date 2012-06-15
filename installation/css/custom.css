@@ -1,0 +1,19 @@
+/* CSS SELECTORS FOR CUSTOMIZATION */
+
+/* ======================== HEADER ======================== */
+#Jtitle h1,#Jtitle .moduletable h3{font-size:2.5em;font-weight:bold;color:#E0C72D;text-transform:uppercase;font-family:Verdana, Arial, Helvetica, sans-serif;text-align:center}
+#Jtitle h1 a{font-size:1em;font-weight:bold;color:#E0C72D;text-transform:uppercase}
+#Jtitle h1 a:hover{text-decoration:none}
+
+#tools a{margin-right:0.5em;padding:0.2em 0.5em 0.3em 0.5em;line-height:2.5em;font-size:0.6em;color:#999900;background:#F5DCA0;text-decoration:none;border:#FF9900}
+#tools a:hover{color:white}
+
+/* ======================== LEFT COLUMN ======================== */
+#Jleft .contentheading{padding-bottom:0.7em}
+
+/* ======================== RIGHT COLUMN ======================== */
+#Jright .moduletable{margin-bottom:3em}
+#Jright td div img{display:none}
+/* ======================== FOOTER ======================== */
+#footer{font-size:0.875em;font-weight:bold;color:#FFFFFF;text-align:center}
+#footer a,#footer a:hover{}

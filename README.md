@@ -1,4 +1,4 @@
-D4J Summer Holiday template for Joomla! 1.0 series
+D4J Sun Flower template for Joomla! 1.0 series
 ===============================================
 
 Install Git client by following the guide at the URL below:
@@ -9,7 +9,7 @@ Then, clone the repository at following URL:
 
 https://github.com/goesjoomla/DesignForJoomla.com.git
 
-Finally, checkout templates/summer_holiday branch to get D4J Summer Holiday.
+Finally, checkout templates/sunflower branch to get D4J Sun Flower.
 
 --
 Manh-Cuong Nguyen
