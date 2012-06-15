@@ -1,0 +1,178 @@
+/* CSS Document by JM (ISeeYou-Designs.com) */
+
+body {
+	background: #fff url(img/bg1.jpg) repeat-y top center;
+	font-family:"Trebuchet MS",arial,sans-serif;
+	font-size:62.5%;
+	color:#777;
+	margin:0;
+	padding:0;
+}
+a {
+	text-decoration:none;
+	color:#c00;
+}
+a:hover {
+	color: #6B060A;
+	text-decoration: underline;
+}
+acronym {
+	cursor:help;
+	border-bottom:1px dotted #ddd;
+}
+
+
+
+#container {
+	font-size:1.2em;
+	width:550px;
+	margin:0 auto;
+}
+
+#header {
+	width: 550px;
+	margin:0 auto;
+	background: #FFE5E6 url(img/header.jpg) no-repeat top left;
+	height: 270px;
+	border-bottom: 1px #FD5E61 dashed;
+	padding-top:30px;
+}
+
+#header h1 {
+	font-family:"Trebuchet MS",arial,sans-serif;
+	font-size:2em;
+	color:#333;
+	border-top: red 1px solid;
+	border-bottom: red 1px solid;
+	border-left: red 1px solid;
+	padding-left: 15px;
+	margin-left: 310px;
+}
+
+#header h2 {
+	font-family:"Trebuchet MS",arial,sans-serif;
+	font-size:1.3em;
+	color: #FDB0B3;
+	margin-left: 350px;
+	border-top: #FDB0B3 1px dashed;
+	border-bottom: #FDB0B3 1px dashed;
+	border-left: #FDB0B3 1px dashed;
+	padding-left: 7px;
+}
+
+#navigation {
+	text-align: left;
+	margin: 10px 0;
+}
+
+#navigation li {
+	margin:0;
+	padding:0;
+	list-style:none;
+	display:inline;
+}
+
+#navigation li a {
+	background: #FFE5E6 url(img/navright.gif) no-repeat top right;	
+	padding: 2px 5px;
+	margin: 0 5px;
+	color:#666;
+	text-decoration:none;
+	font-weight:bold;
+	border-left: 1px solid #c00;
+}
+
+#navigation li a:hover {
+	background: #FFC9CB url(img/navrighthover.gif) no-repeat top right;	
+	color:#C00;
+	border-left:1px solid black;
+}
+
+#content {
+	margin: 20px 25px 20px 25px;
+	padding:0;
+}
+#content .idea {
+	padding:2px 0;
+	margin-top: 15px;
+	text-align:justify;
+	text-indent:0.5cm;
+	line-height:1.8em;
+	background: url(img/ideabg.jpg) repeat-x top left;
+	min-height: 100px;
+	border-top: red solid 1px;
+}
+
+#content .idea h1 {
+	display:block;
+	margin: 10px 0 0 10px;
+	padding:0;
+	font-family:"Trebuchet MS",arial,sans-serif;
+	font-size:1.8em;
+	color:#c00;
+	border-color:#FEC2C4;
+	border-style: dashed;
+	border-width:0 0 1px 0;
+	letter-spacing:1px;
+}
+
+#content .idea h2 {
+	display:block;
+	margin:20px 0 0 30px;
+	padding:0;
+	font-family:"Trebuchet MS",arial,sans-serif;
+	font-size:1.1em;
+	letter-spacing:1px;
+	color:#444;
+}
+
+#content .idea p {
+	margin: 5px 15px;
+}
+
+#content ul {
+	margin-left:15px;
+	list-style-image: url(img/ul.gif);
+	font-family:arial,sans-serif;
+	font-size:0.9em;
+}
+#content li {
+	padding: 1px;
+}
+
+#content .blockquote {
+	margin:10px 30px;
+	padding:5px 5px 5px 10px;
+	font-family:"Trebuchet MS",arial,sans-serif;
+	font-size:0.9em;
+	color:#444;
+	border-left:2px solid red;
+	background-color:#FFF3F3;
+}
+
+#footer {
+	font-size: 1em;
+	font-family:"Trebuchet MS",arial,sans-serif;
+	margin: 0;
+	padding:7px;
+	border-top:1px solid red;
+	background: white url(img/footer.jpg) no-repeat top right;
+}
+#footer p {
+	text-align:left;
+	line-height:1em;
+	color:#bbb;
+	font-size:1em;
+	font-family:"Trebuchet MS",arial,sans-serif;
+	margin:0;
+	padding-left: 10px;
+}
+#footer span {
+	color:#888;
+}
+#footer a {
+	color:#888;
+}
+#footer a:hover {
+	color:#aaa;
+}

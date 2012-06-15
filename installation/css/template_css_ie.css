@@ -1,0 +1,23 @@
+body{background:#fff url(../images/bg_ie.jpg) repeat-y top center}
+
+ul{margin-left:35px}
+
+#pathway{padding-top:24px}
+#body{margin:0;padding:0}
+
+#spacer1{height:12px}
+#spacer2{height:6px}
+ul#mainmenu{text-align:center;}
+ul#mainmenu li a{line-height:25px}
+
+#top,#bottom,#main{width:500px}
+#footer{padding:0}
+
+#bottom_left{margin:10px}
+#bottom_right{margin:10px}
+
+.contentpane,.contentpaneopen{text-align:justify}
+.blog_more ul{margin-left:54px}
+.moduletable img{margin-left:0px}
+
+select#mod_templatechooser_jos_change_template{margin-top:0px;width:142px;margin-left:19px}
