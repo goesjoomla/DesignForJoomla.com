@@ -1,26 +1,38 @@
-/* ===================== MAINMENU =============================== */
-#D4J_MainMenu table{background:url(../images/img03.jpg) 0 -4px no-repeat}
+/* CSS SELECTORS FOR CUSTOMIZATION */
 
-#D4J_Inset{color:#ffffff;font-size:1.7em;line-height:40px;text-align:right;font-style:italic}
+/* ======================== LOGO ======================== */
+#logo h1,#logo h1 a{width:265px;height:58px}
+#logo h1{background:url(../images/logo.jpg) left top no-repeat;margin:0}
+#logo h1 a{display:block;text-indent:-5000px}
 
-/* ===================== LEFTSIDE =============================== */
-#D4J_LeftSide .moduletable,#D4J_LeftSide .moduletable-nav{background:url(../images/img08.jpg) 0 21px repeat-x;margin-bottom:25px;padding:44px 20px 0 20px}
-#D4J_LeftSide .moduletable h3,#D4J_LeftSide .moduletable-nav h3{font-size:1.3em;color:#715558;margin:-46px 0 25px 0;background:none}
-#D4J_LeftSide .moduletable ul#mainlevel{list-style:none}
-#D4J_LeftSide .moduletable ul#mainlevel a,#D4J_LeftSide .moduletable-nav a.mainlevel,#D4J_LeftSide .moduletable-nav a.sublevel{display:block;width:182px;height:23px;padding:4px 0 5px 0}
-#D4J_LeftSide .moduletable ul#mainlevel a:hover,#D4J_LeftSide .moduletable-nav a.mainlevel:hover,#D4J_LeftSide .moduletable-nav a.sublevel:hover{background:url(../images/img06.gif) repeat-x left bottom}
-#D4J_LeftSide .moduletable-nav a.sublevel{margin-left:-4px;padding:4px 0 5px 20px;width:162px}
+/* ======================== SLOGAN ======================== */
+#slogan,#slogan h1{margin:0;float:left;height:52px;padding:31px 0 5px 44px;font-size:12px;color:#ccc;font-weight:normal;overflow:hidden}
+#slogan h1{padding:0}
 
-/* ====================== RIGHTSIDE ============================= */
-#D4J_RightSide .moduletable h3{color:#715558;text-transform:uppercase;margin:0 0 20px 0;font-size:1em}
-#D4J_Newsflash .moduletable,#D4J_Top .moduletable,#D4J_Bottom .moduletable{background:url(../images/img08.jpg) 0 21px repeat-x;margin-bottom:25px;padding:44px 20px 0 20px}
-#D4J_Newsflash .moduletable h3,#D4J_Top .moduletable h3,#D4J_Bottom .moduletable h3{font-size:1.3em;color:#715558;margin:-46px 0 25px 0;background:none}
+/* ======================== LEFT COLUMNS ======================== */
+#left .moduletable,#right .moduletable{padding:4px 20px 8px;font-size:11px}
+#left .moduletable td,#right .moduletable td{font-size:11px}
+#left .moduletable h3,#right .moduletable h3{font-family:Century Gothic,"Trebuchet MS";font-size:20px;color:#777;font-weight:normal;letter-spacing:-1px;margin:0 0 13px}
 
-#D4J_BottomUsers .moduletable h3{color:#715558;text-transform:uppercase;margin:0 0 20px 0;font-size:1em}
+/* ======================== RIGHT COLUMNS ======================== */
+#top .moduletable,#bottom .moduletable{padding:11px 30px 10px 60px;line-height:20px;text-indent:20px;word-spacing:2px}
+#top .moduletable h3,#bottom .moduletable h3,#mainbody .contentheading,#mainbody .componentheading{margin:10px 0 25px -16px;font-family:"Trebuchet MS";font-size:24px;text-indent:0px;text-transform:uppercase;font-weight:bold;letter-spacing:1px;color:#BFEF01}
+#top .moduletable ul,#bottom .moduletable ul{margin:15px 0 15px 0px;padding:0;border-top:1px solid #eee}
+#top .moduletable ul li,#bottom .moduletable ul li{margin:10px 0 10px 0;padding:0 0 10px 15px;list-style:none;border-bottom:1px solid #eee}
+#top .moduletable a,#bottom .moduletable a,#mainbody a{color:#444;padding:2px;text-decoration:none}
+#top .moduletable a:hover,#bottom .moduletable a:hover{background-color:#EBFF99;color:#000}
 
-/* ======================= FOOTER =============================== */
-#D4J_FooterUsers a{color:#ffffff}
-#D4J_FooterUsers .moduletable h3{text-transform:uppercase;margin:0 0 20px 0;font-size:1em}
+#mainbody .contentheading,#mainbody .componentheading{margin:10px 0 25px 0}
+#mainbody li{padding:0 0 0 15px}
+#mainbody a:hover{color:#666;background:#f9f9f9 url(../images/sideblock_li_a_hover.gif) left no-repeat}
+#mainbody img{margin:15px}
+#mainbody .buttonheading img{border:0px;margin:0px;padding:0}
+blockquote{background:url(../images/bq.jpg) top repeat-x;padding:15px;border:1px solid #eee;font-family:"Trebuchet MS"}
 
-#D4J_Footer,#D4J_Footer a{color:#ffffff}
-#D4J_Footer a{font-weight:bold;background:none}
+/* ======================== FOOTER ======================== */
+#footer a{color:#999}
+#bottom_left{float:left;margin:0;padding:0;text-align:left}
+#bottom_left div{font-size:12px;text-align:left;color:#ccc}
+#bottom_left div a,#bottom_right div a{color:#999}
+#bottom_right{float:right;margin:0;padding:0;text-align:right}
+#bottom_right div{font-size:12px;text-align:right;color:#ccc}

@@ -1,4 +1,4 @@
-D4J The Coffee Shop template for Joomla! 1.0 series
+D4J Thin Green Line template for Joomla! 1.0 series
 ===============================================
 
 Install Git client by following the guide at the URL below:
@@ -9,7 +9,7 @@ Then, clone the repository at following URL:
 
 https://github.com/goesjoomla/DesignForJoomla.com.git
 
-Finally, checkout templates/thecoffeeshop branch to get D4J The Coffee Shop.
+Finally, checkout templates/thin_green_line branch to get D4J Thin Green Line.
 
 --
 Manh-Cuong Nguyen
