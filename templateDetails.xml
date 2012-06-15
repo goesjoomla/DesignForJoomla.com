@@ -1,53 +1,25 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <mosinstall type="template">
-
-<name>tower_eye</name>
-<creationDate>October 2006</creationDate>
-<author>DesignForJoomla</author>
-<copyright>DesignForJoomla.com</copyright>
-<authorEmail>support@designforjoomla.com</authorEmail>
-<authorUrl>designforjoomla.com</authorUrl>
-<version>1.0</version>
-<description>Tower Eye - Joomla template by DesignForJoomla.com</description>
-
-<files>
+  <name>travel_01</name>
+  <creationDate>March 2005</creationDate>
+ <author>DesignForJoomla.com</author>
+  <copyright>Converted to Joomla template by DesignForJoomla.com.</copyright>
+  <authorEmail>design@designforjoomla.com</authorEmail>
+  <authorUrl>www.designforjoomla.com</authorUrl>
+  <version>1.0</version>
+  <description>Converted to Joomla template by DesignForJoomla.com.</description>
+  <files>
     <filename>index.php</filename>
     <filename>template_thumbnail.png</filename>
-</files>
-
-<images>
-        <filename>images/3.jpg</filename>
-        <filename>images/92067601_02.gif</filename>
-        <filename>images/box-l-bg.jpg</filename>
-        <filename>images/box-l-btm.jpg</filename>
-        <filename>images/box-l-hdr.jpg</filename>
-        <filename>images/box-main.jpg</filename>
-        <filename>images/box-mini1.jpg</filename>
-        <filename>images/box-mini2.jpg</filename>
-        <filename>images/box-mini3.jpg</filename>
-        <filename>images/box-s-bg.jpg</filename>
-        <filename>images/box-s-bg1.jpg</filename>
-        <filename>images/box-s-btm.jpg</filename>
-        <filename>images/box-s-btm1.jpg</filename>
-        <filename>images/box-s-hdr.jpg</filename>
-        <filename>images/box-s-hdr1.jpg</filename>
-        <filename>images/btn.jpg</filename>
-        <filename>images/btn-clickhere.jpg</filename>
-        <filename>images/header.jpg</filename>
-        <filename>images/footer.gif</filename>
-        <filename>images/lnav.jpg</filename>
-        <filename>images/logo.png</filename>
-        <filename>images/logo4.gif</filename>
-        <filename>images/spacer.gif</filename>
-        <filename>images/tnav.jpg</filename>
-</images>
-
-<css>
-        <filename>css/bottom.css.php</filename>
-        <filename>css/footer.css.php</filename>
-        <filename>css/template_css.css</filename>
-        <filename>css/template_css_ie.css</filename>
-
-</css>
-
+  </files>
+  <images>
+    <filename>images/company_logo.gif</filename>
+    <filename>images/header_bg.jpg</filename>
+    <filename>images/page_header.jpg</filename>
+    <filename>images/search_bg.gif</filename>
+    <filename>images/separator_colume.jpg</filename>
+  </images>
+  <css>
+    <filename>css/template_css.css</filename>
+  </css>
 </mosinstall>
