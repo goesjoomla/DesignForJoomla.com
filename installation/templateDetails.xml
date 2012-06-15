@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <mosinstall type="template">
 
-<name>onlinebusiness</name>
-<creationDate>October 2006</creationDate>
+<name>open_your_windows</name>
+<creationDate>December 2006</creationDate>
 <author>DesignForJoomla.com</author>
 <copyright>DesignForJoomla.com</copyright>
 <authorEmail>cuongnm@designforjoomla.com</authorEmail>
 <authorUrl>designforjoomla.com</authorUrl>
 <version>1.0</version>
-<description>Onlinebusiness - Joomla template by DesignForJoomla.com</description>
+<description>Open Your Windows - Joomla template by DesignForJoomla.com</description>
 
 <files>
     <filename>index.php</filename>
@@ -16,23 +16,30 @@
 </files>
 
 <images>
-        <filename>images/english.gif</filename>
-        <filename>images/french.gif</filename>
-        <filename>images/login.jpg</filename>
-        <filename>images/logo.jpg</filename>
-        <filename>images/russian.gif</filename>
-        <filename>images/siteimage.jpg</filename>
-        <filename>images/style.gif</filename>
-        <filename>images/style_ie.gif</filename>
+        <filename>images/arrow.gif</filename>
+        <filename>images/bg.gif</filename>
+        <filename>images/bg1.gif</filename>
+        <filename>images/bottom.gif</filename>
+        <filename>images/greybg.gif</filename>
+        <filename>images/header.gif</filename>
+        <filename>images/hmenu.gif</filename>
+        <filename>images/middle.gif</filename>
+        <filename>images/subbox.gif</filename>
+        <filename>images/subbox1.gif</filename>
+        <filename>images/titlebg.gif</filename>
+        <filename>images/ul.gif</filename>
+        <filename>images/yellowbg.gif</filename>
 </images>
 
 <css>
+        <filename>css/base.css</filename>
         <filename>css/bottom.css.php</filename>
+        <filename>css/custom.css</filename>
+        <filename>css/layout.css</filename>
         <filename>css/footer.css.php</filename>
         <filename>css/template.css</filename>
         <filename>css/template_css.css</filename>
         <filename>css/template_css_ie.css</filename>
-        <filename>css/template_css_ie7.css</filename>
 </css>
 
 </mosinstall>

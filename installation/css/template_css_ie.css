@@ -1,9 +1,4 @@
-#headerlink{margin:90px 0 0 10px}
-#topbar{margin:0 2px 0 2px}
-#topbar h1{margin:5px 6px 0 0px}
-#hlogin #user input.inputbox{margin:22px 3px 0 82px;height:15px;width:66px}
-#hlogin #pass input.inputbox{height:15px;width:66px}
-#mainbody{margin:0 5px 10px 5px}
-#footer{height:40px}
-#bottom_left{padding:8px 5px 0 5px}
-#bottom_right{padding:8px 10px 10px 5px}
+body{background:#353F49 url(../images/bg1.gif) repeat-y center top}
+#left .moduletable ul li a,#right .moduletable ul li a,#left .moduletable ul li a:hover,#right .moduletable ul li a:hover{height:20px}
+#mainbody{width:505px}
+#subbox{margin-left:2px}

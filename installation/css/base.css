@@ -1,0 +1,66 @@
+/* STANDARD CSS SELECTORS OF JOOMLA 1.0.X TEMPLATE SYSTEM */
+
+/* ======================== COMMON ======================== */
+
+/* standard */
+body{margin:0;padding:0;font-size:11px;font-family:"Arial",Tahoma,Sans-Serif;background:#353F49 url(../images/bg.gif) repeat-y center top;color:#353F49;line-height:18px}
+th,td,form,div,p{margin:0;padding:0;font-family:"Arial";font-size:11px;color:#353F49;line-height:18px}
+ul{margin:0;padding:0 0 0 15px}
+li{list-style:none;padding:0}
+blockquote{border-left:2px solid #768C00;font:italic 0.9em Verdana;margin:12px 0 16px;padding-left:6px}
+
+/* link */
+a{color:#768C00;text-decoration:none;background-color:inherit}
+a:hover{color:#000;background-color:inherit}
+
+/* ======================== MORE ======================== */
+.blog td{padding:2px}
+.blog_more{margin:0 3px 15px 13px;padding:3px 6px;border:1px dotted #808080}
+.blog_more div{border-bottom:1px dotted #808080}
+.blog_more ul{margin:2px 0 2px 34px}
+.blog_more ul li a.blogsection{text-decoration:none}
+
+/* read more */
+.readon{float:right;font-weight:bold}
+
+/* ======================== CONTENTTOC ======================== */
+.contenttoc{margin:7px;padding:0 10px;border:1px dotted #808080}
+.contenttoc th{border-bottom:1px dotted #808080;font-size:13px;color:#808080;text-align:center}
+.contenttoc td{margin:5px 0 5px 14px;padding:2px 7px}
+.contenttoc a.toclink{text-decoration:none;font-weight:bold}
+
+/* ======================== NAVIGATION ======================== */
+.contentpane,.contentpaneopen{text-align:justify}
+.small,span.small,#mainbody .createdate,#mainbody .modifydate,.pagenavcounter{font-size:10px;color:#808080}
+.back_button,.pagenav_prev,.pagenav_next{font-size:11px}
+select#mod_templatechooser_jos_change_template{width:142px}
+
+/* ======================== MENU ======================== */
+#menu ul{margin:7px 0 0 -6px;padding:0;list-style:none}
+#menu ul li{padding:0 0 0 14px;display:inline}
+#menu ul li a{color:#74879A;padding:10px 0 0 9px;background:url(../images/arrow.gif) 0 15px no-repeat}
+#menu ul li a:hover{color:#F0F2F4;background-color:transparent}
+
+.mainlevel,.sublevel{text-align:left;font-size:14px;font-weight:bold;margin:0 0 3px;line-height:18px}
+.sublevel{font-weight:normal;margin:10px 0 3px 13px;line-height:16px;font-size:12px}
+/* ======================== POLL ======================== */
+
+.pollstableborder td{line-height:25px;vertical-align:middle}
+.poll thead td{text-align:center}
+.poll .button{margin-top:5px}
+
+.sectiontableheader{color:#fff;font-weight:bold;padding:0 5px;height:20px;border-bottom:1px dashed #222;font-size:12px}
+.sectiontablefooter{text-align:center}
+.sectiontableentry1 label{color:#333}
+.sectiontableentry2 label{color:#333}
+
+.pollstableborder{margin:0}
+.pollstableborder td{vertical-align:middle}
+.pollstableborder input{margin:0}
+
+.sectiontableentry1,.sectiontableentry1 td{padding:2px;text-align:left;background:#F2F2F2;color:#333;line-height:25px}
+.sectiontableentry1 td a,.sectiontableentry2 td a{color:#333;text-decoration:none;line-height:25px}
+.sectiontableentry2,.sectiontableentry2 td{padding:2px;text-align:left;line-height:25px}
+
+/* ======================== SYNDICATE ======================== */
+.syndicate div{text-align:center}

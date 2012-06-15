@@ -1,0 +1,39 @@
+/* CSS SELECTORS FOR CUSTOMIZATION */
+
+/* ======================== SLOGAN ======================== */
+#slogan,#slogan h1{margin:0;padding:58px 0 0 108px;width:706px;height:126px;float:left;overflow:hidden;color:#353F49;font-weight:bold;font-size:14px}
+#slogan h1{padding:0}
+#slogan span,#slogan h1 span{color:#8B1714}
+
+/* ======================== LEFT COLUMNS ======================== */
+#left .moduletable,#right .moduletable{padding:15px 10px 10px 10px;color:#828482}
+#left .moduletable td,#right .moduletable td{color:#828482}
+#left .moduletable h3,#right .moduletable h3{margin:0 0 7px 0;padding:0;font-weight:bold;font-size:12px}
+#left .moduletable ul,#right .moduletable ul{margin:0px -10px 0 -3px;padding:0}
+#left .moduletable ul li,#right .moduletable ul li{display:block}
+#left .moduletable ul li a,#right .moduletable ul li a{display:block;text-transform:uppercase;padding-left:4px;line-height:20px;background:url(../images/ul.gif) no-repeat 4px 1px;color:#353F49}
+#left .moduletable ul li a:hover,#right .moduletable ul li a:hover{background:#353F49;color:#FFF;background:#353F49 url(../images/ul.gif) no-repeat 4px 1px}
+#left .moduletable ul li a span,#right .moduletable ul li a span{color:white;font-size:9px;text-transform:lowercase}
+
+/* ======================== RIGHT COLUMNS ======================== */
+#top .moduletable,#bottom .moduletable{padding:15px 33px 2px 7px;color:#353F49}
+#top .moduletable td,#bottom .moduletable td,#mainbody td{color:#353F49}
+#top .moduletable h3,#bottom .moduletable h3,#mainbody .contentheading,#mainbody .componentheading{font-size:17px;margin:0 0 19px -4px;padding:0 0 0 30px;color:#404240;font-weight:bold;letter-spacing:-1px;line-height:25px;background:url(../images/titlebg.gif) no-repeat 0px 0}
+#top .moduletable h3 span,#bottom .moduletable h3 span,.contentheading span,.componentheading span{color:#8B1714}
+
+#mainbody .contentheading,#mainbody .componentheading{padding:0 0 10px 30px}
+#mainbody .buttonheading img{border:0px;margin:0px;padding:0}
+
+#user3{background:url(../images/greybg.gif) repeat-x top left}
+#user3 .moduletable{padding:5px 10px 5px;color:#808080;overflow:hidden}
+#user3 .moduletable h3,#user4 .moduletable h3{margin:0 0 0 -4px;font-weight:bold;font-size:12px}
+#user4{background:url(../images/yellowbg.gif) repeat-x top left}
+#user4 .moduletable{padding:5px 10px 5px;color:#808080;overflow:hidden}
+
+/* ======================== FOOTER ======================== */
+#footer p,#footer td{color:#919FAE}
+#footer a,#bottom_left a,#bottom_right a{color:#BDC6CE;border-bottom:1px dotted #919FAE}
+#bottom_left{float:left;margin:0;padding:0 0 0 22px;text-align:left}
+#bottom_left div{font-size:11px;text-align:left;color:#919FAE}
+#bottom_right{float:right;margin:0;padding:0 13px 0 0;text-align:right}
+#bottom_right div{font-size:11px;text-align:right;color:#919FAE}
