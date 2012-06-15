@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="template">
+  <name>nature_01</name>
+  <creationDate>6th May 2005</creationDate>
+ <author>DesignForJoomla.com</author>
+  <copyright>Converted to Joomla template by DesignForJoomla.com.</copyright>
+  <authorEmail>design@designforjoomla.com</authorEmail>
+  <authorUrl>www.designforjoomla.com</authorUrl>
+  <version>1.0</version>
+  <description>Converted to Joomla template by DesignForJoomla.com.</description>
+  <files>
+    <filename>index.php</filename>
+    <filename>template_thumbnail.png</filename>
+  </files>
+  <images>
+	<filename>images/10026901_01.gif</filename>
+	<filename>images/10026901_02.gif</filename>
+	<filename>images/10026901_03.gif</filename>
+	<filename>images/10026901_04.gif</filename>
+	<filename>images/10026901_05.gif</filename>
+	<filename>images/10026901_06.gif</filename>
+	<filename>images/10026901_07.gif</filename>
+	<filename>images/10026901_08.gif</filename>
+	<filename>images/10026901_21.gif</filename>
+	<filename>images/10026901_22.gif</filename>
+	<filename>images/10026901_23.gif</filename>
+	<filename>images/10026901_24.gif</filename>
+	<filename>images/10026901_25.gif</filename>
+	<filename>images/component_header.gif</filename>
+	<filename>images/hover.gif</filename>
+	<filename>images/list_bullet.gif</filename>
+	<filename>images/module_background.jpg</filename>
+	<filename>images/module_header.gif</filename>
+	<filename>images/spacer.gif</filename>
+  </images>
+  <css>
+    <filename>css/template_css.css</filename>
+  </css>
+</mosinstall>

@@ -1,4 +1,4 @@
-D4J Multiflex template for Joomla! 1.0 series
+D4J Nature 01 template for Joomla! 1.0 series
 ===============================================
 
 Install Git client by following the guide at the URL below:
@@ -9,7 +9,7 @@ Then, clone the repository at following URL:
 
 https://github.com/goesjoomla/DesignForJoomla.com.git
 
-Finally, checkout templates/multiflex branch to get D4J Multiflex.
+Finally, checkout templates/nature_01 branch to get D4J Nature 01.
 
 --
 Manh-Cuong Nguyen
