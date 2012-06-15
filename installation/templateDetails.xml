@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="template">
+
+<name>skyhigh_industry</name>
+<creationDate>January 2008</creationDate>
+<author>DesignForJoomla.com</author>
+<copyright>DesignForJoomla.com</copyright>
+<authorEmail>cuongnm@designforjoomla.com</authorEmail>
+<authorUrl>designforjoomla.com</authorUrl>
+<version>1.0</version>
+<description>Skyhigh Industry - Joomla template by DesignForJoomla.com</description>
+
+<files>
+    <filename>index.php</filename>
+    <filename>template_thumbnail.png</filename>
+</files>
+
+<images>
+        <filename>images/bullet1.gif</filename>
+        <filename>images/footerbg.gif</filename>
+        <filename>images/footerlogo.jpg</filename>
+        <filename>images/header.jpg</filename>
+        <filename>images/icon1.jpg</filename>
+        <filename>images/icon3.jpg</filename>
+        <filename>images/icon4.jpg</filename>
+        <filename>images/icon5.jpg</filename>
+        <filename>images/login.jpg</filename>
+        <filename>images/logo.gif</filename>
+        <filename>images/mainbg.gif</filename>
+        <filename>images/middleborder.gif</filename>
+        <filename>images/middlepanbg.gif</filename>
+        <filename>images/xhtml_bg.gif</filename>
+        <filename>images/xhtml_bg_hover.gif</filename>
+</images>
+
+<css>
+        <filename>css/bottom.css.php</filename>
+        <filename>css/footer.css.php</filename>
+        <filename>css/template.css</filename>
+        <filename>css/d4j_dropdownmenu.css</filename>
+        <filename>css/d4j_transmenu.css</filename>
+        <filename>css/template_css.css</filename>
+        <filename>css/template_css_ie.css</filename>
+        <filename>css/template_css_ie7.css</filename>
+</css>
+
+</mosinstall>

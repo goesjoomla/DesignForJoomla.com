@@ -1,0 +1,149 @@
+/*document settings*/
+body{margin:0; padding:0; background:url(../images/mainbg.gif) 0 0 repeat-x #fff; font-size:14px;font-family: Georgia, "Times New Roman", Times, serif; color:#666;line-height:140%}
+th,td,form,div,p{margin:0;padding:0;font-family:Georgia;line-height:140%;color:#666}
+ul{margin:0;padding:0;list-style:none}
+li{margin:0;padding:0}
+a{color:#966202;text-decoration:none}
+a:hover{text-decoration:underline}
+
+
+/* position setting (tableless)*/
+.clr{clear:both}
+
+#container1{width:708px;margin:0 auto;text-align:left}
+
+#container3{width:708px;margin:0 auto;text-align:left}
+#footer_container{width:708px;margin:0 auto;text-align:left}
+.tips{display:none}
+
+
+#topbox{width:708px;height:39px;margin:69px 0 0 0;float:left}
+
+#logo1{margin:0;width:245px;float:left;height:39px;overflow:hidden}
+#logo1 h1,#logo1 h1 a{width:245px;height:39px}
+#logo1 h1{background:url(../images/logo.gif) left top no-repeat;margin:0}
+#logo1 h1 a{display:block;text-indent:-5000px;background:none;border:none}
+
+#toolbar{margin:7px 0 0;width:412px;float:right;height:27px}
+#toolbar a.mainlevel{float:left; width:82px; height:27px; background:#FBA01B; color:#fff; font:13px/27px Arial, Helvetica, sans-serif; text-decoration:none; font-weight:bold; text-align:center;overflow:hidden}
+#toolbar a:hover.mainlevel,#toolbar a#active_menu.mainlevel{background:url(../images/bullet1.gif) 50% 0 no-repeat #FBA01B; color:#fff; text-decoration:none;}
+#toolbar ul,#toolbar ul li{margin:0;padding:0;display:inline}
+
+
+#midbox{width:708px;height:230px;margin:5px 0 0;float:left;background:url(../images/header.jpg) top left no-repeat}
+#user7{width:708px;margin:0;float:left}
+#user7 .moduletable,#user7 h2{font-size:14px;font-family:"Trebuchet MS",Arial, Helvetica, sans-serif; color:#fff;font-weight:normal;padding:65px 86px 0 450px;margin:0;line-height:130%}
+#user7 .moduletable h3,#user7 h1{font-size:24px;font-weight:normal;padding:0;margin:0}
+
+#user7 h1{color:#fff;font-family:"Trebuchet MS";padding:65px 86px 0 450px}
+#user7 h2{padding-top:0;line-height:123%}
+
+#container2{width:100%;margin:56px 0 0;float:left;background:url(../images/middlepanbg.gif) 0 0 repeat-x #F0F0F0;text-align:left}
+#container21{width:708px;margin:16px auto 0;text-align:left;overflow:hidden}
+
+#lbox1,#user3,#top,#mainbody{width:475px;margin:0;float:left;overflow:hidden}
+#mainbody{width:403px}
+#lbox1 .moduletable,#lbox1 .moduletable_special,#mainbody{margin:0;padding:0 72px 10px 0}
+#lbox1 .moduletable h3,#lbox1 .moduletable_special h3,#mainbody .contentheading,#mainbody .componentheading{height:77px;color:#D67200; font:26px/77px Arial, Helvetica, sans-serif;padding:1px 0 0 0px;margin:0 0 9px}
+#lbox1 .moduletable span,#lbox1 .moduletable_special span{font-weight:bold}
+
+#lbox1 .moduletable_special h3{background:url(../images/icon1.jpg) 0 50% no-repeat;padding:1px 0 0 60px}
+
+#rbox1,#user4,#user5{width:233px;margin:0;float:right;overflow:hidden}
+#rbox1{margin-top:1px}
+#rbox1 .moduletable{background:#fff;margin:0 0 15px;padding:15px 17px 15px 18px}
+#rbox1 .moduletable h3{line-height:43px;height:43px; display:block;color:#D67200; font-size:22px;font-family:Arial, Helvetica, sans-serif; padding:0;margin:0 0 12px;font-weight:normal;text-transform:lowercase}
+#rbox1 .moduletable a{color:#666; padding:0; text-decoration:none;text-transform:lowercase}
+#rbox1 .moduletable a:hover{color:#000; text-decoration:none}
+
+#rbox1 .moduletable_login{background:#fff;margin:0 0 15px;padding:15px 17px 15px 18px;font-weight:bold;font-size:15px}
+#rbox1 .moduletable_login h3{line-height:43px;height:43px; display:block; background:url(../images/icon1.jpg) top left no-repeat #fff; color:#D67200; font-size:22px;font-family:Arial, Helvetica, sans-serif; padding:0 0 0 57px;margin:0 0 12px;font-weight:normal;text-transform:lowercase}
+#rbox1 .moduletable_login a{display:block;background:url(../images/icon3.jpg) left 50% no-repeat #fff; color:#666; font:22px/24px Arial, Helvetica, sans-serif; padding:0 0 0 25px; text-decoration:none;text-transform:lowercase}
+#rbox1 .moduletable_login a:hover{background:url(../images/icon3.jpg) left 50% no-repeat #fff; color:#000; text-decoration:none}
+#rbox1 .moduletable_login input.inputbox{padding:2px 115px 0px 1px; height:18px; margin:5px 0 0}
+#rbox1 .moduletable_login input.button{width:58px; height:24px; float:left; margin:0; background:url(../images/login.jpg) 0 0 no-repeat #FEFEFE; color:#fff; border:none; font:14px/18px Georgia, "Times New Roman", Times, serif; font-weight:bold;margin:5px 0}
+
+#container3{width:100%;margin:41px 0 40px;float:left;text-align:left;overflow:hidden}
+#container31{width:708px;margin:0 auto;text-align:left}
+#content{width:708px;margin:0;float:left;text-align:left;background:url(../images/middleborder.gif) top left repeat-y}
+
+#lbox2,#left,#user1{width:354px;margin:0;float:left;overflow:hidden}
+
+#rbox2,#right,#user2{width:354px;margin:0;float:left;overflow:hidden}
+#lbox2 .moduletable,#lbox2 .moduletable_special{margin:0 0 25px;padding:0 72px 0 0}
+#lbox2 .moduletable h3,#rbox2 .moduletable h3,#lbox2 .moduletable_special h3,#rbox2 .moduletable_special h3{height:57px; color:#D67200; font-size:26px;font-family: Arial, Helvetica, sans-serif; padding:10px 0 0 0px;margin:0;font-weight:normal}
+#lbox2 .moduletable h2,#rbox2 .moduletable h2,#lbox2 .moduletable_special h2,#rbox2 .moduletable_special h2{height:26px;font-size:18px; display:block;margin:0;padding:0}
+#lbox2 .moduletable span,#rbox2 .moduletable span,#lbox2 .moduletable_special span,#rbox2 .moduletable_special span{font-weight:bold}
+
+#lbox2 .moduletable_special h3,#rbox2 .moduletable_special h3{background:url(../images/icon4.jpg) 0 0% no-repeat; padding:10px 0 0 60px}
+#rbox2 .moduletable,#rbox2 .moduletable_special{margin:0 0 25px;padding:0 0 0 72px}
+
+#footer_container1{width:100%;float:left;background:url(../images/footerbg.gif) top left repeat-x #7D7D7D; color:#fff;margin:0;padding-bottom:25px}
+#footer_container2{width:708px;margin:0 auto;color:#fff;text-align:left;font-family:"Trebuchet MS"}
+#footer_container2,#footer_container2 a,#footer_container2 div,#footer_container2 td,#footer_container2 form{color:#fff;font-family:"Trebuchet MS"}
+#footer_container2 a.mainlevel{font-size:12px;font-weight:normal;color:#fff;background-color:inherit;padding:0 10px;display:inline;text-align:center;text-decoration:none;border-right:1px solid #fff}
+#footer_container2 a:hover.mainlevel{color:#fff}
+#footer_container2 ul li{display:inline}
+
+#footer_box,#user9,#footer{width:410px;margin:0;float:left;overflow:hidden}
+#footer_box{margin:36px 0 0 20px}
+#footer{margin:10px 0 0 10px;font-size:12px}
+
+#logo2{margin:23px 0 0;width:248px;float:left;height:38px;overflow:hidden}
+#logo2 h1,#logo2 h1 a{width:248px;height:38px}
+#logo2 h1{background:url(../images/footerlogo.jpg) left top no-repeat;margin:0}
+#logo2 h1 a{display:block;text-indent:-5000px;background:none;border:none}
+
+#bottom_left{margin:0;padding:0;width:100%;float:left}
+#bottom_left div{margin:0;padding:5px 0 8px}
+#bottom_left div a{width:70px;background:url(../images/xhtml_bg.gif) top left no-repeat;font:bold 13px/24px Georgia;color:#fff;margin:0;text-align:left;text-decoration:none;padding:0 7px;overflow:hidden;float:left;line-height:24px}
+#bottom_left div a:hover{background:url(../images/xhtml_bg_hover.gif) top left no-repeat;color:#fff}
+#bottom_right{width:100%;margin:15px 0 0;padding:0;font-weight:normal;font-size:12px;color:#FFFAE8;float:left}
+#bottom_right div{margin-bottom:9px}
+#bottom_right div a{color:#fff;padding:1px 0;text-decoration:none}
+#bottom_right div a:hover{;text-decoration:underline}
+
+
+/*joomla settings*/
+.small,span.small,#mainbody .createdate,#mainbody .modifydate,.pagenavcounter{font-size:0.9em;color:#aaa;font-style:italic}
+.back_button,.pagenav_prev,.pagenav_next{font-size:0.9em}
+.readon{float:right;width:100px; height:24px; display:block; background:url(../images/icon5.jpg) 0 0 no-repeat #F0F0F0; color:#966202; font:16px/24px "Trebuchet MS", Arial, Helvetica, sans-serif; padding:0 0 0 30px; text-decoration:none;}
+
+.contentpane,.contentpaneopen{text-align:justify}
+
+.contenttoc{margin:7px 0 7px 7px;padding:0 10px;border:1px dotted #666}
+.contenttoc th{border-bottom:1px dotted #666;font-size:13px;color:#666;text-align:center}
+.contenttoc td{margin:5px 0 5px 14px;padding:2px 7px}
+.contenttoc a.toclink{text-decoration:none;font-weight:bold}
+
+.blog td{padding:2px}
+.blog_more{margin:0 3px 15px 13px;padding:3px 6px;border:1px dotted #666}
+.blog_more div{border-bottom:1px dotted #666}
+.blog_more ul{margin:2px 0 2px 34px}
+.blog_more ul li{margin-left:30px}
+.blog_more ul li a.blogsection{text-decoration:none}
+
+.syndicate div{text-align:center}
+select#mod_templatechooser_jos_change_template{width:142px}
+div.contact_email textarea#contact_text.inputbox{width:350px}
+.contentpane .inputbox{width:50%}
+.contentpane select.inputbox{width:55px}
+
+.pollstableborder td{line-height:25px;vertical-align:middle}
+.poll thead td{text-align:center}
+.poll .button{margin-top:5px}
+
+.sectiontableheader{color:#FFF;background:#D67200;font-weight:bold;padding:0 5px;height:20px;border-bottom:1px dashed #222;font-size:12px}
+.sectiontablefooter{text-align:center}
+.sectiontableentry1 label{color:#333}
+.sectiontableentry2 label{color:#333}
+
+.pollstableborder{margin:0}
+.pollstableborder td{vertical-align:middle}
+.pollstableborder input{margin:0}
+
+.sectiontableentry1,.sectiontableentry1 td{padding:2px;text-align:left;background:#F2F2F2;color:#333;line-height:25px}
+.sectiontableentry1 td a,.sectiontableentry2 td a{line-height:25px}
+.sectiontableentry2,.sectiontableentry2 td{padding:2px;text-align:left;background:#FFF;color:#333;line-height:25px}
+
+.tips{display:none}

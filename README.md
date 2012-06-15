@@ -1,4 +1,4 @@
-D4J Service 01 template for Joomla! 1.0 series
+D4J Skyhigh Industry template for Joomla! 1.0 series
 ===============================================
 
 Install Git client by following the guide at the URL below:
@@ -9,7 +9,7 @@ Then, clone the repository at following URL:
 
 https://github.com/goesjoomla/DesignForJoomla.com.git
 
-Finally, checkout templates/service_01 branch to get D4J Service 01.
+Finally, checkout templates/skyhigh_industry branch to get D4J Skyhigh Industry.
 
 --
 Manh-Cuong Nguyen
