@@ -1,0 +1,181 @@
+/* PattyMcFatPat01 */
+
+
+* {
+   padding:0;
+   margin:0;
+}
+
+html, body {
+        height: 100%;
+}
+
+body {
+        text-align: left;
+        margin:0 auto;
+        padding:0;
+        color:#fff;
+        font-style:normal;
+        font-variant:normal;
+        font-weight:normal;
+        font-size:10px;
+        font-family:Verdana, Tahoma, Arial, sans-serif;
+        background:#4d4d4d url('images/bg.gif') repeat-y top center;
+}
+
+#page {
+        width:634px;
+        margin:0 auto;
+}
+
+#header {
+        height:99px;
+        width:634px;
+        margin: 0 auto;
+        background: url('images/header.gif') no-repeat;
+        padding:0px;
+}
+
+.text {
+        color: #FFF;
+        background: url('images/footer.gif') no-repeat left bottom;
+        width:600px;
+        padding-left:15px; padding-right:15px; padding-top:40px; padding-bottom:20px
+}
+/**************************** menu ****************************/
+
+
+#menu {
+        padding:0;
+        margin:0x;
+        float: left;
+        width: 150px;
+        color:#ffffff;
+        background: url('images/menubg.gif') repeat-y;
+}
+
+.menu{
+        background: url('images/menubgbtm.gif');
+        height:20px;
+        margin:0;
+        padding:0;
+        width:150px;
+}
+
+#menu ul {
+        list-style:none;
+        width:150px;
+        margin:0 0 0 10px;
+        padding:0;
+        font-size:1.1em;
+}
+
+#menu li {
+        margin-bottom:4px;
+}
+
+#menu li a {
+        margin: 5px 5px 5px 5px;
+        color:#ffffff;
+        text-decoration: none;
+}
+
+#menu li a:hover {
+        color:#999;
+        text-decoration: none;
+}
+
+#menu a {
+        margin: 5px 5px 5px 5px;
+        color:#ffffff;
+        text-decoration: none;
+}
+
+#menu a:hover {
+        color:#cccccc;
+        text-decoration: none;
+}
+
+
+/**************************** content ****************************/
+
+#content {
+        float:right;
+        padding:0 0 40px 0;
+}
+
+.post{
+        padding:10px 0 10px 0;
+        width:464px;
+        background: url('images/bottompost.gif') no-repeat bottom;
+}
+
+.post p{
+        padding:10px;
+}
+
+.post p img{
+        float:right;
+}
+
+a{
+        color:#000;
+}
+
+a:hover{
+        color:#fff;
+}
+
+h1{
+        color:#fff;
+        font-size:30px;
+        padding: 20px 0 10px 10px;
+}
+
+h2{
+        font-family:times, "Times New Romans", serif;
+        color:#fff;
+        font-size:16px;
+        margin: 10px 0 10px 10px;
+}
+
+h3{
+        font-family:times, "Times New Romans", serif;
+        color:#ffff99;
+        font-size:20px;
+        font-weight:normal;
+        border-bottom:1px solid #525252;
+}
+
+h3 img{
+        float:left;
+}
+
+#footer{
+        position:fixed;
+        bottom:0;
+        width:100%;
+        background:#000;
+        border-top:1px solid #ccc;
+        text-align:center;
+        color:#ffffff;
+        clear:both;
+        padding:3px 0;
+        -moz-border-radius:3px;
+        font-size:10px;
+        filter:alpha(opacity=50);
+        opacity: 0.5;
+        -moz-opacity:0.5;
+}
+
+#footer a {
+        font-weight:bold;
+        color:#FFFFFF;
+        font-size:10px;
+}
+
+#footer a:hover {
+        font-weight:bold;
+        color:#85c329;
+        font-size:10px;
+}
