@@ -1,0 +1,50 @@
+/* ====================== FOR SITETOOLS CHANGER ========= */
+body.font18{font-size:18px}
+body.font17{font-size:17px}
+body.font16{font-size:16px}
+body.font15{font-size:15px}
+body.font14{font-size:14px}
+body.font13{font-size:13px}
+body.font12{font-size:12px}
+
+
+/* ======================= MAIN MENU ===================== */
+
+#D4J_MainMenu ul{height:32px; display:block; margin:0px; padding:0px; background:url(../images/menu-bg.gif) 0 0 repeat-x #FF8714; color:#fff;}
+#D4J_MainMenu ul li{float:right; display:block; height:32px; background:url(../images/menu-devider.gif) right top no-repeat; padding:0 20px}
+#D4J_MainMenu ul li a{display:block; height:27px; background:url(../images/menu-bg.gif) 0 0 repeat-x #FF8714; color:#fff; font:0.93em "Trebuchet MS",Arial, Helvetica, sans-serif; font-weight:bold; text-align:center; text-decoration:none; padding:5px 0 0 0}
+#D4J_MainMenu ul li a:hover{display:block; background:url(../images/menu-hover.gif) 50% 0 no-repeat;text-decoration:none; /*position:fixed;*/ margin:0;}
+
+/* ========================== TOP =============================== */
+#D4J_Top .moduletable h3{height:83px; display:block; background:url(../images/image1.jpg) 0 0 no-repeat; font:1.93em "Trebuchet MS",Arial, Helvetica, sans-serif; font-weight:bold; color:#4D4D4D; padding:0 0 0 70px; margin:0;}
+#D4J_Top .moduletable h3 span{color:#967001; font:0.52em Arial, Helvetica, sans-serif; font-weight:bold; padding:0; margin:0 0 0 0; float:left}
+
+
+/* ========================== BOTTOM ============================ */
+#D4J_Bottom .moduletable h3{height:70px; display:block; background:url(../images/image2.jpg) 0 0 no-repeat #EFEFEF; font:1.93em "Trebuchet MS",Arial, Helvetica, sans-serif; font-weight:bold; color:#4D4D4D; padding:0 0 0 70px; margin:0; }
+#D4J_Bottom .moduletable h3 span{background:#EFEFEF; color:#967001; font:0.52em Arial, Helvetica, sans-serif; font-weight:bold; padding:0; margin:10px 0 0;}
+#D4J_Bottom .moduletable ul{width:241px; display:block; float:left; margin:0; padding:0;}
+#D4J_Bottom .moduletable ul li{width:109px; height:122px; display:block; float:left; background: url(../images/dot-line.gif) repeat-x 0 100%; padding:0 0 10px 0; margin:20px 0 0 0;}
+#D4J_Bottom .moduletable ul li.middle{width:22px; height:152px; background:none; float:left; display:block; padding:0; margin:0;}
+#D4J_Bottom .moduletable ul li img{width:109px; height:105px; display:block; padding:0; margin:0;}
+#D4J_Bottom .moduletable ul li a{width:70px; height:20px; display:block; background:url(../images/arrow.gif) no-repeat 100% 50% #EFEFEF; color:#BF4D02; font:0.86em Georgia, "Times New Roman", Times, serif; text-decoration:none; text-align:center; margin:0 0 0 12px; padding:0;}
+#D4J_Bottom .moduletable ul li a:hover{text-decoration:underline; display:block;}
+
+/* ========================== RIGHT ============================= */
+#D4J_Right .moduletable h3{display:block; width:160px; height:64px; background:url(../images/icon1.jpg) 0 0 no-repeat #fff; font:1.93em "Trebuchet MS",Arial, Helvetica, sans-serif; font-weight:bold; color:#4D4D4D; padding:1px 0 0 69px; margin:8px 0 0 0;}
+#D4J_Right .moduletable h3 span{background:#fff; color:#967001; font:0.52em Arial, Helvetica, sans-serif; font-weight:bold; padding:0; margin:10px 0 0;}
+
+/* ========================== USER 4 ============================ */
+#D4J_User4 .bigsize{font-family:Georgia,"Times New Roman", Times, serif; font-style:italic; color:#BF4D02; font-size:1.43em; line-height:20px; background:#fff; padding:0;}
+#D4J_User4 .name{background:#fff; display:block; color:#AC8101; font:1.29em Georgia, "Times New Roman", Times, serif; font-style:italic; font-weight:bold; text-align:right; padding:0;}
+
+/* ========================== FOOTNAV =========================== */
+#D4J_FootNav ul{font:0.86em "Trebuchet MS",Arial, Helvetica, sans-serif;margin-left:40px}
+#D4J_FootNav ul li{float:left;}
+#D4J_FootNav ul li a{padding:0 10px; color:#fff; background: url(../images/ser.gif) left no-repeat; text-decoration:none;}
+
+/* ========================== FOOTER ============================ */
+#D4J_Footer_Left{color:#FF833B}
+#D4J_Footer a,#D4J_Footer{font:0.86em "Trebuchet MS",Arial, Helvetica, sans-serif;color:#FFF}
+
+#D4J_Footer_Right a{text-transform:uppercase;margin-right:10px}

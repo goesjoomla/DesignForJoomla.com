@@ -1,0 +1,40 @@
+/* CSS SELECTORS FOR LAYOUT */
+
+.clearer{clear:both;height:0}
+.tips{display:none}
+/* ======================== CONTAINER ======================== */
+#D4J_Wrapper1{}
+#D4J_Container{width:700px;text-align:left}
+
+/* ======================== TOP PAGE ========================== */
+#D4J_TopPage{background:url(../images/header-img1.jpg) left no-repeat;height:215px;}
+
+/* ======================== HEADER ============================ */
+#D4J_Header{float:right;height:91px;margin-top:124px}
+
+/* ======================== MAIN MENU ========================= */
+#D4J_MainMenu{height:37px}
+
+/* ======================== LEFT SIDE ========================= */
+#D4J_LeftSide{width:250px;float:left;margin:27px 0 0 44px}
+
+#D4J_Main,#D4J_Bottom{margin-top:20px}
+
+/* ======================== RIGHT SIDE ======================== */
+#D4J_RightSide{float:left;width:251px;margin-left:42px;background:#FFF;padding:32px 54px}
+
+/* ======================== USER 4 ============================ */
+#D4J_User4{background:url(../images/workdot-line.gif) bottom repeat-x;padding:0 0 20px 0;margin-bottom:30px}
+
+/* ======================== FOOT PAGE ========================= */
+#D4J_FootPage{height:114px; background:url(../images/footer-bg.gif) 0 0 repeat-x #4D4D4D; color:#fff; padding:90px 0 0 0; margin:0 auto; clear:both;}
+#D4J_FootPage_In{background:url(../images/footerlogo.gif) right no-repeat;width:700px}
+#D4J_FootPage_Left{width:300px;height:35px;float:left;margin:0 0 0 20px;padding:29px 0;background:url(../images/vertical-dot.gif) right repeat-y}
+#D4J_FootPage_Right{width:360px;float:left;margin-left:20px}
+
+/* ======================== FOOT NAV ========================== */
+#D4J_FootNav{margin:0 0 20px 0}
+
+/* ======================== SITE TOOLS ======================== */
+#D4J_Sitetools{position:fixed;bottom:0px;right:10px;height:25px}
+#D4J_Tools{display:none;position:fixed;bottom:20px;right:10px;width:21px}
