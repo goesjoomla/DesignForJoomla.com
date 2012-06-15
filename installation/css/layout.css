@@ -1,26 +1,33 @@
 /* CSS SELECTORS FOR LAYOUT */
 
+/* ======================== PAGE TOP ======================== */
+#top_page{width:780px;height:9px;background:#ffffff url(../images/page_top.jpg) no-repeat}
+
 /* ======================== WRAPPERS ======================== */
-#container,#container_inner{margin:0px auto;padding:0;background:#101010 url(../images/border.gif) top left repeat-y;color:#a3b2ba;text-align:left;overflow:hidden}
-#container_inner{margin:0;background:url(../images/border.gif) top right repeat-y;width:100%;color:#a3b2ba}
+#container{width:780px;text-align:center;margin-bottom:5px}
 
 /* ======================== COMMON ======================== */
-.clr{clear:both;height:0;overflow:hidden}
+.clearer{clear:both;height:0px;overflow:hidden}
 .tips{display:none}
 
 /* ======================== HEADER ======================== */
-#user9{margin:18px 20px 0;width:95%;float:right;height:26px;color:#999;overflow:hidden}
-#header,#slogan,#buttons{margin:0;float:left;width:100%;height:127px;background:url(../images/header.gif) top left repeat-x;overflow:hidden}
+#header{width:780px;height:125px;background:#ffffff url(../images/header_bg.jpg)}
+#logo{float:left;margin:0 20px 0 20px;padding:0;width:150px;height:120px;background:url(../images/pc_logo.jpg) no-repeat}
+
+/* ======================== NAV ======================== */
+#nav{width:780px;height:39px;background:#ffffff url(../images/nav_bg.jpg)}
 
 /* ======================== BODY ======================== */
-#buttons{float:right;width:482px;background:url(../images/butterfly.jpg) top right no-repeat}
-#mainmenu{margin:5px 26px 10px;float:left;width:95%;height:auto;padding-bottom:10px}
-#subheader,#user1,#user2,#user3{margin:0;float:left}
-#subheader{width:100%}
-#content,#lbox,#top,#mainbody,#bottom{margin:0;float:left;width:67%;overflow:hidden}
-#content,#top,#bottom{width:100%}
-#mainbody{width:92.88%}
-#rbox,#right,#left{margin:0;float:left;width:33%;overflow:hidden}
-#right,#left{width:100%}
+#body{margin:10px 0 0 10px;width:760px;background:transparent;text-align:left}
+#container{background:#ffffff url(../images/body_bg.jpg) repeat-y}
+#left{float:left;width:140px;padding:0 4px 0 0;background:transparent;overflow:hidden}
+#center_column{width:595px;padding-left:7px;float:right;margin-right:3px}
+#right{float:right;width:150px;margin:0 0 3px 18px;padding:5px 5px 2px 10px;overflow:hidden}
+#bottom{overflow:hidden}
+
 /* ======================== FOOTER ======================== */
-#footer{float:left;margin:0 5px;width:97.2%;padding:10px 5px;overflow:hidden;border-top:1px dotted #888;font-size:0.9em}
+#footer{width:780px}
+#footer_text{float:right;text-align:right;width:766px}
+
+/* ======================== PAGE BOTTOM ======================== */
+#bottom_page{margin:0 auto;padding:0;width:780px;height:11px;background:#ffffff url(../images/page_bottom.jpg) no-repeat top}

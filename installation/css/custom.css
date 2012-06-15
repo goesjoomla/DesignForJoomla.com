@@ -1,73 +1,43 @@
 /* CSS SELECTORS FOR CUSTOMIZATION */
 
-/* ======================== MENU ======================== */
-#user9,#user9 td{text-align:right}
-#user9 ul{margin:0;padding:0;list-style:none}
-#user9 ul li{padding:0;margin:0;display:inline}
-#user9 ul li a,#user9 a.mainlevel{color:#999;padding:0 4px;text-transform:uppercase;font-size:0.85em;background:url(../images/line.gif) top right no-repeat}
+/* ======================== LOGO ======================== */
+#logo h1 a{height:110px;display:block;text-indent:-5000px}
+#slogan .moduletable h3,#slogan h1{color:#eeeeee;font-size:2em;letter-spacing:.1em;text-transform:capitalize;margin:0 0 0 0;padding:20px 0 0 0}
+#slogan h1 a{text-decoration:none;color:#eeeeee}
+#slogan .moduletable h3:after{content:""}
 
-/* ======================== USER MODULE ======================== */
-#user1 .moduletable{padding:0px 10px 15px 26px}
-#user2 .moduletable,#user3 .moduletable{padding:0px 10px 15px}
-#user1 .moduletable h3,#user2 .moduletable h3,#user3 .moduletable h3{margin:5px 0;font-size:1.1em;color:#999;text-transform:uppercase;font-weight:normal}
+/* ======================== HEADER ======================== */
+#header{text-align:left;color:#FFFFFF}
 
-/* ======================== SLOGAN ======================== */
-#slogan{width:40%;background:url(../images/slogan.gif) top left no-repeat}
-#slogan .moduletable,#slogan h2{padding:32px 10px 0 38px;color:#000;font-size:1.3em;font-weight:bold}
-#slogan h2{padding:0 0 0 38px}
-#slogan .moduletable h3,#slogan h1{font-size:1.8em;margin:0 0 10px -2px;color:#000}
-#slogan h1{margin:34px 0 15px 36px;font-size:2.3em}
-
-/* ======================== BUTTONS ======================== */
-#button1,#button2,#button3,#button4,#button5,#button6{margin:0;float:left;height:11px;width:17px}
-#button1{margin:5px 0 0 410px}
-#button2,#button3{margin:5px 0 0 5px}
-#button4{margin:5px 0 0 410px}
-#button5,#button6{margin:5px 0 0 5px}
+/* ======================== NAV ======================== */
+#nav{text-align:left;color:#000000;font-size:.9em}
 
 /* ======================== TOOLBAR ======================== */
-#mainmenu ul{margin:0;list-style:none;padding:0}
-#mainmenu li{float:left;margin:2px;padding:0;position:relative}
-#mainmenu li a{display:block;border-top:4px solid #e10085;color:#999;padding:5px;font-weight:bold;text-decoration:none;text-transform:uppercase;font-size:1em;line-height:18px}
-#mainmenu li a:hover{float:left;display:block;border-top:4px solid #0088af;color:#fff;text-decoration:none}
+#nav ul{padding:0 0 0 0;margin: 0 0 0 1.5em;white-space: nowrap;font-size:1.1em;color:#ffffff;float:left;width:100%;height:39px;background:transparent;list-style:none}
+#nav ul li{display:inline;list-style:none}
+#nav ul li a{margin: .8em 0 0 0;padding: .4em 1em .46em 1em;color:#ffffff;text-decoration:none;float:left;border-left:1px solid #999999;background:transparent}
+#nav ul li a:hover{color:#000000;text-decoration:none;border-left:1px solid #999999}
 
-#mainmenu li.active{/*active root list item*/}
-#mainmenu li ul{/*child list*/position:absolute;top:27px;left:-999em;width:120px;height:auto}
-#mainmenu li:hover ul,#mainmenu li.sfhover ul{/*active dropdown list from root list item*/z-index:100;left:0}
-#mainmenu li ul ul{/*margin for pullout list*/margin:-29px 0 0 140px}
-#mainmenu li:hover ul ul,#mainmenu li:hover ul ul ul,#mainmenu li:hover ul ul ul ul,#mainmenu li.sfhover ul ul,#mainmenu li.sfhover ul ul ul,#mainmenu li.sfhover ul ul ul ul{/*not-active pullout list*/left:-999em;border:none}
-#mainmenu li li:hover ul,#mainmenu li li li:hover ul,#mainmenu li li li li:hover ul,#mainmenu li li.sfhover ul,#mainmenu li li li.sfhover ul,#mainmenu li li li li.sfhover ul{/*active pullout list from child list item*/z-index:100;left:0}
-#mainmenu li li{/*child list item*/float:left;padding:0;width:200px;line-height:20px}
-#mainmenu li li:hover,#mainmenu li li.sfhover{/*hovered child list item*/border:none}
-#mainmenu li li.active{/*active child list item*/border:none}
-#mainmenu .sublevel,#mainmenu a:hover.sublevel,#mainmenu span.mainlevel,#mainmenu span.sublevel{/*list and root list item link and placeholder*/display:block;float:left;border:none}
-#mainmenu .sublevel{background:#101010}
-#mainmenu a.topdaddy,#mainmenu li.active a.topdaddy,#mainmenu span.topdaddy,#mainmenu li.active span.topdaddy{/*root list item menu link and placeholder*/background:url(../images/down_arrow.gif) 1% 50% no-repeat;padding-left:16px}
-#mainmenu a.daddy,#mainmenu li.active a.daddy,#mainmenu span.daddy,#mainmenu li.active span.daddy{/*child list item menu link and placeholder*/background:#101010 url(../images/right_arrow.gif) 67% 65% no-repeat}
-#mainmenu a:hover.topdaddy{/*link style of hovered root list item*/padding-left:16px}
-#mainmenu li li .sublevel{/*child list item link and placeholder*/padding:3px 15px;width:160px;margin:-3px 0}
-#mainmenu li li:hover a,#mainmenu li li.sfhover a{/*link style of hovered child list item*/}
+/* ======================== LEFT COLUMN ======================== */
+#left a{color:#000000}
+#left a:hover{color:#999999}
+#left ul,#right ul,#center_column{line-height:17px}
+/* ======================== CENTER COLUMN ======================== */
+#left{font-size:.9em;color:#6E312A}
+#center_column{width:595px;padding-left:7px;float:right;margin-right:3px}
+#right{background:#eeeeee;border:1px solid #cccccc;text-align:left;color:#616161;font-size:.9em}
+#bottom {text-align:center}
+#bottom ul,#footer_text ul{list-style:none}
 
-/* ======================== LEFT COLUMNS ======================== */
-#mainbody img{border:2px solid #0285AF}
-#mainbody .buttonheading img{border:0px;margin:0px;padding:0}
-blockquote{border-left:5px solid #0088af;padding-left:15px;font-style:italic}
-
-#top .moduletable,#bottom .moduletable,#mainbody{margin:0 20px 30px;padding:0 0 4px;border-bottom:1px dotted #eee}
-#top .moduletable h3,#bottom .moduletable h3,#mainbody .contentheading,#mainbody .componentheading,#left .moduletable h3,#right .moduletable h3{color:#0088af;font-size:1.7em;font-weight:bold;margin:5px 0 8px;padding:0 0 5px 2px;border-bottom:1px dotted #e10085}
-#mainbody .contentheading,#mainbody .componentheading,#mainbody .contentpaneopen,#mainbody .contentpane{width:100%}
-
-/* ======================== RIGHT COLUMNS ======================== */
-#left .moduletable,#right .moduletable{padding:0 20px 10px 10px}
-#left .moduletable h3,#right .moduletable h3{border:none}
-#left .moduletable ul,#right .moduletable ul{margin:0;padding:0;list-style:none}
-#left .moduletable ul li,#right .moduletable ul li{margin:2px 0 2px;padding:0;border-bottom:1px dotted #888;list-style:none}
-#left .moduletable ul li a,#right .moduletable ul li a{color:#999999;font-weight:bold;text-decoration:none;padding:5px 0 1px 5px;background:#101010;margin-bottom:2px;display:block}
-#left .moduletable ul li a:hover,#right .moduletable ul li a:hover{color:#fff;text-decoration:none;margin-bottom:2px;background:#212121;display:block}
+/* ======================== RIGHT COLUMN ======================== */
+#right h3{color:#6E312A;margin:0 0 5px 0}
+#right h3:after{color:#6E312A}
 
 /* ======================== FOOTER ======================== */
-#footer a{color:#e10085}
-#bottom_left{float:left;margin:0;padding:0 0 0 5px;text-align:left}
+#footer{color:#6E312A;font-size:0.8em}
+#footer_text ul{list-style:none}
+#footer .copyright{padding:10px 0 10px 10px}
+#bottom_left{float:left;text-align:left;padding:10px 0 0 10px}
 #bottom_left div{text-align:left}
-#bottom_right{float:right;margin:0;padding:0 2px 0 0;text-align:right}
-#bottom_right div{text-align:right}
+#bottom_right{text-align:right;padding:10px 15px 10px 0}
+

@@ -3,54 +3,173 @@
 /* ======================== COMMON ======================== */
 
 /* standard */
-body{margin:0;padding:0;background:url(../images/bodybg.gif) repeat;font-family:Arial,Sans-Serif;color:#808080;line-height:1.4em}
-th,td,form,div,body,p{margin:0;padding:0;color:#808080;font-family:Arial;line-height:1.4em}
-ul{margin-left:0;padding-left:5px;list-style:square}
-li{margin:0 0 2px 15px;padding:0;color:#555}
-label{vertical-align:baseline}
+*{padding:0;margin:0}
+body,form,div,p,table{font-family:Arial, Helvetica, sans-serif;width:auto}
+body{font-size:.8em;margin:20px 0 0 0;padding:0;background:#ffffff;text-align:center;color:#000000}
+a{color:#6E312A;;text-decoration:none}
+a:hover{color:#999999;text-decoration:none}
+ul{padding:10px 15px}
 
-/* link */
-a{color:#e10085;background:inherit;text-decoration:none}
-a:hover{color:#0088af;background:inherit;text-decoration:underline}
+/* ======================== PATHWAY ======================== */
+span.pathway,a.pathway{}
+a.pathway:hover{}
+span.pathway img{}
 
-/* ======================== MORE ======================== */
-.blog td{padding:2px}
-.blog_more{margin:0 3px 15px 13px;padding:3px 6px;border:1px dotted #ccc}
-.blog_more div{border-bottom:1px dotted #ccc}
-.blog_more ul{margin:2px 0 2px 34px}
-.blog_more ul li a.blogsection{text-decoration:none}
+/* ======================== CONTENT ======================== */
 
+/* page title */
+.componentheading{color:#990000;text-transform:uppercase;font-weight:bold;padding:0;margin:0 0 10px 0;font-size:13px}
+
+/*module title*/
+div.moduletable h3{color:#000000;text-transform:capitalize;font-weight:bold;padding:0;margin:0 0 5px 0;font-size:1.1em}
+div.moduletable h3:after{content:"\0020 \00BB"}
+
+/* blog page main wrapper */
+table.blog{}
+table.blog td{padding:0 0.1em}
+
+/* component & content container */
+table.contentpane,table.contentpaneopen{width:auto}
+
+/* moduletable */
+.moduletable{margin-bottom:17px}
+
+/* separator after each content item */
+span.article_seperator{}
+
+/* content title */
+td.contentheading{color:#000000;text-transform:capitalize;font-weight:bold;padding:0;margin:0 0 10px 0;font-size:1.2em;text-decoration:none}
+td.contentheading:after{content:"\0020 \00BB"}
+a.contentpagetitle{}
+
+/* 3 buttons */
+td.buttonheading{}
+
+/* date & author */
+span.small,.createdate,.modifydate{font-size:11px}
+.smalldark{}
+
+/* page counter */
+div.pagenavcounter{}
+
+/* table of content */
+table.contenttoc{padding:4px;margin:4px}
+table.contenttoc th{}
+table.contenttoc td{}
+a.toclink{}
+
+/* content image */
+div.mosimage{}
+div.mosimage_caption{}
 
 /* read more */
-.readon{float:right;font-weight:bold}
+a.readon{}
 
-/* ======================== CONTENTTOC ======================== */
-.contenttoc{margin:7px;padding:0 10px;border:1px dotted #ccc}
-.contenttoc th{border-bottom:1px dotted #ccc;;font-size:13px;color:#ccc;text-align:center}
-.contenttoc td{margin:5px 0 5px 14px;padding:2px 7px}
+/* ======================== MORE ======================== */
 
+/* panel */
+div.blog_more{}
+
+/* panel heading */
+div.blog_more div{}
+
+/* block list */
+div.blog_more ul{}
+div.blog_more ul li{}
+
+/* list link */
+a.blogsection{}
+
+/* ======================== TABLE ======================== */
+
+/* description */
+td.contentdescription{font-weight:bold}
+
+/* category link */
+a.category{}
+
+/* listing */
+td.sectiontableheader{padding:0.5em;background:#595959;color:white;text-transform:uppercase;font-weight:bold}
+tr.sectiontableentry1 td{padding:0.4em 0.5em;background:#d9d9d9;color:black}
+tr.sectiontableentry2 td{padding:0.4em 0.5em;background:#f5f5f5;color:black}
 
 /* ======================== NAVIGATION ======================== */
-.contentpane,.contentpaneopen{text-align:justify}
-.small,span.small,.createdate,.modifydate,.pagenavcounter{font-size:0.85em;font-style:italic}
-.back_button,.pagenav_prev,.pagenav_next{font-size:0.9em}
-select#mod_templatechooser_jos_change_template{width:142px}
+
+/* multi-page content nav */
+div.pagenavbar{}
+div.pagenavbar div{}
+div.pagenavbar div a{}
+
+/* content item nav */
+th.pagenav_prev,th.pagenav_next{}
+th.pagenav_prev a,th.pagenav_next a{}
+
+/* blog page nav */
+.pagenav{}
+a.pagenav{}
+
+/* back button */
+div.back_button{margin:1em 0}
+div.back_button a{}
+
+/* ======================== FORM ======================== */
+input.button{margin-top:5px}
+input.button:hover{}
+input.inputbox{}
+input.inputbox:hover{}
+input.inputbox:focus{}
+select.inputbox{}
+select#mod_templatechooser_jos_change_template{width:142px;margin-top:3px}
+textarea#contact_text.inputbox{width:90%}
+/* ======================== POPUP ======================== */
+body.contentpane{}
+
+/* ======================== MENU ======================== */
+
+
+/* ======================== SEARCH ======================== */
+
+/* search wrapper */
+div.search{}
+
+/* keyword input field */
+input#mod_search_searchword{}
+
+/* keyword high-light */
+span.highlight{}
+
+/* ======================== LOGIN ======================== */
+input#mod_login_username{}
+input#mod_login_password{}
+input#mod_login_remember{}
+
+/* ======================== LATEST ARTICLE ======================== */
+ul.latestnews{}
+li.latestnews{}
+a.latestnews{}
+
+/* ======================== POPULAR ARTICLE ======================== */
+ul.mostread{}
+li.mostread{}
+a.mostread{}
 
 /* ======================== POLL ======================== */
 
-.pollstableborder td{line-height:25px;vertical-align:middle}
-.poll thead td{text-align:center}
-.poll .button{margin-top:5px}
+/* wrapper table */
+table.poll{margin-bottom:0.25em}
 
-.sectiontableheader{color:#000;background:#0088af;font-weight:bold;padding:0 5px;height:20px;border-bottom:1px dashed #222;font-size:12px}
-.sectiontablefooter{text-align:center}
+/* question cell */
+table.poll thead td{font-size:0.9em}
 
-.pollstableborder{margin:0}
-.pollstableborder td{vertical-align:middle}
-.pollstableborder input{margin:0}
+/* answers cell */
+table.poll td{text-align:left}
 
-.sectiontableentry1,.sectiontableentry1 td{padding:2px;text-align:left;line-height:25px}
-.sectiontableentry2,.sectiontableentry2 td{padding:2px;text-align:left;line-height:25px}
+/* answers table */
+table.pollstableborder{margin:0.25em 0}
+table.pollstableborder td{font-size:0.9em;vertical-align:middle}
+td.sectiontableentry1,td.sectiontableentry2{padding:0.5em}
+td.sectiontableentry1{background:#CCCCCC}
 
 /* ======================== SYNDICATE ======================== */
-.syndicate div{text-align:center}
+div.syndicate{}
+div.syndicate div{}
